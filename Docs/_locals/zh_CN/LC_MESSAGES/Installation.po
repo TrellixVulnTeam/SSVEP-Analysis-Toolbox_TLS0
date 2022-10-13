@@ -26,7 +26,8 @@ msgstr "安装"
 msgid ""
 "Donwload or clone `this repository <https://github.com/pikipity/SSVEP-"
 "Analysis-Toolbox.git>`_."
-msgstr ""
+msgstr "下载或者克隆`这个项目 <https://github.com/pikipity/SSVEP-"
+"Analysis-Toolbox.git>`_."
 
 #: ../../Installation.rst:8 c4791bda99594dbeb4d2494d6c616d7a
 msgid "``git clone https://github.com/pikipity/SSVEP-Analysis-Toolbox.git``"
@@ -39,7 +40,10 @@ msgid ""
 "<https://docs.conda.io/projects/conda/en/latest/user-"
 "guide/install/index.html>`_ or `Anaconda <https://www.anaconda.com/>`_, "
 "you can create a new virtual environment using :file:`environment.yml`."
-msgstr ""
+msgstr "安装所需要的包。你可以在 :file:`environment.yml` 找到全部需要的包。如果你是用 `conda "
+"<https://docs.conda.io/projects/conda/en/latest/user-"
+"guide/install/index.html>`_ 或者 `Anaconda <https://www.anaconda.com/>`_，"
+"你可以使用 :file:`environment.yml` 创建新的虚拟环境："
 
 #: ../../Installation.rst:12 5ad7dbeb9d1845b98ac9667462e9290c
 msgid "``conda env create -f environment.yml``"
@@ -50,5 +54,5 @@ msgid ""
 "Now, you can use this toolbox. You may try demo codes first. If you use "
 "``conda`` or ``anaconda``, do not forget to enter your virtual "
 "environment."
-msgstr ""
+msgstr "现在你可以使用这个工具箱了。你可以先尝试样例代码。如果你是用 ``conda`` 或者 ``anaconda``，不要忘了先进入你创建的虚拟环境。"
 

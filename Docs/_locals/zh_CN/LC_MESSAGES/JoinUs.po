@@ -20,22 +20,22 @@ msgstr ""
 
 #: ../../JoinUs.rst:2 ebb66f8513be4f3cbdc55cf8f0e91467
 msgid "Join Us"
-msgstr ""
+msgstr "加入我们"
 
 #: ../../JoinUs.rst:4 ed297b61d8b74ae69561f043ce2f70ea
 msgid "This project really needs **YOU** !!"
-msgstr ""
+msgstr "这个项目非常需要 **你** 的加入！！"
 
 #: ../../JoinUs.rst:7 5eff142aed8246ba9e7642b16f3f70e3
 msgid "How to join this project"
-msgstr ""
+msgstr "如何加入这个项目"
 
 #: ../../JoinUs.rst:9 07a257b3057245a59dea99ce562af1d1
 msgid ""
 "You can join this project from the following ways. No matter which way "
 "you join this work, we greatly appreciate all your help. Thank you very "
 "much !!"
-msgstr ""
+msgstr "你可以通过下面的方式参与到这个项目。无论你通过哪种方式参与到这个工作，我们都非常感谢您的帮助。非常感谢！！"
 
 #: ../../JoinUs.rst:11 458489a5c6364308a61097285bf16108
 msgid ""
@@ -44,7 +44,8 @@ msgid ""
 "is useful, you may introduce our work to your friends. If you find bugs, "
 "you can report your issues in `\"Issues\" <https://github.com/pikipity"
 "/SSVEP-Analysis-Toolbox/issues>`_."
-msgstr ""
+msgstr "尝试这个工具箱。你可以根据 :ref:`installation-page` 中的步骤来安装这个工具箱。如果你认为这个工具箱有用，你可以把我们的工作介绍给你的朋友。如果你遇到任何问题，你可以到 `\"Issues\" <https://github.com/pikipity"
+"/SSVEP-Analysis-Toolbox/issues>`_ 汇报你遇到的问题。"
 
 #: ../../JoinUs.rst:12 86036f749af04210a97d63d9866bbc6c
 msgid ""
@@ -53,7 +54,7 @@ msgid ""
 "proposed algorithms to this toolbox. All your contributions will be "
 "displayed in :ref:`contributors-page`. You can follow the below steps to "
 "contribute to this toolbox."
-msgstr ""
+msgstr "向这个工具箱贡献你的代码。你可以帮助我们实现一些现有的数据集或者已有的识别算法。你也可以将你拥有的数据集或者提出的识别算法提供给这个工具箱。所有你的贡献都会显示在 :ref:`contributors-page`。你可以通过下列步骤来贡献你的代码到这个工具箱。"
 
 #: ../../JoinUs.rst:16 43b12c6111d34d9581ae0148b63b349b
 msgid ""
@@ -62,7 +63,7 @@ msgid ""
 "duplicate work, you may check the following work plan and contact us by "
 "Email (pikiptyw@gmail.com) before you want to add existing datasets or "
 "existing algorithms."
-msgstr ""
+msgstr "因为我们也正在完善这个工具箱，所以你准备实现的部分也许已经完成只是还没有公布出来。为了防止重复工作，你可以在开始你的工作前先检查下面罗列的工作计划并通过邮件联系我们（pikiptyw@gmail.com）。"
 
 #: ../../JoinUs.rst:18 a18e0cec3f7643c79e0d6d32296c4f05
 msgid ""
@@ -72,32 +73,32 @@ msgid ""
 "started/quickstart/fork-a-repo#forking-a-repository>`_ to learn how to do"
 " it. Simply speaking, you just need to click the \"Fork\" button in the "
 "repository page."
-msgstr ""
+msgstr "在 Github 上复刻（fork）`这个项目 <https://github.com/pikipity/SSVEP-Analysis-Toolbox.git>`_。你可以先阅读 `\"Forking a repository\" <https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository>`_ 来学习如何复刻项目。简单来说，你只需要点击此项目页面上的 \"Fork\" 按钮。"
 
 #: ../../JoinUs.rst:19 8272c10599784c06938be77d15722a91
 msgid ""
 "After you fork this repository, you can edit it. You may face the "
 "following problems:"
-msgstr ""
+msgstr "你复刻这个项目之后，你就可以编辑它了。你可能会遇到下面问题："
 
 #: ../../JoinUs.rst:21 6452e05b280c4df7bc7051cee11e7304
 msgid ""
 "How to set up the python development enviroment? You may follow the below"
 " procedures:"
-msgstr ""
+msgstr "如何设置 python 开发环境？你可以遵循下面的步骤："
 
 #: ../../JoinUs.rst:23 5bef08400b934d2c88cb0141f2909a43
 msgid ""
 "Install the `vscode <https://code.visualstudio.com/download>`_. In "
 "vscode, you may want to install the useful extension ``Python``."
-msgstr ""
+msgstr "安装 `vscode <https://code.visualstudio.com/download>`_。在 vscode 中你可能会想安装非常有用的扩展 ``Python``。"
 
 #: ../../JoinUs.rst:24 9ce94af658f249fb83ad2ea51e6097bd
 msgid ""
 "Install the `Anaconde <https://www.anaconda.com/>`_. You can go to the "
 "`Conda User Guide <https://docs.conda.io/projects/conda/en/latest/user-"
 "guide/index.html>`_ to learn how to use the conda."
-msgstr ""
+msgstr "安装 `Anaconde <https://www.anaconda.com/>`_。你可以从 `Conda User Guide <https://docs.conda.io/projects/conda/en/latest/user-guide/index.html>`_ 学习如何使用 conda。"
 
 #: ../../JoinUs.rst:25 6de94d82ada845e090138c00d639048f
 msgid ""
@@ -105,25 +106,25 @@ msgid ""
 "terminal, use ``conda env create -f environment.yml`` to create a new "
 "virtual enviroment called ``ssvep_analysis_toolbox``. All packages will "
 "be automatically installed."
-msgstr ""
+msgstr "安装所需要的包。到项目的文件夹中，在你的终端中使用 ``conda env create -f environment.yml`` 来创建一个新的虚拟环境。这个虚拟环境叫 ``ssvep_analysis_toolbox``。"
 
 #: ../../JoinUs.rst:26 1a63e421448243b384e8cba53f53a193
 msgid ""
 "In your terminal, you can use ``conda activate ssvep_analysis_toolbox`` "
 "to enable this virtual enviroment."
-msgstr ""
+msgstr "在你的终端中，你可以使用 ``conda activate ssvep_analysis_toolbox`` 来进入你创建的虚拟环境。"
 
 #: ../../JoinUs.rst:28 8a046d31d2de456899c73b8f98cf16a4
 msgid ""
 "How to implement a dataset? Please follow :ref:`define-own-dataset` and "
 "ref the existing codes to implement your dataset."
-msgstr ""
+msgstr "如何编写一个数据集？请参阅 :ref:`define-own-dataset` 和内建的数据集来编写你自己的数据集。"
 
 #: ../../JoinUs.rst:29 a999277b2c554e59bcf9d0b03ecf8135
 msgid ""
 "How to implement a method? Please follow :ref:`common-functions-in-"
 "methods` and ref the existing codes to implement the required functions."
-msgstr ""
+msgstr "如何编写一个识别算法？请参阅 :ref:`common-functions-in-methods` 和内建的算法来编写你自己的算法。"
 
 #: ../../JoinUs.rst:31 9df0ba9e250c4a70b7f8d1f20f91b767
 msgid ""
@@ -133,9 +134,9 @@ msgid ""
 "requests/proposing-changes-to-your-work-with-pull-requests/creating-a"
 "-pull-request>`_ to learn how to create a pull request). If we think your"
 " codes are satisfied, we will merge your codes to the ``main`` branch."
-msgstr ""
+msgstr "你完成你工作之后，你可以创建一个拉取请求（pull request）到我们的 ``dev`` 分支。你可以阅读 `\"Create a pull request\" <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request>`_ 来学习如何创建一个拉取请求。如果我们审核后认为你的代码没有问题，我们会将你的代码合并到 ``main`` 分支上。"
 
 #: ../../JoinUs.rst:34 035f94cad9bf45759bb188fb15914862
 msgid "Work Plan"
-msgstr ""
+msgstr "工作计划"
 
