@@ -24,7 +24,7 @@ msgstr "数据集"
 
 #: ../../API_datasets.rst:8 4d8c47fbf5604ef480d9378792453bc1
 msgid "Built-in dataset initialization"
-msgstr ""
+msgstr "内置数据集"
 
 #: ../../API_datasets.rst:11 67646ed435164ed8981edb361c3f6787
 msgid "Benchmark Dataset"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:15 55fec759522546b48751bb7893c188be
 msgid "Initialize the benchmark dataset."
-msgstr ""
+msgstr "初始化 benchmark dataset"
 
 #: ../../API_datasets.rst:17 7e4231a4fbc5452f9a4202fb08f83378
 msgid ""
@@ -71,7 +71,7 @@ msgstr ""
 #: b4722cc1e6164361af8044bbaea997d8 ddb09e93d22b4de9bb77557532dbc250
 #: e05cf46fb0af4af08fee69d1a51e7617 ecc8f10dd0a441a38e5336dab51bbd8f
 msgid "Num. of Subjects"
-msgstr ""
+msgstr "受试者人数"
 
 #: ../../API_datasets.rst:27 357c337f5a2d4615a9b212e07d051bfd
 msgid "35"
@@ -85,7 +85,7 @@ msgstr ""
 #: 4d0f1260d00f4efdb6e111c1debe7b4f 6013c0283aef4364837fcfbe842073f6
 #: cfc5635096c54f2bba9d821c1f476a2a e7324d5c307344de8f101361c8030dbc
 msgid "Num. of Targets"
-msgstr ""
+msgstr "目标数目"
 
 #: ../../API_datasets.rst:29 ../../API_datasets.rst:35
 #: ../../API_datasets.rst:90 ../../API_datasets.rst:96
@@ -102,7 +102,7 @@ msgstr ""
 #: d453d29deeee4b35b038bbd7bc704fee e1d2d4901b014e75962479c54d698e83
 #: e68da9ac61d147e3b82269cb175ae40e f87429a16d594651a758ec1a7294222a
 msgid "Num. of Channels"
-msgstr ""
+msgstr "通道数"
 
 #: ../../API_datasets.rst:31 ../../API_datasets.rst:92
 #: ../../API_datasets.rst:209 30b983d79a0c4972bb8302dc79c5e215
@@ -118,7 +118,7 @@ msgstr ""
 #: 9a103de5f4b64318b8b1c8b9c10b8df0 e2100dc6e1d946428c4e9b1446cf1657
 #: e8587616bd654819854c1cdfcd86dd68 f4bd014f705d444e9769a1dc495cc7fb
 msgid "Num. of Blocks"
-msgstr ""
+msgstr "block 数量"
 
 #: ../../API_datasets.rst:33 ac399e8d89854584ae449e6e7740ecbb
 msgid "6"
@@ -132,7 +132,7 @@ msgstr ""
 #: 6068327994ba4305b51504ef5e879c25 963bd8e5ec0e4796bdec1d570136cb67
 #: 98c266a3e92548a79f9e744a6d582508 dba0f5e51a89438e9eda1506d0cb0b08
 msgid "Num. of trials in each blcok"
-msgstr ""
+msgstr "每个 block 中 trial 数量"
 
 #: ../../API_datasets.rst:37 ../../API_datasets.rst:98
 #: ../../API_datasets.rst:160 ../../API_datasets.rst:215
@@ -142,7 +142,7 @@ msgstr ""
 #: 6d92bf6ad8684cbd8875dee14e3708cf a5e4e0e8436e4af29044873b3cef7c4f
 #: b2d7c4e8681a4767b9befb59f5033ba6 c90c9fa927c641ddb01ce505409ab8aa
 msgid "Pre-stimulus Time"
-msgstr ""
+msgstr "刺激前的时间"
 
 #: ../../API_datasets.rst:37 ../../API_datasets.rst:39
 #: ../../API_datasets.rst:98 ../../API_datasets.rst:100
@@ -163,7 +163,7 @@ msgstr ""
 #: a74d0f2e195f48d4bbc2aa2bc12ef033 ca96f0abbd7542e5b531a49c89d9ccce
 #: d62359ac54ef4a8983816f966d53ebc5 ff18065c7ee84f898a535c9b0d74d20f
 msgid "Break Time"
-msgstr ""
+msgstr "休息时间"
 
 #: ../../API_datasets.rst:41 ../../API_datasets.rst:102
 #: ../../API_datasets.rst:164 ../../API_datasets.rst:219
@@ -173,7 +173,7 @@ msgstr ""
 #: 9a64682354304c4fa44098217abcde69 bed2f7e304a5488d9adedc1cb38c003f
 #: e3a522aa12a64b968875e6cfe39b0407 f12d2755899c484590243f9cef3d7b70
 msgid "Whole Trial Length"
-msgstr ""
+msgstr "整个 trial 时间"
 
 #: ../../API_datasets.rst:41 ../../API_datasets.rst:219
 #: 8b664b0ce27f4c28bd02c7124ac53613 9d10076cd8424ba2b72748432218126b
@@ -188,7 +188,7 @@ msgstr ""
 #: 690202259dba4cf6b56fe02b90827399 8b3935d8b045405ba80e1f8bf99c389a
 #: c510b2e621444bdaa38f2fa29000fd01 f83ae2910e834f5f956d4d982c8ab5fc
 msgid "Default Latency Time"
-msgstr ""
+msgstr "默认延迟时间"
 
 #: ../../API_datasets.rst:43 ../../API_datasets.rst:221
 #: ../../API_datasets.rst:357 ../../API_datasets.rst:408
@@ -205,7 +205,7 @@ msgstr ""
 #: ad7e8812a46040aa95e5f030f208f23f b4d1be12b2c84d80b70b76a0b5f378e3
 #: bde7a18f204944618dc9384124609cb2 dc7706295a43467bb72b92fbefa09ca1
 msgid "Sampling rate"
-msgstr ""
+msgstr "采样率"
 
 #: ../../API_datasets.rst:45 ../../API_datasets.rst:106
 #: ../../API_datasets.rst:223 ../../API_datasets.rst:359
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:50 d8281bbcda9b43eb9af63458cff1802d
 msgid "Total: around 3.45 GB."
-msgstr ""
+msgstr "数据大小：大约 3.45 GB"
 
 #: ../../API_datasets.rst:52 39030ee1ad9c4a4c865e7374a9430340
 msgid ""
@@ -245,7 +245,7 @@ msgstr ""
 #: c2b12e2437334fbe92ca98431407ac89 d10002ed3feb4c5286c15e361f275511
 #: ea6d9b6c355b4fecb1d8865946e964e5
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../API_datasets.rst:56 4953a2c7f9d3429a9f18f277cec99483
 msgid ""
@@ -253,7 +253,7 @@ msgid ""
 "downloaded when the dataset is initialized.  If the provided path is not "
 "existed, the provided path will be created.  Default path is a folder "
 ":file:`Benchmark Dataset` in the working path."
-msgstr ""
+msgstr "EEG 数据存储路径。在数据集初始化的时候，缺少的数据会被自动下载。如果路径不存在，相应的文件夹会被自动创建。默认路径为工作路径下的文件夹 :file:`Benchmark Dataset`。"
 
 #: ../../API_datasets.rst:56 ../../API_datasets.rst:117
 #: ../../API_datasets.rst:179 ../../API_datasets.rst:234
@@ -263,7 +263,7 @@ msgstr ""
 #: 5c6cb11bb7db45c9aa085e9ee55b44bf 6295c17f0e2d47eebcaeecd113d041d2
 #: 8b74877836f74f98afa5c785b271af45 d30507e5b6254ac98f8c6d5b44e57161
 msgid "Path of storing EEG data."
-msgstr ""
+msgstr "EEG 数据存储路径"
 
 #: ../../API_datasets.rst:58 ../../API_datasets.rst:119
 #: ../../API_datasets.rst:181 ../../API_datasets.rst:236
