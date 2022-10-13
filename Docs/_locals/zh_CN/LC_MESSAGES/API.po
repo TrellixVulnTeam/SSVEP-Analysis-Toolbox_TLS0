@@ -20,5 +20,5 @@ msgstr ""
 
 #: ../../API.rst:2 af036799baa743c592e52329288e9992
 msgid "User API"
-msgstr ""
+msgstr "用户 API"
 

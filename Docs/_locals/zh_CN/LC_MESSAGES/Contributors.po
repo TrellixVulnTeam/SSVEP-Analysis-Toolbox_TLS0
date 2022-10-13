@@ -20,5 +20,5 @@ msgstr ""
 
 #: ../../Contributors.rst:4 01250a9a12c847e1801abf5bf71ca5fb
 msgid "Contributors"
-msgstr ""
+msgstr "贡献者"
 

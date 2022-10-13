@@ -20,43 +20,43 @@ msgstr ""
 
 #: ../../Demos.rst:2 2297171cf54c477082b5799ed3a27caa
 msgid "Demo Codes"
-msgstr ""
+msgstr "样例代码"
 
 #: ../../Demos.rst:5 0d6f55f7fd5044a39df144b70f9fd2fe
 msgid "Simple Demo"
-msgstr ""
+msgstr "简单的使用样例"
 
 #: ../../Demos.rst:7 afc87586513349eda966a399083bc9b7
 msgid "This demo shows the basic functions of this toolbox, including:"
-msgstr ""
+msgstr "这个样例展示了工具箱的基础功能，包括："
 
 #: ../../Demos.rst:9 715173644719408e804b0d46ef295486
 msgid "How to initialize a dataset, and how to hook required functions."
-msgstr ""
+msgstr "如何初始化数据集，以及如何挂载需要的函数。"
 
 #: ../../Demos.rst:10 e488af67155c48b8aaca2a3dfb4d76f2
 msgid "How to initialize a recognition model."
-msgstr ""
+msgstr "如何初始化识别模型。"
 
 #: ../../Demos.rst:11 cc4214f3b0894d3585551af16fd76f59
 msgid "How to get the training data from the dataset, and train the model."
-msgstr ""
+msgstr "如何从数据集中获取训练数据以及训练模型。"
 
 #: ../../Demos.rst:12 24e807d53fee442f80788d94f01fe703
 msgid "How to get the testing data from the dataset, and test the model."
-msgstr ""
+msgstr "如何从数据集中获取测试数据以及测试模型。"
 
 #: ../../Demos.rst:13 221acaa0f55142238e679e96ec08d5ff
 msgid "How to calculate the classification accuracy and the ITR."
-msgstr ""
+msgstr "如何计算分类准确率与信息传输率。"
 
 #: ../../Demos.rst:15 2b81fc58be1d4318b77b3b48d2585631
 msgid "Demo file: :file:`demo/simple_example.py`"
-msgstr ""
+msgstr "样例文件： :file:`demo/simple_example.py`"
 
 #: ../../Demos.rst:21 70a595cca76744419892fb8c71eb24a4
 msgid "Recognition Performance in Benchmark Dataset"
-msgstr ""
+msgstr "在 Benchmark Dataset 中的识别表现"
 
 #: ../../Demos.rst:23 0dccaac74ce54b2d91ce6889e1dc4cf7
 msgid ""
@@ -64,29 +64,29 @@ msgid ""
 "lengths is verified in this demo. The classification accuracies, ITRs, "
 "training time, testing time, and confusion matrices are verified and "
 "stored in :file:`res/benchmarkdataset_res.mat`."
-msgstr ""
+msgstr "这个样例验证了在 Benchmark Dataset 的不同信号长度下的个人表现。计算了分类准确率、信息传输率、训练时间、测试时间与混淆矩阵，并存储在了 :file:`res/benchmarkdataset_res.mat`。"
 
 #: ../../Demos.rst:25 ../../Demos.rst:48 6c90c761d2ac4bfe9be23b21156104f0
 #: a874bd83f3024fc49824896911fa5d77
 msgid "This demo shows the following points:"
-msgstr ""
+msgstr "这个样例展示了："
 
 #: ../../Demos.rst:27 ad0363df2a1b473a9f72beedfc788745
 msgid ""
 "How to use the Benchmark Dataset. When you first try this demo, the "
 "benchmark dataset will be downloaded in the folder  "
 ":file:`2016_Tsinghua_SSVEP_database`."
-msgstr ""
+msgstr "如何使用 Benchmark Dataset。当你第一次尝试这个样例，Benchmark Dataset 将会下载到文件夹 :file:`2016_Tsinghua_SSVEP_database`。"
 
 #: ../../Demos.rst:28 66cee973d9af4bb28803c29b51843b18
 msgid "How to create recognition models."
-msgstr ""
+msgstr "如何创建识别模型"
 
 #: ../../Demos.rst:29 c28f69d1c6f543b68f485fcb7f333866
 msgid ""
 "How to use the provided evaluator ``BaseEvaluator`` to verify recognition"
 " performance."
-msgstr ""
+msgstr "如何使用提供的评估器 ``BaseEvaluator`` 来验证识别表现。"
 
 #: ../../Demos.rst:33 0bcad0c7323b497bb1f1fc3719eecbb5
 msgid ""
@@ -95,7 +95,7 @@ msgid ""
 "used to evaluate indivudal performance on various signal lengths. If your"
 " target is not to evaluate these performance, you can follow this "
 "function to prepare your own evaluation trials."
-msgstr ""
+msgstr "这个样例使用 ``gen_trials_onedataset_individual_diffsiglen`` 来生成用于 ``BaseEvaluator`` 的评估 trial。这些 trial 是用来评估不同的信号长度下的个人表现。如果你的目的不是评估这种表现，你可以参考这个函数来编写你自己的函数从而生成你需要的评估 trial。"
 
 #: ../../Demos.rst:34 aea972f3f4574d1c98dcae9311d482a7
 msgid ""
@@ -105,7 +105,7 @@ msgid ""
 "These two functions are also used to calculate individual performance on "
 "various signal lengths. For your own evaluation trials, you can follow "
 "these two functions to evaluate your own performance."
-msgstr ""
+msgstr "这个样例用 ``cal_performance_onedataset_individual_diffsiglen`` 和 ``cal_confusionmatrix_onedataset_individual_diffsiglen`` 来计算识别表现（准确率与信息传输率）和混淆矩阵。这两个函数专用于计算不同信号长度下的个人表现。对于你自己的评估 trial，你可以根据这两个函数来编写自己的函数从而评估你需要的表现。"
 
 #: ../../Demos.rst:35 737a4595d0e2442ba819b2a713818fc6
 msgid ""
@@ -114,7 +114,7 @@ msgid ""
 "performance. The current demo may occupy mora than 24 hours. You may "
 "reduce the number of models or the number of signal lengths to condense "
 "the running time."
-msgstr ""
+msgstr "你可以更改 ``evaluator.run`` 中的 ``n_jobs`` 来调整使用的线程数。多线程需要高性能电脑。现在的样例可能需要占用24小时以上的时间。你可以减少模型数量或者信号长度数量来减少运行时间。"
 
 #: ../../Demos.rst:36 045e4a9e175c4ffda1c1c9ae827116d7
 msgid ""
@@ -126,15 +126,15 @@ msgid ""
 "sCCA implemented based on the conventional canonical correlation with the"
 " same performance as shown in `\"Plot Recognition Performance\" demo "
 "<#plot-recognition-performance>`_."
-msgstr ""
+msgstr "信息传输率与计算时间相关。不同的实现方式可能会导致不同的计算时间。你可以检查记录的测试时间来了解用于信息传输率计算的时间。我们尝试优化实现方式来缩短计算时间。比如，基于 QR 分解的 sCCA 会比基于传统典型相关分析的 sCCA 要快并保持一样的表现。"
 
 #: ../../Demos.rst:38 b45239026a904734840b0b900c68c109
 msgid "Demo file: :file:`demo/benchmarkdataset.py`"
-msgstr ""
+msgstr "样例文件： :file:`demo/benchmarkdataset.py`"
 
 #: ../../Demos.rst:44 3a310d7e3a2045128cf593508e579227
 msgid "Plot Recognition Performance"
-msgstr ""
+msgstr "绘制识别表现"
 
 #: ../../Demos.rst:46 ad537772888044b09ce00c8d7a78df71
 msgid ""
@@ -143,35 +143,35 @@ msgid ""
 "running this demo, please run above two demos to obtain "
 ":file:`res/benchmarkdataset_res.mat` and :file:`res/betadataset_res.mat` "
 "files."
-msgstr ""
+msgstr "这个样例使用带误差线的条状图与阴影线来绘制分类准确率、信息传输率、训练时间和测试时间。在运行这个样例之前，请先运行上一个样例从而获得 :file:`res/benchmarkdataset_res.mat`。"
 
 #: ../../Demos.rst:50 2dd7f6871e1548efb2db0848a69e3ef5
 msgid ""
 "How to use provided ``bar_plot_with_errorbar`` to plot the bar grapth "
 "with error bars."
-msgstr ""
+msgstr "如何使用提供的 ``bar_plot_with_errorbar`` 来绘制带误差线的条状图。"
 
 #: ../../Demos.rst:51 aa0732c7f6cd42cda989227d7b06936e
 msgid "How to use provided ``shadowline_plot`` to plot shadow lines."
-msgstr ""
+msgstr "如何使用提供的 ``shadowline_plot`` 来绘制阴影线。"
 
 #: ../../Demos.rst:53 ebaa62319fa14a21a18fffd44339c8d8
 msgid "Demo file: :file:`demo/plot_performance.py`"
-msgstr ""
+msgstr "样例文件： :file:`demo/plot_performance.py`"
 
 #: ../../Demos.rst:58 4f9cd70c066d4f59a35512626dc65ed2
 msgid ""
 "Generated graphs are stored in :file:`demo/res`. One example of results "
 "is shown below."
-msgstr ""
+msgstr "生成的图都保存在 :file:`demo/res`。部分结果展示如下："
 
 #: ../../Demos.rst:60 12fadb2fd4a8435f9fea0a80a14350c0
 msgid "Classification accuracies of the Benchmark Dataset:"
-msgstr ""
+msgstr "Benchmark Dataset 的分类准确率："
 
 #: ../../Demos.rst:65 0846e2bee4c64dfd8dfc854c267fe28c
 msgid "Plot Confusion Matrices"
-msgstr ""
+msgstr "绘制混淆矩阵"
 
 #: ../../Demos.rst:67 088ee11467464d6a96810685926dc957
 msgid ""
@@ -182,7 +182,7 @@ msgid ""
 "plot these confusion matrices. This demo only shows confusion matrices at"
 " 0.5-s signal length, which is controlled by ``target_time`` in the demo "
 "file. Moreover, all subjects' confusion matrices are summed together."
-msgstr ""
+msgstr "这个样例展示了如何绘制混淆矩阵。这个样例直接使用 ``matplotlib`` 中的 ``imshow`` 来绘制混淆矩阵。你也可以使用 ``seaborn`` 中的 ``heatmap`` [#heatmap]_ 或者 ``sklearn`` 中的 ``plot_confusion_matrix`` [#plot_confusion_matrix]_。这个样例仅展示了 0.5s 信号长度时的混淆矩阵，信号长度由样例中的 ``target_time`` 来调节。所有的受试者的混淆矩阵被加到了一起。" 
 
 #: ../../Demos.rst:69 5bcd03d557cc426d8f3bb5c0ad9f2987
 msgid ""
@@ -198,7 +198,7 @@ msgstr ""
 
 #: ../../Demos.rst:72 1a8461251e6e4ef8b86365f9e6fd6c61
 msgid "Demo file: :file:`demo/plot_confusion_matrix.py`"
-msgstr ""
+msgstr "样例文件： :file:`demo/plot_confusion_matrix.py`"
 
 #: ../../Demos.rst:77 0835220a475a446a892e0421786e302d
 msgid ""
@@ -206,9 +206,9 @@ msgid ""
 ":file:`demo/res/benchmarkdataset_confusionmatrix` and "
 ":file:`demo/res/beta_confusionmatrix`. One example of results is shown "
 "below."
-msgstr ""
+msgstr "生成的图片被保存在 :file:`demo/res/benchmarkdataset_confusionmatrix`。部分结果展示如下："
 
 #: ../../Demos.rst:79 606ea5f2b93a427094ab09554c99da39
 msgid "eCCA (0.5s) in Benchmark Dataset"
-msgstr ""
+msgstr "Benchmark Dataset 中 eCCA (0.5s)"
 

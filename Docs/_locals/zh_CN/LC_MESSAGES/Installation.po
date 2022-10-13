@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../Installation.rst:4 06a20401ca8c4b0f9453c89947e07279
 msgid "Installation"
-msgstr ""
+msgstr "安装"
 
 #: ../../Installation.rst:6 02650ba0fd524528960e7a5d1d48576c
 msgid ""

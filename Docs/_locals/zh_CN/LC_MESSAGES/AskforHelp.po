@@ -20,28 +20,28 @@ msgstr ""
 
 #: ../../AskforHelp.rst:4 bd2b1b8358da48cd83ec2423968c76b7
 msgid "Ask Help"
-msgstr ""
+msgstr "寻求帮助"
 
 #: ../../AskforHelp.rst:6 0037ede929414304a2c67c1cf6861f4c
 msgid ""
 "If you find any bugs or any problems, you can directly create an issue in"
 " the `github page <https://github.com/pikipity/SSVEP-Analysis-"
 "Toolbox/issues>`_, or contact contributors."
-msgstr ""
+msgstr "如果你遇到任何错误或者问题，你可以到 `github page <https://github.com/pikipity/SSVEP-Analysis-Toolbox/issues>`_ 提交 issue，或者直接联系此项目贡献者。"
 
 #: ../../AskforHelp.rst:8 063c4900765c4542b143ab6f0b672b0a
 msgid "When you create your issue, please state:"
-msgstr ""
+msgstr "当你提交 issue 时，请写明："
 
 #: ../../AskforHelp.rst:10 0415b3c9db0745a3a370454a6c237eeb
 msgid "What bugs or problems did you meet?"
-msgstr ""
+msgstr "你遇到的错误或问题是什么？"
 
 #: ../../AskforHelp.rst:11 0da9eb19285b4c7dbfe75d53fa3a260f
 msgid "How to repeat bugs or problems."
-msgstr ""
+msgstr "如何重复你遇到的错误或问题？"
 
 #: ../../AskforHelp.rst:12 c8af59d7e282445db4eff721432bb1dd
 msgid "If possible, please provide your related code and data."
-msgstr ""
+msgstr "如果可能的话，请提供相关代码与数据。"
 
