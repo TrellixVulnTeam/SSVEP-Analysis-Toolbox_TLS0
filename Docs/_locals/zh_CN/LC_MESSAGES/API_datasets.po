@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SSVEP Analysis Toolbox \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"POT-Creation-Date: 2022-10-13 11:20+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,11 +30,7 @@ msgstr "内置数据集"
 msgid "Benchmark Dataset"
 msgstr ""
 
-#: ../../API_datasets.rst:15 55fec759522546b48751bb7893c188be
-msgid "Initialize the benchmark dataset."
-msgstr "初始化 benchmark dataset"
-
-#: ../../API_datasets.rst:17 7e4231a4fbc5452f9a4202fb08f83378
+#: ../../API_datasets.rst:13 7e4231a4fbc5452f9a4202fb08f83378
 msgid ""
 "This dataset gathered SSVEP-BCI recordings of 35 healthy subjects (17 "
 "females, aged 17-34 years, mean age: 22 years) focusing on 40 characters "
@@ -42,7 +38,7 @@ msgid ""
 "Hz)."
 msgstr ""
 
-#: ../../API_datasets.rst:19 4073b0dd8f9b495c8958f238bda01aa2
+#: ../../API_datasets.rst:15 4073b0dd8f9b495c8958f238bda01aa2
 msgid ""
 "For each subject, the experiment consisted of 6 blocks. Each block "
 "contained 40 trials corresponding to all 40 characters indicated in a "
@@ -50,18 +46,22 @@ msgid ""
 "indicating a target stimulus. The cue appeared for 0.5 s on the screen."
 msgstr ""
 
-#: ../../API_datasets.rst:21 92cd6d3eea4a468085f6c426317ea1fb
+#: ../../API_datasets.rst:17 92cd6d3eea4a468085f6c426317ea1fb
 msgid ""
 "Following the cue offset, all stimuli started to flicker on the screen "
 "concurrently and lasted 5 s."
 msgstr ""
 
-#: ../../API_datasets.rst:23 a5c81cf9f7cf46a2aeccc91698741102
+#: ../../API_datasets.rst:19 a5c81cf9f7cf46a2aeccc91698741102
 msgid ""
 "After stimulus offset, the screen was blank for 0.5 s before the next "
 "trial began, which allowed the subjects to have short breaks between "
 "consecutive trials. Each trial lasted a total of 6 s."
 msgstr ""
+
+#: ../../API_datasets.rst:24 55fec759522546b48751bb7893c188be
+msgid "Initialize the benchmark dataset."
+msgstr "初始化 benchmark dataset"
 
 #: ../../API_datasets.rst:27 ../../API_datasets.rst:88
 #: ../../API_datasets.rst:150 ../../API_datasets.rst:205
@@ -142,7 +142,7 @@ msgstr "每个 block 中 trial 数量"
 #: 6d92bf6ad8684cbd8875dee14e3708cf a5e4e0e8436e4af29044873b3cef7c4f
 #: b2d7c4e8681a4767b9befb59f5033ba6 c90c9fa927c641ddb01ce505409ab8aa
 msgid "Pre-stimulus Time"
-msgstr "刺激前的时间"
+msgstr "预刺激时间"
 
 #: ../../API_datasets.rst:37 ../../API_datasets.rst:39
 #: ../../API_datasets.rst:98 ../../API_datasets.rst:100
@@ -253,7 +253,9 @@ msgid ""
 "downloaded when the dataset is initialized.  If the provided path is not "
 "existed, the provided path will be created.  Default path is a folder "
 ":file:`Benchmark Dataset` in the working path."
-msgstr "EEG 数据存储路径。在数据集初始化的时候，缺少的数据会被自动下载。如果路径不存在，相应的文件夹会被自动创建。默认路径为工作路径下的文件夹 :file:`Benchmark Dataset`。"
+msgstr ""
+"EEG 数据存储路径。在数据集初始化的时候，缺少的数据会被自动下载。如果路径不存在，相应的文件夹会被自动创建。默认路径为工作路径下的文件夹 "
+":file:`Benchmark Dataset`。"
 
 #: ../../API_datasets.rst:56 ../../API_datasets.rst:117
 #: ../../API_datasets.rst:179 ../../API_datasets.rst:234
@@ -275,7 +277,7 @@ msgstr "EEG 数据存储路径"
 msgid ""
 "The missing subjects' data files will be downloaded when the dataset is "
 "initialized."
-msgstr ""
+msgstr "在数据集初始化的时候，缺少的数据会被自动下载。"
 
 #: ../../API_datasets.rst:60 ../../API_datasets.rst:68
 #: ../../API_datasets.rst:121 ../../API_datasets.rst:129
@@ -291,11 +293,11 @@ msgstr ""
 #: 99e0b9453c834212b253403cf711aec9 9cdf65613be5453fb3489ece3978e5e3
 #: c68bd4e63b754567b610bb82950ad775 fbac7e7477f8496c89e73bced970460c
 msgid "If the provided path is not existed, the provided path will be created."
-msgstr ""
+msgstr "如果路径不存在，相应的文件夹会被自动创建。"
 
 #: ../../API_datasets.rst:62 df75baf00ce74d79af2ca05a218c4ebc
 msgid "Default path is a folder :file:`Benchmark Dataset` in the working path."
-msgstr ""
+msgstr "默认路径为工作路径下的文件夹 :file:`Benchmark Dataset`。"
 
 #: ../../API_datasets.rst:64 84e311d96786477fb18bd2b13770d4af
 msgid ""
@@ -304,13 +306,13 @@ msgid ""
 "supported files will be downloaded when the dataset is initialized.  If "
 "the provided path is not existed, the provided path will be created.  "
 "Default path is same as data path ``path``."
-msgstr ""
+msgstr "帮助文件路径。帮助文件包括 :file:`Readme.txt`、:file:`Sub_info.txt`、:file:`64-channels.loc` 和 :file:`Freq_Phase.mat`。在数据集初始化的时候，缺失的帮助文件会被自动下载。如果提供的路径不存在，相应的文件夹会被自动创建。默认路径和 EEG 数据路径一致。"
 
 #: ../../API_datasets.rst:64 b1ad8494ea32441fa99421f4c23153bb
 msgid ""
 "Path of supported files, i.e., :file:`Readme.txt`, :file:`Sub_info.txt`, "
 ":file:`64-channels.loc`, and :file:`Freq_Phase.mat`."
-msgstr ""
+msgstr "帮助文件路径。帮助文件包括 :file:`Readme.txt`、:file:`Sub_info.txt`、:file:`64-channels.loc` 和 :file:`Freq_Phase.mat`。"
 
 #: ../../API_datasets.rst:66 ../../API_datasets.rst:127
 #: ../../API_datasets.rst:244 ../../API_datasets.rst:307
@@ -321,7 +323,7 @@ msgstr ""
 msgid ""
 "The missing supported files will be downloaded when the dataset is "
 "initialized."
-msgstr ""
+msgstr "在数据集初始化的时候，缺失的帮助文件会被自动下载。"
 
 #: ../../API_datasets.rst:70 ../../API_datasets.rst:131
 #: ../../API_datasets.rst:248 ../../API_datasets.rst:311
@@ -330,39 +332,39 @@ msgstr ""
 #: 7c8f297dff404232b947d0278a8ce79f 8b09d7ced4884b98911290a5aa39e9bd
 #: aaccaad8972c472a9baa889e98a26e52 dfc8a99be5944d07a7102289c67b9d48
 msgid "Default path is same as data path ``path``."
-msgstr ""
+msgstr "默认路径和 EEG 数据路径一致。"
 
 #: ../../API_datasets.rst:73 aa3aeed41a9c44d49d6ab86c9cb276fe
 msgid "BETA Dataset"
 msgstr ""
 
-#: ../../API_datasets.rst:77 ece5b59c33cf429c8fffc9ee438e5b4b
-msgid "Initialize the BETA dataset."
-msgstr ""
-
-#: ../../API_datasets.rst:79 1a18d93d0e4047dcb1c02671d2b23a51
+#: ../../API_datasets.rst:75 1a18d93d0e4047dcb1c02671d2b23a51
 msgid ""
 "EEG data after preprocessing are store as a 4-way tensor, with a "
 "dimension of channel x time point x block x condition."
 msgstr ""
 
-#: ../../API_datasets.rst:81 6a37ab4b4e084932b2ed8ed4723dc636
+#: ../../API_datasets.rst:77 6a37ab4b4e084932b2ed8ed4723dc636
 msgid ""
 "Each trial comprises 0.5-s data before the event onset and 0.5-s data "
 "after the time window of 2 s or 3 s."
 msgstr ""
 
-#: ../../API_datasets.rst:83 a90e3a25e674458987c4989ec71cd554
+#: ../../API_datasets.rst:79 a90e3a25e674458987c4989ec71cd554
 msgid ""
 "For S1-S15, the time window is 2 s and the trial length is 3 s, whereas "
 "for S16-S70 the time window is 3 s and the trial length is 4 s."
 msgstr ""
 
-#: ../../API_datasets.rst:85 b0579f547cb74387a880887e506270c1
+#: ../../API_datasets.rst:81 b0579f547cb74387a880887e506270c1
 msgid ""
 "Additional details about the channel and condition information can be "
-"found in the following supplementary information."
+"found in the supplementary information."
 msgstr ""
+
+#: ../../API_datasets.rst:85 ece5b59c33cf429c8fffc9ee438e5b4b
+msgid "Initialize the BETA dataset."
+msgstr "初始化 BETA dataset"
 
 #: ../../API_datasets.rst:88 6eea5436a3b64caba059ff3f98193b7b
 msgid "70"
@@ -383,7 +385,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:111 a1b99fc4723c4494b81d39bfb7e504ee
 msgid "Total: around 4.91 GB."
-msgstr ""
+msgstr "数据大小：大约 4.91 GB"
 
 #: ../../API_datasets.rst:113 51cfd509afd94b4c9af560360626e2f9
 msgid ""
@@ -403,7 +405,7 @@ msgid ""
 "downloaded when the dataset is initialized.  If the provided path is not "
 "existed, the provided path will be created.  Default path is a folder "
 ":file:`BETA Dataset` in the working path."
-msgstr ""
+msgstr "EEG 数据存储路径。在数据集初始化的时候，缺少的数据会被自动下载。如果路径不存在，相应的文件夹会被自动创建。默认路径为工作路径下的文件夹 :file:`BETA Dataset`。"
 
 #: ../../API_datasets.rst:123 ../../API_datasets.rst:240
 #: ../../API_datasets.rst:303 ../../API_datasets.rst:377
@@ -411,7 +413,7 @@ msgstr ""
 #: 4f2d6c6960c341f2b0b10cfafa8e5365 5eca4f66aabd4641b7ef6167e6729fa1
 #: 9eb517c1504546188e1d5aa91604523f f0ef561604e844d28941a48f89403556
 msgid "Default path is a folder :file:`BETA Dataset` in the working path."
-msgstr ""
+msgstr "默认路径为工作路径下的文件夹 :file:`BETA Dataset`。"
 
 #: ../../API_datasets.rst:125 ../../API_datasets.rst:242
 #: ../../API_datasets.rst:305 ../../API_datasets.rst:379
@@ -424,7 +426,7 @@ msgid ""
 "when the dataset is initialized.  If the provided path is not existed, "
 "the provided path will be created.  Default path is same as data path "
 "``path``."
-msgstr ""
+msgstr "帮助文件路径。帮助文件包括 :file:`note.pdf` 和 :file:`description.pdf`。在数据集初始化的时候，缺失的帮助文件会被自动下载。如果提供的路径不存在，相应的文件夹会被自动创建。默认路径和 EEG 数据路径一致。"
 
 #: ../../API_datasets.rst:125 ../../API_datasets.rst:242
 #: ../../API_datasets.rst:305 ../../API_datasets.rst:379
@@ -434,29 +436,25 @@ msgstr ""
 msgid ""
 "Path of supported files, i.e., :file:`note.pdf`, and "
 ":file:`description.pdf`."
-msgstr ""
+msgstr "帮助文件路径。帮助文件包括 :file:`note.pdf` 和 :file:`description.pdf`。"
 
 #: ../../API_datasets.rst:134 eb78d86971a64c8f8450e4f088ddb5f2
 msgid "Nakanishi 2015 Dataset"
 msgstr ""
 
-#: ../../API_datasets.rst:138 c5ac08a731c44fbc9d971e31de03d6db
-msgid "Initialize the Nakanishi2015 dataset."
-msgstr ""
-
-#: ../../API_datasets.rst:140 8bd68856945f44c2b18b4cc53945394c
+#: ../../API_datasets.rst:136 8bd68856945f44c2b18b4cc53945394c
 msgid ""
 "Each .mat file has a four-way tensor electroencephalogram (EEG) data for "
 "each subject. Please see the reference paper for the detail."
 msgstr ""
 
-#: ../../API_datasets.rst:143 1c5efc088748457388bcc88004483f1e
+#: ../../API_datasets.rst:139 1c5efc088748457388bcc88004483f1e
 msgid ""
 "size(eeg) = [Num. of targets, Num. of channels, Num. of sampling points, "
 "Num. of trials]"
 msgstr ""
 
-#: ../../API_datasets.rst:145 a26593a8cc014e15a1b6042609b2234d
+#: ../../API_datasets.rst:141 a26593a8cc014e15a1b6042609b2234d
 msgid ""
 "The order of the stimulus frequencies in the EEG data: [9.25, 11.25, "
 "13.25, 9.75, 11.75, 13.75, 10.25, 12.25, 14.25, 10.75, 12.75, 14.75] Hz "
@@ -465,9 +463,13 @@ msgid ""
 "respectively.)"
 msgstr ""
 
-#: ../../API_datasets.rst:147 343f287bd70343409094a38c7f59831f
+#: ../../API_datasets.rst:143 343f287bd70343409094a38c7f59831f
 msgid "The onset of visual stimulation is at 39th sample point."
 msgstr ""
+
+#: ../../API_datasets.rst:147 c5ac08a731c44fbc9d971e31de03d6db
+msgid "Initialize the Nakanishi2015 dataset."
+msgstr "初始化 Nakanishi2015 dataset"
 
 #: ../../API_datasets.rst:150 ../../API_datasets.rst:347
 #: ../../API_datasets.rst:398 801976183d95433da4e1e7c753767542
@@ -516,7 +518,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:173 c255496a64ee47ccad20986e57870a27
 msgid "Total: around 148 MB."
-msgstr ""
+msgstr "数据大小：大约 148 MB"
 
 #: ../../API_datasets.rst:175 d7ce9261e1304256ab0e29cbe922b324
 msgid ""
@@ -539,29 +541,25 @@ msgid ""
 "downloaded when the dataset is initialized.  If the provided path is not "
 "existed, the provided path will be created.  Default path is a folder "
 ":file:`Nakanishi2015 Dataset` in the working path."
-msgstr ""
+msgstr EEG 数据存储路径。在数据集初始化的时候，缺少的数据会被自动下载。如果路径不存在，相应的文件夹会被自动创建。默认路径为工作路径下的文件夹 :file:`Nakanishi2015 Dataset`。"
 
 #: ../../API_datasets.rst:185 e12f3e30fa0241a796136e8f4fb61554
 msgid ""
 "Default path is a folder :file:`Nakanishi2015 Dataset` in the working "
 "path."
-msgstr ""
+msgstr "默认路径为工作路径下的文件夹 :file:`Nakanishi2015 Dataset`。"
 
 #: ../../API_datasets.rst:188 563f5b2ff1c74631be68d726d9e25ec6
 msgid "eldBETA Dataset"
 msgstr ""
 
-#: ../../API_datasets.rst:192 8674a6bb33944ec1aff9951781e73808
-msgid "Initialize the eldBETA dataset."
-msgstr ""
-
-#: ../../API_datasets.rst:194 6e26baf4e3b74f449b39e426931c5140
+#: ../../API_datasets.rst:190 6e26baf4e3b74f449b39e426931c5140
 msgid ""
 "For the BCI users, there was an associated epoched record that is stored "
 "in \".mat\" structure array from MATLAB."
 msgstr ""
 
-#: ../../API_datasets.rst:196 faf7f260405448a18049d3eff95e99f7
+#: ../../API_datasets.rst:192 faf7f260405448a18049d3eff95e99f7
 msgid ""
 "The structure array in each record was composed of the EEG data (\"EEG\")"
 " and its associated supplementary information (\"Suppl_info\") as its "
@@ -570,7 +568,7 @@ msgid ""
 "diverse research purposes."
 msgstr ""
 
-#: ../../API_datasets.rst:198 321e6b2ae1724d9dad6bc523bf5ad693
+#: ../../API_datasets.rst:194 321e6b2ae1724d9dad6bc523bf5ad693
 msgid ""
 "The EEG epochs were the EEG data with the data processing and stored as "
 "4-dimensional matrices (channel x time point x condition x block). The "
@@ -578,14 +576,14 @@ msgid ""
 "supplementary information."
 msgstr ""
 
-#: ../../API_datasets.rst:200 33020499c85d4c3f9ad2c7bb54193e90
+#: ../../API_datasets.rst:196 33020499c85d4c3f9ad2c7bb54193e90
 msgid ""
 "For the dimension of time point, the epochs had a length of 6 s, which "
 "included 0.5 s before the stimulus onset, 5 s during the stimulation "
 "(SSVEPs) and 0.5 s after the stimulus offset."
 msgstr ""
 
-#: ../../API_datasets.rst:202 44a57a015b5d4e379c37c8d045d25cac
+#: ../../API_datasets.rst:198 44a57a015b5d4e379c37c8d045d25cac
 msgid ""
 "Different from the epoched data, the raw EEG provided continuous EEG that"
 " were converted by EEGLAB. The raw EEG were stored as cell arrays, each "
@@ -602,6 +600,10 @@ msgid ""
 "radius, respectively. The stimulus initial phase was given in radius. The"
 " sampling rate of the epoch data was denoted by \"Srate\"."
 msgstr ""
+
+#: ../../API_datasets.rst:202 8674a6bb33944ec1aff9951781e73808
+msgid "Initialize the eldBETA dataset."
+msgstr "初始化 eldBETA dataset"
 
 #: ../../API_datasets.rst:205 ../../API_datasets.rst:272
 #: 992f2824683544c8903a2032ffc81f48 ca84df46436943189430192b4858e46d
@@ -634,11 +636,7 @@ msgstr ""
 msgid "openBMI Dataset"
 msgstr ""
 
-#: ../../API_datasets.rst:255 d326454aac4d4faeb40f6b52496d6cae
-msgid "Initialize the openBMI dataset."
-msgstr ""
-
-#: ../../API_datasets.rst:257 2735e9e0ecf344a0b8af15b249636721
+#: ../../API_datasets.rst:253 2735e9e0ecf344a0b8af15b249636721
 msgid ""
 "Fifty-four healthy subjects (ages 24-35, 25 females) participated in the "
 "experiment. Thirty-eight subjects were naive BCI users. The others had "
@@ -647,13 +645,13 @@ msgid ""
 " otherwise might have affected the experimental results."
 msgstr ""
 
-#: ../../API_datasets.rst:259 d12b210e95454e1c97ee93f29e1b5987
+#: ../../API_datasets.rst:255 d12b210e95454e1c97ee93f29e1b5987
 msgid ""
 "EEG signals were recorded with a sampling rate of 1000 Hz and collected "
 "with 62 Ag/AgCl electrodes."
 msgstr ""
 
-#: ../../API_datasets.rst:261 c609154b01b74520978e2cbfc197959a
+#: ../../API_datasets.rst:257 c609154b01b74520978e2cbfc197959a
 msgid ""
 "Four target SSVEP stimuli were designed to flicker at 5.45, 6.67, 8.57, "
 "and 12 Hz and were presented in four positions (down, right, left, and "
@@ -669,6 +667,10 @@ msgid ""
 "target frequency was highlighted for one second with a red border at the "
 "end of each trial."
 msgstr ""
+
+#: ../../API_datasets.rst:261 d326454aac4d4faeb40f6b52496d6cae
+msgid "Initialize the openBMI dataset."
+msgstr "初始化 openBMI dataset"
 
 #: ../../API_datasets.rst:264 f38628b179de43659a12fafac23657c5
 msgid "54"
@@ -698,7 +700,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:287 d584734ee9554f828c1fa0d57c2b7e1b
 msgid "Total: around 55.6 GB"
-msgstr ""
+msgstr "数据大小：大约 55.6 GB"
 
 #: ../../API_datasets.rst:289 bf70146a12bf4b69b274f29c22a0940c
 msgid ""
@@ -816,7 +818,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:338 623c352d1a8f4530b71fe54fd97a49c7
 msgid "Initialize the wearable dataset (wet electrodes)."
-msgstr ""
+msgstr "初始化 wearable dataset （湿电极）"
 
 #: ../../API_datasets.rst:341 ../../API_datasets.rst:392
 #: 7dc90525fb954a0487ec95d8efa2e44f eac43c3064e749f8b5d53877347fa4c7
@@ -836,7 +838,7 @@ msgstr ""
 #: ../../API_datasets.rst:364 ../../API_datasets.rst:415
 #: 02f59a07c9c848bfaa0dd296b8510cb8 1ae9415ba1944281903029a814c9f887
 msgid "Total: around 929 MB"
-msgstr ""
+msgstr "数据大小：大约 929 MB"
 
 #: ../../API_datasets.rst:366 ../../API_datasets.rst:417
 #: 9be5a4dc385449d6b8de719833747040 f275df6501fd4c949b642b32e79f03a3
@@ -856,17 +858,17 @@ msgstr ""
 
 #: ../../API_datasets.rst:389 d8461adbdc884e8c8fe4ac0fbb1184e3
 msgid "Initialize the wearable dataset (dry electrodes)."
-msgstr ""
+msgstr "初始化 wearable dataset （干电极）"
 
 #: ../../API_datasets.rst:439 9ba4bf4b07ef4c77842140e0678ac68c
 msgid "Attributes of datasets"
-msgstr ""
+msgstr "数据集属性"
 
 #: ../../API_datasets.rst:441 be6aafa8d56a4f369eda0eb5adc6d7a3
 msgid ""
 "All datasets have these attributes. Attributes in different datasets have"
 " different values."
-msgstr ""
+msgstr "所有数据集都包括以下属性。不同数据集属性值不同。"
 
 #: ../../API_datasets.rst 9deb01e2c10d459791e84b0436236dd4
 msgid "subjects"
@@ -876,7 +878,7 @@ msgstr ""
 msgid ""
 "A list of subject information. Each element is a ``SubInfo`` instance, "
 "which contains following attributes:"
-msgstr ""
+msgstr "受试者信息的列表。每个元素为一个 ``SubInfo`` 实例。``SubInfo`` 包括以下属性："
 
 #: ../../API_datasets.rst 17126322f2ba412c86fe1bc74fd2d3e2
 #: 1d9214124eac4a359bf4576d4b892d6d
@@ -885,7 +887,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:445 93655dc3f39f477695b3d1a9e9a53a6a
 msgid "Unique identifier of subject."
-msgstr ""
+msgstr "受试者的唯一识别符"
 
 #: ../../API_datasets.rst 01e3225e41a248b1843aaadf1b2341b5
 msgid "path"
@@ -893,7 +895,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:447 0dbd972c834245b089fd4e627a8cb56c
 msgid "Path of corresponding EEG data file."
-msgstr ""
+msgstr "对应的 EEG 数据文件路径"
 
 #: ../../API_datasets.rst 4a38f86f56c24b9ab0dc77875a02db48
 msgid "name"
@@ -901,7 +903,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:449 1515de2b12d34061bdf5e44a876512a7
 msgid "Name of subject."
-msgstr ""
+msgstr "受试者姓名"
 
 #: ../../API_datasets.rst 9456e6ca9d3e444b99b6324de32111cc
 msgid "age"
@@ -909,7 +911,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:451 96d027e7aaaf4c4bb6c738bc3d440b74
 msgid "Age of subject."
-msgstr ""
+msgstr "受试者年龄"
 
 #: ../../API_datasets.rst f3db1750fc934d45bb055913eeacef67
 msgid "gender"
@@ -917,11 +919,11 @@ msgstr ""
 
 #: ../../API_datasets.rst:453 61983fec82cd454ebc472175a2d0ec83
 msgid "Gender of subject. ``M`` for male. ``F`` for female."
-msgstr ""
+msgstr "受试者性别。男性为 ``M``。女性为 ``F``。"
 
 #: ../../API_datasets.rst:455 1c3c75426f544415aec30879769bc687
 msgid "Name/ID of the dataset."
-msgstr ""
+msgstr "数据集的名称或唯一识别符"
 
 #: ../../API_datasets.rst 5a4954a83b12499e852dc0d064dd01ad
 msgid "url"
@@ -929,7 +931,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:457 86a986200c3f475ca0599b957bcbf02f
 msgid "Download URL."
-msgstr ""
+msgstr "下载 URL"
 
 #: ../../API_datasets.rst d286968ace09484b813ade1839d34706
 msgid "paths"
@@ -937,7 +939,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:459 7c772b3e7b2341828e8bb7edf8c8f548
 msgid "A list of EEG data path. Each subject has a individual data path."
-msgstr ""
+msgstr "EEG 数据文件路径列表。每个受试者有自己独立的数据路径。"
 
 #: ../../API_datasets.rst 4cbedef79d134ef1a1f9206c50a27a26
 msgid "channels"
@@ -945,7 +947,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:461 18de2b3bb57948599fb384d4d5d8f691
 msgid "A list of channel names"
-msgstr ""
+msgstr "通道名称列表"
 
 #: ../../API_datasets.rst 2355aa92e5d74b08bc861feef008b940
 msgid "srate"
@@ -953,7 +955,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:463 def2902b688d41d2a6fd9ba17e3ff81f
 msgid "Sampling rate (Hz)"
-msgstr ""
+msgstr "采样率 (Hz)"
 
 #: ../../API_datasets.rst 7232ce5dcae9445b85e1b9810b75b005
 msgid "block_num"
@@ -961,7 +963,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:465 88557cf05bb14f46bce99486cec75a4b
 msgid "Number of blocks"
-msgstr ""
+msgstr "block 数量"
 
 #: ../../API_datasets.rst f697bcecb4a043efb090cbdc6d83bfe0
 msgid "trial_num"
@@ -969,7 +971,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:467 3e73039a86cc41e1914ae6273b55bef7
 msgid "Number of trials in each block"
-msgstr ""
+msgstr "每个 block 中 trial 数量"
 
 #: ../../API_datasets.rst bf1cc9db32ed4b09983ceb5908e094f1
 msgid "trial_len"
@@ -979,7 +981,7 @@ msgstr ""
 msgid ""
 "Signal length (in second) of single trial. If different trials have "
 "different siganl length, the shorted signal length is stored."
-msgstr ""
+msgstr "每个 trial 中的信号长度（以秒为单位）。如果不同的 trial 的信号长度不同，则使用最短的信号长度。"
 
 #: ../../API_datasets.rst e95f8a89ced7445dae77f72cc89e2664
 msgid "stim_info"
@@ -987,7 +989,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:471 9de284f1da2d45289ce2ef6edb386462
 msgid "A dictionary storing stimulus information, which contains following keys:"
-msgstr ""
+msgstr "存储刺激信息的字典，其中包括下列键"
 
 #: ../../API_datasets.rst fd5cb86a41bb49bcb5b5b63c989e9003
 msgid "stim_num"
@@ -995,7 +997,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:473 0c9f959a44774781ac1c549123e53fc4
 msgid "Number of stimuli."
-msgstr ""
+msgstr "刺激数量"
 
 #: ../../API_datasets.rst cfad15e67b21419c90e85c908f5b051a
 msgid "freqs"
@@ -1003,7 +1005,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:475 c7603e81e2b449ba8b53cbf86a798750
 msgid "A list of stimulus frequencies."
-msgstr ""
+msgstr "刺激频率列表"
 
 #: ../../API_datasets.rst 09db66e3ea05416b85feb0976b347df7
 msgid "phases"
@@ -1011,7 +1013,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:477 faf5380634af4eed91cdba383eb67b7b
 msgid "A list of stimulus phases."
-msgstr ""
+msgstr "刺激相位列表"
 
 #: ../../API_datasets.rst 0cf9e330eec04271a46030794cd1c892
 msgid "t_prestim"
@@ -1019,7 +1021,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:479 86817d09711c472687c588ad21869fe4
 msgid "Pre-stimulus time (in second)."
-msgstr ""
+msgstr "预刺激时间（以秒为单位）"
 
 #: ../../API_datasets.rst 872700c6bb0f40f3bccf5c1db5ff247e
 msgid "t_break"
@@ -1027,7 +1029,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:481 533238d493944014b31a4da916cda6af
 msgid "Time for shifting visual attention (in second)."
-msgstr ""
+msgstr "休息时间（以秒为单位）"
 
 #: ../../API_datasets.rst d677004247e846ea96485cb1a866f8f1
 msgid "support_files"
@@ -1035,7 +1037,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:483 ca4e5716d49643f9a63a56d3db280298
 msgid "A list of supported files."
-msgstr ""
+msgstr "帮助文件列表"
 
 #: ../../API_datasets.rst 6e434722ac994414a647bfc9a3b771c3
 msgid "path_support_file"
@@ -1043,7 +1045,7 @@ msgstr ""
 
 #: ../../API_datasets.rst:485 87467cc0417744c5b85d1d077d884a6c
 msgid "Path of supported files"
-msgstr ""
+msgstr "帮助文件路径"
 
 #: ../../API_datasets.rst cbd05854a12d4ff3b24fb40903ced56d
 msgid "default_t_latency"
@@ -1051,54 +1053,54 @@ msgstr ""
 
 #: ../../API_datasets.rst:487 c8e4e631406e4ef88d3acc44e4d0664f
 msgid "Default/suggested latency time (in second)."
-msgstr ""
+msgstr "默认延迟时间（以秒为单位）"
 
 #: ../../API_datasets.rst:490 eb41d5bd3b6c48318ce4d2f2c417697a
 msgid "Methods of datasets"
-msgstr ""
+msgstr "数据集方法"
 
 #: ../../API_datasets.rst:492 42a65d5d7ff14f41bde245a5cdb84216
 msgid ""
 "For all datasets, the toolbox will the unified APIs to hook the "
 "proprocessing and filterbank functions and output signals. The unified "
 "APIs are listed here:"
-msgstr ""
+msgstr "全部数据集使用统一的 API 来挂载预处理函数与滤波器组函数以及输出所需信号。统一的 API 罗列如下："
 
 #: ../../API_datasets.rst:496 3bc6c7fa827c4b4581e1c262ca845ed6
 msgid ""
 "Download all subjects' data file. Because all data files will be "
 "donwloaded automatically when a dataset is initialized, this function "
 "normally does not need to be run manually."
-msgstr ""
+msgstr "下载所有受试者的数据文件。因为在数据集初始化时所有数据文件都将自动下载，所以此方法一般不需手动运行。"
 
 #: ../../API_datasets.rst:500 2bebec7b15bf4b288f04130271bdb405
 msgid ""
 "Download all supported files. Because all supported files will be "
 "downloaded automatically when a dataset is initialized, this function "
 "normally does not need to be run manually."
-msgstr ""
+msgstr "下载全部帮助文件。因为在数据集初始化时所有帮助文件都将自动下载，所以此方法一般不需要手动运行。"
 
 #: ../../API_datasets.rst:504 cbefe57536854820953dca2f0299eeca
 msgid ""
 "Set the preprocess function as the default preprocess function. The "
 "default preprocess function is empty. It will directly return the "
 "original EEG signals without any preprocessing."
-msgstr ""
+msgstr "将预处理函数重置为默认预处理函数。默认预处理函数不会做任何预处理，而是直接返回原始 EEG 信号。"
 
 #: ../../API_datasets.rst:508 b978a4fff0664851854363eef1a7d35e
 msgid "Hook the user-defined preprocessing function."
-msgstr ""
+msgstr "挂载用户定义的预处理函数。"
 
 #: ../../API_datasets.rst:510 36f931867a174e81bab989fb234f171d
 msgid "User-defined preprocessing function."
-msgstr ""
+msgstr "用户自定义的预处理函数。"
 
 #: ../../API_datasets.rst:514 6d8f1f1e87c646c0b0715ace1098f326
 msgid ""
 "The given ``preprocess_fun`` should be a callable function name (only "
 "name). This callable function should only have two input parameter "
 "``dataself`` and ``X``."
-msgstr ""
+msgstr "提供的 ``preprocess_fun`` 必须是一个函数名。这个函数必须仅包含两个参数 ``dataself`` 和 ``X``"
 
 #: ../../API_datasets.rst:516 ../../API_datasets.rst:543
 #: ../../API_datasets.rst:652 95f180fd7aa941a08da62522de28a3ac
@@ -1106,7 +1108,7 @@ msgstr ""
 msgid ""
 "``dataself`` is the data istance. If you need to use parameters in the "
 "data module, you can directly use them from ``dataself``."
-msgstr ""
+msgstr "``dataself`` 是数据集实例本身。如果你需要使用数据集中的属性或是方法，你可以直接从 ``dataself`` 中使用。"
 
 #: ../../API_datasets.rst:517 ../../API_datasets.rst:544
 #: d0de5d2b0a264b10a9234f33d32597f7 f4577a5f959045b29425821d17594cc3
@@ -1115,21 +1117,21 @@ msgid ""
 "stimulus time has been removed from the EEG signal. The latency time is "
 "maintained in the EEG signal. The detailed data extraction procedures "
 "please refer to `\"get_data\" function <#get_data>`_."
-msgstr ""
+msgstr "``X`` 是一个 2D 的 EEG 信号（通道 :raw-html:`&#215;` 采样点）。预刺激时间段信号已经从 EEG 信号中剔除。延迟时间段信号还保留在信号中。更具体的数据提取步骤请参阅 `\"get_data\" function <#get_data>`_。"
 
 #: ../../API_datasets.rst:519 a3f73bf3ed5d435b80c36e8a6f76d688
 msgid ""
 "If your preprocess function needs other input parameters, you may use "
 "`lambda function <https://www.w3schools.com/python/python_lambda.asp>`_. "
 "Check demos to get more hints."
-msgstr ""
+msgstr "如果你的预处理函数包含其他输入参数，你可能需要使用 `lambda 函数 <https://www.w3schools.com/python/python_lambda.asp>`_。更具体的使用方法可以参考样例代码。"
 
 #: ../../API_datasets.rst:521 ../../API_datasets.rst:550
 #: 24fde7bbad8b4ac9aff333f51805481f 65336e1872554fcc8153901eb5bb8b4c
 msgid ""
 "You may refer the following default preprocess function to define your "
 "own function."
-msgstr ""
+msgstr "你可以参考下面的默认预处理函数来编写你自己的预处理函数。"
 
 #: ../../API_datasets.rst:531 ba360d55f76b4ee9840501c05150a0c0
 msgid ""
@@ -1140,22 +1142,22 @@ msgid ""
 "(filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` samples). If "
 "the original EEG signal is a 3D signal, original signal will be returned "
 "without any processing."
-msgstr ""
+msgstr "重置滤波器组函数为默认的滤波器组函数。默认的滤波器组函数不对原始 EEG 信号做任何滤波。如果原始 EEG 信号 是一个 2D 信号（通道 :raw-html:`&#215;` 采样点），一个新的维度将会被添加（滤波器组 :raw-html:`&#215;` 通道 :raw-html:`&#215;` 采样点）。如果原始 EEG 信号已经是 3D 信号，则直接返回原始信号"
 
 #: ../../API_datasets.rst:535 cbfa8d1ed9ad42d89a7950bcd6b0ff1c
 msgid "Hook the user-defined filterbank function."
-msgstr ""
+msgstr "挂载用户自定义的滤波器组函数。"
 
 #: ../../API_datasets.rst:537 49b994666be8482e8f74075cfc6e15b6
 msgid "User-defined filterbank function."
-msgstr ""
+msgstr "用户自定义的滤波器组函数。"
 
 #: ../../API_datasets.rst:541 147b9fa829764acf8bb1e60f6b98617f
 msgid ""
 "The given ``filterbank_fun`` should be a callable function name (only "
 "name). This callable function should only have two input parameter "
 "``dataself`` and ``X``."
-msgstr ""
+msgstr "给定的 ``filterbank_fun`` 应该是一个函数名。这个函数应该仅包含两个输入参数 ``dataself`` 和 ``X``。"
 
 #: ../../API_datasets.rst:546 866c12b8562d4000af2c0b68452a9427
 msgid ""
@@ -1163,30 +1165,30 @@ msgid ""
 "(filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` samples). The "
 "bandpass filtered EEG signals of filterbanks should be stored in the "
 "first dimension."
-msgstr ""
+msgstr "给定的 ``filterbank_fun`` 的输出必须为一个 3D EEG 信号 （滤波器组 :raw-html:`&#215;` 通道 :raw-html:`&#215;` 采样点）。"
 
 #: ../../API_datasets.rst:548 ab10e9d647b24ff3bf47d77c7785fbe4
 msgid ""
 "If your filterbank function needs other input parameters, you may use "
 "`lambda function <https://www.w3schools.com/python/python_lambda.asp>`_. "
 "Check demos to get more hints."
-msgstr ""
+msgstr "如果你的滤波器组函数需要其他输入参数，你可能需要使用 `lambda 函数 <https://www.w3schools.com/python/python_lambda.asp>`_。更具体的使用方法可以参考样例代码。"
 
 #: ../../API_datasets.rst:568 a0af49dabac747e1855e4ff8a3e76a5c
 msgid ""
 "According to the given testing block index, generate lists of testing and"
 " training block indices following the leave-one-block-out rule."
-msgstr ""
+msgstr "根据指定的 block 索引数与留一法，生成用于测试与训练的 block 索引数列表。"
 
 #: ../../API_datasets.rst:572 a7d5d3a97df846bb94abd149584dafaa
 msgid ""
 "Leave-one-block-out rule: One block works as the testing block. All other"
 " blocks work as the training blocks."
-msgstr ""
+msgstr "留一法：一个 block 的数据用于测试，其他所有 block 的数据用于训练。"
 
 #: ../../API_datasets.rst:574 49f3064b973546629d1c2e65ce0b2935
 msgid "Given testing block index."
-msgstr ""
+msgstr "指定的 block 索引数"
 
 #: ../../API_datasets.rst 20ee3df78e2845dba3290852490fff67
 #: 4c447d7acb544850845bd947f406990b 627a5a02062745059a729d1211459af6
@@ -1199,110 +1201,110 @@ msgstr ""
 msgid ""
 "+ ``test_block``: List of one testing block index + ``train_block``: List"
 " of training block indices"
-msgstr ""
+msgstr "+ ``test_block``: 用于测试的 block 的索引数列表 + ``train_block``: 用于训练的 block 的索引数列表"
 
 #: ../../API_datasets.rst:577 b1855cde6ce94f5ab8387950aeddc58f
 msgid "``test_block``: List of one testing block index"
-msgstr ""
+msgstr "``test_block``: 用于测试的 block 的索引数列表"
 
 #: ../../API_datasets.rst:578 4db67642b0364148bd973169712491ea
 msgid "``train_block``: List of training block indices"
-msgstr ""
+msgstr "``train_block``: 用于训练的 block 的索引数列表"
 
 #: ../../API_datasets.rst:582 8e29cf840ca44ed1be75378551092062
 msgid "Extract EEG signals and corresponding labels from the dataset"
-msgstr ""
+msgstr "从数据集中提取 EEG 信号以及相对应的标签"
 
 #: ../../API_datasets.rst:584 ../../API_datasets.rst:614
 #: ../../API_datasets.rst:717 ../../API_datasets.rst:731
 #: 5efb82817ab540f78b25458afd382458 6c122e0741874a0eac1737c1eb8032c0
 #: 6e72fb0ab25c4fb78604d13211670466 f3e49c1a11b148e3853a9501946aa654
 msgid "Subject index."
-msgstr ""
+msgstr "受试者索引数"
 
 #: ../../API_datasets.rst:585 ../../API_datasets.rst:615
 #: 17d88c941ab4400a87e6f0896f5d7629 bd13f4bf53354d0a8762ab2c3e848b06
 msgid "List of block indices."
-msgstr ""
+msgstr "block 索引数列表"
 
 #: ../../API_datasets.rst:586 bf48ab8631f142d39119a07975792339
 msgid "List of trial indices."
-msgstr ""
+msgstr "trial 索引数列表"
 
 #: ../../API_datasets.rst:587 ../../API_datasets.rst:616
 #: 13a67c28bea44519a67797dcdb733820 fc298359253a480a91843439b0b1cb4a
 msgid "List of channel indices."
-msgstr ""
+msgstr "通道索引数列表"
 
 #: ../../API_datasets.rst:588 ../../API_datasets.rst:617
 #: c95e7e65bb02455491fcb45cf755b71a f763d8ff536b41b388eaa875d27a7126
 msgid "Signal length (in second)."
-msgstr ""
+msgstr "信号长度（以秒为单位）"
 
 #: ../../API_datasets.rst:589 ../../API_datasets.rst:618
 #: 2bff14cf4bf44b29b1e8482a0ccc0518 9da4f32314794eecbef8e4c13c1f6fb8
 msgid ""
 "Latency time (in second). Default is the default/suggested latency time "
 "of the dataset."
-msgstr ""
+msgstr "延迟时间（以秒为单位）。默认采用数据集的默认延迟时间。"
 
 #: ../../API_datasets.rst:590 ../../API_datasets.rst:619
 #: 60ef1a8918d344028c0f737fc32c62c6 ab7d840d6af3410f8a6146d0bdebba19
 msgid ""
 "If ``True``, the order of trials will be shuffled. Otherwise, the order "
 "of trials will follow the given ``blocks`` and ``trials``."
-msgstr ""
+msgstr "如果 ``True``，trial 的顺序将会随机打乱。否则，trial 的顺序将会遵循给定的 ``blocks`` 和 ``trials`` 的顺序。"
 
 #: ../../API_datasets.rst:592 ../../API_datasets.rst:621
 #: 896c22e03f4c46f89385b4ae2521e5c1 dd92291ccd6f4735869563bf5b1aa615
 msgid "+ ``X``: List of single trial EEG signals. + ``Y``: List of labels."
-msgstr ""
+msgstr "+ ``X``: 单个 trial 的 EEG 信号列表。 + ``Y``: 标签列表。"
 
 #: ../../API_datasets.rst:594 ../../API_datasets.rst:623
 #: 010dcf42738742bd95917bbe899ab2d5 b1b833b60de144a1a54e037d9437b5bc
 msgid "``X``: List of single trial EEG signals."
-msgstr ""
+msgstr "``X``: 单个 trial 的 EEG 信号列表。"
 
 #: ../../API_datasets.rst:595 ../../API_datasets.rst:624
 #: 2effd8bca8f146db8bafe80334fd0737 fbdf118796964b2584b4450d3aad7961
 msgid "``Y``: List of labels."
-msgstr ""
+msgstr "``Y``: 标签列表。"
 
 #: ../../API_datasets.rst:599 501072860b214341bf41a6047c702bcb
 msgid ""
 "The preprocess and filterbanks are applied to windowed signals (not whole"
 " trial signal), which is close to the real online situation. The "
 "extraction will follow these steps:"
-msgstr ""
+msgstr "预处理与滤波器组将会使用在窗口化的信号上而不是整个信号上，这样更贴近于真实在线处理。提取过程遵循下列步骤："
 
 #: ../../API_datasets.rst:601 5e17c65e38dc47668661e59744c89d07
 msgid ""
 "Cut the signal according to given ``sig_len``. The pre-stimulus time "
 "``t_prestim`` will be removed. The latency time is maintained."
-msgstr ""
+msgstr "根据指定的 ``sig_len`` 裁剪信号。预刺激时间段 ``t_prestim`` 将会被剔除。延迟时间将会保留。"
 
 #: ../../API_datasets.rst:602 38f54964412a48cfa4cbb29e190ee504
 msgid "Apply the hooked preprocessing function."
-msgstr ""
+msgstr "使用挂载的预处理信号。"
 
 #: ../../API_datasets.rst:603 bb449046b41e40c2bd1c01ffa037a742
 msgid "Apply the bandpass filters of filterbanks."
-msgstr ""
+msgstr "使用挂载的滤波器组。"
 
 #: ../../API_datasets.rst:604 e1de1cc7ae754fa0934575b4841b862d
 msgid "Remove the latency time."
-msgstr ""
+msgstr "剔除延迟时间段。"
 
 #: ../../API_datasets.rst:606 076cb813bb8946da8b4aec5f3fb80fb9
 msgid "The extraction process follows the below figure."
-msgstr ""
+msgstr "提取过程遵循下图。"
 
 #: ../../API_datasets.rst:612 5bb1a6688ad5477abeaf27e9bb71e218
 msgid ""
 "Extract EEG signals of all trials in given blocks and corresponding "
 "labels from the dataset. This function is similar as ``get_data`` but it "
 "does not need ``trials`` and will extract all trials of given blocks."
-msgstr ""
+msgstr "从数据集中提取指定 block 的全部 trial 的 EEG 信号与对应的标签。这个方法类似于 ``get_data``， 但是这个方法不需要指定 ``trials``，其会提取指定 block 的全部 trial。"
 
 #: ../../API_datasets.rst:628 3274bced83394fa88f40bf27aacfbb8d
 msgid ""
@@ -1311,7 +1313,7 @@ msgid ""
 "generation function uses the sampling frequency of the original signal "
 "(recoded in the dataset) to generate the reference signals. The reference"
 " signals of :math:`i\\text{-th}` stimulus can be presented as"
-msgstr ""
+msgstr "重置参考信号生成函数为默认的正余弦参考信号生成函数。默认的正余弦参考信号生成函数使用原始信号的采样频率（设定在数据集中的采样频率）去生成参考信号。 :math:`i\\text{-th}` 刺激的参考信号可以表述为"
 
 #: ../../API_datasets.rst:630 0a9d7c5599e74dc69055b401e7f00766
 msgid ""
@@ -1329,37 +1331,37 @@ msgid ""
 "where :math:`f_i` and :math:`\\theta_i` denote the stimulus frequency and"
 " phase of the :math:`i\\text{-th}` stimulus, and :math:`N_h` denotes the "
 "total number of harmonic components."
-msgstr ""
+msgstr "此处 :math:`f_i` 和 :math:`\\theta_i` 代表 :math:`i\\text{-th}` 刺激的刺激频率与刺激相位， :math:`N_h` 代表谐波数量。"
 
 #: ../../API_datasets.rst:644 2c5fd8ada489449abf13e1f35209ccc7
 msgid "Hook the user-defined reference generation function."
-msgstr ""
+msgstr "挂载用户自定义参考信号生成函数"
 
 #: ../../API_datasets.rst:646 ecd5b5fa4bf14d76be443a72dbe1bbeb
 msgid "User-defined reference generation function."
-msgstr ""
+msgstr "用户自定义参考信号生成函数"
 
 #: ../../API_datasets.rst:650 25dd1cd4314f40339669af7b87f595a3
 msgid ""
 "The given ``preprocess_fun`` should be a callable function name (only "
 "name). This callable function should only have four input parameter:"
-msgstr ""
+msgstr "给定的 ``preprocess_fun`` 必须是一个函数名。这个函数必须只能包含四个输入参数："
 
 #: ../../API_datasets.rst:653 c32476cf4dbe442fa722d547cc0b6532
 msgid "``sig_len`` is the signal length (in second)."
-msgstr ""
+msgstr "``sig_len`` 是信号长度（以秒为单位）。"
 
 #: ../../API_datasets.rst:654 7c53245e6da64068994061656b245b95
 msgid "``N`` is the total number of harmonic components."
-msgstr ""
+msgstr "``N`` 是谐波数量。"
 
 #: ../../API_datasets.rst:655 0c34b696bb4a40b4ba0b46c8c8172b34
 msgid "``phases`` is the phases of stimuli."
-msgstr ""
+msgstr "``phases`` 是刺激相位。"
 
 #: ../../API_datasets.rst:657 e5d6d0455fee4ba3acfe94ae3a6df42c
 msgid "The frequencies of stimuli can be obtained from ``dataself``."
-msgstr ""
+msgstr "刺激频率可以从 ``dataself`` 获取。"
 
 #: ../../API_datasets.rst:659 bc10339412114f29ab6cfc914c5cbf84
 msgid ""
@@ -1367,7 +1369,8 @@ msgid ""
 "may use `lambda function "
 "<https://www.w3schools.com/python/python_lambda.asp>`_. Check demos to "
 "get more hints."
-msgstr ""
+msgstr "如果参考信号生成函数需要更多输入参数，你可能需要 `lambda 函数 "
+"<https://www.w3schools.com/python/python_lambda.asp>`_。更具体的使用方法可以参考样例代码。"
 
 #: ../../API_datasets.rst:661 aae6ff621b57406fb066972177ddafb0
 msgid ""
@@ -1377,49 +1380,49 @@ msgid ""
 "signal generation function using the new sampling rate. You may refer the"
 " following default reference signal generation function to define your "
 "own function."
-msgstr ""
+msgstr "用户一般不需要定义自己的参考信号生成函数。但是，当你通过上采样或下采样改变了采样频率时，你必须用新的采样率定义自己的参考信号生成函数。你可以参考下面的默认参考信号生成函数来定义你自己的函数。"
 
 #: ../../API_datasets.rst:673 59cccfe5f61f455b9a6672ae621b6dc7
 msgid "``gen_ref_sin`` is in :ref:`computation-fun`."
-msgstr ""
+msgstr "``gen_ref_sin`` 的描述在 :ref:`computation-fun`。"
 
 #: ../../API_datasets.rst:677 6ce3f4a9b9e64d51a252026bab734db5
 msgid ""
 "Generate sine-cosine-based reference signals by using the registed "
 "reference generation function."
-msgstr ""
+msgstr "使用挂载的参考信号生成函数来生成参考信号。"
 
 #: ../../API_datasets.rst:679 c2135ddbc67f442b86bc4e370b6efca9
 msgid ""
 "Signal length (in second). It should be same as the signal length of "
 "extracted EEG signals."
-msgstr ""
+msgstr "信号程度（以秒为单位）。参考信号的长度应该和提取的 EEG 信号长度一致。"
 
 #: ../../API_datasets.rst:680 a54a94e6cb55481eb824fdb205679ee6
 msgid "Total number of harmonic components."
-msgstr ""
+msgstr "谐波数量"
 
 #: ../../API_datasets.rst:681 f1f1ecb776b24d409b7d1a3146afb1dc
 msgid ""
 "If ``True``, all stimulus phases will be set as 0. Otherwise, the "
 "stimulus phases stored in the dataset will be applied."
-msgstr ""
+msgstr "如果 ``True``，全部刺激相位将会全部设为 0。否则，将会使用存储在数据集中的刺激相位。"
 
 #: ../../API_datasets.rst:683 a0c6852e5fc747068c66a89b607ab6a3
 msgid ""
 "+ ``ref_sig``: List of reference signals. Each stimulus have one set of "
 "reference signals."
-msgstr ""
+msgstr "+ ``ref_sig``: 参考信号列表.每个刺激有一组刺激信号。"
 
 #: ../../API_datasets.rst:685 64199c9fc2014c098c57b905d819c9e4
 msgid ""
 "``ref_sig``: List of reference signals. Each stimulus have one set of "
 "reference signals."
-msgstr ""
+msgstr "``ref_sig``: 参考信号列表.每个刺激有一组刺激信号。"
 
 #: ../../API_datasets.rst:690 5957daca38cf450c94894c2cc4d5f6da
 msgid "How to define your own dataset class"
-msgstr ""
+msgstr "如何定义你自己的数据集"
 
 #: ../../API_datasets.rst:692 726d06619e23477a93d23a0e52ff69ae
 msgid ""
@@ -1427,7 +1430,7 @@ msgid ""
 "``SSVEPAnalysisToolbox.datasets.BaseDataset`` as the father class to "
 "define your own dataset class. In your own dataset class, the following "
 "functions should be defined:"
-msgstr ""
+msgstr "你可以使用 ``SSVEPAnalysisToolbox.datasets.BaseDataset`` 抽象类作为父类来定义你自己的类。在你自己的数据集类中，下列方法必须被定义："
 
 #: ../../API_datasets.rst:694 7b5eab7bc47f4fdbbc2435f53c47755e
 msgid ""
@@ -1438,33 +1441,33 @@ msgid ""
 "``__init__`` of the father class "
 "``SSVEPAnalysisToolbox.datasets.BaseDataset`` to store these attributes "
 "in class."
-msgstr ""
+msgstr "``__init__``: 因为，除了 ``path`` 和 ``path_support_file``，其他在\"数据集属性\"中提到的属性需要提前定义在数据集中，所以初始化方法需要被重新定义。你可以使用父类中 ``__init__`` 方法。"
 
 #: ../../API_datasets.rst:695 27759ea70c4a4120b3d272866960d439
 msgid ""
 "Following abstract functions in "
 "``SSVEPAnalysisToolbox.datasets.BaseDataset`` are empty and should be "
 "defined in your own dataset class:"
-msgstr ""
+msgstr "在 ``SSVEPAnalysisToolbox.datasets.BaseDataset`` 抽象类中，下列方法是空的，所以下列方法在你的数据集类中必须被中心定义："
 
 #: ../../API_datasets.rst:699 bdb7cd1c49484181829f5d0f4c61c623
 msgid "Donwload one subject's data file."
-msgstr ""
+msgstr "下载一个受试者的数据文件"
 
 #: ../../API_datasets.rst:701 1a6c2fafbf464b33b110491a4eeb55b8
 #: 60e8a5c4232b4e4990c4267eb0dfe561
 msgid ""
 "One ``SubInfo`` instance stored in ``subjects`` mentioned in `Section "
 "\"Attributes of datasets\" <#attributes-of-datasets>`_."
-msgstr ""
+msgstr "一个存储在 \"数据集属性\" 提及的 ``subjects`` 中的 ``SubInfo`` 的实例。"
 
 #: ../../API_datasets.rst:705 4898e4fbfe564bb1bba4cd6801a02a80
 msgid "Download one supported file."
-msgstr ""
+msgstr "下载一个帮助文件。"
 
 #: ../../API_datasets.rst:707 93be023a3cbc48dbb1da60de274a6e45
 msgid "File name that will be downloaded."
-msgstr ""
+msgstr "将被下载的文件名。"
 
 #: ../../API_datasets.rst:711 9e10182e3cd5436aa7bd6509c3432762
 msgid ""
@@ -1473,11 +1476,13 @@ msgid ""
 " the required file. You also may need `\"tarfile\" "
 "<https://docs.python.org/3/library/tarfile.html>`_ or `\"py7zr\" "
 "<https://github.com/miurahr/py7zr>`_ to uncompress data files."
-msgstr ""
+msgstr "你可以使用 \"download_single_file\" 函数来下载帮助文件。你还可能需要 `\"tarfile\" "
+"<https://docs.python.org/3/library/tarfile.html>`_ 或者 `\"py7zr\" "
+"<https://github.com/miurahr/py7zr>`_ 来解压文件。"
 
 #: ../../API_datasets.rst:715 a341ca82d737431b92b7dacffd01cdbf
 msgid "Read one subject data from the local data file."
-msgstr ""
+msgstr "从本地数据文件中读取一个受试者的数据。"
 
 #: ../../API_datasets.rst:719 d1f0923b360449319ab242ecd7fce83c
 msgid ""
@@ -1485,7 +1490,7 @@ msgid ""
 "html:`&#215;` trials :raw-html:`&#215;` channels :raw-html:`&#215;` "
 "samples). Each trial should contain the whole trial data including pre-"
 "stimulus time, and latency time."
-msgstr ""
+msgstr "+ ``data``: 提供的数据必须是一个 4D 数据（block 数 :raw-html:`&#215;` trial 数 :raw-html:`&#215;` 通道数 :raw-html:`&#215;` 采样点数）。每个 trial 应该包含整个 trial 的数据，包括预刺激时间段与延迟时间段。"
 
 #: ../../API_datasets.rst:721 83236c2729c84a45add4c55f269111e2
 msgid ""
@@ -1493,7 +1498,7 @@ msgid ""
 "html:`&#215;` trials :raw-html:`&#215;` channels :raw-html:`&#215;` "
 "samples). Each trial should contain the whole trial data including pre-"
 "stimulus time, and latency time."
-msgstr ""
+msgstr "``data``: 提供的数据必须是一个 4D 数据（block 数 :raw-html:`&#215;` trial 数 :raw-html:`&#215;` 通道数 :raw-html:`&#215;` 采样点数）。每个 trial 应该包含整个 trial 的数据，包括预刺激时间段与延迟时间段。"
 
 #: ../../API_datasets.rst:725 6ff9b817b35e4bbf97dad421c63dc4ef
 msgid ""
@@ -1501,35 +1506,41 @@ msgid ""
 "must be 4D. The order of dimentions should be exactly (blocks :raw-"
 "html:`&#215;` trials :raw-html:`&#215;` channels :raw-html:`&#215;` "
 "samples)."
-msgstr ""
+msgstr "由 `\"get_sub_data\" 方法提供的 ``data`` 必须为 4D：block 数 :raw-html:`&#215;` trial 数 :raw-html:`&#215;` 通道数 :raw-html:`&#215;` 采样点数。"
 
 #: ../../API_datasets.rst:729 7df0aeb6b19e47b783735f12a1b2f9dd
 msgid "Generate the label of one specific trial."
-msgstr ""
+msgstr "生成某个特定 trial 生成白浅。"
 
 #: ../../API_datasets.rst:733 28e6d43334884f1b84ff621312481fef
 msgid "Block index."
-msgstr ""
+msgstr "block 索引数"
 
 #: ../../API_datasets.rst:735 9c0d0f58bb284b2cb928995110d37f6f
 msgid "Trial index."
-msgstr ""
+msgstr "trial 索引数"
 
 #: ../../API_datasets.rst:737 f59ca6eace824b5fb69c32ba549a9e9d
 msgid ""
 "+ ``label``: Label of the specific trial. The label should be one integer"
 " number."
-msgstr ""
+msgstr "+ ``label``: 指定 trial 的标签。标签必须为一个正整数。"
 
 #: ../../API_datasets.rst:739 fc882027848549879cea448cd50f65cb
 msgid ""
 "``label``: Label of the specific trial. The label should be one integer "
 "number."
-msgstr ""
+msgstr "``label``: 指定 trial 的标签。标签必须为一个正整数。"
 
 #: ../../API_datasets.rst:741 1a350e5ea8ee461ba6d073aa9115cefd
 msgid ""
 "According to your requirements, you may re-define existed functions "
 "listed in `Functions of datasets <#functions-of-datasets>`_."
-msgstr ""
+msgstr "根据你的需求，可能需要进一步重定义 \"数据集方法\" 中的方法。"
+
+#~ msgid ""
+#~ "Additional details about the channel and"
+#~ " condition information can be found "
+#~ "in the following supplementary information."
+#~ msgstr ""
 

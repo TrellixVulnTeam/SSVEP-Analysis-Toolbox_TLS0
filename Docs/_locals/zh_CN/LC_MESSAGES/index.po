@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../index.rst:7 79e13d5785814539bcc59dcee66468fb
 msgid "SSVEP Analysis Toolbox"
-msgstr ""
+msgstr "SSVEP 分析工具箱"
 
 #: ../../index.rst:9 1b7d0c8e9ea043d6a2cca20660daeb39
 msgid ""
@@ -29,35 +29,35 @@ msgid ""
 "be familier with SSVEP signals and related recognition algorithms "
 "quickly, and focus on improving algorithms with shortest preparation "
 "time."
-msgstr ""
+msgstr "这是一个 SSVEP 数据集与识别算法的 python 包。这个工具箱的目的是让用户更快地熟悉 SSVEP 信号与对应的识别算法，并让用户以更少的时间准备从而更聚焦于提升算法。"
 
 #: ../../index.rst:12 cbe3edd4b6bf4f61a75388beb960ce3a
 msgid "Contents"
-msgstr ""
+msgstr "内容"
 
 #: ../../index.rst:26 80188855dc9b4da58a11bb764fd81ba5
 msgid "Features"
-msgstr ""
+msgstr "特点"
 
 #: ../../index.rst:28 a2397d99cb56426f9fce6889220a0551
 msgid "Unify formats of SSVEP datasets"
-msgstr ""
+msgstr "统一 SSVEP 数据集的格式"
 
 #: ../../index.rst:29 02d44d8966b74257a45c6f3ec5dfb1a8
 msgid "Provide a standard processing procedure for faire performance comparisons"
-msgstr ""
+msgstr "提供一个标准的处理流程从而实现公平的性能比较"
 
 #: ../../index.rst:30 1832fad59bec46f681c1346077ce9f12
 msgid "Python implementations of SSVEP recognition algorithms"
-msgstr ""
+msgstr "SSVEP 识别算法的 Python 实现"
 
 #: ../../index.rst:33 d0aa382c7fa64ca198e9cb374674de91
 msgid "Datasets and Algorithms"
-msgstr ""
+msgstr "数据集与识别算法"
 
 #: ../../index.rst:35 5317b207713c44928e77e7d4f57dc064
 msgid "Datasets"
-msgstr ""
+msgstr "数据集"
 
 #: ../../index.rst:37 65eeaa483fed4abcb4c4e73e3c5b5d0a
 msgid "**Benchmark** dataset:"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../index.rst:66 02c69042c50e46a890df8b396860eef2
 msgid "Algorithms"
-msgstr ""
+msgstr "识别算法"
 
 #: ../../index.rst:68 a3794aee287b469c9447e300057503fc
 msgid ""
