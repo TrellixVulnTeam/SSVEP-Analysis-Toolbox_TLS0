@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ze Wang
+# This file is distributed under the same license as the SSVEP Analysis
+# Toolbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SSVEP Analysis Toolbox \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../JoinUs.rst:2 ebb66f8513be4f3cbdc55cf8f0e91467
+msgid "Join Us"
+msgstr ""
+
+#: ../../JoinUs.rst:4 ed297b61d8b74ae69561f043ce2f70ea
+msgid "This project really needs **YOU** !!"
+msgstr ""
+
+#: ../../JoinUs.rst:7 5eff142aed8246ba9e7642b16f3f70e3
+msgid "How to join this project"
+msgstr ""
+
+#: ../../JoinUs.rst:9 07a257b3057245a59dea99ce562af1d1
+msgid ""
+"You can join this project from the following ways. No matter which way "
+"you join this work, we greatly appreciate all your help. Thank you very "
+"much !!"
+msgstr ""
+
+#: ../../JoinUs.rst:11 458489a5c6364308a61097285bf16108
+msgid ""
+"Try this this toolbox. You can follow the procedures in :ref"
+":`installation-page` to install this toolbox. If you think this toolbox "
+"is useful, you may introduce our work to your friends. If you find bugs, "
+"you can report your issues in `\"Issues\" <https://github.com/pikipity"
+"/SSVEP-Analysis-Toolbox/issues>`_."
+msgstr ""
+
+#: ../../JoinUs.rst:12 86036f749af04210a97d63d9866bbc6c
+msgid ""
+"Contribute to this toolbox. You can help us implement existing datasets "
+"or existing algorithms. You also can provide your own datasets or "
+"proposed algorithms to this toolbox. All your contributions will be "
+"displayed in :ref:`contributors-page`. You can follow the below steps to "
+"contribute to this toolbox."
+msgstr ""
+
+#: ../../JoinUs.rst:16 43b12c6111d34d9581ae0148b63b349b
+msgid ""
+"Because we are also working on this toolbox, what you want to implement "
+"may be already finished but has not been published. To avoid the "
+"duplicate work, you may check the following work plan and contact us by "
+"Email (pikiptyw@gmail.com) before you want to add existing datasets or "
+"existing algorithms."
+msgstr ""
+
+#: ../../JoinUs.rst:18 a18e0cec3f7643c79e0d6d32296c4f05
+msgid ""
+"Fork this `this repository <https://github.com/pikipity/SSVEP-Analysis-"
+"Toolbox.git>`_ from the Github. You may read `\"Forking a repository\" "
+"<https://docs.github.com/en/get-"
+"started/quickstart/fork-a-repo#forking-a-repository>`_ to learn how to do"
+" it. Simply speaking, you just need to click the \"Fork\" button in the "
+"repository page."
+msgstr ""
+
+#: ../../JoinUs.rst:19 8272c10599784c06938be77d15722a91
+msgid ""
+"After you fork this repository, you can edit it. You may face the "
+"following problems:"
+msgstr ""
+
+#: ../../JoinUs.rst:21 6452e05b280c4df7bc7051cee11e7304
+msgid ""
+"How to set up the python development enviroment? You may follow the below"
+" procedures:"
+msgstr ""
+
+#: ../../JoinUs.rst:23 5bef08400b934d2c88cb0141f2909a43
+msgid ""
+"Install the `vscode <https://code.visualstudio.com/download>`_. In "
+"vscode, you may want to install the useful extension ``Python``."
+msgstr ""
+
+#: ../../JoinUs.rst:24 9ce94af658f249fb83ad2ea51e6097bd
+msgid ""
+"Install the `Anaconde <https://www.anaconda.com/>`_. You can go to the "
+"`Conda User Guide <https://docs.conda.io/projects/conda/en/latest/user-"
+"guide/index.html>`_ to learn how to use the conda."
+msgstr ""
+
+#: ../../JoinUs.rst:25 6de94d82ada845e090138c00d639048f
+msgid ""
+"Install the required packages. Go to the repository dictionary. In your "
+"terminal, use ``conda env create -f environment.yml`` to create a new "
+"virtual enviroment called ``ssvep_analysis_toolbox``. All packages will "
+"be automatically installed."
+msgstr ""
+
+#: ../../JoinUs.rst:26 1a63e421448243b384e8cba53f53a193
+msgid ""
+"In your terminal, you can use ``conda activate ssvep_analysis_toolbox`` "
+"to enable this virtual enviroment."
+msgstr ""
+
+#: ../../JoinUs.rst:28 8a046d31d2de456899c73b8f98cf16a4
+msgid ""
+"How to implement a dataset? Please follow :ref:`define-own-dataset` and "
+"ref the existing codes to implement your dataset."
+msgstr ""
+
+#: ../../JoinUs.rst:29 a999277b2c554e59bcf9d0b03ecf8135
+msgid ""
+"How to implement a method? Please follow :ref:`common-functions-in-"
+"methods` and ref the existing codes to implement the required functions."
+msgstr ""
+
+#: ../../JoinUs.rst:31 9df0ba9e250c4a70b7f8d1f20f91b767
+msgid ""
+"After you finish your work. You can create a pull request to our ``dev`` "
+"branch (you may read `\"Create a pull request\" "
+"<https://docs.github.com/en/pull-requests/collaborating-with-pull-"
+"requests/proposing-changes-to-your-work-with-pull-requests/creating-a"
+"-pull-request>`_ to learn how to create a pull request). If we think your"
+" codes are satisfied, we will merge your codes to the ``main`` branch."
+msgstr ""
+
+#: ../../JoinUs.rst:34 035f94cad9bf45759bb188fb15914862
+msgid "Work Plan"
+msgstr ""
+

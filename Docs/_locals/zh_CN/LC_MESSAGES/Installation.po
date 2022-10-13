@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ze Wang
+# This file is distributed under the same license as the SSVEP Analysis
+# Toolbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SSVEP Analysis Toolbox \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../Installation.rst:4 06a20401ca8c4b0f9453c89947e07279
+msgid "Installation"
+msgstr ""
+
+#: ../../Installation.rst:6 02650ba0fd524528960e7a5d1d48576c
+msgid ""
+"Donwload or clone `this repository <https://github.com/pikipity/SSVEP-"
+"Analysis-Toolbox.git>`_."
+msgstr ""
+
+#: ../../Installation.rst:8 c4791bda99594dbeb4d2494d6c616d7a
+msgid "``git clone https://github.com/pikipity/SSVEP-Analysis-Toolbox.git``"
+msgstr ""
+
+#: ../../Installation.rst:10 c94ac401ba3740529cb0af5d4c12e9f5
+msgid ""
+"Install required packages. You can find all required packages in "
+":file:`environment.yml`. If you use `conda "
+"<https://docs.conda.io/projects/conda/en/latest/user-"
+"guide/install/index.html>`_ or `Anaconda <https://www.anaconda.com/>`_, "
+"you can create a new virtual environment using :file:`environment.yml`."
+msgstr ""
+
+#: ../../Installation.rst:12 5ad7dbeb9d1845b98ac9667462e9290c
+msgid "``conda env create -f environment.yml``"
+msgstr ""
+
+#: ../../Installation.rst:14 7874aa0ac13c4e56901b63d114f0ad61
+msgid ""
+"Now, you can use this toolbox. You may try demo codes first. If you use "
+"``conda`` or ``anaconda``, do not forget to enter your virtual "
+"environment."
+msgstr ""
+

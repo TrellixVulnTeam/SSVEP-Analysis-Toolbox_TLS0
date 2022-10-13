@@ -46,7 +46,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '_locals']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -78,3 +78,9 @@ master_doc = 'index'
 # Display todos by setting to True
 todo_include_todos = True
 
+
+# multi-language docs
+language = 'en'
+locale_dirs = ['./_locals/']   # path is example but recommended.
+gettext_compact = False  # optional.
+gettext_uuid = True  # optional.

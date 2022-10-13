@@ -1,0 +1,588 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ze Wang
+# This file is distributed under the same license as the SSVEP Analysis
+# Toolbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SSVEP Analysis Toolbox \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../API_util.rst:5 0dd9a7bb9871421dbc25732ccc5ceef8
+msgid "Utility Functions"
+msgstr ""
+
+#: ../../API_util.rst:8 5c2549f4116b4084881fbed4a4ce8922
+msgid "Download functions"
+msgstr ""
+
+#: ../../API_util.rst:12 0da574f22b5043b8a2f216e8a36476e4
+msgid "Download one file."
+msgstr ""
+
+#: ../../API_util.rst 0ba06f255bf54eca8047cffec78e4875
+#: 0e1d82ccf64d47dc82f1e0313613a4ca 33d30c639d3a4c0a89f866787fcbe187
+#: 40944c7b87ea49239db8c58cb20c890d 5d600105caf8431b9e6df7c0cdab197c
+#: 6fde847fc82342169805a1c494944ea7 742a796e6da244938cf703c14da302dc
+#: 86c02b9f30b941269a107cd9a4680c0e b4c10eda28784ebda97d556f77aae48c
+#: c26c511453b5405c93cbb91ce3cc5028 d013444bd8634fdbb623eef5433e8e4a
+#: d17346bba6d74c1f9d2df891baf43224 d271bd88734e4b6091191e48f047f69c
+#: dcb7832baddc4551beab5fa648b6092c f81f6452dfb640a78eab9f368e6b91ab
+msgid "Parameters"
+msgstr ""
+
+#: ../../API_util.rst:14 95c6e7aedf564ec0bd93b799f9ff563d
+msgid "Source URL."
+msgstr ""
+
+#: ../../API_util.rst:16 fa587b9860db4025bf1e8b3228b38d78
+msgid ""
+"Local path for storing the downloaded file. The path should be an "
+"absolute path with the file name."
+msgstr ""
+
+#: ../../API_util.rst:18 d8dda66c516e4c95a2369785e2dddf9c
+msgid ""
+"Hash code of the downloaded file. Set ``None`` if the hash code is "
+"unknown."
+msgstr ""
+
+#: ../../API_util.rst:21 c09638cde16440f09b4e46936c300dd5
+msgid "IO functions"
+msgstr ""
+
+#: ../../API_util.rst:25 98b6bd0771a34210b66598f7accd65f4
+msgid "Save a dictionary data."
+msgstr ""
+
+#: ../../API_util.rst:27 55706e8ccc3a468f88698f4c372f3647
+msgid "Path of saving file including the absolute path and file name."
+msgstr ""
+
+#: ../../API_util.rst:29 30b4efe9683e47b3960fb12ccf25555b
+msgid "Dictionary data that will be saved."
+msgstr ""
+
+#: ../../API_util.rst aa765b631fef4a17bd74736d3aa0042c
+msgid "save_type"
+msgstr ""
+
+#: ../../API_util.rst:31 2831930051fc475e9132744c2376638e
+msgid "There are two options of the saving data type:"
+msgstr ""
+
+#: ../../API_util.rst:33 49f949b8cf5d49b8a3f11c93f16ce4b5
+msgid ""
+"``'mat'``: Save data as a matlab ``.mat`` file. The varaible names are "
+"the key values of the dictionary. The variable values are the values of "
+"the dictionary. If use this option, this function will work like "
+"`\"scipy.io.savemat\" "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.savemat.html>`_."
+" If the data cannot be saved as ``.mat`` file, the data will be saved as "
+"numpy ``.npy`` binary file."
+msgstr ""
+
+#: ../../API_util.rst:35 c024d6fc4cf44c45bca6eb74ec14b00c
+msgid ""
+"``'np'``: Save data as a numpy ``.npy`` binary file. If use this option, "
+"this function will work like `\"numpy.save\" "
+"<https://numpy.org/doc/stable/reference/generated/numpy.save.html>`_. If "
+"the data cannot be saved as numpy ``.npy`` binary file, the data will be "
+"saved as pickle ``.pkl`` binary file."
+msgstr ""
+
+#: ../../API_util.rst:39 749e1d1f85374c9ca1c2c4bef8c403aa
+msgid "Load a local data file."
+msgstr ""
+
+#: ../../API_util.rst:41 aaca320dc52844ec8dc4cc904093889d
+msgid "Local data path including the absolute path and file name."
+msgstr ""
+
+#: ../../API_util.rst:43 92e5177ce3c64dcda3977f80dc4fb4dd
+msgid ""
+"There are two options of the local data type:  + ``'mat'``: Local data is"
+" a matlab ``.mat`` file. The varaible names are the key values of the "
+"dictionary. The variable values are the values of the dictionary. If use "
+"this option, this function will work like `\"scipy.io.loadmat\" "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html>`_"
+" or `\"mat73.loadmat\" <https://github.com/skjerns/mat7.3>`_.  + "
+"``'np'``: Local data is a numpy ``.npy`` binary file. If use this option,"
+" this function will work like `\"numpy.load\" "
+"<https://numpy.org/doc/stable/reference/generated/numpy.load.html>`_. For"
+" pickle ``.pkl`` binary file, you may directly use `\"pickle.load\" "
+"<https://docs.python.org/3/library/pickle.html#pickle.load>`_ to load the"
+" data."
+msgstr ""
+
+#: ../../API_util.rst:43 b8a08eca1c4743ce8cd7033934dac517
+msgid "There are two options of the local data type:"
+msgstr ""
+
+#: ../../API_util.rst:45 60a5ad8cf23d493eaf3ed185eb780e2b
+msgid ""
+"``'mat'``: Local data is a matlab ``.mat`` file. The varaible names are "
+"the key values of the dictionary. The variable values are the values of "
+"the dictionary. If use this option, this function will work like "
+"`\"scipy.io.loadmat\" "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html>`_"
+" or `\"mat73.loadmat\" <https://github.com/skjerns/mat7.3>`_."
+msgstr ""
+
+#: ../../API_util.rst:47 c228ee0d17a34d74aebf6be353ae98e3
+msgid ""
+"``'np'``: Local data is a numpy ``.npy`` binary file. If use this option,"
+" this function will work like `\"numpy.load\" "
+"<https://numpy.org/doc/stable/reference/generated/numpy.load.html>`_. For"
+" pickle ``.pkl`` binary file, you may directly use `\"pickle.load\" "
+"<https://docs.python.org/3/library/pickle.html#pickle.load>`_ to load the"
+" data."
+msgstr ""
+
+#: ../../API_util.rst 66a1888d3a6640c19f7678a8c2541e6f
+#: 684c1fe4ac6643fd9886ada3aba90ae6 70d076b2473f4b1b8fb387f58a93b280
+#: 8b467c1fa1294c01b0b066dd2bdf56bc 910ec3b3ad614dd2868cbedadc800c6a
+#: c52243b2c11941c9b1f56aa162536cc5 da6624cafbbe405a9660d7c76e6c1742
+#: e3c3a15c80054849910d1676c1f9ef45 edab0b242f694c0a8aface12477c91bc
+#: f838829304bc4c9db5ad999cf4f5c0b5 ffc3cbfa6afb4639a91265ddfd836e92
+msgid "Returns"
+msgstr ""
+
+#: ../../API_util.rst:49 f22deb514ff04e3483fbadc8e1d7c6b0
+msgid "+ ``data``: Loaded dictionary data."
+msgstr ""
+
+#: ../../API_util.rst:51 c038d3a8934745cbaed4ef1e542df176
+msgid "``data``: Loaded dictionary data."
+msgstr ""
+
+#: ../../API_util.rst:56 95fb44b36d6e4d68b48431ca62222391
+msgid "Computation functions"
+msgstr ""
+
+#: ../../API_util.rst:60 cc2aa046abeb498e8363b3fcc78ec967
+msgid ""
+"Generate sine-cosine-based reference signal of one stimulus. This "
+"function is similar as `\"get_ref_sig\" function <#get_ref_sig>`_ in "
+"dataset class. But this function is more flexible, requires more input "
+"parameters, and is only for one stimulus."
+msgstr ""
+
+#: ../../API_util.rst:62 de66248f1e644172937e1a8fadd5c782
+msgid "One stimulus frequency."
+msgstr ""
+
+#: ../../API_util.rst:64 d3787e878b594bd98ddc822628e082da
+msgid "Sampling rate."
+msgstr ""
+
+#: ../../API_util.rst:66 abb648ead2524f08981bd1e79b3f332c
+msgid "Signal length (in samples)."
+msgstr ""
+
+#: ../../API_util.rst:68 1e3471eb0db34b428b27fa08ccbd9f7d
+msgid "Total number of harmonic components."
+msgstr ""
+
+#: ../../API_util.rst:70 45fda7cd31ca4c548ed06f5dde94f49f
+msgid "One stimulus phase."
+msgstr ""
+
+#: ../../API_util.rst:72 91c0dccc373a42eb8be6a2a373d4ae40
+msgid ""
+"+ ``ref_sig``: Reference signals of one stimulus. The dimention is (2N "
+":raw-html:`&#215;` L)."
+msgstr ""
+
+#: ../../API_util.rst:74 cb12a5b76ded47c8adaaf69cb2dee836
+msgid ""
+"``ref_sig``: Reference signals of one stimulus. The dimention is (2N "
+":raw-html:`&#215;` L)."
+msgstr ""
+
+#: ../../API_util.rst:78 f6132e077a3a4ac4a17a78927caff927
+msgid ""
+"Iteratively sum all values in a list. If the input list contains lists, "
+"these contained lists will be summed first."
+msgstr ""
+
+#: ../../API_util.rst:80 b92d25ea08424008ae759589a64382a7
+msgid "List that will be sumed."
+msgstr ""
+
+#: ../../API_util.rst:82 6e1215f1d80f4db3a15e94d6154005ac
+msgid "+ ``sum_X``: Summation result."
+msgstr ""
+
+#: ../../API_util.rst:84 1788a61b442540978d20a1c812ae5fcb
+msgid "``sum_X``: Summation result."
+msgstr ""
+
+#: ../../API_util.rst:88 d34718174fb1439b9da59975297525d9
+msgid ""
+"Iteratively calculate average value of a list. If the input list contains"
+" lists, these contained lists will be averaged first."
+msgstr ""
+
+#: ../../API_util.rst:90 42c5ba3dbf2140db8e52b44ca641a30e
+msgid "List that will be averaged."
+msgstr ""
+
+#: ../../API_util.rst:92 5dce7cdfe19e4bd7803168dcc74a7f70
+msgid "+ ``mean_X``: Average result."
+msgstr ""
+
+#: ../../API_util.rst:94 3587d6f0998b4d9b804b4c335f17cd4d
+msgid "``mean_X``: Average result."
+msgstr ""
+
+#: ../../API_util.rst:98 34bb4cc7e9914958b92dfa33688aa271
+msgid "Sort the given list"
+msgstr ""
+
+#: ../../API_util.rst:100 2fd8b0f823644175add377e7db0f5602
+msgid "List that will be sorted."
+msgstr ""
+
+#: ../../API_util.rst:102 d16e33b0b9664f108414a28a603797f3
+msgid ""
+"+ ``sorted_X``: Sorted ``X``. + ``sort_idx``: List of indices that can "
+"transfer ``X`` to ``sorted_X``. + ``return_idx``: List of indices that "
+"can transfer ``sorted_X`` to ``X``."
+msgstr ""
+
+#: ../../API_util.rst:104 ec091229d2c8409fb6cdd1bfdf7a2f1a
+msgid "``sorted_X``: Sorted ``X``."
+msgstr ""
+
+#: ../../API_util.rst:105 100c00c5e9334cfbb1e4ca0d502e30a8
+msgid "``sort_idx``: List of indices that can transfer ``X`` to ``sorted_X``."
+msgstr ""
+
+#: ../../API_util.rst:106 08a73526053d45439dd0b85f0a791ce7
+msgid "``return_idx``: List of indices that can transfer ``sorted_X`` to ``X``."
+msgstr ""
+
+#: ../../API_util.rst:110 bc6733736a854bfebfff261714167a3f
+msgid ""
+"Generate averaged templates. For each stimulus, EEG signals of all trials"
+" are averaged as the template signals."
+msgstr ""
+
+#: ../../API_util.rst:112 6c39b64e84aa4332ab29110e343d41a7
+msgid ""
+"List of EEG signals. Each element is one single trial EEG signal. The "
+"dimentions of EEG signals should be (filterbanks :raw-html:`&#215;` "
+"channels :raw-html:`&#215;` samples)."
+msgstr ""
+
+#: ../../API_util.rst:114 c6cb0ed1c1cc4a6c9ab0e1b9a69cbbc7
+msgid ""
+"List of labels. Each element is one single trial label. The labels should"
+" be integer numbers."
+msgstr ""
+
+#: ../../API_util.rst:116 0686dc9c32e549f89323206df0168c37
+msgid ""
+"+ ``template_sig``: List of template signals. Each element is one class "
+"template signals. The dimentions of template signals are (filterbanks "
+":raw-html:`&#215;` channels :raw-html:`&#215;` samples)."
+msgstr ""
+
+#: ../../API_util.rst:118 191b23a9247d4afc81f5449d925e1903
+msgid ""
+"``template_sig``: List of template signals. Each element is one class "
+"template signals. The dimentions of template signals are (filterbanks "
+":raw-html:`&#215;` channels :raw-html:`&#215;` samples)."
+msgstr ""
+
+#: ../../API_util.rst:122 b5859cb43e044df78d6d313168b6514a
+msgid ""
+"Calculate canoncial correlation of two matrices following `\"canoncorr\" "
+"in MATLAB <https://www.mathworks.com/help/stats/canoncorr.html>`_."
+msgstr ""
+
+#: ../../API_util.rst:124 4235d5a2b1004b2aacb934ec62eedb2e
+msgid ""
+"First input matrix. The rows correspond to observations, and the columns "
+"correspond to variables."
+msgstr ""
+
+#: ../../API_util.rst:126 d7ba8613f2364d4388e3886878af3e98
+msgid ""
+"Second input matrix. The rows correspond to observations, and the columns"
+" correspond to variables."
+msgstr ""
+
+#: ../../API_util.rst:128 4ef38cf57bd44d5ca5f3b0aa52e81bac
+msgid ""
+"If ``True``, canonical coefficients will be calculated and provided. "
+"Otherwise, only the correlations are computed and provided."
+msgstr ""
+
+#: ../../API_util.rst:130 bb1f30b571ea43ffabddd5f3b1147dba
+msgid ""
+"+ ``A``: Canonical coefficients of ``X``. If ``force_output_UV == True``,"
+" this value will be returned. + ``B``: Canonical coefficients of ``Y``. "
+"If ``force_output_UV == True``, this value will be returned. + ``r``: "
+"Canonical correlations."
+msgstr ""
+
+#: ../../API_util.rst:131 acae006f82cb4e6f8da2947a22555fa9
+msgid ""
+"``A``: Canonical coefficients of ``X``. If ``force_output_UV == True``, "
+"this value will be returned."
+msgstr ""
+
+#: ../../API_util.rst:132 c0864111c1904963bab171d5a4b5f6d5
+msgid ""
+"``B``: Canonical coefficients of ``Y``. If ``force_output_UV == True``, "
+"this value will be returned."
+msgstr ""
+
+#: ../../API_util.rst:133 a51b37eb966241cfb7c2b7ddd8818fcb
+msgid "``r``: Canonical correlations."
+msgstr ""
+
+#: ../../API_util.rst:137 b60f5a5a7be5404c9ac7e04a178f9a51
+msgid "Inverse QR decomposition."
+msgstr ""
+
+#: ../../API_util.rst:139 28208022a135441d9ddb06b5bcea6bad
+msgid "Orthogonal factor obtained from the QR decomposition."
+msgstr ""
+
+#: ../../API_util.rst:141 41bd97bccada45eaaa539e8bd67d6544
+msgid "Upper-triangular factor obtained from the QR decomposition."
+msgstr ""
+
+#: ../../API_util.rst:143 20777bfc30994306b8d14f05f6b470fe
+msgid "Permutation information obtained from the QR decomposition."
+msgstr ""
+
+#: ../../API_util.rst:145 3b7f0819fe614c099005627a836cf5bf
+msgid ""
+"+ ``X``: Results of the inverse QR decomposition. "
+":math:`\\mathbf{X}=\\mathbf{Q}\\times\\mathbf{R}`. The column order of "
+"``X`` has been adjusted according to ``P``."
+msgstr ""
+
+#: ../../API_util.rst:147 9ccc4e735b334452be60cd70e1f428e7
+msgid ""
+"``X``: Results of the inverse QR decomposition. "
+":math:`\\mathbf{X}=\\mathbf{Q}\\times\\mathbf{R}`. The column order of "
+"``X`` has been adjusted according to ``P``."
+msgstr ""
+
+#: ../../API_util.rst:151 40169d870c544f80b3031e658729498b
+msgid ""
+"In `\"qr_inverse\" function "
+"<#SSVEPAnalysisToolbox.algorithms.utils.qr_inverse>`_, the inputs ``Q``, "
+"``R`` and ``P`` can be 2D or 3D. If the dimension is 2D, it is the "
+"conventional inverse QR decomposition. If the dimension is 3D, the "
+"conventional inverse QR decomposition will be applied along the first "
+"dimension."
+msgstr ""
+
+#: ../../API_util.rst:155 2d41d06ae72b4e6eb97bb07ca5f76570
+msgid ""
+"QR decomposition. Before the QR decomposition, the column means are "
+"firstly removed from the input matrix."
+msgstr ""
+
+#: ../../API_util.rst:157 3b2104ebbee6463497d956f16f0341aa
+msgid "Input matrix."
+msgstr ""
+
+#: ../../API_util.rst:159 f8c2e4503d8e48ceb96b764857819d03
+msgid ""
+"+ ``Q``: Orthogonal factor. + ``R``: Upper-triangular factor. + ``P``: "
+"Permutation information."
+msgstr ""
+
+#: ../../API_util.rst:161 df6398df1a334f8d957ca906e5c020cb
+msgid "``Q``: Orthogonal factor."
+msgstr ""
+
+#: ../../API_util.rst:162 bb0196cca5d0471794e4ac4493e607c1
+msgid "``R``: Upper-triangular factor."
+msgstr ""
+
+#: ../../API_util.rst:163 4bf79112ddcc4726a946e435edba7ed7
+msgid "``P``: Permutation information."
+msgstr ""
+
+#: ../../API_util.rst:167 4ccecc8dec52401c98bf971049ae2836
+msgid ""
+"Apply `\"qr_remove_mean\" function "
+"<#SSVEPAnalysisToolbox.algorithms.utils.qr_remove_mean>`_ to each element"
+" in the given list."
+msgstr ""
+
+#: ../../API_util.rst:169 ebf4a2ca5c4e4f3ab5693ccef42ac88f
+msgid "List of input matrices for the QR decomposition."
+msgstr ""
+
+#: ../../API_util.rst:171 371b4e6b5bf34216be1be98d6d9d7fbb
+msgid ""
+"+ ``Q``: List of orthogonal factors. + ``R``: List of upper-triangular "
+"factors. + ``P``: List of permutation information."
+msgstr ""
+
+#: ../../API_util.rst:173 2204bf21ae3d45709f31cfcd7bf4498c
+msgid "``Q``: List of orthogonal factors."
+msgstr ""
+
+#: ../../API_util.rst:174 037de9b1ea7c40f9b5389a273111fc5c
+msgid "``R``: List of upper-triangular factors."
+msgstr ""
+
+#: ../../API_util.rst:175 a9766393be4047de908733eb6ff55da6
+msgid "``P``: List of permutation information."
+msgstr ""
+
+#: ../../API_util.rst:179 4791d138843e4a5db084a62329115616
+msgid ""
+"In `\"qr_list\" function "
+"<#SSVEPAnalysisToolbox.algorithms.utils.qr_list>`_, elements of the input"
+" list can be 2D or 3D. If 2D, `\"qr_remove_mean\" function "
+"<#SSVEPAnalysisToolbox.algorithms.utils.qr_remove_mean>`_ is directly "
+"applied to each element. If 3D, `\"qr_remove_mean\" function "
+"<#SSVEPAnalysisToolbox.algorithms.utils.qr_remove_mean>`_ is applied to "
+"each element along the first dimension."
+msgstr ""
+
+#: ../../API_util.rst:183 07eaf2ba80924b1e8bde0e99348418dd
+msgid ""
+"Calculate A\\\\B. The minimum norm least-squares solution of solving "
+":math:`\\mathbf{A}\\times \\mathbf{x} = \\mathbf{B}` for "
+":math:`\\mathbf{x}`."
+msgstr ""
+
+#: ../../API_util.rst:185 406c9b229c6d48b691b9cd5a1690758a
+msgid "First input matrix."
+msgstr ""
+
+#: ../../API_util.rst:187 9f203eeb3acb4c1ab0b5672ec86eb2fd
+msgid "Second input matrix."
+msgstr ""
+
+#: ../../API_util.rst:189 cd058f382b2344d988a187a42da1fb53
+msgid ""
+"+ ``x``: Minimum norm least-squares solution. :math:`\\mathbf{x} = "
+"\\mathbf{A}^{-1}\\times\\mathbf{B}`. The inverse of the matrix ``A`` is "
+"performed by the `pseudo-inverse "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.pinv.html>`_."
+msgstr ""
+
+#: ../../API_util.rst:191 068a8ac52f2e415091a0fd5a1f636d1d
+msgid ""
+"``x``: Minimum norm least-squares solution. :math:`\\mathbf{x} = "
+"\\mathbf{A}^{-1}\\times\\mathbf{B}`. The inverse of the matrix ``A`` is "
+"performed by the `pseudo-inverse "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.pinv.html>`_."
+msgstr ""
+
+#: ../../API_util.rst:196 a595a1d6e7cf4427b8c302b04e410d30
+msgid "Benchmark and BETA datasets related functions"
+msgstr ""
+
+#: ../../API_util.rst:198 ae7b1e82e44a407e8902568e0b94c01e
+msgid ""
+"These functions are related to suggested filterbanks, channels, "
+"preprocessing function, and weights of filterbanks for the benchmark and "
+"BETA datasets. They also can be regarded as demos of preparing your own "
+"related functions. Values are refered to the following two papers:"
+msgstr ""
+
+#: ../../API_util.rst:200 cd373ed8b6c04a2bbb33bd3648946b8c
+msgid ""
+"Wang, X. Chen, X. Gao, and S. Gao, \"A benchmark dataset for SSVEP-based "
+"braincomputer interfaces,\" *IEEE Trans. Neural Syst. Rehabil. Eng.*, "
+"vol. 25, no. 10, pp. 1746-1752, 2017. DOI: `10.1109/TNSRE.2016.2627556 "
+"<https://doi.org/10.1109/TNSRE.2016.2627556>`_."
+msgstr ""
+
+#: ../../API_util.rst:201 71838a3c1a144913867857e6fcd3bde1
+msgid ""
+"Liu, X. Huang, Y. Wang, X. Chen, and X. Gao, \"BETA: A large benchmark "
+"database toward SSVEP-BCI application,\" *Front. Neurosci.*, vol. 14, p. "
+"627, 2020. DOI: `10.3389/fnins.2020.00627 "
+"<https://doi.org/10.3389/fnins.2020.00627>`_."
+msgstr ""
+
+#: ../../API_util.rst:205 b2d98866ecc94202abee3fa56a06c374
+msgid ""
+"Suggested filterbank function. It contains five filterbanks. Each "
+"filterbank is a `Chebyshev type I bandpass filter "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.cheby1.html>`_"
+" where ``N`` and ``Wn`` are generated by `\"cheb1ord\" "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.cheb1ord.html#scipy.signal.cheb1ord>`_"
+" with ``gpass=3`` and ``gstop=40``, and ``rp=0.5``. The passband of the "
+":math:`i\\text{-th}` filterbank is from :math:`8i` Hz to :math:`90` Hz. "
+"The stopband of the :math:`i\\text{-th}` filterbank is from "
+":math:`(8i-2)` Hz to :math:`100` Hz."
+msgstr ""
+
+#: ../../API_util.rst:207 ../../API_util.rst:227
+#: 52be2a3db707483fa810a3db5a74f428 a805f3fc776f47c8acb68e20d8af3d1d
+msgid "Data instance."
+msgstr ""
+
+#: ../../API_util.rst:209 8c1ee65d76e64ecd9708eafd38e36048
+msgid ""
+"EEG signal following `\"regist_filterbank\" function "
+"<#regist_filterbank>`_."
+msgstr ""
+
+#: ../../API_util.rst:213 0553c76f3acc40faa383cf959fc26d1d
+msgid ""
+"You can hook this filterbank function by "
+"``dataset.regist_filterbank(filterbank)``."
+msgstr ""
+
+#: ../../API_util.rst:217 b63d0e9644b94bd6915bdb4e40bd3424
+msgid ""
+"Generate suggested weights of filterbanks. The weight of "
+":math:`i\\text{-th}` filterbank is :math:`(i^{-1.25}+0.25)`."
+msgstr ""
+
+#: ../../API_util.rst:221 ab8e7f4b23fc4ea6b4e6355041382d59
+msgid "Generate a list of suggested channel indices."
+msgstr ""
+
+#: ../../API_util.rst:225 7cb2068dbe854abe9361c03608b1190e
+msgid ""
+"Suggested preprocess function. Only one notch filter at 50 Hz is applied."
+" This filter is a `IIR notching digital comb filter "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.iircomb.html>`_"
+" where ``w0`` is 50, ``Q`` is 35, ``fs`` is the input parameter "
+"``srate``."
+msgstr ""
+
+#: ../../API_util.rst:229 8c803369933e4590ab9b3c101de1a50f
+msgid ""
+"EEG signal following `\"regist_preprocess\" function "
+"<#regist_preprocess>`_."
+msgstr ""
+
+#: ../../API_util.rst:231 38250af2614c45d88aa9fcae46ebfbd6
+msgid "Sampling frequency."
+msgstr ""
+
+#: ../../API_util.rst:235 d4aac4ad7f9347c4990c91c82b47105f
+msgid ""
+"You can hook this filterbank function by "
+"``dataset.regist_preprocess(preprocess)``."
+msgstr ""
+

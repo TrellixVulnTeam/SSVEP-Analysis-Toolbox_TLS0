@@ -1,0 +1,1179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ze Wang
+# This file is distributed under the same license as the SSVEP Analysis
+# Toolbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SSVEP Analysis Toolbox \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../API_methods.rst:5 492601348abf439798ccebe8dba13acc
+msgid "Recognition algorithms"
+msgstr ""
+
+#: ../../API_methods.rst:10 9ff805ed072f4bba9a48b21f6b4628ca
+msgid "Common methods for all models"
+msgstr ""
+
+#: ../../API_methods.rst:12 28495be933ae43b2a863a10b71fc5fc4
+msgid ""
+"All following recognition models have these methods. The inputs and "
+"outputs are same so they will not be repeatedly introduced in following "
+"sections."
+msgstr ""
+
+#: ../../API_methods.rst:14 2e23e34281a94e00bedf8231d0e3a1b3
+msgid ""
+"When you define your own algorithm class, You may use the ``BaseModel`` "
+"as the father class and re-define the ``__init__`` method and the "
+"following methods."
+msgstr ""
+
+#: ../../API_methods.rst:18 af01ee5a3e564309a7c1b1d65f8dd96d
+msgid "Copy the recognition model."
+msgstr ""
+
+#: ../../API_methods.rst 230ae4ab18e7412994abad7816822541
+#: 5a3ba42a396e4013b8785ed96bf1f06a
+msgid "Returns"
+msgstr ""
+
+#: ../../API_methods.rst:20 b855e7b9f21b4446acd92c15b365849e
+msgid "+ ``model``: The returned new model is same as the original one."
+msgstr ""
+
+#: ../../API_methods.rst:22 cd58d4fd9b30455ba5e6bbd693a02514
+msgid "``model``: The returned new model is same as the original one."
+msgstr ""
+
+#: ../../API_methods.rst:26 e54cf6902cbc4efab67c8032270cad33
+msgid ""
+"Train the recognition model. The trained model parameters will be stored "
+"in the class parameter ``model``. Different methods may require different"
+" input parameters. You may follow the below parameter names to define "
+"your own fit function."
+msgstr ""
+
+#: ../../API_methods.rst 02aad179463e420bb3a70b4977f5006c
+#: 10fa4b12a02043a9874caacbcf13bdf7 24623e97970942fdadbceb22928b92bb
+#: 331aed6efa9e468280c442c16081f5b9 428dc204bcd840da9cb2056a971feb88
+#: 54483837cad947e8be32b7e83f4b4515 5762f4813ec5432a8a0124c07afa5743
+#: 79d347def91c47be9df660cfa5b42e19 858f856f30434b90b12f7718fb790bb9
+#: 8b864c35cf7c49acaf816eb427c14fc8 8c4568ea4f98458f86c9c4ae60bcb7d1
+#: 9b27626d10a245d2b4dee397a9c8a7a0 a55b034dffc749edbe39e9dcc6e9b796
+#: b592a0cca9664d8e877c4a86cf554c24 bdd6a10932f44e8aaee9244d00e94bfd
+#: cbe7d8e73f3749ca93edd55af14f18e0 d38f51530ae24937a17b67559e96b83d
+#: d98cad115e024b9f90f7a8985ac062bc f154dd855a4747518686fd56335b8441
+msgid "Parameters"
+msgstr ""
+
+#: ../../API_methods.rst:28 d4b7aebb5bb44a2b95e86041580002ad
+msgid ""
+"List of training EEG signals. Each element is one 3D single trial EEG "
+"signal (filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` "
+"samples)."
+msgstr ""
+
+#: ../../API_methods.rst:30 b8507c48c7044f2b974439ce6279889a
+msgid ""
+"List of training labels. Each element is one single trial label that is "
+"an integer number."
+msgstr ""
+
+#: ../../API_methods.rst:32 6ad8bc92f1e7448381152a776397de27
+msgid ""
+"List of reference signals. Each element is the reference signal of one "
+"stimulus."
+msgstr ""
+
+#: ../../API_methods.rst:34 16e0b4807d044faab901f6116e4875ec
+msgid "List of stimulus frequencies."
+msgstr ""
+
+#: ../../API_methods.rst:38 5640f73051a54ff3a46ce8c64cabd71b
+msgid "Recognize the testing signals."
+msgstr ""
+
+#: ../../API_methods.rst:40 2569d0f39d4944a28e26c5112afc607f
+msgid ""
+"List of testing EEG signals. Each element is one 3D single trial EEG "
+"signal (filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` "
+"samples)."
+msgstr ""
+
+#: ../../API_methods.rst:42 73013a98d84446a1ae022a929fddd9ed
+msgid ""
+"+ ``Y_pred``: List of predicted labels for testing signals. Each element "
+"is one single trial label that is an integer number."
+msgstr ""
+
+#: ../../API_methods.rst:44 8dd0e6cb62b74cca9481a90b832647ce
+msgid ""
+"``Y_pred``: List of predicted labels for testing signals. Each element is"
+" one single trial label that is an integer number."
+msgstr ""
+
+#: ../../API_methods.rst:47 814fd112bc8c4f519789cca50ed89067
+msgid "Standard CCA and filterbank CCA"
+msgstr ""
+
+#: ../../API_methods.rst:49 d497e73e6c6340cfb6519e9da4e1e64e
+msgid "Related papers:"
+msgstr ""
+
+#: ../../API_methods.rst:51 6ac87435278a43b5bea3ff3979d0653c
+msgid ""
+"Standard CCA: Z. Lin et al., “Frequency recognition based on canonical "
+"correlation analysis for SSVEP-based BCIs,” IEEE Trans. Biomed. Eng., "
+"vol. 53, no. 12, pp. 2610-2614, 2006. DOI: `10.1109/TBME.2006.886577 "
+"<https://doi.org/10.1109/TBME.2006.886577>`_."
+msgstr ""
+
+#: ../../API_methods.rst:52 ebb2c7c5252b42b69911c3b17a225055
+msgid ""
+"Filterbank CCA: X. Chen et al., “Filter bank canonical correlation "
+"analysis for implementing a high-speed SSVEP-based brain-computer "
+"interface,” J. Neural Eng., vol. 12, no. 4, p. 046008, 2015. DOI: "
+"`10.1088/1741-2560/12/4/046008 "
+"<https://doi.org/10.1088/1741-2560/12/4/046008>`_."
+msgstr ""
+
+#: ../../API_methods.rst:54 43788ce422a34cda91f440691bebe640
+msgid ""
+"In this toolbox, the standard CCA (sCCA) are regarded as a special case "
+"of the filterbank CCA (FBCCA) that only have one filterbank. Spatial "
+"filters are found to maximize the similarity between the EEG signals and "
+"the sine-cosine-based reference signals, which can be presented as"
+msgstr ""
+
+#: ../../API_methods.rst:56 e5eea43d50824f348187c5290f1b9e85
+msgid ""
+"\\mathbf{U}_i, \\mathbf{V}_i = "
+"\\arg\\max_{\\mathbf{u},\\mathbf{v}}\\frac{\\mathbf{u}^T\\mathbf{X}\\mathbf{Y}_i^T\\mathbf{v}}{\\sqrt{\\mathbf{u}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{u}\\mathbf{v}^T\\mathbf{Y}_i\\mathbf{Y}_i^T\\mathbf{v}}}"
+msgstr ""
+
+#: ../../API_methods.rst:60 e4f2ebd40ac648adb0b404d86dd6110d
+msgid ""
+"where :math:`\\mathbf{X}` denotes the testing multi-channel EEG signal, "
+":math:`\\mathbf{Y}_i` denotes the sine-cosine-based reference signal of "
+"the :math:`i\\text{-th}` stimulus, :math:`\\mathbf{U}_i` is the spatial "
+"filter of the :math:`i\\text{-th}` stimulus, and :math:`\\mathbf{V}_i` is"
+" the harmonic weights of the reference signal for the "
+":math:`i\\text{-th}` stimulus."
+msgstr ""
+
+#: ../../API_methods.rst:62 07ce4e090aab4204a68e83bdaddcba82
+msgid "The stimulus with the highest similarity is regarded as the target:"
+msgstr ""
+
+#: ../../API_methods.rst:64 005529ebacc343eeac2f606f710cceef
+msgid ""
+"\\arg\\max_{i\\in\\left\\{1,2,\\cdots,I\\right\\}}\\left\\{ "
+"\\frac{\\mathbf{U}_i^T\\mathbf{X}\\mathbf{Y}_i^T\\mathbf{V}_i}{\\sqrt{\\mathbf{U}_i^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_i\\mathbf{V}_i^T\\mathbf{Y}_i\\mathbf{Y}_i^T\\mathbf{V}_i}}"
+" \\right\\}"
+msgstr ""
+
+#: ../../API_methods.rst:68 a2c1634d0be1443793d3a21bc6c47029
+msgid "where :math:`I` denotes the total number of stimuli."
+msgstr ""
+
+#: ../../API_methods.rst:72 d51ed88d88c545d2a2f93cdaf2ff0b7d
+msgid "FBCCA implemented directly following above equations."
+msgstr ""
+
+#: ../../API_methods.rst:74 ../../API_methods.rst:88 ../../API_methods.rst:161
+#: ../../API_methods.rst:175 ../../API_methods.rst:220
+#: ../../API_methods.rst:361 ../../API_methods.rst:396
+#: ../../API_methods.rst:464 ../../API_methods.rst:586
+#: 00de6c83c59e4a8188177524909c8def 065cb8d69784467381c51b096a0d7324
+#: 3a889d151937441284ff6e13d3f40ee0 4569e8a8331f474d8b166fad4d570802
+#: 458ef4ccbfde4cff9e7a8b48b31cc12a a92d295f5f2f48ec8fcf42734df4f1d2
+#: c71353ed631447ecbc227ed9e9c345b2 f5f4763cc97b46068ff589466a2cfa44
+#: f69f096ceb214afa9b6376dbfe5caa78
+msgid ""
+"Number of components of eigen vectors that will be applied as the spatial"
+" filters. The default number is ``1``, which means the eigen vector with "
+"the highest eigen value is regarded as the spatial filter."
+msgstr ""
+
+#: ../../API_methods.rst:76 ../../API_methods.rst:90 ../../API_methods.rst:163
+#: ../../API_methods.rst:177 ../../API_methods.rst:222
+#: ../../API_methods.rst:281 ../../API_methods.rst:332
+#: ../../API_methods.rst:363 ../../API_methods.rst:373
+#: ../../API_methods.rst:398 ../../API_methods.rst:408
+#: ../../API_methods.rst:466 ../../API_methods.rst:476
+#: ../../API_methods.rst:501 ../../API_methods.rst:519
+#: ../../API_methods.rst:588 ../../API_methods.rst:631
+#: 0446fd3435854372aad0bae1959cfb7c 0e50943916294e62912058dce5fb3392
+#: 25f12214f83943bc863801b4278eae19 282e8ce7ea324507b5f641c9f0e07882
+#: 4cd00c14cd6f4bb29e2828a984c13dfc 544f464a778348e3a313aafc0b5b94b3
+#: 5dca1998b5504ff2b132a2f99b6bb04e 65d6a54d320d49af88ce903c20c3df59
+#: 7262d09a63c84a5c80173fe70019c2c6 7c5a5a28f6874e2392892350c13ad4ee
+#: 83087a9b974f40bea02985694ef8aeaa cc82556c87704526a29f2e59a6a04aff
+#: cf752ee75b1d465287e1a89b336f97dd d88ac5dc075545e49d007f057abe21a2
+#: da062880e50441a889c17df6127cbd9a dec8c294ff8b433d88053b747570bb16
+#: ef1c87c214a94820b6df475f6051f8b1
+msgid ""
+"Number of threadings. If the given value is larger than 1, the parallel "
+"computation will be applied to improve the computational speed. Default "
+"is ``None``, which means the parallel computation will not be applied."
+msgstr ""
+
+#: ../../API_methods.rst:78 ../../API_methods.rst:92 ../../API_methods.rst:165
+#: ../../API_methods.rst:179 ../../API_methods.rst:224
+#: ../../API_methods.rst:283 ../../API_methods.rst:334
+#: ../../API_methods.rst:365 ../../API_methods.rst:375
+#: ../../API_methods.rst:400 ../../API_methods.rst:410
+#: ../../API_methods.rst:468 ../../API_methods.rst:478
+#: ../../API_methods.rst:503 ../../API_methods.rst:521
+#: ../../API_methods.rst:590 ../../API_methods.rst:633
+#: 2645ccef69a74911802433dbdca3d315 4efdd48f35484a09b77fe858c93f0fde
+#: 544279d0966b4cf79b9ea7e0e2245484 57cc521bfa2940c6a2ef27d8d687335f
+#: 876faee7d0904fb4a2c8b9977b58a29a 955c69265169403ba690a0855df1d79b
+#: 9a3734707b4441ab84d12e1fec9ca049 af99bd5fa7a349d19ecd0443fc7f9a01
+#: c11268ae8e234dd3904b32d8f20d97d9 c21417f3f72f46fe88af6fd897b04813
+#: c79d550e6ccd4b5e9f38fab71087d665 d32fac36f3e541ffb5a577f987b21b63
+#: db8a94201b7440feaec9ffcd5f42e242 decc44cd99c3406db6c34f0ddcc5e7b8
+#: e60c9524bd274a49ab49976d6bff0472 ec5a3b539fa24182b8409fd6de252549
+#: f1de97414d244402b2c5fad395eed749
+msgid ""
+"Weights of filterbanks. It is a list of float numbers. Default is "
+"``None``, which means all weights of filterbanks are 1."
+msgstr ""
+
+#: ../../API_methods.rst:80 ../../API_methods.rst:94 ../../API_methods.rst:167
+#: 4ea4c47b95744bb58ed69879c1ce7afa b86dde80b6d84c0e99340b27585bfa7d
+#: c0a1062d101e4324bedd263061286e12
+msgid ""
+"If ``True``, "
+":math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` "
+"will be stored. Otherwise, they will not be stored. Default is ``False``."
+msgstr ""
+
+#: ../../API_methods.rst:82 ../../API_methods.rst:96 ../../API_methods.rst:169
+#: 1120a27693fa4324b8b76c97e2826ef2 6bea78e53425437395f07cf78dc12c59
+#: f3d44f1fed6c469d8f571cdaefbb355a
+msgid ""
+"If ``True``, "
+":math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` "
+"will be re-computed in following testing trials. Otherwise, they will not"
+" be re-computed if they are already existed. Default is ``True``."
+msgstr ""
+
+#: ../../API_methods.rst:86 daf84b23effc4964838bdb89cd6033f9
+msgid ""
+"FBCCA implemented by the QR decomposition. This implementation is almost "
+"same as the `\"SCCA_canoncorr\" model "
+"<#SSVEPAnalysisToolbox.algorithms.SCCA_canoncorr>`_. The only difference "
+"is that this implementation does not repeatedly compute the QR "
+"decomposition of reference signals, which can improve the computational "
+"efficiency."
+msgstr ""
+
+#: ../../API_methods.rst:100 57b12273b12d45bd83f0e2ea41d01961
+msgid ""
+"Although the FBCCA is a training-free method, these models still need run"
+" `\"fit\" function <#fit>`_ to store reference signals in the model."
+msgstr ""
+
+#: ../../API_methods.rst:103 8d3fa756c66d4a4991038d2226fd3412
+msgid "Individual template CCA (itCCA) and extended CCA (eCCA)"
+msgstr ""
+
+#: ../../API_methods.rst:105 ../../API_methods.rst:186
+#: ../../API_methods.rst:229 ../../API_methods.rst:288
+#: ../../API_methods.rst:339 ../../API_methods.rst:380
+#: ../../API_methods.rst:415 ../../API_methods.rst:483
+#: ../../API_methods.rst:527 ../../API_methods.rst:597
+#: 0acda5baf5ed42309b84305248697105 23fa4c7a4be043a38fba25ecfa973e9a
+#: 541c74ed560f4105b5b20e00d928b4cd 64a47ae214444af594ff91cef3c6c66a
+#: a1e1e6bf27f5444ba6c22c659d09fa8d a237e165c20c47d284aa7b4b291fdf1c
+#: a93d8da32c624f129975094c4dab798a c179e809f3ad43a49e26d04d8f177a13
+#: e08d3fc227bf4728a9b451edde38921d fc5c0cef9a91452db7f78f3eef3cfb62
+msgid "Related paper:"
+msgstr ""
+
+#: ../../API_methods.rst:107 e8bad509b0bc4748bcdc08a9420af56e
+msgid ""
+"Chen, Y. Wang, M. Nakanishi, X. Gao, T.-P. Jung, and S. Gao, \"High-speed"
+" spelling with a noninvasive brain-computer interface,\" *Proc. Natl. "
+"Acad. Sci.*, vol. 112, no. 44, pp. E6058-E6067, 2015. DOI: "
+"`10.1073/pnas.1508080112 <https://doi.org/10.1073/pnas.1508080112>`_."
+msgstr ""
+
+#: ../../API_methods.rst:109 0373db590cfd4adcb6319eec1cdccbe4
+msgid ""
+"The itCCA is similar as the sCCA, but it uses the averaged template "
+"signals to compute the spatial filters. The corresponding correlation "
+"coefficient is"
+msgstr ""
+
+#: ../../API_methods.rst:111 fec5b547ff954df3b91fdeca0a501202
+msgid ""
+"r = "
+"\\max_{\\mathbf{u},\\mathbf{v}}\\frac{\\mathbf{u}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{v}}{\\sqrt{\\mathbf{u}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{u}\\mathbf{v}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{v}}}"
+msgstr ""
+
+#: ../../API_methods.rst:115 8e8b23c64e914993b04fdca2c252e586
+msgid ""
+"where :math:`\\overline{\\mathbf{X}}_i` denotes the averaged template "
+"signal of the :math:`i\\text{-th}` stimulus."
+msgstr ""
+
+#: ../../API_methods.rst:117 a15acee10930422c8b3ed3de765e9b69
+msgid ""
+"The eCCA not only applies the sine-cosine-based reference signals but "
+"also uses the averaged template signals. Three types of spatial filters "
+"are computed:"
+msgstr ""
+
+#: ../../API_methods.rst:119 e9d421c5773e45009906d08409bd4133
+msgid ""
+"\\mathbf{U}_{1,i}, \\mathbf{V}_{1,i} = "
+"\\arg\\max_{\\mathbf{u},\\mathbf{v}}\\frac{\\mathbf{u}^T\\mathbf{X}\\mathbf{Y}_i^T\\mathbf{v}}{\\sqrt{\\mathbf{u}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{u}\\mathbf{v}^T\\mathbf{Y}_i\\mathbf{Y}_i^T\\mathbf{v}}}"
+msgstr ""
+
+#: ../../API_methods.rst:123 1396a6357f414e1a8e3cec39a21cf011
+msgid ""
+"\\mathbf{U}_{2,i}, \\mathbf{V}_{2,i} = "
+"\\arg\\max_{\\mathbf{u},\\mathbf{v}}\\frac{\\mathbf{u}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{v}}{\\sqrt{\\mathbf{u}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{u}\\mathbf{v}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{v}}}"
+msgstr ""
+
+#: ../../API_methods.rst:127 2c2686dc76f8491c9d1e571b26478bbb
+msgid ""
+"\\mathbf{U}_{3,i}, \\mathbf{V}_{3,i} = "
+"\\arg\\max_{\\mathbf{u},\\mathbf{v}}\\frac{\\mathbf{u}^T\\overline{\\mathbf{X}}_i\\mathbf{Y}_i^T\\mathbf{v}}{\\sqrt{\\mathbf{u}^T\\overline{\\mathbf{X}}_i\\overline{\\mathbf{X}}_i^T\\mathbf{u}\\mathbf{v}^T\\mathbf{Y}_i\\mathbf{Y}_i^T\\mathbf{v}}}"
+msgstr ""
+
+#: ../../API_methods.rst:131 89c08d4035a247e0ae75a7acd9b24ecd
+msgid "Four types of corresponding correlation coefficients can be computed:"
+msgstr ""
+
+#: ../../API_methods.rst:133 817374e1459847fb978d6959e2a3b595
+msgid ""
+"r_{1,i} = "
+"\\frac{\\mathbf{U}_{1,i}^T\\mathbf{X}\\mathbf{Y}_i^T\\mathbf{V}_{1,i}}{\\sqrt{\\mathbf{U}_{1,i}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_{1,i}\\mathbf{V}_{1,i}^T\\mathbf{Y}_i\\mathbf{Y}_i^T\\mathbf{V}_{1,i}}}"
+msgstr ""
+
+#: ../../API_methods.rst:137 a681189f68124237b887e64ab3b5af76
+msgid ""
+"r_{2,i} = "
+"\\frac{\\mathbf{U}_{2,i}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{2,i}}{\\sqrt{\\mathbf{U}_{2,i}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_{2,i}\\mathbf{U}_{2,i}^T\\overline{\\mathbf{X}}_i\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{2,i}}}"
+msgstr ""
+
+#: ../../API_methods.rst:141 029ae977886149d88c98323745d3f778
+msgid ""
+"r_{3,i} = "
+"\\frac{\\mathbf{U}_{1,i}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{1,i}}{\\sqrt{\\mathbf{U}_{1,i}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_{1,i}\\mathbf{U}_{1,i}^T\\overline{\\mathbf{X}}_i\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{1,i}}}"
+msgstr ""
+
+#: ../../API_methods.rst:145 8bbba09770a141988dfe8eaf47f9e815
+msgid ""
+"r_{4,i} = "
+"\\frac{\\mathbf{U}_{3,i}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{3,i}}{\\sqrt{\\mathbf{U}_{3,i}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_{3,i}\\mathbf{U}_{3,i}^T\\overline{\\mathbf{X}}_i\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{3,i}}}"
+msgstr ""
+
+#: ../../API_methods.rst:149 c6931d2777bd452293551afa8f9e0dcb
+msgid ""
+"The target stimulus is predicted by combining four correlation "
+"coefficients together:"
+msgstr ""
+
+#: ../../API_methods.rst:151 e3adfaf651f344228543693234890fab
+msgid ""
+"\\arg\\max_{i\\in\\left\\{1,2,\\cdots,I\\right\\}}\\left\\{ \\sum_{k=1}^4"
+" \\text{sign}\\left\\{r_{k,i}\\right\\}\\cdot r_{k,i}^2 \\right\\}"
+msgstr ""
+
+#: ../../API_methods.rst:155 eca7064283f5499e85a17336b0c239ff
+msgid ""
+"where :math:`\\text{sign}\\left\\{\\cdot\\right\\}` is the `signum "
+"function <https://en.wikipedia.org/wiki/Sign_function>`_."
+msgstr ""
+
+#: ../../API_methods.rst:159 415aa04b1d8f4dfc965a75b6ae06d7c4
+msgid ""
+"ITCCA. The implementation is similar as the `\"SCCA_qr\" model "
+"<#SSVEPAnalysisToolbox.algorithms.SCCA_qr>`_."
+msgstr ""
+
+#: ../../API_methods.rst:173 4c64e13a9e4345e985e318eb5a23aa06
+msgid ""
+"eCCA. The implementation is similar as the `\"SCCA_qr\" model "
+"<#SSVEPAnalysisToolbox.algorithms.SCCA_qr>`_."
+msgstr ""
+
+#: ../../API_methods.rst:181 2c1568f140f84f3bbf43ee6858f91ce2
+msgid ""
+"If ``True``, "
+":math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` "
+"will be re-computed in following training and testing trials. Otherwise, "
+"they will not be re-computed if they are already existed. Default is "
+"``True``."
+msgstr ""
+
+#: ../../API_methods.rst:184 8d81c49e9bca45fca16b4222fd519393
+msgid "Multi-stimulus CCA"
+msgstr ""
+
+#: ../../API_methods.rst:188 ../../API_methods.rst:485
+#: 26dde0a606d948b9a928008e4bf40876 91594c57c8ea4df68e0fe424944c235c
+msgid ""
+"Wong, F. Wan, B. Wang, Z. Wang, W. Nan, K. F. Lao, P. U. Mak, M. I. Vai, "
+"and A. Rosa, \"Learning across multi-stimulus enhances target recognition"
+" methods in SSVEP-based BCIs,\" *J. Neural Eng.*, vol. 17, no. 1, p. "
+"016026, 2020. DOI: `10.1088/1741-2552/ab2373 "
+"<https://doi.org/10.1088/1741-2552/ab2373>`_."
+msgstr ""
+
+#: ../../API_methods.rst:190 b74ddebcc67847f59ca2333e65c0d86c
+msgid ""
+"The multi-stimulus CCA (ms-CCA) considers reference signals and template "
+"signals of target stimulus and stimuli with stimulus frequencies are "
+"close to that of target stimulus, which includes the phase information "
+"and thus improve the recognition accuracy. The spatial filters are "
+"computed by"
+msgstr ""
+
+#: ../../API_methods.rst:192 bba825663fcd443094a32391ef99c9d3
+msgid ""
+"\\mathbf{U}_i, \\mathbf{V}_i = "
+"\\arg\\max_{\\mathbf{u},\\mathbf{v}}\\frac{\\mathbf{u}^T\\mathbf{A}_i\\mathbf{B}_i^T\\mathbf{v}}{\\sqrt{\\mathbf{u}^T\\mathbf{A}_i\\mathbf{A}_i^T\\mathbf{u}\\mathbf{v}^T\\mathbf{B}_i\\mathbf{B}_i^T\\mathbf{v}}}"
+msgstr ""
+
+#: ../../API_methods.rst:196 e0df111386754a2a91fa1ac2abb96069
+msgid ""
+"where :math:`\\mathbf{A}_i` is the concatenated template signal defined "
+"as :math:`\\mathbf{A}_i = "
+"\\left[\\overline{\\mathbf{X}}_{i-m},\\cdots,\\overline{\\mathbf{X}}_{i},\\cdots,\\overline{\\mathbf{X}}_{i+n}\\right]`,"
+" and :math:`\\mathbf{B}_i` is the concatenated reference signal defined "
+"as :math:`\\mathbf{A}_i = "
+"\\left[\\mathbf{Y}_{i-m},\\cdots,\\mathbf{Y}_{i},\\cdots,\\mathbf{Y}_{i+n}\\right]`."
+msgstr ""
+
+#: ../../API_methods.rst:198 ccb6472847bb4436b3e9167e29197559
+msgid "Two types of correlation coefficients are computed:"
+msgstr ""
+
+#: ../../API_methods.rst:200 745ea330b1d04a98aa883639fc8d0752
+msgid ""
+"r_{1,i} = "
+"\\frac{\\mathbf{U}_{i}^T\\mathbf{X}\\mathbf{Y}_i^T\\mathbf{V}_{i}}{\\sqrt{\\mathbf{U}_{i}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_{i}\\mathbf{V}_{i}^T\\mathbf{Y}_i\\mathbf{Y}_i^T\\mathbf{V}_{i}}}"
+msgstr ""
+
+#: ../../API_methods.rst:204 adc7773582494804bbba5e9177ef0bcb
+msgid ""
+"r_{2,i} = "
+"\\frac{\\mathbf{U}_{i}^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{i}}{\\sqrt{\\mathbf{U}_{i}^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_{i}\\mathbf{U}_{i}^T\\overline{\\mathbf{X}}_i\\overline{\\mathbf{X}}_i^T\\mathbf{U}_{i}}}"
+msgstr ""
+
+#: ../../API_methods.rst:208 38ed5c9fd1a04362aad75f085435bfab
+msgid ""
+"The target stimulus is predicted by combining two correlation "
+"coefficients:"
+msgstr ""
+
+#: ../../API_methods.rst:210 e251f97e7d2f40b89cbcf13ccff077b2
+msgid ""
+"\\arg\\max_{i\\in\\left\\{1,2,\\cdots,I\\right\\}}\\left\\{ \\sum_{k=1}^2"
+" \\text{sign}\\left\\{r_{k,i}\\right\\}\\cdot r_{k,i}^2 \\right\\}"
+msgstr ""
+
+#: ../../API_methods.rst:216 0ef5289fca0d48f38abde3ce939802dc
+msgid "ms-CCA. The implementation directly follows above equations."
+msgstr ""
+
+#: ../../API_methods.rst:218 7da42e81da4744b99a5609fae9971c10
+msgid ""
+"Number of neighbers considered for computing the spatial filter of one "
+"stimulus. Default is ``12``."
+msgstr ""
+
+#: ../../API_methods.rst:227 e1a16c50f7d245ce946d1fde76311077
+msgid "Multi-set CCA (MsetCCA)"
+msgstr ""
+
+#: ../../API_methods.rst:231 2d391a613995414aa9af5387c33bd13f
+msgid ""
+"Zhang, G. Zhou, J. Jin, X. Wang, A. Cichocki, \"Frequency recognition in "
+"SSVEP-based BCI using multiset canonical correlation analysis,\" *Int J "
+"Neural Syst.*, vol. 24, 2014, p. 1450013. DOI: `10.1142/ "
+"S0129065714500130 "
+"<https://www.worldscientific.com/doi/abs/10.1142/S0129065714500130>`_."
+msgstr ""
+
+#: ../../API_methods.rst:233 8a26e04a921a46d69320036af5cb7976
+msgid ""
+"For each stimulus, the MsetCCA maximize the inter-trial covariance to "
+"compute the spatial filters. The spatial filters of different trials are "
+"different."
+msgstr ""
+
+#: ../../API_methods.rst:235 0d58317294c142ad83f938867fa819d9
+msgid ""
+"\\widetilde{\\mathbf{w}}_{i,1}, \\cdots, "
+"\\widetilde{\\mathbf{w}}_{i,N_t}=\\arg\\max_{\\mathbf{w}_1,\\cdots,\\mathbf{w}_{N_t}}\\sum_{h_1=1}^{N_t}\\sum_{h_2=1,h_1\\neq"
+" "
+"h_2}^{N_t}\\mathbf{w}_{h_1}^T\\cal{X}_{i,h_1}\\cal{X}_{i,h_2}^T\\mathbf{w}_{h_2}"
+msgstr ""
+
+#: ../../API_methods.rst:239 a2de2eb039e34e08b13bfee3a37c89e8
+msgid ""
+"\\text{subject to }\\frac{1}{N_t} "
+"\\sum_{h_1=1}^{N_t}\\sum_{h_2=1,h_1\\neq "
+"h_2}^{N_t}\\mathbf{w}_{h_1}^T\\cal{X}_{i,h_1}\\cal{X}_{i,h_2}^T\\mathbf{w}_{h_2}"
+" = 1"
+msgstr ""
+
+#: ../../API_methods.rst:243 d3c302e18b8c4cc4acaad1d875fa39b7
+msgid ""
+"where :math:`\\widetilde{\\mathbf{w}}_{i,n}` denotes the spatial filter "
+"of the :math:`i\\text{-th}` stimulus and the :math:`n\\text{-th}` "
+"training trial, :math:`N_t` denotes the number of training trials, and "
+":math:`\\cal{X}_{i,n}` denotes the calibration data of the "
+":math:`i\\text{-th}` stimulus and the :math:`n\\text{-th}` training "
+"trial."
+msgstr ""
+
+#: ../../API_methods.rst:245 b2ef9839682f43aa976f7fdce2ad465c
+msgid ""
+"Solving this optimization problem is equivalent to solving the following "
+"eigenvalue problem:"
+msgstr ""
+
+#: ../../API_methods.rst:247 bbfea21b7f2e4c50950e29bb932ae775
+msgid ""
+"\\left( \\mathbf{R}_i-\\mathbf{S}_i \\right)\\mathbf{w} = "
+"\\rho\\mathbf{S}_i\\mathbf{w}"
+msgstr ""
+
+#: ../../API_methods.rst:251 68fb651f5aeb441aaf136b11f006cdc4
+msgid "where"
+msgstr ""
+
+#: ../../API_methods.rst:253 d9e1490070f749a2ab6ef93f59c08dfb
+msgid ""
+"\\mathbf{R}_i = \\left[\n"
+"                \\begin{array}{ccc}\n"
+"                    \\cal{X}_{i,1}\\cal{X}_{i,1}^T & \\cdots & "
+"\\cal{X}_{i,1}\\cal{X}_{i,N_t}^T\\\\\n"
+"                    \\vdots & \\ddots & \\vdots\\\\\n"
+"                    \\cal{X}_{i,N_t}\\cal{X}_{i,1}^T & \\cdots & "
+"\\cal{X}_{i,N_t}\\cal{X}_{i,N_t}^T\n"
+"                \\end{array}\n"
+"               \\right]"
+msgstr ""
+
+#: ../../API_methods.rst:263 9602b83c9ae84a50a0b56d82e4550807
+msgid ""
+"\\mathbf{S}_i = \\left[\n"
+"                \\begin{array}{ccc}\n"
+"                    \\cal{X}_{i,1}\\cal{X}_{i,1}^T & \\cdots & 0\\\\\n"
+"                    \\vdots & \\ddots & \\vdots\\\\\n"
+"                    0 & \\cdots & \\cal{X}_{i,N_t}\\cal{X}_{i,N_t}^T\n"
+"                \\end{array}\n"
+"               \\right]"
+msgstr ""
+
+#: ../../API_methods.rst:273 6599c8c4577e420cb947e0ff34c1abf2
+msgid ""
+"\\mathbf{w} = \\left[ \\mathbf{w}_1, \\cdots, \\mathbf{w}_{N_t} "
+"\\right]^T."
+msgstr ""
+
+#: ../../API_methods.rst:279 c91896dc1a4949f2bc4effa0c46d8fec
+msgid "Multi-set CCA. The implementation directly follows above equations."
+msgstr ""
+
+#: ../../API_methods.rst:286 548c6a4c04f845448c929c8a9df541be
+msgid "Multi-set CCA with reference signals (MsetCCA-R)"
+msgstr ""
+
+#: ../../API_methods.rst:290 ../../API_methods.rst:382
+#: 0dd2cda18a7e4ffea93d3545a1e5d26c fdf271ea0be24f6fb7dbb0cb2a389b3a
+msgid ""
+"Wong, B. Wang, Z. Wang, K. F. Lao, A. Rosa, and F. Wan, \"Spatial "
+"filtering in SSVEP-based BCIs: Unified framework and new improvements.,\""
+" *IEEE Transactions on Biomedical Engineering*, vol. 67, no. 11, pp. "
+"3057-3072, 2020. DOI: `10.1109/TBME.2020.2975552 "
+"<https://ieeexplore.ieee.org/document/9006809/>`_."
+msgstr ""
+
+#: ../../API_methods.rst:292 6854853ae6c04a13b7f1c823705c9d6a
+msgid ""
+"The MsetCCA-R is an extension of the `MsetCCA <#multi-set-cca-msetcca>`_."
+" It also tries to solve the following eigenvalue problem to find the "
+"spatial filters:"
+msgstr ""
+
+#: ../../API_methods.rst:294 e403085634ff43029a8cfeea7149e634
+msgid ""
+"\\left( \\mathbf{R}^{\\left[Q\\right]}_i-\\mathbf{S}^{\\left[Q\\right]}_i"
+" \\right)\\mathbf{w} = \\rho\\mathbf{S}_i\\mathbf{w}."
+msgstr ""
+
+#: ../../API_methods.rst:298 036bba683e4d4429acb2ec995f0345d0
+msgid "The key differences are the following two values:"
+msgstr ""
+
+#: ../../API_methods.rst:300 6764b6dec91841c18330133b12fdaa87
+msgid ""
+"\\mathbf{R}^{\\left[Q\\right]}_i = \\left[\n"
+"                \\begin{array}{ccc}\n"
+"                    "
+"\\cal{X}_{i,1}\\mathbf{Q}_i^T\\mathbf{Q}_i\\cal{X}_{i,1}^T & \\cdots & "
+"\\cal{X}_{i,1}\\mathbf{Q}_i^T\\mathbf{Q}_i\\cal{X}_{i,N_t}^T\\\\\n"
+"                    \\vdots & \\ddots & \\vdots\\\\\n"
+"                    "
+"\\cal{X}_{i,N_t}\\mathbf{Q}_i^T\\mathbf{Q}_i\\cal{X}_{i,1}^T & \\cdots & "
+"\\cal{X}_{i,N_t}\\mathbf{Q}_i^T\\mathbf{Q}_i\\cal{X}_{i,N_t}^T\n"
+"                \\end{array}\n"
+"               \\right]"
+msgstr ""
+
+#: ../../API_methods.rst:310 2665d014f8564f188aab097edb7f656a
+msgid "and"
+msgstr ""
+
+#: ../../API_methods.rst:312 7a1ecc4ce8b94090b08ecff8992e7c0e
+msgid ""
+"\\mathbf{S}^{\\left[Q\\right]}_i = \\left[\n"
+"                \\begin{array}{ccc}\n"
+"                    "
+"\\cal{X}_{i,1}\\mathbf{Q}_i^T\\mathbf{Q}_i\\cal{X}_{i,1}^T & \\cdots & "
+"0\\\\\n"
+"                    \\vdots & \\ddots & \\vdots\\\\\n"
+"                    0 & \\cdots & "
+"\\cal{X}_{i,N_t}\\mathbf{Q}_i^T\\mathbf{Q}_i\\cal{X}_{i,N_t}^T\n"
+"                \\end{array}\n"
+"               \\right]"
+msgstr ""
+
+#: ../../API_methods.rst:322 659a441a2774454499c9b69da9139c59
+msgid ""
+"where :math:`\\mathbf{Q}_i` is the QR decomposition of the "
+":math:`i\\text{-th}` stimulus reference signal:"
+msgstr ""
+
+#: ../../API_methods.rst:324 d2e211b77c0b4defaea5433ba12848af
+msgid "\\mathbf{Q}_i\\mathbf{R}_i = \\mathbf{Y}_i"
+msgstr ""
+
+#: ../../API_methods.rst:330 5c712c6ce18d4568b2924c296b35f165
+msgid ""
+"Multi-set CCA with reference signals. The implementation directly follows"
+" above equations."
+msgstr ""
+
+#: ../../API_methods.rst:337 9469afa95c284f1c91d10f2508c9aca0
+msgid "Task-related component analysis (TRCA) and ensemble TRCA (eTRCA)"
+msgstr ""
+
+#: ../../API_methods.rst:341 037df100cdd243fd8918ecd0aa8c1e60
+msgid ""
+"Nakanishi, Y. Wang, X. Chen, Y.-T. Wang, X. Gao, and T.-P. Jung, "
+"\"Enhancing detection of SSVEPs for a high-speed brain speller using "
+"task-related component Analysis,\" *IEEE Trans. Biomed. Eng.*, vol. 65, "
+"no. 1, pp. 104-112, 2018. DOI: `10.1109/TBME.2017.2694818 "
+"<https://doi.org/10.1109/TBME.2017.2694818>`_."
+msgstr ""
+
+#: ../../API_methods.rst:343 5e6841d7a5444f1ca4be006bf6168c55
+msgid ""
+"For each stimulus, the TRCA and the ensemble TRCA (eTRCA) maximize the "
+"inter-trial covariance to compute the common spatial filter across "
+"trials, which can be achieved by solving"
+msgstr ""
+
+#: ../../API_methods.rst:345 a71ba82812264da386c8d922b05b5c74
+msgid ""
+"\\left( \\sum_{j,k=1,\\; j\\neq k}^{N_t} "
+"\\mathbf{X}_i^{(j)}\\left(\\mathbf{X}_i^{(k)}\\right)^T "
+"\\right)\\mathbf{U}_i = \\left( \\sum_{j=1}^{N_t} "
+"\\mathbf{X}_i^{(j)}\\left(\\mathbf{X}_i^{(j)}\\right)^T \\right) "
+"\\mathbf{U}_i\\mathbf{\\Lambda}_i"
+msgstr ""
+
+#: ../../API_methods.rst:349 a57f8597272e4b7abdc89d555bae7100
+msgid ""
+"where :math:`\\mathbf{X}_i^{(j)}` denotes the :math:`j\\text{-th}` trial "
+"training EEG signals of :math:`i\\text{-th}` stimulus."
+msgstr ""
+
+#: ../../API_methods.rst:351 fb8c5b5aa3724adbb5c3f584c91af510
+msgid "The target stimulus can be predicted by"
+msgstr ""
+
+#: ../../API_methods.rst:353 45eaf9c09cfd4fd98d77cd88c5180f3f
+msgid ""
+"\\arg\\max_{i\\in\\left\\{1,2,\\cdots,I\\right\\}}\\left\\{ "
+"\\frac{\\mathbf{U}_i^T\\mathbf{X}\\overline{\\mathbf{X}}_i^T\\mathbf{U}_i}{\\sqrt{\\mathbf{U}_i^T\\mathbf{X}\\mathbf{X}^T\\mathbf{U}_i\\mathbf{U}_i^T\\overline{\\mathbf{X}}_i\\overline{\\mathbf{X}}_i^T\\mathbf{U}_i}}"
+" \\right\\}"
+msgstr ""
+
+#: ../../API_methods.rst:359 b7a61f773f2b43e489721a4348e4498b
+msgid "TRCA. The implementation directly follows above equations."
+msgstr ""
+
+#: ../../API_methods.rst:369 5ec86372669d400cbddaadc1e4090c69
+msgid ""
+"eTRCA. The spatial computation is same as the TRCA. The only difference "
+"is that the recognition uses the same set of spatial filters for all "
+"stimuli. This set of saptial filters contain all eigen vectors with the "
+"highest eigen value of all stimuli."
+msgstr ""
+
+#: ../../API_methods.rst:371 ../../API_methods.rst:474
+#: 7d213530bade425592f3dc6a02481631 d88711a58dbb4736825406d951b12f30
+msgid "This parameter will not be considered in the eTRCA."
+msgstr ""
+
+#: ../../API_methods.rst:378 c9279ebce2514c9ca0844dfc5420d254
+msgid ""
+"TRCA with reference signals (TRCA-R) and eTRCA with reference signals "
+"(eTRCA-R)"
+msgstr ""
+
+#: ../../API_methods.rst:384 44f135f4505c4a2f80a8a5b1685c788c
+msgid ""
+"The TRCA-R and the eTRCA-R are extensions of `the TRCA and the eTRCA "
+"<#task-related-component-analysis-trca-and-ensemble-trca-etrca>`_ "
+"respectively. They try to find the spatial filters by solving"
+msgstr ""
+
+#: ../../API_methods.rst:386 11b93e6dd87f4ebcbd5fba319a66372e
+msgid ""
+"\\left( \\sum_{j,k=1,\\; j\\neq k}^{N_t} "
+"\\mathbf{X}_i^{(j)}\\mathbf{Q}_i^T\\mathbf{Q}_i\\left(\\mathbf{X}_i^{(k)}\\right)^T"
+" \\right)\\mathbf{U}_i = \\left( \\sum_{j=1}^{N_t} "
+"\\mathbf{X}_i^{(j)}\\left(\\mathbf{X}_i^{(j)}\\right)^T \\right) "
+"\\mathbf{U}_i\\mathbf{\\Lambda}_i"
+msgstr ""
+
+#: ../../API_methods.rst:390 bfafbf92b1a94489a5e5da870c7de37c
+msgid ""
+"where :math:`\\mathbf{X}_i^{(j)}` denotes the :math:`j\\text{-th}` trial "
+"training EEG signals of :math:`i\\text{-th}` stimulus, and "
+":math:`\\mathbf{Q}_i` is obtained from the QR decomposition of the "
+"reference signals following `the MsetCCA-R <#multi-set-cca-with-"
+"reference-signals-msetcca-r>`_."
+msgstr ""
+
+#: ../../API_methods.rst:394 6bc3ae116f8f41baba055b0b2ad786c5
+msgid "TRCA-R. The implementation directly follows above equations."
+msgstr ""
+
+#: ../../API_methods.rst:404 8230ac94a001485f835a6f7510272f2b
+msgid ""
+"eTRCA-R. The spatial computation is same as the TRCA-R. The only "
+"difference is that the recognition uses the same set of spatial filters "
+"for all stimuli. This set of saptial filters contain all eigen vectors "
+"with the highest eigen value of all stimuli."
+msgstr ""
+
+#: ../../API_methods.rst:406 71c6dcfff30a496d91bbdc375bfa6013
+msgid "This parameter will not be considered in the eTRCA-R."
+msgstr ""
+
+#: ../../API_methods.rst:413 f273e2d72efa4c6a8e9d47348d28cade
+msgid ""
+"Sum of squared correlations (SSCOR) and Ensemble sum of squared "
+"correlations (eSSCOR)"
+msgstr ""
+
+#: ../../API_methods.rst:417 6b98ee113c0e4856b42354e0b5745e3f
+msgid ""
+"Kumar, and M. R. Reddy, \"Designing a sum of squared correlations "
+"framework for enhancing SSVEP-based BCIs,\" *IEEE Transactions on Neural "
+"Systems and Rehabilitation Engineering*, vol. 27, no. 10, pp. 2044-2050, "
+"2019. DOI: `10.1109/TNSRE.2019.2941349 "
+"<https://doi.org/10.1109/TNSRE.2019.2941349>`_."
+msgstr ""
+
+#: ../../API_methods.rst:419 20d0e37abd4244ddb1ca0d06811c72bf
+msgid ""
+"The key idea of the SSCOR is similar as the TRCA. The SSCOR also finds "
+"the common spatial filter across trials, but it assumes the spatial "
+"filters of differet trials are different. The SSCOR computes the common "
+"spatial filter :math:`\\mathbf{U}_i` and the spatial filter "
+":math:`\\mathbf{U}_i^{(j)}` of the :math:`j\\text{-th}` trial for the "
+":math:`i\\text{-th}` stimulus by solving"
+msgstr ""
+
+#: ../../API_methods.rst:421 02c7746837894a8d8baf20a7df953119
+msgid ""
+"\\max_{\\mathbf{U}_i\\text{ and "
+"}\\mathbf{U}_i^{(j)}}\\sum_{j=1}^{N_t}\\left( "
+"\\mathbf{U}_i^T\\overline{\\mathbf{X}}_i\\left(\\mathbf{X}_i^{(j)}\\right)^T\\mathbf{U}_i^{(j)}"
+" \\right)^2"
+msgstr ""
+
+#: ../../API_methods.rst:425 5aecf9f2ee9f4010a3529c13d78eed7e
+msgid ""
+"\\text{subject to} \\left\\{\n"
+"                    \\begin{array}{l}\n"
+"                        \\mathbf{U}_i^T\\overline{\\mathbf{X}}_i\\left( "
+"\\overline{\\mathbf{X}}_i \\right)^T\\mathbf{U}_i=\\mathbf{I}\\\\\n"
+"                        "
+"\\left(\\mathbf{U}_i^{(j)}\\right)^T\\mathbf{X}_i^{(j)}\\left(\\mathbf{X}_i^{(j)}\\right)^T\\mathbf{U}_i^{(j)}=\\mathbf{I}\\;\\;\\forall"
+" j\\in\\left\\{ 1,\\cdots,N_t \\right\\}\n"
+"                    \\end{array}\n"
+"                   \\right."
+msgstr ""
+
+#: ../../API_methods.rst:434 b5b7b81a898442729dfd7e439c4ad007
+msgid ""
+"Based on the `Cholesky decomposition "
+"<https://en.wikipedia.org/wiki/Cholesky_decomposition>`_, we have"
+msgstr ""
+
+#: ../../API_methods.rst:436 881d73fab69b47b28df85af38dfcd338
+msgid ""
+"\\mathbf{C}_i^{\\overline{\\mathbf{X}}} = "
+"\\left(\\mathbf{K}_i^{\\overline{\\mathbf{X}}}\\right)^T\\mathbf{K}_i^{\\overline{\\mathbf{X}}}"
+" \\text{ where } \\mathbf{C}_i^{\\overline{\\mathbf{X}}} = "
+"\\overline{\\mathbf{X}}_i\\left( \\overline{\\mathbf{X}}_i \\right)^T"
+msgstr ""
+
+#: ../../API_methods.rst:440 9a265240a9a6446891c4cf7887183cb2
+msgid ""
+"\\mathbf{C}_{i,j}^{\\mathbf{X}} = "
+"\\left(\\mathbf{K}_{i,j}^{\\mathbf{X}}\\right)^T\\mathbf{K}_{i,j}^{\\mathbf{X}}"
+" \\text{ where } \\mathbf{C}_{i,j}^{\\mathbf{X}} = "
+"\\mathbf{X}_i^{(j)}\\left( \\mathbf{X}_i^{(j)} \\right)^T"
+msgstr ""
+
+#: ../../API_methods.rst:444 1dc35d979b6842b381aeda83948a7cff
+msgid ""
+"Let's define :math:`\\mathbf{U}_i = "
+"\\left(\\mathbf{K}_i^{\\overline{\\mathbf{X}}}\\right)^{-1}\\mathbf{V}_i`,"
+" :math:`\\mathbf{U}_i^{(j)} = \\left( \\mathbf{K}_{i,j}^{\\mathbf{X}} "
+"\\right)^{-1}\\mathbf{V}_i^{(j)}`, "
+":math:`\\mathbf{G}_i^{(j)}=\\left(\\mathbf{K}_i^{\\overline{\\mathbf{X}}}\\right)^{-T}\\mathbf{C}_{i,j}^{\\overline{\\mathbf{X}}}\\left(\\mathbf{K}_{i,j}^{\\mathbf{X}}\\right)^{-1}`,"
+" and :math:`\\mathbf{C}_{i,j}^{\\overline{\\mathbf{X}}} = "
+"\\overline{\\mathbf{X}}_i\\left( \\mathbf{X}_i^{(j)} \\right)^T`, we get"
+msgstr ""
+
+#: ../../API_methods.rst:446 4bd26261f2cc491d870bd09b16c94194
+msgid ""
+"\\max_{\\mathbf{V}_i} "
+"\\sum_{j=1}^{N_t}\\mathbf{V}_i^T\\mathbf{G}_i^{(j)}\\left(\\mathbf{G}_i^{(j)}\\right)^T\\mathbf{V}_i"
+msgstr ""
+
+#: ../../API_methods.rst:450 a541214743fa40efbeb878246b95c768
+msgid "\\text{subject to } \\mathbf{V}_i^T\\mathbf{V}_i=\\mathbf{I}"
+msgstr ""
+
+#: ../../API_methods.rst:454 93985295efeb4f63834796918528b428
+msgid ":math:`\\mathbf{V}_i` can be calculated by solving"
+msgstr ""
+
+#: ../../API_methods.rst:456 8183287d725e4d3fb4413460573942b7
+msgid ""
+"\\left( "
+"\\sum_{j=1}^{N_t}\\mathbf{G}_i^{(j)}\\left(\\mathbf{G}_i^{(j)}\\right)^T "
+"\\right)\\mathbf{V}_i = \\mathbf{V}_i\\mathbf{\\Lambda}_i"
+msgstr ""
+
+#: ../../API_methods.rst:462 56c28e374a284fa8b9b7920e38927737
+msgid "SSCOR. The implementation directly follows above equations."
+msgstr ""
+
+#: ../../API_methods.rst:472 1c85b8090a25496585734c361bd5a909
+msgid ""
+"eSSCOR. The spatial computation is same as the SSCOR. The only difference"
+" is that the recognition uses the same set of spatial filters for all "
+"stimuli. This set of saptial filters contain all eigen vectors with the "
+"highest eigen value of all stimuli."
+msgstr ""
+
+#: ../../API_methods.rst:481 fe44ef091ac24860add0129a74dcbbc3
+msgid "Multi-stimulus TRCA"
+msgstr ""
+
+#: ../../API_methods.rst:487 77f67c036604430fae3fbf29e03b70ff
+msgid ""
+"The multi-stimulus TRCA (ms-TRCA) is similar as the `ms-CCA <#multi-"
+"stimulus-cca>`_. It also considers training EEG signals of stimuli whose "
+"stimulus frequencies are close to the target stimulus to compute spatial "
+"filters:"
+msgstr ""
+
+#: ../../API_methods.rst:489 546d858c846546da88467219a8d004db
+msgid ""
+"\\sum_{d=i-m}^{i+n}\\left\\{ \\sum_{j,k=1,\\; j\\neq k}^{N_t} "
+"\\mathbf{X}_d^{(j)}\\left(\\mathbf{X}_d^{(k)}\\right)^T "
+"\\right\\}\\mathbf{U}_i = \\sum_{d=i-m}^{i+n}\\left\\{ \\sum_{j=1}^{N_t} "
+"\\mathbf{X}_d^{(j)}\\left(\\mathbf{X}_d^{(j)}\\right)^T \\right\\} "
+"\\mathbf{U}_i\\mathbf{\\Lambda}_i"
+msgstr ""
+
+#: ../../API_methods.rst:495 90c034d4cc3d4c8493d88de9e3e9b021
+msgid ""
+"ms-TRCA. In this toolbox, the ms-TRCA follows the `eTRCA "
+"<#SSVEPAnalysisToolbox.algorithms.ETRCA>`_ scheme to emsemble spatial "
+"filters of all stimuli for the recognition."
+msgstr ""
+
+#: ../../API_methods.rst:497 128d401db53f45b284c3754df579e26f
+msgid ""
+"Number of neighbers considered for computing the spatial filter of one "
+"stimulus. Default is ``2``."
+msgstr ""
+
+#: ../../API_methods.rst:499 5370fb7e9b814e67ba9c412589059a21
+msgid "This parameter will not be considered in this function."
+msgstr ""
+
+#: ../../API_methods.rst:507 748d27a7820343c9a374892ff438a6da
+msgid ""
+"This method ensembles correlation coefficients of the `ms-CCA "
+"<#SSVEPAnalysisToolbox.algorithms.MSCCA>`_ and the `ms-TRCA "
+"<#SSVEPAnalysisToolbox.algorithms.MSETRCA>`_ to recognize the target "
+"stimulus. Suppose that :math:`r_{1,i}` and :math:`r_{2,i}` are "
+"correlation coefficients obtained from the ms-CCA and the ms-TRCA "
+"respectively, then the ensembled correlation coefficient is"
+msgstr ""
+
+#: ../../API_methods.rst:509 5cf7909fa7c34b2b83d7a80a16baffa9
+msgid ""
+"r_\\text{ms-CCA + ms-TRCA} = \\sum_{k=1}^2 "
+"\\text{sign}\\left\\{r_{k,i}\\right\\}\\cdot r_{k,i}^2"
+msgstr ""
+
+#: ../../API_methods.rst:513 72ee5b489d904a83940769684374e1be
+msgid ""
+"Number of neighbers considered for computing the spatial filter of one "
+"stimulus in the ms-CCA. Default is ``12``."
+msgstr ""
+
+#: ../../API_methods.rst:515 de6b883541c6471a8a57187f71f4c2d6
+msgid ""
+"Number of neighbers considered for computing the spatial filter of one "
+"stimulus in the ms-TRCA. Default is ``2``."
+msgstr ""
+
+#: ../../API_methods.rst:517 38e62b9d9db446eda8810aac03d740eb
+msgid ""
+"Number of components of eigen vectors that will be applied as the spatial"
+" filters in the ms-CCA. The default number is ``1``, which means the "
+"eigen vector with the highest eigen value is regarded as the spatial "
+"filter."
+msgstr ""
+
+#: ../../API_methods.rst:525 24d9f1eb105d4cdaaee43d8801419545
+msgid "Task-discriminant component analysis"
+msgstr ""
+
+#: ../../API_methods.rst:529 09404a42c4ee4635b4af3f582d6ad491
+msgid ""
+"Liu, X. Chen, N. Shi, Y. Wang, S. Gao, X. Gao, \"Improving the "
+"performance of individually calibrated SSVEP-BCI by task-discriminant "
+"component analysis.\" *IEEE Trans. Neural Syst. Rehabil. Eng.*, vol. 29, "
+"pp. 1998-2007, 2021. DOI: `10.1109/TNSRE.2021.3114340 "
+"<https://doi.org/10.1109/TNSRE.2021.3114340>`_."
+msgstr ""
+
+#: ../../API_methods.rst:531 5126d2463336475fa0ff57f3ad7f0db9
+msgid ""
+"Compared with other methods, the task-discriminant component analysis "
+"(TDCA) have following three key differences:"
+msgstr ""
+
+#: ../../API_methods.rst:533 97ac9b1f952a4ea2b65ba53d92454e80
+msgid ""
+"The dimensionality of EEG signals is elevated. For one trial EEG signal "
+":math:`\\mathbf{X}`, the augmented EEG trial "
+":math:`\\widetilde{\\mathbf{X}}` is"
+msgstr ""
+
+#: ../../API_methods.rst:535 66e06853a45c446b9fbd0da0b5e1d2cb
+msgid ""
+"\\widetilde{\\mathbf{X}} = \\left[ \\begin{array}{cc}\n"
+"                                  \\mathbf{X}, & \\mathbf{O}_0\\\\\n"
+"                                  \\mathbf{X}_1, & \\mathbf{O}_1\\\\\n"
+"                                  \\vdots & \\\\\n"
+"                                  \\mathbf{X}_L, & \\mathbf{O}_L\n"
+"                                \\end{array} \\right]"
+msgstr ""
+
+#: ../../API_methods.rst:544 21fd261bb1064f1e95afc916322f0823
+msgid ""
+"where :math:`\\mathbf{X}_l` denotes the EEG trial delayed by :math:`l` "
+"points, :math:`\\mathbf{O}_l\\in\\mathbb{R}^{N_\\text{ch}\\times l}` "
+"denotes the zero matrix, and :math:`L` is the total number of delays."
+msgstr ""
+
+#: ../../API_methods.rst:546 e18e9fb5c3f542d9b3049b7fa5380a0a
+msgid ""
+"After elevating the dimension, EEG trials are then further extended for "
+"each stimulus as"
+msgstr ""
+
+#: ../../API_methods.rst:548 92bb1fc89ff644dc917d61f895083573
+msgid ""
+"\\mathbf{X}_a = \\left[ \\widetilde{\\mathbf{X}},\\;\\; "
+"\\widetilde{\\mathbf{X}}\\mathbf{Q}_i\\mathbf{Q}_i^T \\right]"
+msgstr ""
+
+#: ../../API_methods.rst:552 7ef215d0273241c99cb931ccfdc8c45c
+msgid ""
+"where :math:`\\mathbf{Q}_i` is the orthogonal factor of the reference "
+"signal of the :math:`i\\text{-th}` stimulus and can be obtained by the QR"
+" decomposition :math:`\\mathbf{Q}_i\\mathbf{R}_i=\\mathbf{Y}_i^T`."
+msgstr ""
+
+#: ../../API_methods.rst:554 881144f44e9f4c6f99922ed3acd024be
+msgid ""
+"The two-dimensional linear discriminant analysis is applied to compute "
+"spatial filters by solving"
+msgstr ""
+
+#: ../../API_methods.rst:556 3658e15ad33c42019c6af96aa57d9f9e
+msgid "\\mathbf{S}_b\\mathbf{U} = \\mathbf{S}_w\\mathbf{U}\\mathbf{\\Lambda}"
+msgstr ""
+
+#: ../../API_methods.rst:560 0de1468c80a54e56aea1255671dd5918
+msgid "The :math:`\\mathbf{S}_b` is the covariance of between-class differences:"
+msgstr ""
+
+#: ../../API_methods.rst:562 9bfaa0e0e0254a30adf47a53a15cde2e
+msgid ""
+"\\mathbf{S}_b = \\frac{1}{I} \\sum_{i=1}^I \\left( "
+"\\overline{\\mathbf{X}}_a^{(i)} - "
+"\\frac{1}{I}\\sum_{i=1}^I\\overline{\\mathbf{X}}_a^{(i)} \\right)\\left( "
+"\\overline{\\mathbf{X}}_a^{(i)} - "
+"\\frac{1}{I}\\sum_{i=1}^I\\overline{\\mathbf{X}}_a^{(i)} \\right)^T"
+msgstr ""
+
+#: ../../API_methods.rst:566 8eabfae1ef6e4114b0e755906d74f604
+msgid ""
+"where :math:`\\overline{\\mathbf{X}}_a^{(i)}` is the averaged "
+":math:`\\mathbf{X}_a` over all trials of the :math:`i\\text{-th}` "
+"stimulus, and :math:`I` is the total number of stimuli."
+msgstr ""
+
+#: ../../API_methods.rst:568 2d81f74f5b68469aa17a87e55aa8076d
+msgid "The :math:`\\mathbf{S}_w` is the covariance of within-class differences:"
+msgstr ""
+
+#: ../../API_methods.rst:570 01ea7465cd3c4efeb05b2c9df6a975f8
+msgid ""
+"\\mathbf{S}_w = \\frac{1}{N_t} \\sum_{i=1}^I \\sum_{j=1}^{N_t} \\left( "
+"\\mathbf{X}_a^{(i,j)} - \\overline{\\mathbf{X}}_a^{(i)} \\right) \\left( "
+"\\mathbf{X}_a^{(i,j)} - \\overline{\\mathbf{X}}_a^{(i)} \\right)^T"
+msgstr ""
+
+#: ../../API_methods.rst:574 20b46cd30bd043889e04825daffaffe1
+msgid ""
+"where :math:`N_t` denotes the total number of trials, and "
+":math:`\\mathbf{X}_a^{(i,j)}` denotes :math:`\\mathbf{X}_a` of the "
+":math:`j\\text{-th}` trial for the :math:`i\\text{-th}` stimulus."
+msgstr ""
+
+#: ../../API_methods.rst:576 b947154bfb65456b8d2052ada45414f6
+msgid "Finally, the target stimulus can be predicted by"
+msgstr ""
+
+#: ../../API_methods.rst:578 72837c3618b148e0a908196a1ece9340
+msgid ""
+"\\arg\\max_{i\\in\\left\\{1,2,\\cdots,I\\right\\}}\\left\\{ "
+"\\frac{\\mathbf{U}^T\\mathbf{X}_a\\left(\\overline{\\mathbf{X}}_a^{(i)}\\right)^T\\mathbf{U}}{\\sqrt{\\mathbf{U}^T\\mathbf{X}_a\\mathbf{X}_a^T\\mathbf{U}\\mathbf{U}_i^T\\left(\\overline{\\mathbf{X}}_a^{(i)}\\right)\\left(\\overline{\\mathbf{X}}_a^{(i)}\\right)^T\\mathbf{U}_i}}"
+" \\right\\}"
+msgstr ""
+
+#: ../../API_methods.rst:584 672e8cbc64b141ad8d4cd2a55f45b1b0
+msgid "TDCA. The implementation directly follows above equations."
+msgstr ""
+
+#: ../../API_methods.rst:592 0323b1fdf70b4e5f96c31b0ba0e82948
+msgid "Total number of delays. Default is ``0``, which means no delay."
+msgstr ""
+
+#: ../../API_methods.rst:595 dc72fe16b681438684c67d2992347e0d
+msgid "Online adaptive CCA"
+msgstr ""
+
+#: ../../API_methods.rst:599 8a29bb8aea8843b1a180229b70a9c435
+msgid ""
+"Wong et al., “Online adaptation boosts SSVEP-based BCI performance,” "
+"*IEEE Trans. Biomed. Eng.*, vol. 69, no. 6, pp. 2018-2028, 2022. DOI: "
+"`10.1109/TBME.2021.3133594 <https://doi.org/10.1109/TBME.2021.3133594>`_."
+msgstr ""
+
+#: ../../API_methods.rst:601 7bf799423010439e96d0762216a2ae29
+msgid ""
+"Compared to sCCA, the spatial filters are fine-turned online. Therefore, "
+"as more trials are processed, the performance will be improved until "
+"achieving the upper bound."
+msgstr ""
+
+#: ../../API_methods.rst:603 dd01e98ee87943a897bec71805670ca0
+msgid "The OACCA ensembles three parts:"
+msgstr ""
+
+#: ../../API_methods.rst:605 95299f0315304249b08d0c5072414b30
+msgid ""
+"Spatial filters based on the sCCA. These spatial filters can be "
+"considered as the baseline reference of the recognition result."
+msgstr ""
+
+#: ../../API_methods.rst:607 4d828e4ad80d490597d8086f8c2dfbc9
+msgid ""
+"Prototype spatial filters. These spatial filters are fine-turned online. "
+"They are calculated by"
+msgstr ""
+
+#: ../../API_methods.rst:609 401aa1fd5b154076b7012dc1e962900f
+msgid ""
+"\\mathbf{u}_0^{[t+1]}=\\arg\\max_{\\mathbf{u}}\\frac{\\mathbf{u}^T\\left["
+" "
+"\\sum_{m=1}^t\\widetilde{\\mathbf{u}}^{[m]}\\left(\\widetilde{\\mathbf{u}}^{[m]}\\right)^T"
+" \\right]\\mathbf{u}}{\\mathbf{u}^T\\mathbf{u}}"
+msgstr ""
+
+#: ../../API_methods.rst:613 e27eae06c54c49cba472a72dee43235d
+msgid ""
+"where :math:`\\widetilde{\\mathbf{u}}^{[t]} = "
+"\\frac{\\mathbf{u}^{[t]}}{\\left\\|\\mathbf{u}^{[t]}\\right\\|}` and "
+":math:`\\mathbf{u}^{[t]}` is the spatial filtered obtained from the sCCA "
+"at the :math:`t\\text{-th}` trial."
+msgstr ""
+
+#: ../../API_methods.rst:615 ba44ca6174d54f4296d3bf38fed9e48c
+msgid ""
+"Spatial filters based on the online ms-CCA. These spatial filters are "
+"also fine-turned online. They are calculated by"
+msgstr ""
+
+#: ../../API_methods.rst:617 90cac5f5970740508759c784642c9552
+msgid ""
+"\\mathbf{u}^{[t+1]},\\;\\mathbf{v}^{[t+1]}=\\max_{\\mathbf{u},\\;\\mathbf{v}}\\frac{\\mathbf{u}^T\\mathbf{C}_{XY}^{[t]}\\mathbf{v}}{\\sqrt{\\mathbf{u}^T\\mathbf{C}_{XY}^{[t]}\\mathbf{u}"
+" \\cdot \\mathbf{v}^T\\mathbf{v}}}"
+msgstr ""
+
+#: ../../API_methods.rst:621 07bcf2075c094b5eb19ddec269822dd1
+msgid ""
+"where "
+":math:`\\mathbf{C}_{XY}^{[t]}=\\sum_{m=1}^t\\left(\\mathbf{X}^{[t]}\\right)^T\\mathbf{Y}`."
+msgstr ""
+
+#: ../../API_methods.rst:623 bb5608e4a93647f889fa07a4ba46db2c
+msgid "The basic idea of the OACCA is shown below:"
+msgstr ""
+
+#: ../../API_methods.rst:629 6d54f8f9854649e5b93142672d2aa809
+msgid "OACCA. The implementation directly follows above equations."
+msgstr ""
+

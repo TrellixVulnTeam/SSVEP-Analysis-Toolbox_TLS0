@@ -1,0 +1,1535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ze Wang
+# This file is distributed under the same license as the SSVEP Analysis
+# Toolbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SSVEP Analysis Toolbox \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../API_datasets.rst:5 0fa48e87ea574709ac1e20cd26380d41
+msgid "Datasets"
+msgstr "数据集"
+
+#: ../../API_datasets.rst:8 4d8c47fbf5604ef480d9378792453bc1
+msgid "Built-in dataset initialization"
+msgstr ""
+
+#: ../../API_datasets.rst:11 67646ed435164ed8981edb361c3f6787
+msgid "Benchmark Dataset"
+msgstr ""
+
+#: ../../API_datasets.rst:15 55fec759522546b48751bb7893c188be
+msgid "Initialize the benchmark dataset."
+msgstr ""
+
+#: ../../API_datasets.rst:17 7e4231a4fbc5452f9a4202fb08f83378
+msgid ""
+"This dataset gathered SSVEP-BCI recordings of 35 healthy subjects (17 "
+"females, aged 17-34 years, mean age: 22 years) focusing on 40 characters "
+"flickering at different frequencies (8-15.8 Hz with an interval of 0.2 "
+"Hz)."
+msgstr ""
+
+#: ../../API_datasets.rst:19 4073b0dd8f9b495c8958f238bda01aa2
+msgid ""
+"For each subject, the experiment consisted of 6 blocks. Each block "
+"contained 40 trials corresponding to all 40 characters indicated in a "
+"random order. Each trial started with a visual cue (a red square) "
+"indicating a target stimulus. The cue appeared for 0.5 s on the screen."
+msgstr ""
+
+#: ../../API_datasets.rst:21 92cd6d3eea4a468085f6c426317ea1fb
+msgid ""
+"Following the cue offset, all stimuli started to flicker on the screen "
+"concurrently and lasted 5 s."
+msgstr ""
+
+#: ../../API_datasets.rst:23 a5c81cf9f7cf46a2aeccc91698741102
+msgid ""
+"After stimulus offset, the screen was blank for 0.5 s before the next "
+"trial began, which allowed the subjects to have short breaks between "
+"consecutive trials. Each trial lasted a total of 6 s."
+msgstr ""
+
+#: ../../API_datasets.rst:27 ../../API_datasets.rst:88
+#: ../../API_datasets.rst:150 ../../API_datasets.rst:205
+#: ../../API_datasets.rst:264 ../../API_datasets.rst:341
+#: ../../API_datasets.rst:392 254e8ad74a5a48b4ac747a9c7fa55ba4
+#: 284dd1c815db46b6a996ec891a01af07 28f01757fb20416ba4cf96b2c0593acd
+#: b4722cc1e6164361af8044bbaea997d8 ddb09e93d22b4de9bb77557532dbc250
+#: e05cf46fb0af4af08fee69d1a51e7617 ecc8f10dd0a441a38e5336dab51bbd8f
+msgid "Num. of Subjects"
+msgstr ""
+
+#: ../../API_datasets.rst:27 357c337f5a2d4615a9b212e07d051bfd
+msgid "35"
+msgstr ""
+
+#: ../../API_datasets.rst:29 ../../API_datasets.rst:90
+#: ../../API_datasets.rst:152 ../../API_datasets.rst:207
+#: ../../API_datasets.rst:266 ../../API_datasets.rst:343
+#: ../../API_datasets.rst:394 19fbf378f3f145208143242c98f4db67
+#: 401d1323babe4f91a9a0b7b98623fb3e 439639ceb2cb472e9b9b1663cba0a808
+#: 4d0f1260d00f4efdb6e111c1debe7b4f 6013c0283aef4364837fcfbe842073f6
+#: cfc5635096c54f2bba9d821c1f476a2a e7324d5c307344de8f101361c8030dbc
+msgid "Num. of Targets"
+msgstr ""
+
+#: ../../API_datasets.rst:29 ../../API_datasets.rst:35
+#: ../../API_datasets.rst:90 ../../API_datasets.rst:96
+#: 49f94c97b3c64bca9034f28fcdd4bc6d 5309027e8ba24265b1a966181f8649c1
+#: 80c3e1e742654109b988c1ed50609712 c87dfdd5b27b47b9a801b9d2e31392b9
+msgid "40"
+msgstr ""
+
+#: ../../API_datasets.rst:31 ../../API_datasets.rst:92
+#: ../../API_datasets.rst:154 ../../API_datasets.rst:209
+#: ../../API_datasets.rst:268 ../../API_datasets.rst:345
+#: ../../API_datasets.rst:396 21546c6275fd44bb95014295605c9efc
+#: 4c42b186475341aca98b4b461744e663 7ba8527d138c42139b7c2d61c8b3426f
+#: d453d29deeee4b35b038bbd7bc704fee e1d2d4901b014e75962479c54d698e83
+#: e68da9ac61d147e3b82269cb175ae40e f87429a16d594651a758ec1a7294222a
+msgid "Num. of Channels"
+msgstr ""
+
+#: ../../API_datasets.rst:31 ../../API_datasets.rst:92
+#: ../../API_datasets.rst:209 30b983d79a0c4972bb8302dc79c5e215
+#: 4a72ca0bcbb04b05a7cd57b4be8331e1 e51fdba937304c8e848bd13a6ee92ef7
+msgid "64"
+msgstr ""
+
+#: ../../API_datasets.rst:33 ../../API_datasets.rst:94
+#: ../../API_datasets.rst:156 ../../API_datasets.rst:211
+#: ../../API_datasets.rst:270 ../../API_datasets.rst:347
+#: ../../API_datasets.rst:398 383519ec1e74490ba62d3bc625f3927b
+#: 72807232cf9343feafcc86062885792e 8f3fa081ada9475881752398225faa61
+#: 9a103de5f4b64318b8b1c8b9c10b8df0 e2100dc6e1d946428c4e9b1446cf1657
+#: e8587616bd654819854c1cdfcd86dd68 f4bd014f705d444e9769a1dc495cc7fb
+msgid "Num. of Blocks"
+msgstr ""
+
+#: ../../API_datasets.rst:33 ac399e8d89854584ae449e6e7740ecbb
+msgid "6"
+msgstr ""
+
+#: ../../API_datasets.rst:35 ../../API_datasets.rst:96
+#: ../../API_datasets.rst:158 ../../API_datasets.rst:213
+#: ../../API_datasets.rst:272 ../../API_datasets.rst:349
+#: ../../API_datasets.rst:400 19959be919a848a096df1a080644aae1
+#: 230491d8fdcc42e7941c43af159d288c 455c6901367b49e598675fb92bf5c250
+#: 6068327994ba4305b51504ef5e879c25 963bd8e5ec0e4796bdec1d570136cb67
+#: 98c266a3e92548a79f9e744a6d582508 dba0f5e51a89438e9eda1506d0cb0b08
+msgid "Num. of trials in each blcok"
+msgstr ""
+
+#: ../../API_datasets.rst:37 ../../API_datasets.rst:98
+#: ../../API_datasets.rst:160 ../../API_datasets.rst:215
+#: ../../API_datasets.rst:274 ../../API_datasets.rst:351
+#: ../../API_datasets.rst:402 1f978821cba34063a15c5a7ade972147
+#: 4962a7d76c2b4cf5b712666d5cea8b6a 6741b25144b24c30beccba815a3b2942
+#: 6d92bf6ad8684cbd8875dee14e3708cf a5e4e0e8436e4af29044873b3cef7c4f
+#: b2d7c4e8681a4767b9befb59f5033ba6 c90c9fa927c641ddb01ce505409ab8aa
+msgid "Pre-stimulus Time"
+msgstr ""
+
+#: ../../API_datasets.rst:37 ../../API_datasets.rst:39
+#: ../../API_datasets.rst:98 ../../API_datasets.rst:100
+#: ../../API_datasets.rst:215 ../../API_datasets.rst:217
+#: ../../API_datasets.rst:351 ../../API_datasets.rst:402
+#: 12652adad0b34c8686c81545779744b8 1bfe694f85fd4e61ac5eb3c23138ff54
+#: 369e02d14a574436be257e4605924e12 52955b15c6414f439861d8fb1ffaee78
+#: 5a23c45a48e44eb588afcf9c0e8572c4 83d0e5c2ad7f4640acd76db79eeddf2b
+#: 9170536f33e64e519c1d83333424eb4b d79cd7c87e334214860bbf9fb203a209
+msgid "0.5 s"
+msgstr ""
+
+#: ../../API_datasets.rst:39 ../../API_datasets.rst:100
+#: ../../API_datasets.rst:162 ../../API_datasets.rst:217
+#: ../../API_datasets.rst:276 ../../API_datasets.rst:353
+#: ../../API_datasets.rst:404 35cf4598056f4f41802bb935fdc8ed9f
+#: 6df12e03e1274f7b94d644ff3e20de5d 97e5b030d0f448b78618e54d09cefa55
+#: a74d0f2e195f48d4bbc2aa2bc12ef033 ca96f0abbd7542e5b531a49c89d9ccce
+#: d62359ac54ef4a8983816f966d53ebc5 ff18065c7ee84f898a535c9b0d74d20f
+msgid "Break Time"
+msgstr ""
+
+#: ../../API_datasets.rst:41 ../../API_datasets.rst:102
+#: ../../API_datasets.rst:164 ../../API_datasets.rst:219
+#: ../../API_datasets.rst:278 ../../API_datasets.rst:355
+#: ../../API_datasets.rst:406 105ad155ef74492fb378d470bdb49d3f
+#: 4109ca172cee4ec6aa71a6148d19f747 547b23acb4d5497bba5c76add4885e1b
+#: 9a64682354304c4fa44098217abcde69 bed2f7e304a5488d9adedc1cb38c003f
+#: e3a522aa12a64b968875e6cfe39b0407 f12d2755899c484590243f9cef3d7b70
+msgid "Whole Trial Length"
+msgstr ""
+
+#: ../../API_datasets.rst:41 ../../API_datasets.rst:219
+#: 8b664b0ce27f4c28bd02c7124ac53613 9d10076cd8424ba2b72748432218126b
+msgid "6 s"
+msgstr ""
+
+#: ../../API_datasets.rst:43 ../../API_datasets.rst:104
+#: ../../API_datasets.rst:166 ../../API_datasets.rst:221
+#: ../../API_datasets.rst:280 ../../API_datasets.rst:357
+#: ../../API_datasets.rst:408 06880ab41b55402fa4716f61eef3492d
+#: 0b33803f0b0f4c3eb1ff5341cea1f8eb 4151b66a89824c08af311bd362407ce5
+#: 690202259dba4cf6b56fe02b90827399 8b3935d8b045405ba80e1f8bf99c389a
+#: c510b2e621444bdaa38f2fa29000fd01 f83ae2910e834f5f956d4d982c8ab5fc
+msgid "Default Latency Time"
+msgstr ""
+
+#: ../../API_datasets.rst:43 ../../API_datasets.rst:221
+#: ../../API_datasets.rst:357 ../../API_datasets.rst:408
+#: 5f8e656a27c44e9d8e9e56a816d7b78f 665fc90c12424ce483a98472945c7001
+#: 93bad59f860940a5ac710fbfe6ee12c5 c12feea6bc9747aaa63813f33fae7eb0
+msgid "0.14 s"
+msgstr ""
+
+#: ../../API_datasets.rst:45 ../../API_datasets.rst:106
+#: ../../API_datasets.rst:168 ../../API_datasets.rst:223
+#: ../../API_datasets.rst:282 ../../API_datasets.rst:359
+#: ../../API_datasets.rst:410 5aa60feb13cb41a4a23bd78e4c403225
+#: 7d6bef9afee84f47bce5f3b84809b403 83c3eacba19444ccb784ad15c63c0764
+#: ad7e8812a46040aa95e5f030f208f23f b4d1be12b2c84d80b70b76a0b5f378e3
+#: bde7a18f204944618dc9384124609cb2 dc7706295a43467bb72b92fbefa09ca1
+msgid "Sampling rate"
+msgstr ""
+
+#: ../../API_datasets.rst:45 ../../API_datasets.rst:106
+#: ../../API_datasets.rst:223 ../../API_datasets.rst:359
+#: ../../API_datasets.rst:410 299ffb8e9ea54516a90b552744bc4b3f
+#: c42d3e9dda4842eabb64b71d311fde5f d55db7562c444e55bee1de758d50a3d6
+#: ee994858f0e24d17932f3fb28427844e eeca7763d3484f5cb538812d11f0764c
+msgid "250 Hz"
+msgstr ""
+
+#: ../../API_datasets.rst:50 d8281bbcda9b43eb9af63458cff1802d
+msgid "Total: around 3.45 GB."
+msgstr ""
+
+#: ../../API_datasets.rst:52 39030ee1ad9c4a4c865e7374a9430340
+msgid ""
+"Paper: Y. Wang, X. Chen, X. Gao, and S. Gao, “A benchmark dataset for "
+"SSVEP-based braincomputer interfaces,” IEEE Trans. Neural Syst. Rehabil. "
+"Eng., vol. 25, no. 10, pp. 17461752, 2017. DOI: "
+"`10.1109/TNSRE.2016.2627556 "
+"<https://doi.org/10.1109/TNSRE.2016.2627556>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:54 ../../API_datasets.rst:115
+#: ../../API_datasets.rst:232 25b943db023b4133954487ff45b6ce45
+#: 325a3caf288549e8a2e73daa5e74fd65 c30419b4dc10417597a98d98f7033762
+msgid "URL: `http://bci.med.tsinghua.edu.cn/ <http://bci.med.tsinghua.edu.cn/>`_."
+msgstr ""
+
+#: ../../API_datasets.rst 04d4c2d9a87d4d7ca57adde010598c01
+#: 32bbb6e4c8554e66a6f45e4c52e6b1c3 38fc36dd0eca419c95248d816f0d19de
+#: 40ab4af5a09740efa68c50ba892888be 4bccef8ff18e4a33b15cea432e58b1b4
+#: 53851c0cf67f4ab986dcc507c0345cdb 5f657a286c9a48f4a67b40d26f14c2f4
+#: 61f1774c3a5047469c3f5d5615411750 71c277860eae4dd38d96b3d6dfe89d49
+#: 73435871bed742609a1b02adaee1d8fd 7b6783de08f0451d94f0c47eb3a4d99b
+#: 936ef977e9ca43ecac75c8713103bec7 97529991317742e98d882895d0b5608b
+#: 9e13db761f8343d5a78bdce01d154fc9 bc2ccbadcb564e9b8037cf7258607dd3
+#: c2b12e2437334fbe92ca98431407ac89 d10002ed3feb4c5286c15e361f275511
+#: ea6d9b6c355b4fecb1d8865946e964e5
+msgid "Parameters"
+msgstr ""
+
+#: ../../API_datasets.rst:56 4953a2c7f9d3429a9f18f277cec99483
+msgid ""
+"Path of storing EEG data.  The missing subjects' data files will be "
+"downloaded when the dataset is initialized.  If the provided path is not "
+"existed, the provided path will be created.  Default path is a folder "
+":file:`Benchmark Dataset` in the working path."
+msgstr ""
+
+#: ../../API_datasets.rst:56 ../../API_datasets.rst:117
+#: ../../API_datasets.rst:179 ../../API_datasets.rst:234
+#: ../../API_datasets.rst:297 ../../API_datasets.rst:371
+#: ../../API_datasets.rst:422 48c8501b8f9b40808e42b3f10e9cf301
+#: 4c826c43547748c98479db197be12bc2 516297cb45d94a3185c812466738f294
+#: 5c6cb11bb7db45c9aa085e9ee55b44bf 6295c17f0e2d47eebcaeecd113d041d2
+#: 8b74877836f74f98afa5c785b271af45 d30507e5b6254ac98f8c6d5b44e57161
+msgid "Path of storing EEG data."
+msgstr ""
+
+#: ../../API_datasets.rst:58 ../../API_datasets.rst:119
+#: ../../API_datasets.rst:181 ../../API_datasets.rst:236
+#: ../../API_datasets.rst:299 ../../API_datasets.rst:373
+#: ../../API_datasets.rst:424 33fc7f691e6244a29e11eb5830297028
+#: 3514bffaae0742379fa71f562f7f0ec5 40c3cadcb0084365b8c0d43d76455b1a
+#: 6bf8225e6a4b4820afcbc34b863557f0 6cd13e0a3647498ead9b0d1278c7c9aa
+#: d2cac2442acb4ee6aa9b95ea9c8638cd e1346410d7f14e23b1bc512afd4c7b70
+msgid ""
+"The missing subjects' data files will be downloaded when the dataset is "
+"initialized."
+msgstr ""
+
+#: ../../API_datasets.rst:60 ../../API_datasets.rst:68
+#: ../../API_datasets.rst:121 ../../API_datasets.rst:129
+#: ../../API_datasets.rst:183 ../../API_datasets.rst:238
+#: ../../API_datasets.rst:246 ../../API_datasets.rst:301
+#: ../../API_datasets.rst:309 ../../API_datasets.rst:375
+#: ../../API_datasets.rst:383 ../../API_datasets.rst:426
+#: ../../API_datasets.rst:434 13b5f9a991f44687bfdcefcf60f20912
+#: 14480df7b92c4d9daee014c6f1a76f0a 39147d8dc4ce4d859a98fa41b35769be
+#: 4645fb4ff2f2462c844f53757db24164 47b9c01d73264bdbb9f56c5540310f4a
+#: 5ed505db2bde4364ada30e71644f7495 60c61f1ac925432f9d59fbe6fb7930d0
+#: 67b5990c5d0e45a3bfb1699d69432b73 90e51fe485504242be0d5af520468ecc
+#: 99e0b9453c834212b253403cf711aec9 9cdf65613be5453fb3489ece3978e5e3
+#: c68bd4e63b754567b610bb82950ad775 fbac7e7477f8496c89e73bced970460c
+msgid "If the provided path is not existed, the provided path will be created."
+msgstr ""
+
+#: ../../API_datasets.rst:62 df75baf00ce74d79af2ca05a218c4ebc
+msgid "Default path is a folder :file:`Benchmark Dataset` in the working path."
+msgstr ""
+
+#: ../../API_datasets.rst:64 84e311d96786477fb18bd2b13770d4af
+msgid ""
+"Path of supported files, i.e., :file:`Readme.txt`, :file:`Sub_info.txt`, "
+":file:`64-channels.loc`, and :file:`Freq_Phase.mat`.  The missing "
+"supported files will be downloaded when the dataset is initialized.  If "
+"the provided path is not existed, the provided path will be created.  "
+"Default path is same as data path ``path``."
+msgstr ""
+
+#: ../../API_datasets.rst:64 b1ad8494ea32441fa99421f4c23153bb
+msgid ""
+"Path of supported files, i.e., :file:`Readme.txt`, :file:`Sub_info.txt`, "
+":file:`64-channels.loc`, and :file:`Freq_Phase.mat`."
+msgstr ""
+
+#: ../../API_datasets.rst:66 ../../API_datasets.rst:127
+#: ../../API_datasets.rst:244 ../../API_datasets.rst:307
+#: ../../API_datasets.rst:381 ../../API_datasets.rst:432
+#: 12d70d3a35324be8bee5350ef1bb9034 1ff34dfeb7874747bd812c428f1305db
+#: 996882c0f0a548dc827c39d34ccfb5c7 a73e4e25251b4f8c881707a19cc64ed6
+#: d50ce80c9b62405ba5116c74847c7633 e82b622330cb442f92d2f78cb3a2c914
+msgid ""
+"The missing supported files will be downloaded when the dataset is "
+"initialized."
+msgstr ""
+
+#: ../../API_datasets.rst:70 ../../API_datasets.rst:131
+#: ../../API_datasets.rst:248 ../../API_datasets.rst:311
+#: ../../API_datasets.rst:385 ../../API_datasets.rst:436
+#: 060dbc1f217a460697e9c96d5dd38bb1 34b7c509cac44191995211ae7beca3a9
+#: 7c8f297dff404232b947d0278a8ce79f 8b09d7ced4884b98911290a5aa39e9bd
+#: aaccaad8972c472a9baa889e98a26e52 dfc8a99be5944d07a7102289c67b9d48
+msgid "Default path is same as data path ``path``."
+msgstr ""
+
+#: ../../API_datasets.rst:73 aa3aeed41a9c44d49d6ab86c9cb276fe
+msgid "BETA Dataset"
+msgstr ""
+
+#: ../../API_datasets.rst:77 ece5b59c33cf429c8fffc9ee438e5b4b
+msgid "Initialize the BETA dataset."
+msgstr ""
+
+#: ../../API_datasets.rst:79 1a18d93d0e4047dcb1c02671d2b23a51
+msgid ""
+"EEG data after preprocessing are store as a 4-way tensor, with a "
+"dimension of channel x time point x block x condition."
+msgstr ""
+
+#: ../../API_datasets.rst:81 6a37ab4b4e084932b2ed8ed4723dc636
+msgid ""
+"Each trial comprises 0.5-s data before the event onset and 0.5-s data "
+"after the time window of 2 s or 3 s."
+msgstr ""
+
+#: ../../API_datasets.rst:83 a90e3a25e674458987c4989ec71cd554
+msgid ""
+"For S1-S15, the time window is 2 s and the trial length is 3 s, whereas "
+"for S16-S70 the time window is 3 s and the trial length is 4 s."
+msgstr ""
+
+#: ../../API_datasets.rst:85 b0579f547cb74387a880887e506270c1
+msgid ""
+"Additional details about the channel and condition information can be "
+"found in the following supplementary information."
+msgstr ""
+
+#: ../../API_datasets.rst:88 6eea5436a3b64caba059ff3f98193b7b
+msgid "70"
+msgstr ""
+
+#: ../../API_datasets.rst:94 ../../API_datasets.rst:266
+#: 2b2f66d5a87f4dd18cbead032053dae2 34988b8bd4eb486d95e2d6fc6a7cb202
+msgid "4"
+msgstr ""
+
+#: ../../API_datasets.rst:102 86df91a178624cb899f97436179a5967
+msgid "2 s"
+msgstr ""
+
+#: ../../API_datasets.rst:104 66ee2fec92af4c98a36c0b5da439b69f
+msgid "0.13 s"
+msgstr ""
+
+#: ../../API_datasets.rst:111 a1b99fc4723c4494b81d39bfb7e504ee
+msgid "Total: around 4.91 GB."
+msgstr ""
+
+#: ../../API_datasets.rst:113 51cfd509afd94b4c9af560360626e2f9
+msgid ""
+"Paper: B. Liu, X. Huang, Y. Wang, X. Chen, and X. Gao, “BETA: A large "
+"benchmark database toward SSVEP-BCI application,” Front. Neurosci., vol. "
+"14, p. 627, 2020. DOI: `10.3389/fnins.2020.00627 "
+"<https://doi.org/10.3389/fnins.2020.00627>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:117 ../../API_datasets.rst:234
+#: ../../API_datasets.rst:297 ../../API_datasets.rst:371
+#: ../../API_datasets.rst:422 741a040d2e364b74bd8999b1ebf9a221
+#: 94c4148ace7344d3a388985959b55555 9b0936be0c644460b3de927e9c1a32c6
+#: e4acf54a6b8145809c0d2a41a26f423b f8dedcd03f064075b70838d59e2ef8cc
+msgid ""
+"Path of storing EEG data.  The missing subjects' data files will be "
+"downloaded when the dataset is initialized.  If the provided path is not "
+"existed, the provided path will be created.  Default path is a folder "
+":file:`BETA Dataset` in the working path."
+msgstr ""
+
+#: ../../API_datasets.rst:123 ../../API_datasets.rst:240
+#: ../../API_datasets.rst:303 ../../API_datasets.rst:377
+#: ../../API_datasets.rst:428 32233413e32049b4939badfd4f9fcfb1
+#: 4f2d6c6960c341f2b0b10cfafa8e5365 5eca4f66aabd4641b7ef6167e6729fa1
+#: 9eb517c1504546188e1d5aa91604523f f0ef561604e844d28941a48f89403556
+msgid "Default path is a folder :file:`BETA Dataset` in the working path."
+msgstr ""
+
+#: ../../API_datasets.rst:125 ../../API_datasets.rst:242
+#: ../../API_datasets.rst:305 ../../API_datasets.rst:379
+#: ../../API_datasets.rst:430 15bf5d7657a646a0911b5c0cd5fc6ad8
+#: 5d161decde0149308737de0dd496984c 75958aa9437e4eb5a8b1e01302a77323
+#: cc97980d469243769bba957bf1846772 dc88eb46dc8e4ca78d637270bb6bc9c6
+msgid ""
+"Path of supported files, i.e., :file:`note.pdf`, and "
+":file:`description.pdf`.  The missing supported files will be downloaded "
+"when the dataset is initialized.  If the provided path is not existed, "
+"the provided path will be created.  Default path is same as data path "
+"``path``."
+msgstr ""
+
+#: ../../API_datasets.rst:125 ../../API_datasets.rst:242
+#: ../../API_datasets.rst:305 ../../API_datasets.rst:379
+#: ../../API_datasets.rst:430 05b85767bdb645909add145bacfecdef
+#: 18b336ce07b641e082db8ea525abbab4 af8280c4aa9e4da79bbb8f01bd783691
+#: d16ee48e2a114585be189621c87a2fe5 e72e707154c94a91977028ce36149637
+msgid ""
+"Path of supported files, i.e., :file:`note.pdf`, and "
+":file:`description.pdf`."
+msgstr ""
+
+#: ../../API_datasets.rst:134 eb78d86971a64c8f8450e4f088ddb5f2
+msgid "Nakanishi 2015 Dataset"
+msgstr ""
+
+#: ../../API_datasets.rst:138 c5ac08a731c44fbc9d971e31de03d6db
+msgid "Initialize the Nakanishi2015 dataset."
+msgstr ""
+
+#: ../../API_datasets.rst:140 8bd68856945f44c2b18b4cc53945394c
+msgid ""
+"Each .mat file has a four-way tensor electroencephalogram (EEG) data for "
+"each subject. Please see the reference paper for the detail."
+msgstr ""
+
+#: ../../API_datasets.rst:143 1c5efc088748457388bcc88004483f1e
+msgid ""
+"size(eeg) = [Num. of targets, Num. of channels, Num. of sampling points, "
+"Num. of trials]"
+msgstr ""
+
+#: ../../API_datasets.rst:145 a26593a8cc014e15a1b6042609b2234d
+msgid ""
+"The order of the stimulus frequencies in the EEG data: [9.25, 11.25, "
+"13.25, 9.75, 11.75, 13.75, 10.25, 12.25, 14.25, 10.75, 12.75, 14.75] Hz "
+"(e.g., eeg(1,:,:,:) and eeg(5,:,:,:) are the EEG data while a subject was"
+" gazing at the visual stimuli flickering at 9.25 Hz and 11.75Hz, "
+"respectively.)"
+msgstr ""
+
+#: ../../API_datasets.rst:147 343f287bd70343409094a38c7f59831f
+msgid "The onset of visual stimulation is at 39th sample point."
+msgstr ""
+
+#: ../../API_datasets.rst:150 ../../API_datasets.rst:347
+#: ../../API_datasets.rst:398 801976183d95433da4e1e7c753767542
+#: a146962557964b17acf61f6f749331aa b7d9fb089d2c433db7b140e72a4a90a4
+msgid "10"
+msgstr ""
+
+#: ../../API_datasets.rst:152 ../../API_datasets.rst:158
+#: ../../API_datasets.rst:343 ../../API_datasets.rst:349
+#: ../../API_datasets.rst:394 ../../API_datasets.rst:400
+#: 001eca54ba0843e9a86c1e527172e500 160fbbf229054e9c9bac2b421de728e3
+#: 3b593dc7738a42ce8aff02b0dd7a6235 a52c23a7585e420bac70cff6553268fd
+#: d26978ace1fd467eb49dbf7a5ccfe242 f02347318d444f54ba40cf2bda2c5317
+msgid "12"
+msgstr ""
+
+#: ../../API_datasets.rst:154 ../../API_datasets.rst:345
+#: ../../API_datasets.rst:396 58a5b859699f4cd8b3846be072043b33
+#: 65438c013a234536b03048937b3655aa c5ae5eec3e1743f9b61da198f4a0b095
+msgid "8"
+msgstr ""
+
+#: ../../API_datasets.rst:156 063b7e995a7c41b79db93ab03fd0a723
+msgid "15"
+msgstr ""
+
+#: ../../API_datasets.rst:160 8dfab12fb4f344f992cb336f9e74a135
+msgid "0.1523 (39/256) s"
+msgstr ""
+
+#: ../../API_datasets.rst:162 cb78b68d8c0946e3aac919f467132440
+msgid "1 s"
+msgstr ""
+
+#: ../../API_datasets.rst:164 e9136cad49874c5299ab40cc2b878b43
+msgid "4.3516 (1114/256) s"
+msgstr ""
+
+#: ../../API_datasets.rst:166 b477f36babb4411b9c06986961e24df5
+msgid "0.135 s"
+msgstr ""
+
+#: ../../API_datasets.rst:168 eeaa741265ff4717a50b9587201968c6
+msgid "256 Hz"
+msgstr ""
+
+#: ../../API_datasets.rst:173 c255496a64ee47ccad20986e57870a27
+msgid "Total: around 148 MB."
+msgstr ""
+
+#: ../../API_datasets.rst:175 d7ce9261e1304256ab0e29cbe922b324
+msgid ""
+"Paper: M. Nakanishi, Y. Wang, Y.-T. Wang, T.-P. Jung, \"A Comparison "
+"Study of Canonical Correlation Analysis Based Methods for Detecting "
+"Steady-State Visual Evoked Potentials,\" *PLoS ONE*, vol. 10, p. "
+"e0140703, 2015. DOI: `10.1371/journal.pone.0140703 "
+"<https://doi.org/10.1371/journal.pone.0140703>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:177 814dbb13ea354432bb6098c0366a57f2
+msgid ""
+"URL: ``ftp://sccn.ucsd.edu/pub/cca_ssvep.zip "
+"<ftp://sccn.ucsd.edu/pub/cca_ssvep.zip``."
+msgstr ""
+
+#: ../../API_datasets.rst:179 04c383cc0a6f4483b080d17fd53624b9
+msgid ""
+"Path of storing EEG data.  The missing subjects' data files will be "
+"downloaded when the dataset is initialized.  If the provided path is not "
+"existed, the provided path will be created.  Default path is a folder "
+":file:`Nakanishi2015 Dataset` in the working path."
+msgstr ""
+
+#: ../../API_datasets.rst:185 e12f3e30fa0241a796136e8f4fb61554
+msgid ""
+"Default path is a folder :file:`Nakanishi2015 Dataset` in the working "
+"path."
+msgstr ""
+
+#: ../../API_datasets.rst:188 563f5b2ff1c74631be68d726d9e25ec6
+msgid "eldBETA Dataset"
+msgstr ""
+
+#: ../../API_datasets.rst:192 8674a6bb33944ec1aff9951781e73808
+msgid "Initialize the eldBETA dataset."
+msgstr ""
+
+#: ../../API_datasets.rst:194 6e26baf4e3b74f449b39e426931c5140
+msgid ""
+"For the BCI users, there was an associated epoched record that is stored "
+"in \".mat\" structure array from MATLAB."
+msgstr ""
+
+#: ../../API_datasets.rst:196 faf7f260405448a18049d3eff95e99f7
+msgid ""
+"The structure array in each record was composed of the EEG data (\"EEG\")"
+" and its associated supplementary information (\"Suppl_info\") as its "
+"fields. In the \"EEG\" field of the record, two types of EEG data, i.e., "
+"EEG epochs and raw EEG were provided for researchers to facilitate "
+"diverse research purposes."
+msgstr ""
+
+#: ../../API_datasets.rst:198 321e6b2ae1724d9dad6bc523bf5ad693
+msgid ""
+"The EEG epochs were the EEG data with the data processing and stored as "
+"4-dimensional matrices (channel x time point x condition x block). The "
+"names and locations of the channel dimension were given in the "
+"supplementary information."
+msgstr ""
+
+#: ../../API_datasets.rst:200 33020499c85d4c3f9ad2c7bb54193e90
+msgid ""
+"For the dimension of time point, the epochs had a length of 6 s, which "
+"included 0.5 s before the stimulus onset, 5 s during the stimulation "
+"(SSVEPs) and 0.5 s after the stimulus offset."
+msgstr ""
+
+#: ../../API_datasets.rst:202 44a57a015b5d4e379c37c8d045d25cac
+msgid ""
+"Different from the epoched data, the raw EEG provided continuous EEG that"
+" were converted by EEGLAB. The raw EEG were stored as cell arrays, each "
+"of which contained a block of EEG data. The \"Suppl_info\" field of the "
+"record provided a basic information about personal statistics and "
+"experimental protocol. The personal statistics included the aged, gender,"
+" BCIQ and SNR with respect to each subject. The experimental protocol "
+"included channel location (\"Channel), stimulus frequency "
+"(\"Frequency\"), stimulus initial phase (\"Phase\") and sampling rate "
+"(\"Srate\"). The channel location was represented by a 64x4 cell arrays. "
+"The first column and the fourth column denoted the channel index and "
+"channel name, respectively. The second column and the third column "
+"denoted the channel location in polar coordinates, i.e., degree and "
+"radius, respectively. The stimulus initial phase was given in radius. The"
+" sampling rate of the epoch data was denoted by \"Srate\"."
+msgstr ""
+
+#: ../../API_datasets.rst:205 ../../API_datasets.rst:272
+#: 992f2824683544c8903a2032ffc81f48 ca84df46436943189430192b4858e46d
+msgid "100"
+msgstr ""
+
+#: ../../API_datasets.rst:207 ../../API_datasets.rst:213
+#: c631a1b2ff924473bdd0a96cac52b26f deca1f88641740609655726e5e6235ca
+msgid "9"
+msgstr ""
+
+#: ../../API_datasets.rst:211 ae68fdc425484aa0b93ebd5f47319703
+msgid "7"
+msgstr ""
+
+#: ../../API_datasets.rst:228 8f696ddb81a9428d84b774e3cce96c52
+msgid "Total: around 20.0 GB"
+msgstr ""
+
+#: ../../API_datasets.rst:230 32164151a9334a459ca2e613add38b1c
+msgid ""
+"Paper: B. Liu, Y. Wang, X. Gao, and X. Chen, \"eldBETA: A Large "
+"eldercare-oriented benchmark database of SSVEP-BCI for the aging "
+"population,\" Scientific Data, vol. 9, no. 1, pp.1-12, 2022. DOI: "
+"`10.1038/s41597-022-01372-9 "
+"<https://www.nature.com/articles/s41597-022-01372-9>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:251 83ad527343bc49a2afc4ce354347c7a3
+msgid "openBMI Dataset"
+msgstr ""
+
+#: ../../API_datasets.rst:255 d326454aac4d4faeb40f6b52496d6cae
+msgid "Initialize the openBMI dataset."
+msgstr ""
+
+#: ../../API_datasets.rst:257 2735e9e0ecf344a0b8af15b249636721
+msgid ""
+"Fifty-four healthy subjects (ages 24-35, 25 females) participated in the "
+"experiment. Thirty-eight subjects were naive BCI users. The others had "
+"previous experience with BCI experiments. None of the participants had a "
+"history of neurological, psychiatric, or any other pertinent disease that"
+" otherwise might have affected the experimental results."
+msgstr ""
+
+#: ../../API_datasets.rst:259 d12b210e95454e1c97ee93f29e1b5987
+msgid ""
+"EEG signals were recorded with a sampling rate of 1000 Hz and collected "
+"with 62 Ag/AgCl electrodes."
+msgstr ""
+
+#: ../../API_datasets.rst:261 c609154b01b74520978e2cbfc197959a
+msgid ""
+"Four target SSVEP stimuli were designed to flicker at 5.45, 6.67, 8.57, "
+"and 12 Hz and were presented in four positions (down, right, left, and "
+"up, respectively) on a monitor. The designed paradigm followed the "
+"conventional types of SSVEP-based BCI systems that require four-direction"
+" movements. Participants were asked to fixate the center of a black "
+"screen and then to gaze in the direction where the target stimulus was "
+"highlighted in a different color. Each SSVEP stimulus was presented for 4"
+" s with an ISI of 6 s. Each target frequency was presented 25 times. "
+"Therefore, the corrected EEG data had 100 trials (4 classes × 25 trials) "
+"in the offline training phase and another 100 trials in the online test "
+"phase. Visual feedback was presented in the test phase; the estimated "
+"target frequency was highlighted for one second with a red border at the "
+"end of each trial."
+msgstr ""
+
+#: ../../API_datasets.rst:264 f38628b179de43659a12fafac23657c5
+msgid "54"
+msgstr ""
+
+#: ../../API_datasets.rst:268 a2acf66cf5ed43e9ac2d8dfaf6f23344
+msgid "62"
+msgstr ""
+
+#: ../../API_datasets.rst:270 b1974d2066b34d668577b1f320437ffb
+msgid "4 (2 sessions * (online part + offline part))"
+msgstr ""
+
+#: ../../API_datasets.rst:274 ../../API_datasets.rst:276
+#: ../../API_datasets.rst:280 0d5e617856e54948a047cf9c0a95263f
+#: ba498de6533042c7bf46cc5ca25b5cfc d3720bae7f2b43fe9600c372e38942e5
+msgid "0 s"
+msgstr ""
+
+#: ../../API_datasets.rst:278 e4064e2f074043038d36b69e59c6013b
+msgid "4 s"
+msgstr ""
+
+#: ../../API_datasets.rst:282 3ff3ec1c8d3e481a86a9e4f8ed8c0613
+msgid "1000 Hz"
+msgstr ""
+
+#: ../../API_datasets.rst:287 d584734ee9554f828c1fa0d57c2b7e1b
+msgid "Total: around 55.6 GB"
+msgstr ""
+
+#: ../../API_datasets.rst:289 bf70146a12bf4b69b274f29c22a0940c
+msgid ""
+"Paper: M.-H. Lee, O.-Y. Kwon, Y.-J. Kim, H.-K. Kim, Y.-E. Lee, J. "
+"Williamson, S. Fazli, and S.-W. Lee, \"EEG dataset and OpenBMI toolbox "
+"for three BCI paradigms: An investigation into BCI illiteracy,\" "
+"GigaScience, vol. 8, no. 5, p. giz002, 2019. DOI: "
+"`10.1093/gigascience/giz002 "
+"<https://doi.org/10.1093/gigascience/giz002>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:292 564ea4f7ed6a401381a1bdf52c04260b
+msgid ""
+"Data: M. Lee, O. Kwon, Y. Kim, H. Kim, Y. Lee, J. Williamson, S. Fazli, "
+"S. Lee, \"Supporting data for 'EEG Dataset and OpenBMI Toolbox for Three "
+"BCI Paradigms: An Investigation into BCI Illiteracy',\" GigaScience "
+"Database, 2019. DOI: `10.5524/100542 "
+"<http://dx.doi.org/10.5524/100542>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:295 af1e2cfc91f0450296dc4b784a18f16b
+msgid "URL: ``ftp://ftp.cngb.org/pub/gigadb/pub/10.5524/100001_101000/100542/``."
+msgstr ""
+
+#: ../../API_datasets.rst:314 8be38afeb19c4759ba64749b7922f0bc
+msgid "Wearable SSVEP Dataset"
+msgstr ""
+
+#: ../../API_datasets.rst:316 b5a4dea166424f0589c2a1a049d1779f
+msgid ""
+"This dataset relied on the BCI Brain-Controlled Robot Contest at the 2020"
+" World Robot Contest to recruit participants."
+msgstr ""
+
+#: ../../API_datasets.rst:318 731db3774251460db7d1a63b47cc4e30
+msgid ""
+"One hundred and two healthy subjects (64 males and 38 females, with an "
+"average age of 30.03 ± 0.79 years ranging from 8 to 52 years) with normal"
+" or corrected-to-normal eyesight participated in the experiment. total, "
+"53 subjects wore the dry-electrode headband first and 49 subjects wore "
+"the wet-electrode headband first."
+msgstr ""
+
+#: ../../API_datasets.rst:320 711be0084b6142d78a8d8cb37527d9b9
+msgid ""
+"This research designed an online BCI system with a 12-target speller as a"
+" virtual keypad of a phone."
+msgstr ""
+
+#: ../../API_datasets.rst:322 85ee17c4b34a441c8feaebf362d67f43
+msgid ""
+"An 8-channel NeuSenW (Neuracle, Ltd. Changzhou, China) wireless EEG "
+"acquisition system was used to record the SSVEPs in this study."
+msgstr ""
+
+#: ../../API_datasets.rst:324 af239df4bedd4686bf08e8d38d918725
+msgid "Each block included 12 trials, and each trial corresponded to each target."
+msgstr ""
+
+#: ../../API_datasets.rst:326 d402bbd62d164b05b5fbf7937c811bce
+msgid ""
+"EEG data were recorded using Neuracle EEG Recorder NeuSen W (Neuracle, "
+"Ltd.), a wireless EEG acquisition system with a sampling rate of 1000 Hz."
+" Eight electrodes (POz, PO3, PO4, PO5, PO6, Oz, O1 and O2, sorted by "
+"channel index in the dataset) were placed at the parietal and occipital "
+"regions on the basis of the international 10 to 20 system to record "
+"SSVEPs and two electrodes were placed at the forehead as the reference "
+"and ground, respectively."
+msgstr ""
+
+#: ../../API_datasets.rst:328 5f61c0fd747d44769a2b7ffa242df032
+msgid ""
+"In accordance with the stimulus onsets recorded in the event channel of "
+"the continuous EEG data, data epochs could be extracted. The length of "
+"each data epoch was 2.84 s, including 0.5 s before the stimulus onset, "
+"0.14 s for visual response delay, 2 s for stimulus, and 0.2 s after "
+"stimulus. With the purpose of reducing the storage and computation costs,"
+" all data were down sampled to 250 Hz."
+msgstr ""
+
+#: ../../API_datasets.rst:330 e4cc4f933e684465acf91842c4f181d0
+msgid ""
+"The electrode impedances recorded before each block were provided in the "
+"data matrix of ‘Impedance.mat’ with dimensions of [8, 10, 2, 102]. The "
+"channel index are corresponding to POz, PO3, PO4, PO5, PO6, Oz, O1, O2. "
+"The numbers in the four dimensions represent the number of channels, "
+"blocks, headband types (1: wet, 2: dry) and subjects respectively. The "
+"impedance information can be used to study the relationship be tween "
+"impedance and BCI performance."
+msgstr ""
+
+#: ../../API_datasets.rst:332 c3ab31f1cfc141a2939be3e6cfe34272
+msgid ""
+"The “Subjects_information.mat” file lists the information of all 102 "
+"subjects together with aquestionnaire on the comfort level and preference"
+" of the two headbands after the experiment. For each participant, there "
+"are 10 columns of parameters (factors). The first 4 colu mns are the "
+"subjects’ personal information including “subject index”, “gender”, "
+"“age”, and “dominant hand”. The 6 columns(5th 10th) are listed as results"
+" in questionnaires, which are “Comfort of dry electrode headband”, "
+"“Wearing time of dry electrode when pain occurs”, “Comfort of wet "
+"electrode headband”, “Wearing time of wet electrode when pain occurs”, "
+"“Only consider comfort, headband preference” and “comprehensively "
+"consider comfort and convenience (need assistance from others, conductive"
+" paste, shampoo, etc.), headband preference\". The last column shows the "
+"order of wearing the two headbands."
+msgstr ""
+
+#: ../../API_datasets.rst:334 eac5776cbad845b89158fe49dc66db68
+msgid ""
+"The “stimulation_information.pdf” file lists the stimulation parameters "
+"of the 12 characters, including frequency and phase information of each "
+"character."
+msgstr ""
+
+#: ../../API_datasets.rst:338 623c352d1a8f4530b71fe54fd97a49c7
+msgid "Initialize the wearable dataset (wet electrodes)."
+msgstr ""
+
+#: ../../API_datasets.rst:341 ../../API_datasets.rst:392
+#: 7dc90525fb954a0487ec95d8efa2e44f eac43c3064e749f8b5d53877347fa4c7
+msgid "102"
+msgstr ""
+
+#: ../../API_datasets.rst:353 ../../API_datasets.rst:404
+#: ae82fc76a9414733ac3e568671ffb126 b95aa488ea884295ac670ddf4c291e9b
+msgid "0.2 s"
+msgstr ""
+
+#: ../../API_datasets.rst:355 ../../API_datasets.rst:406
+#: 48b2dca183774d6684fae154d7be718a 58a896d75ddb488aa4b2b72436d5fa5c
+msgid "2.84 s"
+msgstr ""
+
+#: ../../API_datasets.rst:364 ../../API_datasets.rst:415
+#: 02f59a07c9c848bfaa0dd296b8510cb8 1ae9415ba1944281903029a814c9f887
+msgid "Total: around 929 MB"
+msgstr ""
+
+#: ../../API_datasets.rst:366 ../../API_datasets.rst:417
+#: 9be5a4dc385449d6b8de719833747040 f275df6501fd4c949b642b32e79f03a3
+msgid ""
+"Paper: F. Zhu, L. Jiang, G. Dong, X. Gao, and Y. Wang, “An Open Dataset "
+"for Wearable SSVEP-Based Brain-Computer Interfaces,” Sensors, vol. 21, "
+"no. 4, p. 1256, 2021. DOI: `10.3390/s21041256 "
+"<https://www.mdpi.com/1424-8220/21/4/1256>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:369 ../../API_datasets.rst:420
+#: 1fc5606c27574581abe321b8c374a212 907b2d5579434ca6b906a32a9ef184ac
+msgid ""
+"URL: `http://bci.med.tsinghua.edu.cn/ "
+"<http://bci.med.tsinghua.edu.cn/>`_.."
+msgstr ""
+
+#: ../../API_datasets.rst:389 d8461adbdc884e8c8fe4ac0fbb1184e3
+msgid "Initialize the wearable dataset (dry electrodes)."
+msgstr ""
+
+#: ../../API_datasets.rst:439 9ba4bf4b07ef4c77842140e0678ac68c
+msgid "Attributes of datasets"
+msgstr ""
+
+#: ../../API_datasets.rst:441 be6aafa8d56a4f369eda0eb5adc6d7a3
+msgid ""
+"All datasets have these attributes. Attributes in different datasets have"
+" different values."
+msgstr ""
+
+#: ../../API_datasets.rst 9deb01e2c10d459791e84b0436236dd4
+msgid "subjects"
+msgstr ""
+
+#: ../../API_datasets.rst:443 1e3f1a4b63dd4572acb5c9c90a37b768
+msgid ""
+"A list of subject information. Each element is a ``SubInfo`` instance, "
+"which contains following attributes:"
+msgstr ""
+
+#: ../../API_datasets.rst 17126322f2ba412c86fe1bc74fd2d3e2
+#: 1d9214124eac4a359bf4576d4b892d6d
+msgid "ID"
+msgstr ""
+
+#: ../../API_datasets.rst:445 93655dc3f39f477695b3d1a9e9a53a6a
+msgid "Unique identifier of subject."
+msgstr ""
+
+#: ../../API_datasets.rst 01e3225e41a248b1843aaadf1b2341b5
+msgid "path"
+msgstr ""
+
+#: ../../API_datasets.rst:447 0dbd972c834245b089fd4e627a8cb56c
+msgid "Path of corresponding EEG data file."
+msgstr ""
+
+#: ../../API_datasets.rst 4a38f86f56c24b9ab0dc77875a02db48
+msgid "name"
+msgstr ""
+
+#: ../../API_datasets.rst:449 1515de2b12d34061bdf5e44a876512a7
+msgid "Name of subject."
+msgstr ""
+
+#: ../../API_datasets.rst 9456e6ca9d3e444b99b6324de32111cc
+msgid "age"
+msgstr ""
+
+#: ../../API_datasets.rst:451 96d027e7aaaf4c4bb6c738bc3d440b74
+msgid "Age of subject."
+msgstr ""
+
+#: ../../API_datasets.rst f3db1750fc934d45bb055913eeacef67
+msgid "gender"
+msgstr ""
+
+#: ../../API_datasets.rst:453 61983fec82cd454ebc472175a2d0ec83
+msgid "Gender of subject. ``M`` for male. ``F`` for female."
+msgstr ""
+
+#: ../../API_datasets.rst:455 1c3c75426f544415aec30879769bc687
+msgid "Name/ID of the dataset."
+msgstr ""
+
+#: ../../API_datasets.rst 5a4954a83b12499e852dc0d064dd01ad
+msgid "url"
+msgstr ""
+
+#: ../../API_datasets.rst:457 86a986200c3f475ca0599b957bcbf02f
+msgid "Download URL."
+msgstr ""
+
+#: ../../API_datasets.rst d286968ace09484b813ade1839d34706
+msgid "paths"
+msgstr ""
+
+#: ../../API_datasets.rst:459 7c772b3e7b2341828e8bb7edf8c8f548
+msgid "A list of EEG data path. Each subject has a individual data path."
+msgstr ""
+
+#: ../../API_datasets.rst 4cbedef79d134ef1a1f9206c50a27a26
+msgid "channels"
+msgstr ""
+
+#: ../../API_datasets.rst:461 18de2b3bb57948599fb384d4d5d8f691
+msgid "A list of channel names"
+msgstr ""
+
+#: ../../API_datasets.rst 2355aa92e5d74b08bc861feef008b940
+msgid "srate"
+msgstr ""
+
+#: ../../API_datasets.rst:463 def2902b688d41d2a6fd9ba17e3ff81f
+msgid "Sampling rate (Hz)"
+msgstr ""
+
+#: ../../API_datasets.rst 7232ce5dcae9445b85e1b9810b75b005
+msgid "block_num"
+msgstr ""
+
+#: ../../API_datasets.rst:465 88557cf05bb14f46bce99486cec75a4b
+msgid "Number of blocks"
+msgstr ""
+
+#: ../../API_datasets.rst f697bcecb4a043efb090cbdc6d83bfe0
+msgid "trial_num"
+msgstr ""
+
+#: ../../API_datasets.rst:467 3e73039a86cc41e1914ae6273b55bef7
+msgid "Number of trials in each block"
+msgstr ""
+
+#: ../../API_datasets.rst bf1cc9db32ed4b09983ceb5908e094f1
+msgid "trial_len"
+msgstr ""
+
+#: ../../API_datasets.rst:469 05b831cc38594c5cae970d542fceb227
+msgid ""
+"Signal length (in second) of single trial. If different trials have "
+"different siganl length, the shorted signal length is stored."
+msgstr ""
+
+#: ../../API_datasets.rst e95f8a89ced7445dae77f72cc89e2664
+msgid "stim_info"
+msgstr ""
+
+#: ../../API_datasets.rst:471 9de284f1da2d45289ce2ef6edb386462
+msgid "A dictionary storing stimulus information, which contains following keys:"
+msgstr ""
+
+#: ../../API_datasets.rst fd5cb86a41bb49bcb5b5b63c989e9003
+msgid "stim_num"
+msgstr ""
+
+#: ../../API_datasets.rst:473 0c9f959a44774781ac1c549123e53fc4
+msgid "Number of stimuli."
+msgstr ""
+
+#: ../../API_datasets.rst cfad15e67b21419c90e85c908f5b051a
+msgid "freqs"
+msgstr ""
+
+#: ../../API_datasets.rst:475 c7603e81e2b449ba8b53cbf86a798750
+msgid "A list of stimulus frequencies."
+msgstr ""
+
+#: ../../API_datasets.rst 09db66e3ea05416b85feb0976b347df7
+msgid "phases"
+msgstr ""
+
+#: ../../API_datasets.rst:477 faf5380634af4eed91cdba383eb67b7b
+msgid "A list of stimulus phases."
+msgstr ""
+
+#: ../../API_datasets.rst 0cf9e330eec04271a46030794cd1c892
+msgid "t_prestim"
+msgstr ""
+
+#: ../../API_datasets.rst:479 86817d09711c472687c588ad21869fe4
+msgid "Pre-stimulus time (in second)."
+msgstr ""
+
+#: ../../API_datasets.rst 872700c6bb0f40f3bccf5c1db5ff247e
+msgid "t_break"
+msgstr ""
+
+#: ../../API_datasets.rst:481 533238d493944014b31a4da916cda6af
+msgid "Time for shifting visual attention (in second)."
+msgstr ""
+
+#: ../../API_datasets.rst d677004247e846ea96485cb1a866f8f1
+msgid "support_files"
+msgstr ""
+
+#: ../../API_datasets.rst:483 ca4e5716d49643f9a63a56d3db280298
+msgid "A list of supported files."
+msgstr ""
+
+#: ../../API_datasets.rst 6e434722ac994414a647bfc9a3b771c3
+msgid "path_support_file"
+msgstr ""
+
+#: ../../API_datasets.rst:485 87467cc0417744c5b85d1d077d884a6c
+msgid "Path of supported files"
+msgstr ""
+
+#: ../../API_datasets.rst cbd05854a12d4ff3b24fb40903ced56d
+msgid "default_t_latency"
+msgstr ""
+
+#: ../../API_datasets.rst:487 c8e4e631406e4ef88d3acc44e4d0664f
+msgid "Default/suggested latency time (in second)."
+msgstr ""
+
+#: ../../API_datasets.rst:490 eb41d5bd3b6c48318ce4d2f2c417697a
+msgid "Methods of datasets"
+msgstr ""
+
+#: ../../API_datasets.rst:492 42a65d5d7ff14f41bde245a5cdb84216
+msgid ""
+"For all datasets, the toolbox will the unified APIs to hook the "
+"proprocessing and filterbank functions and output signals. The unified "
+"APIs are listed here:"
+msgstr ""
+
+#: ../../API_datasets.rst:496 3bc6c7fa827c4b4581e1c262ca845ed6
+msgid ""
+"Download all subjects' data file. Because all data files will be "
+"donwloaded automatically when a dataset is initialized, this function "
+"normally does not need to be run manually."
+msgstr ""
+
+#: ../../API_datasets.rst:500 2bebec7b15bf4b288f04130271bdb405
+msgid ""
+"Download all supported files. Because all supported files will be "
+"downloaded automatically when a dataset is initialized, this function "
+"normally does not need to be run manually."
+msgstr ""
+
+#: ../../API_datasets.rst:504 cbefe57536854820953dca2f0299eeca
+msgid ""
+"Set the preprocess function as the default preprocess function. The "
+"default preprocess function is empty. It will directly return the "
+"original EEG signals without any preprocessing."
+msgstr ""
+
+#: ../../API_datasets.rst:508 b978a4fff0664851854363eef1a7d35e
+msgid "Hook the user-defined preprocessing function."
+msgstr ""
+
+#: ../../API_datasets.rst:510 36f931867a174e81bab989fb234f171d
+msgid "User-defined preprocessing function."
+msgstr ""
+
+#: ../../API_datasets.rst:514 6d8f1f1e87c646c0b0715ace1098f326
+msgid ""
+"The given ``preprocess_fun`` should be a callable function name (only "
+"name). This callable function should only have two input parameter "
+"``dataself`` and ``X``."
+msgstr ""
+
+#: ../../API_datasets.rst:516 ../../API_datasets.rst:543
+#: ../../API_datasets.rst:652 95f180fd7aa941a08da62522de28a3ac
+#: bd91d45adb054a238857619c17980a7e eb544a45a2c0403fafb937c051749b1c
+msgid ""
+"``dataself`` is the data istance. If you need to use parameters in the "
+"data module, you can directly use them from ``dataself``."
+msgstr ""
+
+#: ../../API_datasets.rst:517 ../../API_datasets.rst:544
+#: d0de5d2b0a264b10a9234f33d32597f7 f4577a5f959045b29425821d17594cc3
+msgid ""
+"``X`` is a 2D EEG signal (channels :raw-html:`&#215;` samples). The pre-"
+"stimulus time has been removed from the EEG signal. The latency time is "
+"maintained in the EEG signal. The detailed data extraction procedures "
+"please refer to `\"get_data\" function <#get_data>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:519 a3f73bf3ed5d435b80c36e8a6f76d688
+msgid ""
+"If your preprocess function needs other input parameters, you may use "
+"`lambda function <https://www.w3schools.com/python/python_lambda.asp>`_. "
+"Check demos to get more hints."
+msgstr ""
+
+#: ../../API_datasets.rst:521 ../../API_datasets.rst:550
+#: 24fde7bbad8b4ac9aff333f51805481f 65336e1872554fcc8153901eb5bb8b4c
+msgid ""
+"You may refer the following default preprocess function to define your "
+"own function."
+msgstr ""
+
+#: ../../API_datasets.rst:531 ba360d55f76b4ee9840501c05150a0c0
+msgid ""
+"Set the filterbank function as the default filterbank function. In the "
+"default filterbank function, the original EEG signals will be considered "
+"as one filterbank. If the original EEG signal is a 2D signal (channels "
+":raw-html:`&#215;` samples), one more dimention will be expanded "
+"(filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` samples). If "
+"the original EEG signal is a 3D signal, original signal will be returned "
+"without any processing."
+msgstr ""
+
+#: ../../API_datasets.rst:535 cbfa8d1ed9ad42d89a7950bcd6b0ff1c
+msgid "Hook the user-defined filterbank function."
+msgstr ""
+
+#: ../../API_datasets.rst:537 49b994666be8482e8f74075cfc6e15b6
+msgid "User-defined filterbank function."
+msgstr ""
+
+#: ../../API_datasets.rst:541 147b9fa829764acf8bb1e60f6b98617f
+msgid ""
+"The given ``filterbank_fun`` should be a callable function name (only "
+"name). This callable function should only have two input parameter "
+"``dataself`` and ``X``."
+msgstr ""
+
+#: ../../API_datasets.rst:546 866c12b8562d4000af2c0b68452a9427
+msgid ""
+"The output of the given ``filterbank_fun`` should be a 3D EEG signal "
+"(filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` samples). The "
+"bandpass filtered EEG signals of filterbanks should be stored in the "
+"first dimension."
+msgstr ""
+
+#: ../../API_datasets.rst:548 ab10e9d647b24ff3bf47d77c7785fbe4
+msgid ""
+"If your filterbank function needs other input parameters, you may use "
+"`lambda function <https://www.w3schools.com/python/python_lambda.asp>`_. "
+"Check demos to get more hints."
+msgstr ""
+
+#: ../../API_datasets.rst:568 a0af49dabac747e1855e4ff8a3e76a5c
+msgid ""
+"According to the given testing block index, generate lists of testing and"
+" training block indices following the leave-one-block-out rule."
+msgstr ""
+
+#: ../../API_datasets.rst:572 a7d5d3a97df846bb94abd149584dafaa
+msgid ""
+"Leave-one-block-out rule: One block works as the testing block. All other"
+" blocks work as the training blocks."
+msgstr ""
+
+#: ../../API_datasets.rst:574 49f3064b973546629d1c2e65ce0b2935
+msgid "Given testing block index."
+msgstr ""
+
+#: ../../API_datasets.rst 20ee3df78e2845dba3290852490fff67
+#: 4c447d7acb544850845bd947f406990b 627a5a02062745059a729d1211459af6
+#: 9462078b530a4142bf168e35b1846629 aa28b62ba9674ad3a3514682c6a05aa5
+#: fb9c62d568864dd0a2ee0856b638ed73
+msgid "Returns"
+msgstr ""
+
+#: ../../API_datasets.rst:575 faf0f4215e18412191f87333b84c9003
+msgid ""
+"+ ``test_block``: List of one testing block index + ``train_block``: List"
+" of training block indices"
+msgstr ""
+
+#: ../../API_datasets.rst:577 b1855cde6ce94f5ab8387950aeddc58f
+msgid "``test_block``: List of one testing block index"
+msgstr ""
+
+#: ../../API_datasets.rst:578 4db67642b0364148bd973169712491ea
+msgid "``train_block``: List of training block indices"
+msgstr ""
+
+#: ../../API_datasets.rst:582 8e29cf840ca44ed1be75378551092062
+msgid "Extract EEG signals and corresponding labels from the dataset"
+msgstr ""
+
+#: ../../API_datasets.rst:584 ../../API_datasets.rst:614
+#: ../../API_datasets.rst:717 ../../API_datasets.rst:731
+#: 5efb82817ab540f78b25458afd382458 6c122e0741874a0eac1737c1eb8032c0
+#: 6e72fb0ab25c4fb78604d13211670466 f3e49c1a11b148e3853a9501946aa654
+msgid "Subject index."
+msgstr ""
+
+#: ../../API_datasets.rst:585 ../../API_datasets.rst:615
+#: 17d88c941ab4400a87e6f0896f5d7629 bd13f4bf53354d0a8762ab2c3e848b06
+msgid "List of block indices."
+msgstr ""
+
+#: ../../API_datasets.rst:586 bf48ab8631f142d39119a07975792339
+msgid "List of trial indices."
+msgstr ""
+
+#: ../../API_datasets.rst:587 ../../API_datasets.rst:616
+#: 13a67c28bea44519a67797dcdb733820 fc298359253a480a91843439b0b1cb4a
+msgid "List of channel indices."
+msgstr ""
+
+#: ../../API_datasets.rst:588 ../../API_datasets.rst:617
+#: c95e7e65bb02455491fcb45cf755b71a f763d8ff536b41b388eaa875d27a7126
+msgid "Signal length (in second)."
+msgstr ""
+
+#: ../../API_datasets.rst:589 ../../API_datasets.rst:618
+#: 2bff14cf4bf44b29b1e8482a0ccc0518 9da4f32314794eecbef8e4c13c1f6fb8
+msgid ""
+"Latency time (in second). Default is the default/suggested latency time "
+"of the dataset."
+msgstr ""
+
+#: ../../API_datasets.rst:590 ../../API_datasets.rst:619
+#: 60ef1a8918d344028c0f737fc32c62c6 ab7d840d6af3410f8a6146d0bdebba19
+msgid ""
+"If ``True``, the order of trials will be shuffled. Otherwise, the order "
+"of trials will follow the given ``blocks`` and ``trials``."
+msgstr ""
+
+#: ../../API_datasets.rst:592 ../../API_datasets.rst:621
+#: 896c22e03f4c46f89385b4ae2521e5c1 dd92291ccd6f4735869563bf5b1aa615
+msgid "+ ``X``: List of single trial EEG signals. + ``Y``: List of labels."
+msgstr ""
+
+#: ../../API_datasets.rst:594 ../../API_datasets.rst:623
+#: 010dcf42738742bd95917bbe899ab2d5 b1b833b60de144a1a54e037d9437b5bc
+msgid "``X``: List of single trial EEG signals."
+msgstr ""
+
+#: ../../API_datasets.rst:595 ../../API_datasets.rst:624
+#: 2effd8bca8f146db8bafe80334fd0737 fbdf118796964b2584b4450d3aad7961
+msgid "``Y``: List of labels."
+msgstr ""
+
+#: ../../API_datasets.rst:599 501072860b214341bf41a6047c702bcb
+msgid ""
+"The preprocess and filterbanks are applied to windowed signals (not whole"
+" trial signal), which is close to the real online situation. The "
+"extraction will follow these steps:"
+msgstr ""
+
+#: ../../API_datasets.rst:601 5e17c65e38dc47668661e59744c89d07
+msgid ""
+"Cut the signal according to given ``sig_len``. The pre-stimulus time "
+"``t_prestim`` will be removed. The latency time is maintained."
+msgstr ""
+
+#: ../../API_datasets.rst:602 38f54964412a48cfa4cbb29e190ee504
+msgid "Apply the hooked preprocessing function."
+msgstr ""
+
+#: ../../API_datasets.rst:603 bb449046b41e40c2bd1c01ffa037a742
+msgid "Apply the bandpass filters of filterbanks."
+msgstr ""
+
+#: ../../API_datasets.rst:604 e1de1cc7ae754fa0934575b4841b862d
+msgid "Remove the latency time."
+msgstr ""
+
+#: ../../API_datasets.rst:606 076cb813bb8946da8b4aec5f3fb80fb9
+msgid "The extraction process follows the below figure."
+msgstr ""
+
+#: ../../API_datasets.rst:612 5bb1a6688ad5477abeaf27e9bb71e218
+msgid ""
+"Extract EEG signals of all trials in given blocks and corresponding "
+"labels from the dataset. This function is similar as ``get_data`` but it "
+"does not need ``trials`` and will extract all trials of given blocks."
+msgstr ""
+
+#: ../../API_datasets.rst:628 3274bced83394fa88f40bf27aacfbb8d
+msgid ""
+"Set the reference signal generation function as the default sine-cosine "
+"reference generation function. The default sine-cosine reference "
+"generation function uses the sampling frequency of the original signal "
+"(recoded in the dataset) to generate the reference signals. The reference"
+" signals of :math:`i\\text{-th}` stimulus can be presented as"
+msgstr ""
+
+#: ../../API_datasets.rst:630 0a9d7c5599e74dc69055b401e7f00766
+msgid ""
+"\\mathbf{Y}_i(t) = \\left[ \\begin{array}{c}\n"
+"                    \\sin(2\\pi f_i t + \\theta_i)\\\\\n"
+"                    \\cos(2\\pi f_i t + \\theta_i)\\\\\n"
+"                    \\vdots\\\\\n"
+"                    \\sin(2\\pi N_h f_i t + N_h \\theta_i)\\\\\n"
+"                    \\cos(2\\pi N_h f_i t + N_h \\theta_i)\n"
+"                \\end{array} \\right]"
+msgstr ""
+
+#: ../../API_datasets.rst:640 6b7944f9498c43e58271c4b1a669445d
+msgid ""
+"where :math:`f_i` and :math:`\\theta_i` denote the stimulus frequency and"
+" phase of the :math:`i\\text{-th}` stimulus, and :math:`N_h` denotes the "
+"total number of harmonic components."
+msgstr ""
+
+#: ../../API_datasets.rst:644 2c5fd8ada489449abf13e1f35209ccc7
+msgid "Hook the user-defined reference generation function."
+msgstr ""
+
+#: ../../API_datasets.rst:646 ecd5b5fa4bf14d76be443a72dbe1bbeb
+msgid "User-defined reference generation function."
+msgstr ""
+
+#: ../../API_datasets.rst:650 25dd1cd4314f40339669af7b87f595a3
+msgid ""
+"The given ``preprocess_fun`` should be a callable function name (only "
+"name). This callable function should only have four input parameter:"
+msgstr ""
+
+#: ../../API_datasets.rst:653 c32476cf4dbe442fa722d547cc0b6532
+msgid "``sig_len`` is the signal length (in second)."
+msgstr ""
+
+#: ../../API_datasets.rst:654 7c53245e6da64068994061656b245b95
+msgid "``N`` is the total number of harmonic components."
+msgstr ""
+
+#: ../../API_datasets.rst:655 0c34b696bb4a40b4ba0b46c8c8172b34
+msgid "``phases`` is the phases of stimuli."
+msgstr ""
+
+#: ../../API_datasets.rst:657 e5d6d0455fee4ba3acfe94ae3a6df42c
+msgid "The frequencies of stimuli can be obtained from ``dataself``."
+msgstr ""
+
+#: ../../API_datasets.rst:659 bc10339412114f29ab6cfc914c5cbf84
+msgid ""
+"If your reference generation function needs other input parameters, you "
+"may use `lambda function "
+"<https://www.w3schools.com/python/python_lambda.asp>`_. Check demos to "
+"get more hints."
+msgstr ""
+
+#: ../../API_datasets.rst:661 aae6ff621b57406fb066972177ddafb0
+msgid ""
+"Normally, you do not need to define your own reference signal generation "
+"function. But, when you change the sampling rate (upsampling or "
+"downsampling in the preprocess), you must define your own reference "
+"signal generation function using the new sampling rate. You may refer the"
+" following default reference signal generation function to define your "
+"own function."
+msgstr ""
+
+#: ../../API_datasets.rst:673 59cccfe5f61f455b9a6672ae621b6dc7
+msgid "``gen_ref_sin`` is in :ref:`computation-fun`."
+msgstr ""
+
+#: ../../API_datasets.rst:677 6ce3f4a9b9e64d51a252026bab734db5
+msgid ""
+"Generate sine-cosine-based reference signals by using the registed "
+"reference generation function."
+msgstr ""
+
+#: ../../API_datasets.rst:679 c2135ddbc67f442b86bc4e370b6efca9
+msgid ""
+"Signal length (in second). It should be same as the signal length of "
+"extracted EEG signals."
+msgstr ""
+
+#: ../../API_datasets.rst:680 a54a94e6cb55481eb824fdb205679ee6
+msgid "Total number of harmonic components."
+msgstr ""
+
+#: ../../API_datasets.rst:681 f1f1ecb776b24d409b7d1a3146afb1dc
+msgid ""
+"If ``True``, all stimulus phases will be set as 0. Otherwise, the "
+"stimulus phases stored in the dataset will be applied."
+msgstr ""
+
+#: ../../API_datasets.rst:683 a0c6852e5fc747068c66a89b607ab6a3
+msgid ""
+"+ ``ref_sig``: List of reference signals. Each stimulus have one set of "
+"reference signals."
+msgstr ""
+
+#: ../../API_datasets.rst:685 64199c9fc2014c098c57b905d819c9e4
+msgid ""
+"``ref_sig``: List of reference signals. Each stimulus have one set of "
+"reference signals."
+msgstr ""
+
+#: ../../API_datasets.rst:690 5957daca38cf450c94894c2cc4d5f6da
+msgid "How to define your own dataset class"
+msgstr ""
+
+#: ../../API_datasets.rst:692 726d06619e23477a93d23a0e52ff69ae
+msgid ""
+"You can use the abstract class "
+"``SSVEPAnalysisToolbox.datasets.BaseDataset`` as the father class to "
+"define your own dataset class. In your own dataset class, the following "
+"functions should be defined:"
+msgstr ""
+
+#: ../../API_datasets.rst:694 7b5eab7bc47f4fdbbc2435f53c47755e
+msgid ""
+"``__init__``: Except ``path`` and ``path_support_file``, other attributes"
+" mentioned in `Section \"Attributes of datasets\" <#attributes-of-"
+"datasets>`_ normally have been defined in the dataset. Therefore, the "
+"initialization function should be re-defined. You may ask for "
+"``__init__`` of the father class "
+"``SSVEPAnalysisToolbox.datasets.BaseDataset`` to store these attributes "
+"in class."
+msgstr ""
+
+#: ../../API_datasets.rst:695 27759ea70c4a4120b3d272866960d439
+msgid ""
+"Following abstract functions in "
+"``SSVEPAnalysisToolbox.datasets.BaseDataset`` are empty and should be "
+"defined in your own dataset class:"
+msgstr ""
+
+#: ../../API_datasets.rst:699 bdb7cd1c49484181829f5d0f4c61c623
+msgid "Donwload one subject's data file."
+msgstr ""
+
+#: ../../API_datasets.rst:701 1a6c2fafbf464b33b110491a4eeb55b8
+#: 60e8a5c4232b4e4990c4267eb0dfe561
+msgid ""
+"One ``SubInfo`` instance stored in ``subjects`` mentioned in `Section "
+"\"Attributes of datasets\" <#attributes-of-datasets>`_."
+msgstr ""
+
+#: ../../API_datasets.rst:705 4898e4fbfe564bb1bba4cd6801a02a80
+msgid "Download one supported file."
+msgstr ""
+
+#: ../../API_datasets.rst:707 93be023a3cbc48dbb1da60de274a6e45
+msgid "File name that will be downloaded."
+msgstr ""
+
+#: ../../API_datasets.rst:711 9e10182e3cd5436aa7bd6509c3432762
+msgid ""
+"You may use `\"download_single_file\" function "
+"<#SSVEPAnalysisToolbox.utils.download.download_single_file>`_ to download"
+" the required file. You also may need `\"tarfile\" "
+"<https://docs.python.org/3/library/tarfile.html>`_ or `\"py7zr\" "
+"<https://github.com/miurahr/py7zr>`_ to uncompress data files."
+msgstr ""
+
+#: ../../API_datasets.rst:715 a341ca82d737431b92b7dacffd01cdbf
+msgid "Read one subject data from the local data file."
+msgstr ""
+
+#: ../../API_datasets.rst:719 d1f0923b360449319ab242ecd7fce83c
+msgid ""
+"+ ``data``: The provided data should be a 4D data (blocks :raw-"
+"html:`&#215;` trials :raw-html:`&#215;` channels :raw-html:`&#215;` "
+"samples). Each trial should contain the whole trial data including pre-"
+"stimulus time, and latency time."
+msgstr ""
+
+#: ../../API_datasets.rst:721 83236c2729c84a45add4c55f269111e2
+msgid ""
+"``data``: The provided data should be a 4D data (blocks :raw-"
+"html:`&#215;` trials :raw-html:`&#215;` channels :raw-html:`&#215;` "
+"samples). Each trial should contain the whole trial data including pre-"
+"stimulus time, and latency time."
+msgstr ""
+
+#: ../../API_datasets.rst:725 6ff9b817b35e4bbf97dad421c63dc4ef
+msgid ""
+"The ``data`` provided by `\"get_sub_data\" function <#get_sub_data>`_ "
+"must be 4D. The order of dimentions should be exactly (blocks :raw-"
+"html:`&#215;` trials :raw-html:`&#215;` channels :raw-html:`&#215;` "
+"samples)."
+msgstr ""
+
+#: ../../API_datasets.rst:729 7df0aeb6b19e47b783735f12a1b2f9dd
+msgid "Generate the label of one specific trial."
+msgstr ""
+
+#: ../../API_datasets.rst:733 28e6d43334884f1b84ff621312481fef
+msgid "Block index."
+msgstr ""
+
+#: ../../API_datasets.rst:735 9c0d0f58bb284b2cb928995110d37f6f
+msgid "Trial index."
+msgstr ""
+
+#: ../../API_datasets.rst:737 f59ca6eace824b5fb69c32ba549a9e9d
+msgid ""
+"+ ``label``: Label of the specific trial. The label should be one integer"
+" number."
+msgstr ""
+
+#: ../../API_datasets.rst:739 fc882027848549879cea448cd50f65cb
+msgid ""
+"``label``: Label of the specific trial. The label should be one integer "
+"number."
+msgstr ""
+
+#: ../../API_datasets.rst:741 1a350e5ea8ee461ba6d073aa9115cefd
+msgid ""
+"According to your requirements, you may re-define existed functions "
+"listed in `Functions of datasets <#functions-of-datasets>`_."
+msgstr ""
+

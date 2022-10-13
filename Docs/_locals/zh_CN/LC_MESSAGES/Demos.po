@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ze Wang
+# This file is distributed under the same license as the SSVEP Analysis
+# Toolbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SSVEP Analysis Toolbox \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../Demos.rst:2 2297171cf54c477082b5799ed3a27caa
+msgid "Demo Codes"
+msgstr ""
+
+#: ../../Demos.rst:5 0d6f55f7fd5044a39df144b70f9fd2fe
+msgid "Simple Demo"
+msgstr ""
+
+#: ../../Demos.rst:7 afc87586513349eda966a399083bc9b7
+msgid "This demo shows the basic functions of this toolbox, including:"
+msgstr ""
+
+#: ../../Demos.rst:9 715173644719408e804b0d46ef295486
+msgid "How to initialize a dataset, and how to hook required functions."
+msgstr ""
+
+#: ../../Demos.rst:10 e488af67155c48b8aaca2a3dfb4d76f2
+msgid "How to initialize a recognition model."
+msgstr ""
+
+#: ../../Demos.rst:11 cc4214f3b0894d3585551af16fd76f59
+msgid "How to get the training data from the dataset, and train the model."
+msgstr ""
+
+#: ../../Demos.rst:12 24e807d53fee442f80788d94f01fe703
+msgid "How to get the testing data from the dataset, and test the model."
+msgstr ""
+
+#: ../../Demos.rst:13 221acaa0f55142238e679e96ec08d5ff
+msgid "How to calculate the classification accuracy and the ITR."
+msgstr ""
+
+#: ../../Demos.rst:15 2b81fc58be1d4318b77b3b48d2585631
+msgid "Demo file: :file:`demo/simple_example.py`"
+msgstr ""
+
+#: ../../Demos.rst:21 70a595cca76744419892fb8c71eb24a4
+msgid "Recognition Performance in Benchmark Dataset"
+msgstr ""
+
+#: ../../Demos.rst:23 0dccaac74ce54b2d91ce6889e1dc4cf7
+msgid ""
+"The individual performance on the Benchmark Dataset with various signal "
+"lengths is verified in this demo. The classification accuracies, ITRs, "
+"training time, testing time, and confusion matrices are verified and "
+"stored in :file:`res/benchmarkdataset_res.mat`."
+msgstr ""
+
+#: ../../Demos.rst:25 ../../Demos.rst:48 6c90c761d2ac4bfe9be23b21156104f0
+#: a874bd83f3024fc49824896911fa5d77
+msgid "This demo shows the following points:"
+msgstr ""
+
+#: ../../Demos.rst:27 ad0363df2a1b473a9f72beedfc788745
+msgid ""
+"How to use the Benchmark Dataset. When you first try this demo, the "
+"benchmark dataset will be downloaded in the folder  "
+":file:`2016_Tsinghua_SSVEP_database`."
+msgstr ""
+
+#: ../../Demos.rst:28 66cee973d9af4bb28803c29b51843b18
+msgid "How to create recognition models."
+msgstr ""
+
+#: ../../Demos.rst:29 c28f69d1c6f543b68f485fcb7f333866
+msgid ""
+"How to use the provided evaluator ``BaseEvaluator`` to verify recognition"
+" performance."
+msgstr ""
+
+#: ../../Demos.rst:33 0bcad0c7323b497bb1f1fc3719eecbb5
+msgid ""
+"This demo uses ``gen_trials_onedataset_individual_diffsiglen`` to "
+"generate evaluation trials used for ``BaseEvaluator``. These trials are "
+"used to evaluate indivudal performance on various signal lengths. If your"
+" target is not to evaluate these performance, you can follow this "
+"function to prepare your own evaluation trials."
+msgstr ""
+
+#: ../../Demos.rst:34 aea972f3f4574d1c98dcae9311d482a7
+msgid ""
+"This demo uses ``cal_performance_onedataset_individual_diffsiglen`` and "
+"``cal_confusionmatrix_onedataset_individual_diffsiglen`` to calculate "
+"recognition performance (accuracies and ITRs) and confusion matrices. "
+"These two functions are also used to calculate individual performance on "
+"various signal lengths. For your own evaluation trials, you can follow "
+"these two functions to evaluate your own performance."
+msgstr ""
+
+#: ../../Demos.rst:35 737a4595d0e2442ba819b2a713818fc6
+msgid ""
+"You can adjust the threading number by changing ``n_jobs`` in "
+"``evaluator.run``. Higher number requires the computer with higher "
+"performance. The current demo may occupy mora than 24 hours. You may "
+"reduce the number of models or the number of signal lengths to condense "
+"the running time."
+msgstr ""
+
+#: ../../Demos.rst:36 045e4a9e175c4ffda1c1c9ae827116d7
+msgid ""
+"ITRs are related to computational time. Different implementations may "
+"lead to different computational time. You may check the recorded testing "
+"time to get know the time used for ITR computation. We are also try to "
+"optimize implementations to reduce the computational time. For example, "
+"the sCCA implemented based on the QR decomposition is faster than the "
+"sCCA implemented based on the conventional canonical correlation with the"
+" same performance as shown in `\"Plot Recognition Performance\" demo "
+"<#plot-recognition-performance>`_."
+msgstr ""
+
+#: ../../Demos.rst:38 b45239026a904734840b0b900c68c109
+msgid "Demo file: :file:`demo/benchmarkdataset.py`"
+msgstr ""
+
+#: ../../Demos.rst:44 3a310d7e3a2045128cf593508e579227
+msgid "Plot Recognition Performance"
+msgstr ""
+
+#: ../../Demos.rst:46 ad537772888044b09ce00c8d7a78df71
+msgid ""
+"This demo uses bar graph with error bars and shadow lines to plot "
+"classification accuracies, ITRs, training time, and testing time. Before "
+"running this demo, please run above two demos to obtain "
+":file:`res/benchmarkdataset_res.mat` and :file:`res/betadataset_res.mat` "
+"files."
+msgstr ""
+
+#: ../../Demos.rst:50 2dd7f6871e1548efb2db0848a69e3ef5
+msgid ""
+"How to use provided ``bar_plot_with_errorbar`` to plot the bar grapth "
+"with error bars."
+msgstr ""
+
+#: ../../Demos.rst:51 aa0732c7f6cd42cda989227d7b06936e
+msgid "How to use provided ``shadowline_plot`` to plot shadow lines."
+msgstr ""
+
+#: ../../Demos.rst:53 ebaa62319fa14a21a18fffd44339c8d8
+msgid "Demo file: :file:`demo/plot_performance.py`"
+msgstr ""
+
+#: ../../Demos.rst:58 4f9cd70c066d4f59a35512626dc65ed2
+msgid ""
+"Generated graphs are stored in :file:`demo/res`. One example of results "
+"is shown below."
+msgstr ""
+
+#: ../../Demos.rst:60 12fadb2fd4a8435f9fea0a80a14350c0
+msgid "Classification accuracies of the Benchmark Dataset:"
+msgstr ""
+
+#: ../../Demos.rst:65 0846e2bee4c64dfd8dfc854c267fe28c
+msgid "Plot Confusion Matrices"
+msgstr ""
+
+#: ../../Demos.rst:67 088ee11467464d6a96810685926dc957
+msgid ""
+"This demo provides an example of plotting confusion matrices. This demo "
+"directly uses ``imshow`` in ``matplotlib`` to plot confusion matrices. "
+"You also can use ``heatmap`` [#heatmap]_ in ``seaborn`` or "
+"``plot_confusion_matrix`` [#plot_confusion_matrix]_ in ``sklearn`` to "
+"plot these confusion matrices. This demo only shows confusion matrices at"
+" 0.5-s signal length, which is controlled by ``target_time`` in the demo "
+"file. Moreover, all subjects' confusion matrices are summed together."
+msgstr ""
+
+#: ../../Demos.rst:69 5bcd03d557cc426d8f3bb5c0ad9f2987
+msgid ""
+"`Plot confusion matrices using seaborn <https://www.stackvidhya.com/plot-"
+"confusion-matrix-in-python-and-why/>`_"
+msgstr ""
+
+#: ../../Demos.rst:70 bf5df3cf6a254a018e278866994881cb
+msgid ""
+"`Plot confusion matrices using sklearn <https://scikit-"
+"learn.org/stable/modules/generated/sklearn.metrics.plot_confusion_matrix.html>`_"
+msgstr ""
+
+#: ../../Demos.rst:72 1a8461251e6e4ef8b86365f9e6fd6c61
+msgid "Demo file: :file:`demo/plot_confusion_matrix.py`"
+msgstr ""
+
+#: ../../Demos.rst:77 0835220a475a446a892e0421786e302d
+msgid ""
+"Generated graphs are stored in "
+":file:`demo/res/benchmarkdataset_confusionmatrix` and "
+":file:`demo/res/beta_confusionmatrix`. One example of results is shown "
+"below."
+msgstr ""
+
+#: ../../Demos.rst:79 606ea5f2b93a427094ab09554c99da39
+msgid "eCCA (0.5s) in Benchmark Dataset"
+msgstr ""
+

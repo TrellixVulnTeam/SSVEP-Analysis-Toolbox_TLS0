@@ -1,0 +1,628 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Ze Wang
+# This file is distributed under the same license as the SSVEP Analysis
+# Toolbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SSVEP Analysis Toolbox \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 10:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../API_perf.rst:5 31a7bcb2682e49538f443fb5efbf0e06
+msgid "Performance Evalution"
+msgstr ""
+
+#: ../../API_perf.rst:7 d05d45e445274e5cb4921b483f13255e
+msgid ""
+"This toolbox provides a ``BaseEvaluator`` class for evaluating "
+"recognition performance. Users can use this class as the father class to "
+"write your own evaluator or use the above given functions or classes to "
+"write your own evaluation process."
+msgstr ""
+
+#: ../../API_perf.rst:9 bf698a8f53854795a5608daf38ecc8b4
+msgid ""
+"The ``BaseEvaluator`` class is a trial based evaluator. Evaluator "
+"contains several evaluation trials and evaluate performance trial by "
+"trial. Each trial contains several training and testing trials. In each "
+"trial, the ``BaseEvaluator`` uses the given training trials to train all "
+"models one by one and then tests their performance in testing trials. The"
+" training time, evaluation time, ture labels and predicted labels will be"
+" stored. The recognition accuracies and ITRs can be further computed."
+msgstr ""
+
+#: ../../API_perf.rst:12 c592a27f6894491381027d0345c48647
+msgid "Evaluator"
+msgstr ""
+
+#: ../../API_perf.rst:16 721e00a982ab477d93997817b1d6df12
+msgid "Initialize the evaluator."
+msgstr ""
+
+#: ../../API_perf.rst 03f1c83bfc9043e9899d0c6e4a58d90f
+#: 183b1ed4cea148bfa18f5d938d451bb1 24e46a04e02f4b70aa1243a2bb45b223
+#: 2a5cfe18ad674ee28fdc5852df83a117 56570f8e67064eae9bbc35732c366589
+#: 7a33833afb4044c2927d0c03a7b32c04 7a697c798d644bdfb1017f6d374c0361
+#: 94e8fa1e23a4444380f5d01f595db02d a80e1b87a07f40a7afb233f9e760299a
+#: f235fde724b7414098a4c5d1f42c1cd1
+msgid "Parameters"
+msgstr ""
+
+#: ../../API_perf.rst:18 40035176b1a849dcb55be2bd318e3075
+msgid ""
+"A list of datasets. Each element is a instance of one dataset class "
+"introduced in `\"Datasets\" <#datasets>`_."
+msgstr ""
+
+#: ../../API_perf.rst:20 201c5015816e488388de02469753a549
+msgid ""
+"A list of recognition models/methods. Each element is a instance of one "
+"recognition model/method class introduced in `\"Recognition algorithms\" "
+"<#recognition-algorithms>`_."
+msgstr ""
+
+#: ../../API_perf.rst:22 50fc8bfd82ef4263912605ad3d3f3196
+msgid ""
+"A list of trials. The format is  .. code-block:: python      "
+"[[train_trial_info, test_trial_info],      [train_trial_info, "
+"test_trial_info],      ...,      [train_trial_info, test_trial_info]]  "
+"where ``train_trial_info`` and ``test_trial_info`` are instances of the "
+"``TrialInfo`` class."
+msgstr ""
+
+#: ../../API_perf.rst:22 3e4c275559ff44d18df9f262c904d731
+msgid "A list of trials. The format is"
+msgstr ""
+
+#: ../../API_perf.rst:31 a386cb3e3bf84a67a246faba95b0f601
+msgid ""
+"where ``train_trial_info`` and ``test_trial_info`` are instances of the "
+"``TrialInfo`` class."
+msgstr ""
+
+#: ../../API_perf.rst:33 33474b07b3614234b561a9d64936b054
+msgid ""
+"If ``True``, trained models in all trials will be stored in "
+"``trained_model_container``. The format of ``trained_model_container`` is"
+"  .. code-block:: python      [[trained_model_method_1, "
+"trained_model_method_2, ...],      [trained_model_method_1, "
+"trained_model_method_2, ...],      ...,      [trained_model_method_1, "
+"trained_model_method_2, ...]]  where ``trained_model_method_1``, "
+"``trained_model_method_2``, ... are instances of recognition model/method"
+" classes, which order is same as ``model_container``.  If ``False``, "
+"``trained_model_container`` is an empty list.  Default is ``False``."
+msgstr ""
+
+#: ../../API_perf.rst:33 aca27ed363364eabb2b962f5fe4cd01d
+msgid ""
+"If ``True``, trained models in all trials will be stored in "
+"``trained_model_container``. The format of ``trained_model_container`` is"
+msgstr ""
+
+#: ../../API_perf.rst:42 3bb77add68314a748584ce4aff23a854
+msgid ""
+"where ``trained_model_method_1``, ``trained_model_method_2``, ... are "
+"instances of recognition model/method classes, which order is same as "
+"``model_container``."
+msgstr ""
+
+#: ../../API_perf.rst:44 45e2bf351c3840bfa4b3f5e3df48e855
+msgid "If ``False``, ``trained_model_container`` is an empty list."
+msgstr ""
+
+#: ../../API_perf.rst:46 be398431789e42548234c4b952171dd1
+msgid "Default is ``False``."
+msgstr ""
+
+#: ../../API_perf.rst:48 9e1fe1272cd340859c90d504d110eb60
+msgid ""
+"If ``True``, a progress bar will be shown in console to illustrate the "
+"evaluation process. Otherwise, the progress bar will be shown. Default is"
+" ``True``."
+msgstr ""
+
+#: ../../API_perf.rst:50 f14b6baefd614f379eb66e5ccaa6e2b8
+msgid ""
+"If ``True``, stimulus phases of generating reference signals will be set "
+"as 0 during the evalution. Otherwise, stimulus phases will use the "
+"dataset information. Default is ``False``."
+msgstr ""
+
+#: ../../API_perf.rst:54 ded392c458bb4d2f96deb828b56af6fe
+msgid ""
+"Saving models by setting ``save_model`` as ``True`` may occupy large "
+"memory."
+msgstr ""
+
+#: ../../API_perf.rst:59 70a7a1ce52914b0a83cbab6ba56ddc01
+msgid ""
+"Run the evaluation process. Performance will be stored in "
+"``performance_container``. The format of ``performance_container`` is"
+msgstr ""
+
+#: ../../API_perf.rst:68 3b99169f59f1468b991048d3245f99ef
+msgid ""
+"where ``performance_method_1``, ``performance_method_2``, ... are "
+"instances of the ``PerformanceContainer`` class for different recognition"
+" models/methods. The order follows ``model_container``."
+msgstr ""
+
+#: ../../API_perf.rst:70 68be07e35a5f468a8c534ce9b26cb17d
+msgid ""
+"Number of threadings using for recognition methods. If the given value is"
+" larger than 1, the parallel computation will be applied to improve the "
+"computational speed. Default is ``None``, which means the parallel "
+"computation will not be applied. The evaluator will reset ``n_jobs`` in "
+"recognition methods."
+msgstr ""
+
+#: ../../API_perf.rst:72 e5d9b8136fc04b568291f592d91aa986
+msgid ""
+"*Please ignore this parameter and leave this parameter as the default "
+"value. The function related to this parameter is under development.*"
+msgstr ""
+
+#: ../../API_perf.rst:75 0feb6a2f1de541e1bb75b3c581e4e0e2
+msgid "Trial Information"
+msgstr ""
+
+#: ../../API_perf.rst:79 86072a430a8e4166a55ec3af02a9de39
+msgid ""
+"The instances of this class are the basic elements of ``trial_container``"
+" in ``BaseEvaluator``."
+msgstr ""
+
+#: ../../API_perf.rst:81 ../../API_perf.rst:144
+#: 4411cd59d5fa45aa9af3cadd977c0420 907d7ec77cd94d8694119cc61b3febce
+msgid "It contains following attributes:"
+msgstr ""
+
+#: ../../API_perf.rst:83 a2c033f1c1bc48cdb8f3311d2b545247
+msgid "``dataset_idx``: A list of dataset indeices."
+msgstr ""
+
+#: ../../API_perf.rst:84 be240c1b40e143fabe8d04b6926a3f0d
+msgid "``sub_idx``: A list of all datasets' subject index list. The format is"
+msgstr ""
+
+#: ../../API_perf.rst:93 fc37cb6942624aba92dbb3bb21c8b4a6
+msgid ""
+"where ``sub_idx_1``, ``sub_idx_2``, ... are subject indices for different"
+" datasets. The order follows ``dataset_idx``."
+msgstr ""
+
+#: ../../API_perf.rst:95 47c65736684f41b1bd87bb351ea6086b
+msgid ""
+"``block_idx``: A list of all datasets' block index list. The format is "
+"same as ``sub_idx`` but the integer numbers in lists are block indices."
+msgstr ""
+
+#: ../../API_perf.rst:96 2f850ece12cc4e928201f8e2ed61b82e
+msgid ""
+"``trial_idx``: A list of all datasets' trial index list. The format is "
+"same as ``sub_idx`` but the integer numbers in lists are trial indices."
+msgstr ""
+
+#: ../../API_perf.rst:97 5fd63034a656409d90deacc8b29ef9aa
+msgid ""
+"``ch_idx``: A list of all datasets' channel index list. The format is "
+"same as ``sub_idx`` but the integer numbers in lists are channel indices."
+msgstr ""
+
+#: ../../API_perf.rst:98 90da331a35334fa5bb5ccec88a84ebd6
+msgid ""
+"``harmonic_num``: The harmonic number is used to generate reference "
+"signals. One integer number."
+msgstr ""
+
+#: ../../API_perf.rst:99 6bcecb05d9c64365b4bac4fd1e65448b
+msgid "``tw``: The signal length (in second). One float number."
+msgstr ""
+
+#: ../../API_perf.rst:100 9b339f9014864a5282b85508d393618f
+msgid ""
+"``t_latency``: A list of latency times of datasets. Each element is a "
+"float number denoting a latency time of one dataset."
+msgstr ""
+
+#: ../../API_perf.rst:101 5b5b6702f560452e90c47d9e711c9189
+msgid ""
+"``shuffle``: A list of shuffle flag. Each element is a bool value "
+"denoting whether shuffle trials."
+msgstr ""
+
+#: ../../API_perf.rst:106 e985a4492f0f412fa8ae986d91162608
+msgid "Push one dataset information into the trial information"
+msgstr ""
+
+#: ../../API_perf.rst:108 c4b75ae8c00444a792c5a26a47b79d93
+msgid "dataset index. One integer number."
+msgstr ""
+
+#: ../../API_perf.rst:109 ee265862939e431d9e52e4055ccd64a8
+msgid "List of subject indices. A list of integer numbers."
+msgstr ""
+
+#: ../../API_perf.rst:110 f47e2bc376d54507af2de1c2202d7297
+msgid "List of block indices. A list of integer numbers."
+msgstr ""
+
+#: ../../API_perf.rst:111 ../../API_perf.rst:175
+#: 3457994b141c4383b02b6f3867a3a511 b46f5c2b12544738aef272b9cb92fe44
+msgid "List of trial indices. A list of integer numbers."
+msgstr ""
+
+#: ../../API_perf.rst:112 ../../API_perf.rst:176
+#: 7df380b5254546298de0eedd0b07323d a939f7a9db7c480bbee88f163f9e05fc
+msgid "List of channel indices. A list of integer numbers."
+msgstr ""
+
+#: ../../API_perf.rst:113 9c9ee7818e524f26bad6eb9d6d4c7adb
+msgid ""
+"The harmonic number is used to generate reference signals. This input "
+"parameter will update ``harmonic_num`` of the trial information. One "
+"integer number."
+msgstr ""
+
+#: ../../API_perf.rst:114 227cba7ae3954660985dd8daca31f6c3
+msgid ""
+"The signal length (in second). This input parameter will update ``tw`` of"
+" the trial information. One float number."
+msgstr ""
+
+#: ../../API_perf.rst:115 64cba0e625fc41518361f3e72029f94c
+msgid "Latency time (in second). A float number."
+msgstr ""
+
+#: ../../API_perf.rst:116 0de0ad4ff96343b59b1b4e04a59b6201
+msgid "If ``True``, the order of trials will be shuffled."
+msgstr ""
+
+#: ../../API_perf.rst 22d7079c8f9a40d98c93fd5a10f9ddf7
+#: 2542549a79ff406fb415c8abf359e00f ebe7367aa7a8414f877e4434fe6231c4
+#: feb97eee986e4873a5a39dc339377c0a
+msgid "Returns"
+msgstr ""
+
+#: ../../API_perf.rst:118 d8e1dbdc058f45988ea7d0ffdd172bfb
+msgid "The instance itself."
+msgstr ""
+
+#: ../../API_perf.rst:122 2073c9f414dc4eb28892e75cd3635995
+msgid ""
+"Based on the trial information, get all data, labels, and reference "
+"signals."
+msgstr ""
+
+#: ../../API_perf.rst:124 ../../API_perf.rst:173
+#: 8396c064e4ca4da3ad67fa5d7841bee6 b042ba9fd995413da75c8486403aa2b6
+msgid "List of datasets."
+msgstr ""
+
+#: ../../API_perf.rst:126 22afc3d261af47fd95628062d7a39ef1
+msgid ""
+"+ ``X``: List of all EEG trials. + ``Y``: List of all labels. + "
+"``ref_sig``: This function will use the first dataset in ``dataset_idx`` "
+"to generate reference signals. + ``freqs``: List of stimulus frequencies "
+"corresponding to generated reference signals."
+msgstr ""
+
+#: ../../API_perf.rst:128 6d0daec19d0a4838b2d28400936b8476
+msgid "``X``: List of all EEG trials."
+msgstr ""
+
+#: ../../API_perf.rst:129 db1fda90239f4327add2d5ba97c97b36
+msgid "``Y``: List of all labels."
+msgstr ""
+
+#: ../../API_perf.rst:130 9e546e4678d3446a8ad6359974f92783
+msgid ""
+"``ref_sig``: This function will use the first dataset in ``dataset_idx`` "
+"to generate reference signals."
+msgstr ""
+
+#: ../../API_perf.rst:131 38337bfe136743f3a53768da844da207
+msgid ""
+"``freqs``: List of stimulus frequencies corresponding to generated "
+"reference signals."
+msgstr ""
+
+#: ../../API_perf.rst:135 6837e19b5efd49a2b0dbca3cdaaae0bd
+msgid ""
+"This ``TrialInfo`` will only use the first dataset to generate reference "
+"signals. If datasets have different stimuli, please separate them into "
+"different trials. The more safety way is that one ``TrialInfo`` cotains "
+"only one dataset."
+msgstr ""
+
+#: ../../API_perf.rst:138 483ac65c9922462085d232fe59bfb6b7
+msgid "Performance Container"
+msgstr ""
+
+#: ../../API_perf.rst:142 2d8c6d192d104fed9f862b0f6747e909
+msgid ""
+"The instances of this class are the element of ``performance_container`` "
+"in ``BaseEvaluator``."
+msgstr ""
+
+#: ../../API_perf.rst:146 f355d59598004b05b327415c9b02ff98
+msgid ""
+"``true_label_train``: After training, to evaluate the training "
+"performance, the list of true labels of training trials is stored in this"
+" attribute. The format is"
+msgstr ""
+
+#: ../../API_perf.rst:155 a2fd3ac475c647eca743507144139c8d
+msgid ""
+"where ``true_label_1``, ``true_label_2``, ... are true labels of "
+"different evaluation trials."
+msgstr ""
+
+#: ../../API_perf.rst:157 4a5e4d86bcbc4d0582283436d05d964c
+msgid ""
+"``pred_label_train``: After training, to evaluate the training "
+"performance, the list of predicted labels of training trials is stored in"
+" this attribute. The format is same as ``true_label_train``."
+msgstr ""
+
+#: ../../API_perf.rst:158 02ae6ad9ea5a42f0b1a55ee3037ddc5f
+msgid ""
+"``true_label_test``: The list of true labels of testing trials is stored "
+"in this attribute. The format is same as ``true_label_train``."
+msgstr ""
+
+#: ../../API_perf.rst:159 adc01a84f9ae456fb22b2e2cb4a32313
+msgid ""
+"``pred_label_test``: The list of predicted labels of testing trials is "
+"stored in this attribute. The format is same as ``true_label_train``."
+msgstr ""
+
+#: ../../API_perf.rst:160 d34e300939094174841e724553c228a4
+msgid ""
+"``train_time``: A list of storing time of training the model. Each "
+"element in the list is one training time of one evaluation trial."
+msgstr ""
+
+#: ../../API_perf.rst:161 245ec0d4b9824674badba96a4a2971a1
+msgid ""
+"``test_time_train``: A list of storing time of using the training trials "
+"to testing the model. Each element in the list is one testing time of one"
+" evaluation trial."
+msgstr ""
+
+#: ../../API_perf.rst:162 e3ee8e6449e243f4abb246f3660dd9c4
+msgid ""
+"``test_time_test``: A list of storing time of using the testing trials to"
+" test the model. Each element in the list is one testing time of one "
+"evaluation trial."
+msgstr ""
+
+#: ../../API_perf.rst:165 76e1dcad30be4ae1bcc0d297a0f830c2
+msgid "Supplementary functions"
+msgstr ""
+
+#: ../../API_perf.rst:169 c342842e7b484cf096156068d5d6c10b
+msgid ""
+"Generate ``trial_container`` for ``BaseEvaluator``. These evaluation "
+"trials only use one dataset. One block is used for testing. Other blocks "
+"for training. All blocks will be tested one by one. All subjects will be "
+"evaluated one by one for each signal length."
+msgstr ""
+
+#: ../../API_perf.rst:171 cb7e7b5cae4d422cb003e735666e4ac6
+msgid "Dataset index. One integer number."
+msgstr ""
+
+#: ../../API_perf.rst:172 4c148baf4c944f4488faf3f863c97a04
+msgid "List of signal lengths (in second). A list of float numbers."
+msgstr ""
+
+#: ../../API_perf.rst:174 68a39210ef774b89b95de44c6bfd1767
+msgid "Number of harmonics. One integer number."
+msgstr ""
+
+#: ../../API_perf.rst:177 96824703cfce487fa7de234329b49d6f
+msgid ""
+"Latency time (in second). A float number. If ``None``, the suggested "
+"latency time of the dataset will be used."
+msgstr ""
+
+#: ../../API_perf.rst:178 734632aba14945819668c2c1375af6af
+msgid "If ``True``, trials will be shuffled. Default is ``False``."
+msgstr ""
+
+#: ../../API_perf.rst:182 a7192b9567d14424b2369f090f699740
+msgid ""
+"Calculate evaluation performance of ``BaseEvaluator`` whose "
+"``trial_container`` is generated by "
+"``gen_trials_onedataset_individual_diffsiglen``."
+msgstr ""
+
+#: ../../API_perf.rst:184 ../../API_perf.rst:198
+#: ce07007e8af145dcbb031160fab9d108 e60ee53d8225429091bceb86238abe8f
+msgid "The instance of the class ``BaseEvaluator``."
+msgstr ""
+
+#: ../../API_perf.rst:185 ../../API_perf.rst:199
+#: 0cd53d3f1b5a4e1f972c2606afa9d1d8 c1554b31d0464887ba8b4d095fd4eddf
+msgid "Dataset index."
+msgstr ""
+
+#: ../../API_perf.rst:186 ../../API_perf.rst:200
+#: 0c684692920444668f65110dbfab67d2 186b749c702342ada55d4216eb1149db
+msgid "List of signal lengths (in second)"
+msgstr ""
+
+#: ../../API_perf.rst:187 8cfd8b7d2efa4076940a885b0aed8b47
+msgid ""
+"If ``\"train\"``, evaluate performance of training trials. If "
+"``\"test\"``, evaluate performance of testing trials."
+msgstr ""
+
+#: ../../API_perf.rst:189 835a0ba6056d4d4a97ecc937e004bb01
+msgid ""
+"+ ``acc``: Classification accuracy. The shape is (methods :raw-"
+"html:`&#215;` subjects :raw-html:`&#215;` signal length). + ``itr``: ITR."
+" The shape is (methods :raw-html:`&#215;` subjects :raw-html:`&#215;` "
+"signal length)."
+msgstr ""
+
+#: ../../API_perf.rst:191 91c07ddf06ad4622b109f4ec44f1a723
+msgid ""
+"``acc``: Classification accuracy. The shape is (methods :raw-"
+"html:`&#215;` subjects :raw-html:`&#215;` signal length)."
+msgstr ""
+
+#: ../../API_perf.rst:192 23208c71d42a47ca9cb8975cb6e5f4f1
+msgid ""
+"``itr``: ITR. The shape is (methods :raw-html:`&#215;` subjects :raw-"
+"html:`&#215;` signal length)."
+msgstr ""
+
+#: ../../API_perf.rst:196 6eb42bf778cb49e8ba361b2add98850b
+msgid ""
+"Calculate confusion matrices of ``BaseEvaluator`` whose "
+"``trial_container`` is generated by "
+"``gen_trials_onedataset_individual_diffsiglen``."
+msgstr ""
+
+#: ../../API_perf.rst:201 9f1f68b3cb854354816cf12d3b78e931
+msgid ""
+"If ``\"train\"``, evaluate confusion matrices of training trials. If "
+"``\"test\"``, evaluate confusion matrices of testing trials."
+msgstr ""
+
+#: ../../API_perf.rst:203 d47e621de9324eab9c5c3a3a7a1127af
+msgid ""
+"+ ``confusion_matrix``: Confusion matrices. The shape is (methods :raw-"
+"html:`&#215;` subjects :raw-html:`&#215;` signal lengths :raw-"
+"html:`&#215;` true classes :raw-html:`&#215;` predicted classes)."
+msgstr ""
+
+#: ../../API_perf.rst:205 9cc22d0bec464e0bb1aa3fd656d05825
+msgid ""
+"``confusion_matrix``: Confusion matrices. The shape is (methods :raw-"
+"html:`&#215;` subjects :raw-html:`&#215;` signal lengths :raw-"
+"html:`&#215;` true classes :raw-html:`&#215;` predicted classes)."
+msgstr ""
+
+#: ../../API_perf.rst:208 f07dc44548504b809ce8f5015cdd9d05
+msgid "Plot Functions"
+msgstr ""
+
+#: ../../API_perf.rst:212 da3780e97f394f7e9f56ebcbb05b0d9e
+msgid "Plot shadow lines. Each group plots one shadow line."
+msgstr ""
+
+#: ../../API_perf.rst:214 b6e39c23bb544849b75eb56879d940a6
+msgid "List of variable values."
+msgstr ""
+
+#: ../../API_perf.rst:215 14e44ceb1298491ca976d2716328f3d5
+msgid ""
+"Plot data. The shape is (groups :raw-html:`&#215;` observations :raw-"
+"html:`&#215;` variables). The line is the mean across observations. The "
+"shadow is the variation across observations."
+msgstr ""
+
+#: ../../API_perf.rst:216 458ff5e67c934577955351d97fc87dd7
+msgid "Format of lines. Default is ``'-'``."
+msgstr ""
+
+#: ../../API_perf.rst:217 ../../API_perf.rst:233 ../../API_perf.rst:249
+#: 2f87237213ba4eda8cb11d38926e8d92 ac002e8675224c89bfb05b8c14da2b76
+#: ce7a2e92376141ab84988e0752207e1e
+msgid "Label of x axis. Default is ``None``."
+msgstr ""
+
+#: ../../API_perf.rst:218 ../../API_perf.rst:234 ../../API_perf.rst:250
+#: 36b19085e4c0478a89b785aecd801b14 7e41d4f8a2b44aa5ace5205cd7faa9d2
+#: cefca05240ef4741af4e225602b37adf
+msgid "Label of y axis. Default is ``None``."
+msgstr ""
+
+#: ../../API_perf.rst:219 ../../API_perf.rst:235 ../../API_perf.rst:251
+#: 02afbd73c2cc4f2caaf4c9452fef19df 214dedc20e694bd594fc3a0b51a945e6
+#: c1444b9fa01e4ac99904387524427439
+msgid "X tick labels. Default is ``None``."
+msgstr ""
+
+#: ../../API_perf.rst:220 2bb1d4f599914a0ca0cd2cdbe576fb87
+msgid "List of line names. Default is ``None``."
+msgstr ""
+
+#: ../../API_perf.rst:221 ../../API_perf.rst:237
+#: a979b02dae6b46f39697673b72c0fe52 fa80e1c71fac4403b6f129f914b95c1b
+#, python-format
+msgid ""
+"If ``'std'``, calculate the variation using the standard derivation. If "
+"``'95ci'``, calculate the variation using the 95% confidence interval."
+msgstr ""
+
+#: ../../API_perf.rst:222 ../../API_perf.rst:238 ../../API_perf.rst:252
+#: 74b9a9335ad14e55ac87e6135ce7d410 7cb6156f506c44efac18a7519a4bacba
+#: a6337721e14841e6aa98b841460ab6ee
+msgid "Whether grid. Default is ``True``."
+msgstr ""
+
+#: ../../API_perf.rst:223 ../../API_perf.rst:239 ../../API_perf.rst:253
+#: 6d7dcbd7477c4921a7e10830e90dfeb2 7e01e4f2513740ea9822a9b51cb79aba
+#: f0d9804ba1a343a380cac021f1f1bb67
+msgid "``[min_x, max_x]``. Default is ``None``."
+msgstr ""
+
+#: ../../API_perf.rst:224 ../../API_perf.rst:240 ../../API_perf.rst:254
+#: 1ecc0a2a55054344a68d57a68da7210d 970a5c3b9b6d4d26b9a5e7bfdf4d5cc9
+#: c1fc846add7d4df1a2e0de5d30e92e2b
+msgid "``[min_y, max_y]``. Default is ``None``."
+msgstr ""
+
+#: ../../API_perf.rst:225 ../../API_perf.rst:241 ../../API_perf.rst:255
+#: 739ef6f3717d42aaab7e1c49059d6f55 e23fedc2584f4391808fec599ddff676
+#: ff386c9277ba4b15b5e457279c888e45
+msgid "Figure size. Default is ``[6.4, 4.8]``."
+msgstr ""
+
+#: ../../API_perf.rst:229 2167b446615044adbdcb06d3dd6459a1
+msgid "Plot bars with error bars. Each group plots one color bars."
+msgstr ""
+
+#: ../../API_perf.rst:231 25bf1df5d997442da08921a703c73fbc
+msgid ""
+"Plot data. The shape is (groups :raw-html:`&#215;` observations :raw-"
+"html:`&#215;` variables). The bar height is the mean across observations."
+" The error bar is the variation across observations."
+msgstr ""
+
+#: ../../API_perf.rst:232 ../../API_perf.rst:248
+#: 26a209ef06364a69bd806671c6300585 6e9cb7deb76945279e1d065363aa0f0a
+msgid "Separate distence of adjacent bars."
+msgstr ""
+
+#: ../../API_perf.rst:236 9695ba68809645939f063d114d7cef61
+msgid "List of bar names. Default is ``None``."
+msgstr ""
+
+#: ../../API_perf.rst:245 20b2c3c2f32d410084f2665198acc62f
+msgid ""
+"This function is similar as ``bar_plot_with_errorbar``. But this function"
+" only plots one group data and does not plot error bars."
+msgstr ""
+
+#: ../../API_perf.rst:247 fd615c8280a94deaad248f09c097a1e8
+msgid ""
+"Plot data. The shape is (observations :raw-html:`&#215;` variables). The "
+"bar height is the mean across observations. The error bar is the "
+"variation across observations."
+msgstr ""
+
