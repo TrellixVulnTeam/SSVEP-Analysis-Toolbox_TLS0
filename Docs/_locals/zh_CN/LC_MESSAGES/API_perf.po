@@ -103,61 +103,61 @@ msgid ""
 "``trained_model_method_2``, ... are instances of recognition model/method"
 " classes, which order is same as ``model_container``.  If ``False``, "
 "``trained_model_container`` is an empty list.  Default is ``False``."
-msgstr ""
+msgstr "如果 ``True``，所有 trial 的训练得到的模型将会被保存在 ``trained_model_container``。否则， ``trained_model_container`` 是空集。默认为 ``False``。"
 
 #: ../../API_perf.rst:33 aca27ed363364eabb2b962f5fe4cd01d
 msgid ""
 "If ``True``, trained models in all trials will be stored in "
 "``trained_model_container``. The format of ``trained_model_container`` is"
-msgstr ""
+msgstr "如果 ``True``，所有 trial 的训练得到的模型将会被保存在 ``trained_model_container``。 ``trained_model_container`` 的格式为"
 
 #: ../../API_perf.rst:42 3bb77add68314a748584ce4aff23a854
 msgid ""
 "where ``trained_model_method_1``, ``trained_model_method_2``, ... are "
 "instances of recognition model/method classes, which order is same as "
 "``model_container``."
-msgstr ""
+msgstr "其中， ``trained_model_method_1``, ``trained_model_method_2``, ... 是识别算法类的实例，其顺序与 ``model_container`` 一致。"
 
 #: ../../API_perf.rst:44 45e2bf351c3840bfa4b3f5e3df48e855
 msgid "If ``False``, ``trained_model_container`` is an empty list."
-msgstr ""
+msgstr "如果 ``False``， ``trained_model_container`` 是一个空集。"
 
 #: ../../API_perf.rst:46 be398431789e42548234c4b952171dd1
 msgid "Default is ``False``."
-msgstr ""
+msgstr "默认为 ``False``。"
 
 #: ../../API_perf.rst:48 9e1fe1272cd340859c90d504d110eb60
 msgid ""
 "If ``True``, a progress bar will be shown in console to illustrate the "
 "evaluation process. Otherwise, the progress bar will be shown. Default is"
 " ``True``."
-msgstr ""
+msgstr "如果 ``True``，一个进度条将会显示在终端上来显示评估进度。否则，进度条将不会显示。默认为 ``True``。"
 
 #: ../../API_perf.rst:50 f14b6baefd614f379eb66e5ccaa6e2b8
 msgid ""
 "If ``True``, stimulus phases of generating reference signals will be set "
 "as 0 during the evalution. Otherwise, stimulus phases will use the "
 "dataset information. Default is ``False``."
-msgstr ""
+msgstr "如果 ``True``，在评估中生成的参考信号的刺激相位将会被设定为0。否则，刺激相位将会使用数据集中的信息。默认为 ``False``。"
 
 #: ../../API_perf.rst:54 ded392c458bb4d2f96deb828b56af6fe
 msgid ""
 "Saving models by setting ``save_model`` as ``True`` may occupy large "
 "memory."
-msgstr ""
+msgstr "如果将 ``save_model`` 设为 ``True`` 来保存模型，将会占用大量内存。"
 
 #: ../../API_perf.rst:59 70a7a1ce52914b0a83cbab6ba56ddc01
 msgid ""
 "Run the evaluation process. Performance will be stored in "
 "``performance_container``. The format of ``performance_container`` is"
-msgstr ""
+msgstr "运行评估过程。表现将会保存在 ``performance_container``。 ``performance_container`` 格式为"
 
 #: ../../API_perf.rst:68 3b99169f59f1468b991048d3245f99ef
 msgid ""
 "where ``performance_method_1``, ``performance_method_2``, ... are "
 "instances of the ``PerformanceContainer`` class for different recognition"
 " models/methods. The order follows ``model_container``."
-msgstr ""
+msgstr "其中，``performance_method_1``, ``performance_method_2``, ... 是不同算法的 ``PerformanceContainer`` 类的实例。顺序遵循 ``model_container``。"
 
 #: ../../API_perf.rst:70 68be07e35a5f468a8c534ce9b26cb17d
 msgid ""
@@ -166,13 +166,13 @@ msgid ""
 "computational speed. Default is ``None``, which means the parallel "
 "computation will not be applied. The evaluator will reset ``n_jobs`` in "
 "recognition methods."
-msgstr ""
+msgstr "识别算法中使用的线程数。如果给定的值大于1，多线程并行计算将会被使用来提升计算速度。默认为 ``None``，即不使用多线程并行计算。评估器将会重设识别算法中 ``n_jobs`` 的值。"
 
 #: ../../API_perf.rst:72 e5d9b8136fc04b568291f592d91aa986
 msgid ""
 "*Please ignore this parameter and leave this parameter as the default "
 "value. The function related to this parameter is under development.*"
-msgstr ""
+msgstr "*请忽略此参数并保留此参数为默认值。有关此参数的部分将*"
 
 #: ../../API_perf.rst:75 0feb6a2f1de541e1bb75b3c581e4e0e2
 msgid "Trial Information"
