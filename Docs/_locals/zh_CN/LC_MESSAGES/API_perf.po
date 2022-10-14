@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../API_perf.rst:5 31a7bcb2682e49538f443fb5efbf0e06
 msgid "Performance Evalution"
-msgstr ""
+msgstr "表现评估"
 
 #: ../../API_perf.rst:7 d05d45e445274e5cb4921b483f13255e
 msgid ""
@@ -28,7 +28,7 @@ msgid ""
 "recognition performance. Users can use this class as the father class to "
 "write your own evaluator or use the above given functions or classes to "
 "write your own evaluation process."
-msgstr ""
+msgstr "此工具箱提供了 ``BaseEvaluator`` 类用来评估识别表现。用户可以使用此类作为父类来编写自己的评估器，或是使用提供的函数或类来编写自己的评估过程。"
 
 #: ../../API_perf.rst:9 bf698a8f53854795a5608daf38ecc8b4
 msgid ""
@@ -39,15 +39,15 @@ msgid ""
 "models one by one and then tests their performance in testing trials. The"
 " training time, evaluation time, ture labels and predicted labels will be"
 " stored. The recognition accuracies and ITRs can be further computed."
-msgstr ""
+msgstr "``BaseEvaluator`` 类是一个基于 trial 的评估器。评估器包含多个评估 trial，其逐个 trial 评估表现。每个 trial 包含多个训练与测试 trial。每个 trial， ``BaseEvaluator`` 使用给定的训练 trial 来一个个训练所有的模型，然后在测试 trial 中测试他们的表现。训练时间、测试时间、真实标签与预测标签将会被保存。识别准确度与信息传输率可以被进一步计算。"
 
 #: ../../API_perf.rst:12 c592a27f6894491381027d0345c48647
 msgid "Evaluator"
-msgstr ""
+msgstr "评估器"
 
 #: ../../API_perf.rst:16 721e00a982ab477d93997817b1d6df12
 msgid "Initialize the evaluator."
-msgstr ""
+msgstr "初始化评估器"
 
 #: ../../API_perf.rst 03f1c83bfc9043e9899d0c6e4a58d90f
 #: 183b1ed4cea148bfa18f5d938d451bb1 24e46a04e02f4b70aa1243a2bb45b223
@@ -56,20 +56,20 @@ msgstr ""
 #: 94e8fa1e23a4444380f5d01f595db02d a80e1b87a07f40a7afb233f9e760299a
 #: f235fde724b7414098a4c5d1f42c1cd1
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../API_perf.rst:18 40035176b1a849dcb55be2bd318e3075
 msgid ""
 "A list of datasets. Each element is a instance of one dataset class "
 "introduced in `\"Datasets\" <#datasets>`_."
-msgstr ""
+msgstr "数据集列表。每个元素是一个数据集类的实例。"
 
 #: ../../API_perf.rst:20 201c5015816e488388de02469753a549
 msgid ""
 "A list of recognition models/methods. Each element is a instance of one "
 "recognition model/method class introduced in `\"Recognition algorithms\" "
 "<#recognition-algorithms>`_."
-msgstr ""
+msgstr "识别算法列表。每个元素是一个识别算法类的实例。"
 
 #: ../../API_perf.rst:22 50fc8bfd82ef4263912605ad3d3f3196
 msgid ""
@@ -78,17 +78,19 @@ msgid ""
 "test_trial_info],      ...,      [train_trial_info, test_trial_info]]  "
 "where ``train_trial_info`` and ``test_trial_info`` are instances of the "
 "``TrialInfo`` class."
-msgstr ""
+msgstr "trial 列表。更具体的请参阅英文版。"
 
 #: ../../API_perf.rst:22 3e4c275559ff44d18df9f262c904d731
 msgid "A list of trials. The format is"
-msgstr ""
+msgstr "trial 的列表。格式为"
 
 #: ../../API_perf.rst:31 a386cb3e3bf84a67a246faba95b0f601
 msgid ""
 "where ``train_trial_info`` and ``test_trial_info`` are instances of the "
 "``TrialInfo`` class."
 msgstr ""
+"其中 ``train_trial_info`` 和 ``test_trial_info`` 是"
+"``TrialInfo`` 类的实例。"
 
 #: ../../API_perf.rst:33 33474b07b3614234b561a9d64936b054
 msgid ""
