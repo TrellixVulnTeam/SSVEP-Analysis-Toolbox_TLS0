@@ -20,42 +20,42 @@ msgstr ""
 
 #: ../../API_methods.rst:5 492601348abf439798ccebe8dba13acc
 msgid "Recognition algorithms"
-msgstr ""
+msgstr "识别算法"
 
 #: ../../API_methods.rst:10 9ff805ed072f4bba9a48b21f6b4628ca
 msgid "Common methods for all models"
-msgstr ""
+msgstr "所有模型中的统一方法"
 
 #: ../../API_methods.rst:12 28495be933ae43b2a863a10b71fc5fc4
 msgid ""
 "All following recognition models have these methods. The inputs and "
 "outputs are same so they will not be repeatedly introduced in following "
 "sections."
-msgstr ""
+msgstr "下面的识别算法都有这些方法。输入与输出一致，所以在下面的介绍中不会再重复说明这些方法。"
 
 #: ../../API_methods.rst:14 2e23e34281a94e00bedf8231d0e3a1b3
 msgid ""
 "When you define your own algorithm class, You may use the ``BaseModel`` "
 "as the father class and re-define the ``__init__`` method and the "
 "following methods."
-msgstr ""
+msgstr "当你定义自己的算法类时，你可以将 ``BaseModel`` 作为父类。同时，你需要重新定义类中的 ``__init__`` 与下面这些方法。"
 
 #: ../../API_methods.rst:18 af01ee5a3e564309a7c1b1d65f8dd96d
 msgid "Copy the recognition model."
-msgstr ""
+msgstr "复制识别模型。"
 
 #: ../../API_methods.rst 230ae4ab18e7412994abad7816822541
 #: 5a3ba42a396e4013b8785ed96bf1f06a
 msgid "Returns"
-msgstr ""
+msgstr "返回"
 
 #: ../../API_methods.rst:20 b855e7b9f21b4446acd92c15b365849e
 msgid "+ ``model``: The returned new model is same as the original one."
-msgstr ""
+msgstr "+ ``model``: 一个一模一样的新模型。"
 
 #: ../../API_methods.rst:22 cd58d4fd9b30455ba5e6bbd693a02514
 msgid "``model``: The returned new model is same as the original one."
-msgstr ""
+msgstr "``model``: 一个一模一样的新模型。"
 
 #: ../../API_methods.rst:26 e54cf6902cbc4efab67c8032270cad33
 msgid ""
@@ -63,7 +63,7 @@ msgid ""
 "in the class parameter ``model``. Different methods may require different"
 " input parameters. You may follow the below parameter names to define "
 "your own fit function."
-msgstr ""
+msgstr "训练识别模型。训练的得到的模型参数将会被保存在 ``model`` 属性中。不同的识别算法可能需要不同的输入参数。你可以根据下面这些参数名来定义自己的训练函数。"
 
 #: ../../API_methods.rst 02aad179463e420bb3a70b4977f5006c
 #: 10fa4b12a02043a9874caacbcf13bdf7 24623e97970942fdadbceb22928b92bb
@@ -76,61 +76,61 @@ msgstr ""
 #: cbe7d8e73f3749ca93edd55af14f18e0 d38f51530ae24937a17b67559e96b83d
 #: d98cad115e024b9f90f7a8985ac062bc f154dd855a4747518686fd56335b8441
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../API_methods.rst:28 d4b7aebb5bb44a2b95e86041580002ad
 msgid ""
 "List of training EEG signals. Each element is one 3D single trial EEG "
 "signal (filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` "
 "samples)."
-msgstr ""
+msgstr "用于训练的 EEG 信号列表。每个元素是一个 3D 单 trial EEG 信号（滤波器组 :raw-html:`&#215;` 通道 :raw-html:`&#215;` 采样点）。"
 
 #: ../../API_methods.rst:30 b8507c48c7044f2b974439ce6279889a
 msgid ""
 "List of training labels. Each element is one single trial label that is "
 "an integer number."
-msgstr ""
+msgstr "用于训练的标签列表。每个元素是一个单 trial 的标签。每个标签是一个整数。"
 
 #: ../../API_methods.rst:32 6ad8bc92f1e7448381152a776397de27
 msgid ""
 "List of reference signals. Each element is the reference signal of one "
 "stimulus."
-msgstr ""
+msgstr "参考信号列表。每个元素是一个刺激的参考信号。"
 
 #: ../../API_methods.rst:34 16e0b4807d044faab901f6116e4875ec
 msgid "List of stimulus frequencies."
-msgstr ""
+msgstr "刺激频率列表"
 
 #: ../../API_methods.rst:38 5640f73051a54ff3a46ce8c64cabd71b
 msgid "Recognize the testing signals."
-msgstr ""
+msgstr "识别测试信号"
 
 #: ../../API_methods.rst:40 2569d0f39d4944a28e26c5112afc607f
 msgid ""
 "List of testing EEG signals. Each element is one 3D single trial EEG "
 "signal (filterbank :raw-html:`&#215;` channels :raw-html:`&#215;` "
 "samples)."
-msgstr ""
+msgstr "用于测试的 EEG 信号列表。每个元素是一个 3D 单 trial EEG 信号（滤波器组 :raw-html:`&#215;` 通道 :raw-html:`&#215;` 采样点）。"
 
 #: ../../API_methods.rst:42 73013a98d84446a1ae022a929fddd9ed
 msgid ""
 "+ ``Y_pred``: List of predicted labels for testing signals. Each element "
 "is one single trial label that is an integer number."
-msgstr ""
+msgstr "+ ``Y_pred``: 用于测试的标签列表。每个元素是一个单 trial 的标签。每个标签是一个整数。"
 
 #: ../../API_methods.rst:44 8dd0e6cb62b74cca9481a90b832647ce
 msgid ""
 "``Y_pred``: List of predicted labels for testing signals. Each element is"
 " one single trial label that is an integer number."
-msgstr ""
+msgstr "``Y_pred``: 用于测试的标签列表。每个元素是一个单 trial 的标签。每个标签是一个整数。"
 
 #: ../../API_methods.rst:47 814fd112bc8c4f519789cca50ed89067
 msgid "Standard CCA and filterbank CCA"
-msgstr ""
+msgstr "传统的 CCA 与 滤波器组 CCA"
 
 #: ../../API_methods.rst:49 d497e73e6c6340cfb6519e9da4e1e64e
 msgid "Related papers:"
-msgstr ""
+msgstr "相关论文："
 
 #: ../../API_methods.rst:51 6ac87435278a43b5bea3ff3979d0653c
 msgid ""
@@ -138,7 +138,10 @@ msgid ""
 "correlation analysis for SSVEP-based BCIs,” IEEE Trans. Biomed. Eng., "
 "vol. 53, no. 12, pp. 2610-2614, 2006. DOI: `10.1109/TBME.2006.886577 "
 "<https://doi.org/10.1109/TBME.2006.886577>`_."
-msgstr ""
+msgstr "传统的 CCA：Z. Lin et al., “Frequency recognition based on canonical "
+"correlation analysis for SSVEP-based BCIs,” IEEE Trans. Biomed. Eng., "
+"vol. 53, no. 12, pp. 2610-2614, 2006. DOI: `10.1109/TBME.2006.886577 "
+"<https://doi.org/10.1109/TBME.2006.886577>`_."
 
 #: ../../API_methods.rst:52 ebb2c7c5252b42b69911c3b17a225055
 msgid ""
@@ -147,7 +150,11 @@ msgid ""
 "interface,” J. Neural Eng., vol. 12, no. 4, p. 046008, 2015. DOI: "
 "`10.1088/1741-2560/12/4/046008 "
 "<https://doi.org/10.1088/1741-2560/12/4/046008>`_."
-msgstr ""
+msgstr "滤波器组 CCA：X. Chen et al., “Filter bank canonical correlation "
+"analysis for implementing a high-speed SSVEP-based brain-computer "
+"interface,” J. Neural Eng., vol. 12, no. 4, p. 046008, 2015. DOI: "
+"`10.1088/1741-2560/12/4/046008 "
+"<https://doi.org/10.1088/1741-2560/12/4/046008>`_."
 
 #: ../../API_methods.rst:54 43788ce422a34cda91f440691bebe640
 msgid ""
@@ -155,7 +162,7 @@ msgid ""
 "of the filterbank CCA (FBCCA) that only have one filterbank. Spatial "
 "filters are found to maximize the similarity between the EEG signals and "
 "the sine-cosine-based reference signals, which can be presented as"
-msgstr ""
+msgstr "此工具箱中，传统 CCA (sCCA) 被视为滤波器组 CCA (FBCCA) 仅有一个滤波器的特殊情况。通过最大化 EEG 信号与参考信号的相似度来求得空间滤波器，此过程可以表述为"
 
 #: ../../API_methods.rst:56 e5eea43d50824f348187c5290f1b9e85
 msgid ""
@@ -171,11 +178,11 @@ msgid ""
 "filter of the :math:`i\\text{-th}` stimulus, and :math:`\\mathbf{V}_i` is"
 " the harmonic weights of the reference signal for the "
 ":math:`i\\text{-th}` stimulus."
-msgstr ""
+msgstr "其中 :math:`\\mathbf{X}` 代表 EEG 信号，:math:`\\mathbf{Y}_i` 代表 :math:`i\\text{-th}` 刺激的参考信号，:math:`\\mathbf{U}_i` 代表 :math:`i\\text{-th}` 的空间滤波器，:math:`\\mathbf{V}_i` 代表 :math:`i\\text{-th}` 刺激的参考信号不同谐波的权重。"
 
 #: ../../API_methods.rst:62 07ce4e090aab4204a68e83bdaddcba82
 msgid "The stimulus with the highest similarity is regarded as the target:"
-msgstr ""
+msgstr "拥有最大相似度的刺激被视为目标。"
 
 #: ../../API_methods.rst:64 005529ebacc343eeac2f606f710cceef
 msgid ""
@@ -186,11 +193,11 @@ msgstr ""
 
 #: ../../API_methods.rst:68 a2c1634d0be1443793d3a21bc6c47029
 msgid "where :math:`I` denotes the total number of stimuli."
-msgstr ""
+msgstr "其中 :math:`I` 是刺激数。"
 
 #: ../../API_methods.rst:72 d51ed88d88c545d2a2f93cdaf2ff0b7d
 msgid "FBCCA implemented directly following above equations."
-msgstr ""
+msgstr "FBCCA 直接根据上式实现。"
 
 #: ../../API_methods.rst:74 ../../API_methods.rst:88 ../../API_methods.rst:161
 #: ../../API_methods.rst:175 ../../API_methods.rst:220
@@ -205,7 +212,7 @@ msgid ""
 "Number of components of eigen vectors that will be applied as the spatial"
 " filters. The default number is ``1``, which means the eigen vector with "
 "the highest eigen value is regarded as the spatial filter."
-msgstr ""
+msgstr "特征向量的数量。特征向量被用作空间滤波器。默认数量为1，即拥有最大特征值的特征向量被视为空间滤波器。"
 
 #: ../../API_methods.rst:76 ../../API_methods.rst:90 ../../API_methods.rst:163
 #: ../../API_methods.rst:177 ../../API_methods.rst:222
@@ -228,7 +235,7 @@ msgid ""
 "Number of threadings. If the given value is larger than 1, the parallel "
 "computation will be applied to improve the computational speed. Default "
 "is ``None``, which means the parallel computation will not be applied."
-msgstr ""
+msgstr "线程数。如果设定值大于1，则多线程的并行运算将会被使用，从而提升运行速度。默认为 ``None``，不使用多线程平行计算。"
 
 #: ../../API_methods.rst:78 ../../API_methods.rst:92 ../../API_methods.rst:165
 #: ../../API_methods.rst:179 ../../API_methods.rst:224
@@ -250,7 +257,7 @@ msgstr ""
 msgid ""
 "Weights of filterbanks. It is a list of float numbers. Default is "
 "``None``, which means all weights of filterbanks are 1."
-msgstr ""
+msgstr "滤波器组的权重，浮点数的列表。默认为 ``None``，所有权重为1。"
 
 #: ../../API_methods.rst:80 ../../API_methods.rst:94 ../../API_methods.rst:167
 #: 4ea4c47b95744bb58ed69879c1ce7afa b86dde80b6d84c0e99340b27585bfa7d
@@ -259,7 +266,7 @@ msgid ""
 "If ``True``, "
 ":math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` "
 "will be stored. Otherwise, they will not be stored. Default is ``False``."
-msgstr ""
+msgstr "如果 ``True``，那么 :math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` 将被保存。否则，这些值不会保存。默认为 ``False``。"
 
 #: ../../API_methods.rst:82 ../../API_methods.rst:96 ../../API_methods.rst:169
 #: 1120a27693fa4324b8b76c97e2826ef2 6bea78e53425437395f07cf78dc12c59
@@ -269,7 +276,7 @@ msgid ""
 ":math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` "
 "will be re-computed in following testing trials. Otherwise, they will not"
 " be re-computed if they are already existed. Default is ``True``."
-msgstr ""
+msgstr "如果 ``True``，那么 :math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` 将会在每个测试 trial 中重新计算。否则，如果这些值已经存在了，这些值不会被重新计算。默认为 ``True``。"
 
 #: ../../API_methods.rst:86 daf84b23effc4964838bdb89cd6033f9
 msgid ""
@@ -279,17 +286,17 @@ msgid ""
 "is that this implementation does not repeatedly compute the QR "
 "decomposition of reference signals, which can improve the computational "
 "efficiency."
-msgstr ""
+msgstr "利用 QR 分解实现 FBCCA。这个实现方式和 \"SCCA_canoncorr\" 模型差不多。唯一的区别是，这个实现不会重复计算参考信号的 QR 分解，这样可以提升计算效率。"
 
 #: ../../API_methods.rst:100 57b12273b12d45bd83f0e2ea41d01961
 msgid ""
 "Although the FBCCA is a training-free method, these models still need run"
 " `\"fit\" function <#fit>`_ to store reference signals in the model."
-msgstr ""
+msgstr "尽管 FBCCA 是无需训练的，但是依然还是需要运行 \"fit\" 来将参考信号保存到模型中。"
 
 #: ../../API_methods.rst:103 8d3fa756c66d4a4991038d2226fd3412
 msgid "Individual template CCA (itCCA) and extended CCA (eCCA)"
-msgstr ""
+msgstr "个人模板 CCA 和 扩展 CCA"
 
 #: ../../API_methods.rst:105 ../../API_methods.rst:186
 #: ../../API_methods.rst:229 ../../API_methods.rst:288
@@ -302,7 +309,7 @@ msgstr ""
 #: a93d8da32c624f129975094c4dab798a c179e809f3ad43a49e26d04d8f177a13
 #: e08d3fc227bf4728a9b451edde38921d fc5c0cef9a91452db7f78f3eef3cfb62
 msgid "Related paper:"
-msgstr ""
+msgstr "相关论文："
 
 #: ../../API_methods.rst:107 e8bad509b0bc4748bcdc08a9420af56e
 msgid ""
@@ -317,7 +324,7 @@ msgid ""
 "The itCCA is similar as the sCCA, but it uses the averaged template "
 "signals to compute the spatial filters. The corresponding correlation "
 "coefficient is"
-msgstr ""
+msgstr "个人模板 CCA （itCCA）和 sCCA 相似，但是 itCCA 使用平均信号模板来计算空间滤波器。对应的相关系数为"
 
 #: ../../API_methods.rst:111 fec5b547ff954df3b91fdeca0a501202
 msgid ""
@@ -329,14 +336,14 @@ msgstr ""
 msgid ""
 "where :math:`\\overline{\\mathbf{X}}_i` denotes the averaged template "
 "signal of the :math:`i\\text{-th}` stimulus."
-msgstr ""
+msgstr "其中， :math:`\\overline{\\mathbf{X}}_i` 代表 :math:`i\\text{-th}` 刺激的平均信号模板。"
 
 #: ../../API_methods.rst:117 a15acee10930422c8b3ed3de765e9b69
 msgid ""
 "The eCCA not only applies the sine-cosine-based reference signals but "
 "also uses the averaged template signals. Three types of spatial filters "
 "are computed:"
-msgstr ""
+msgstr "扩展 CCA (eCCA) 不仅使用参考信号还使用平均信号模板。三种空间滤波器可以计算为："
 
 #: ../../API_methods.rst:119 e9d421c5773e45009906d08409bd4133
 msgid ""
@@ -358,7 +365,7 @@ msgstr ""
 
 #: ../../API_methods.rst:131 89c08d4035a247e0ae75a7acd9b24ecd
 msgid "Four types of corresponding correlation coefficients can be computed:"
-msgstr ""
+msgstr "四种对应的相关系数为："
 
 #: ../../API_methods.rst:133 817374e1459847fb978d6959e2a3b595
 msgid ""
@@ -388,7 +395,7 @@ msgstr ""
 msgid ""
 "The target stimulus is predicted by combining four correlation "
 "coefficients together:"
-msgstr ""
+msgstr "通过将四种相关系数结合一起来识别目标刺激。"
 
 #: ../../API_methods.rst:151 e3adfaf651f344228543693234890fab
 msgid ""
@@ -400,19 +407,20 @@ msgstr ""
 msgid ""
 "where :math:`\\text{sign}\\left\\{\\cdot\\right\\}` is the `signum "
 "function <https://en.wikipedia.org/wiki/Sign_function>`_."
-msgstr ""
+msgstr "其中， :math:`\\text{sign}\\left\\{\\cdot\\right\\}` 是 `signum "
+"函数 <https://en.wikipedia.org/wiki/Sign_function>`_."
 
 #: ../../API_methods.rst:159 415aa04b1d8f4dfc965a75b6ae06d7c4
 msgid ""
 "ITCCA. The implementation is similar as the `\"SCCA_qr\" model "
 "<#SSVEPAnalysisToolbox.algorithms.SCCA_qr>`_."
-msgstr ""
+msgstr "个人模板 CCA。实现方式类似于 \"SCCA_qr\" 模型。"
 
 #: ../../API_methods.rst:173 4c64e13a9e4345e985e318eb5a23aa06
 msgid ""
 "eCCA. The implementation is similar as the `\"SCCA_qr\" model "
 "<#SSVEPAnalysisToolbox.algorithms.SCCA_qr>`_."
-msgstr ""
+msgstr "扩展 CCA。实现方式类似于 \"SCCA_qr\" 模型。"
 
 #: ../../API_methods.rst:181 2c1568f140f84f3bbf43ee6858f91ce2
 msgid ""
@@ -421,11 +429,11 @@ msgid ""
 "will be re-computed in following training and testing trials. Otherwise, "
 "they will not be re-computed if they are already existed. Default is "
 "``True``."
-msgstr ""
+msgstr "如果 ``True``，那么 :math:`\\left\\{\\mathbf{U}_i,\\mathbf{V}_i\\right\\}_{i=1,2,\\cdots,I}` 将会在每个测试 trial 中重新计算。否则，如果这些值已经存在了，这些值不会被重新计算。默认为 ``True``。"
 
 #: ../../API_methods.rst:184 8d81c49e9bca45fca16b4222fd519393
 msgid "Multi-stimulus CCA"
-msgstr ""
+msgstr "多刺激 CCA"
 
 #: ../../API_methods.rst:188 ../../API_methods.rst:485
 #: 26dde0a606d948b9a928008e4bf40876 91594c57c8ea4df68e0fe424944c235c
@@ -444,7 +452,7 @@ msgid ""
 "close to that of target stimulus, which includes the phase information "
 "and thus improve the recognition accuracy. The spatial filters are "
 "computed by"
-msgstr ""
+msgstr "多刺激 CCA（ms-CCA）考虑目标刺激以及与目标刺激的频率临近的刺激的参考信号与模板信号，这样使其可以考虑相位信息从而提升识别准确率。空间滤波器可以计算为："
 
 #: ../../API_methods.rst:192 bba825663fcd443094a32391ef99c9d3
 msgid ""
@@ -460,11 +468,13 @@ msgid ""
 " and :math:`\\mathbf{B}_i` is the concatenated reference signal defined "
 "as :math:`\\mathbf{A}_i = "
 "\\left[\\mathbf{Y}_{i-m},\\cdots,\\mathbf{Y}_{i},\\cdots,\\mathbf{Y}_{i+n}\\right]`."
-msgstr ""
+msgstr "其中，:math:`\\mathbf{A}_i` 是串联的模板信号，被定义为 :math:`\\mathbf{A}_i = "
+"\\left[\\overline{\\mathbf{X}}_{i-m},\\cdots,\\overline{\\mathbf{X}}_{i},\\cdots,\\overline{\\mathbf{X}}_{i+n}\\right]`， :math:`\\mathbf{B}_i` 是串联的参考信号，被定义为 :math:`\\mathbf{A}_i = "
+"\\left[\\mathbf{Y}_{i-m},\\cdots,\\mathbf{Y}_{i},\\cdots,\\mathbf{Y}_{i+n}\\right]`。"
 
 #: ../../API_methods.rst:198 ccb6472847bb4436b3e9167e29197559
 msgid "Two types of correlation coefficients are computed:"
-msgstr ""
+msgstr "两类相关系数可以被计算为："
 
 #: ../../API_methods.rst:200 745ea330b1d04a98aa883639fc8d0752
 msgid ""
@@ -482,7 +492,7 @@ msgstr ""
 msgid ""
 "The target stimulus is predicted by combining two correlation "
 "coefficients:"
-msgstr ""
+msgstr "两类相关系数结合来识别目标刺激。"
 
 #: ../../API_methods.rst:210 e251f97e7d2f40b89cbcf13ccff077b2
 msgid ""
@@ -492,17 +502,17 @@ msgstr ""
 
 #: ../../API_methods.rst:216 0ef5289fca0d48f38abde3ce939802dc
 msgid "ms-CCA. The implementation directly follows above equations."
-msgstr ""
+msgstr "多刺激 CCA，直接使用上式来实现。"
 
 #: ../../API_methods.rst:218 7da42e81da4744b99a5609fae9971c10
 msgid ""
 "Number of neighbers considered for computing the spatial filter of one "
 "stimulus. Default is ``12``."
-msgstr ""
+msgstr "对于一个刺激，用来计算空间滤波器的临近刺激数量。默认为12。"
 
 #: ../../API_methods.rst:227 e1a16c50f7d245ce946d1fde76311077
 msgid "Multi-set CCA (MsetCCA)"
-msgstr ""
+msgstr "多组 CCA"
 
 #: ../../API_methods.rst:231 2d391a613995414aa9af5387c33bd13f
 msgid ""
@@ -518,7 +528,7 @@ msgid ""
 "For each stimulus, the MsetCCA maximize the inter-trial covariance to "
 "compute the spatial filters. The spatial filters of different trials are "
 "different."
-msgstr ""
+msgstr "对于每个刺激，多组 CCA（MsetCCA）通过最大化 trial 间的协方差来计算空间滤波器。不同的 trial 使用不同的空间滤波器。"
 
 #: ../../API_methods.rst:235 0d58317294c142ad83f938867fa819d9
 msgid ""
@@ -544,13 +554,13 @@ msgid ""
 ":math:`\\cal{X}_{i,n}` denotes the calibration data of the "
 ":math:`i\\text{-th}` stimulus and the :math:`n\\text{-th}` training "
 "trial."
-msgstr ""
+msgstr "其中， :math:`\\widetilde{\\mathbf{w}}_{i,n}` 代表 :math:`i\\text{-th}` 刺激的 :math:`n\\text{-th}` 训练 trial 的空间滤波器， :math:`N_t` 代表训练 trial 数量，:math:`\\cal{X}_{i,n}` 代表 :math:`i\\text{-th}` 刺激的 :math:`n\\text{-th}` 训练 trial 的校准数据。"
 
 #: ../../API_methods.rst:245 b2ef9839682f43aa976f7fdce2ad465c
 msgid ""
 "Solving this optimization problem is equivalent to solving the following "
 "eigenvalue problem:"
-msgstr ""
+msgstr "解决这个优化问题等价于解决下面这个特征值问题："
 
 #: ../../API_methods.rst:247 bbfea21b7f2e4c50950e29bb932ae775
 msgid ""
@@ -560,7 +570,7 @@ msgstr ""
 
 #: ../../API_methods.rst:251 68fb651f5aeb441aaf136b11f006cdc4
 msgid "where"
-msgstr ""
+msgstr "其中，"
 
 #: ../../API_methods.rst:253 d9e1490070f749a2ab6ef93f59c08dfb
 msgid ""
@@ -594,11 +604,11 @@ msgstr ""
 
 #: ../../API_methods.rst:279 c91896dc1a4949f2bc4effa0c46d8fec
 msgid "Multi-set CCA. The implementation directly follows above equations."
-msgstr ""
+msgstr "多组 CCA，直接根据上式来实现。"
 
 #: ../../API_methods.rst:286 548c6a4c04f845448c929c8a9df541be
 msgid "Multi-set CCA with reference signals (MsetCCA-R)"
-msgstr ""
+msgstr "结合参考信号的多组 CCA"
 
 #: ../../API_methods.rst:290 ../../API_methods.rst:382
 #: 0dd2cda18a7e4ffea93d3545a1e5d26c fdf271ea0be24f6fb7dbb0cb2a389b3a
@@ -615,7 +625,7 @@ msgid ""
 "The MsetCCA-R is an extension of the `MsetCCA <#multi-set-cca-msetcca>`_."
 " It also tries to solve the following eigenvalue problem to find the "
 "spatial filters:"
-msgstr ""
+msgstr "结合参考信号的多组 CCA（MsetCCA-R）是 MsetCCA 的一个扩展，其通过解决下面这个特征值问题来求空间滤波器："
 
 #: ../../API_methods.rst:294 e403085634ff43029a8cfeea7149e634
 msgid ""
@@ -625,7 +635,7 @@ msgstr ""
 
 #: ../../API_methods.rst:298 036bba683e4d4429acb2ec995f0345d0
 msgid "The key differences are the following two values:"
-msgstr ""
+msgstr "最主要的区别是下面两个值："
 
 #: ../../API_methods.rst:300 6764b6dec91841c18330133b12fdaa87
 msgid ""
@@ -644,7 +654,7 @@ msgstr ""
 
 #: ../../API_methods.rst:310 2665d014f8564f188aab097edb7f656a
 msgid "and"
-msgstr ""
+msgstr "和"
 
 #: ../../API_methods.rst:312 7a1ecc4ce8b94090b08ecff8992e7c0e
 msgid ""
@@ -664,7 +674,7 @@ msgstr ""
 msgid ""
 "where :math:`\\mathbf{Q}_i` is the QR decomposition of the "
 ":math:`i\\text{-th}` stimulus reference signal:"
-msgstr ""
+msgstr "其中， :math:`\\mathbf{Q}_i` 来自 :math:`i\\text{-th}` 刺激的参考信号的 QR 分解："
 
 #: ../../API_methods.rst:324 d2e211b77c0b4defaea5433ba12848af
 msgid "\\mathbf{Q}_i\\mathbf{R}_i = \\mathbf{Y}_i"
@@ -674,11 +684,11 @@ msgstr ""
 msgid ""
 "Multi-set CCA with reference signals. The implementation directly follows"
 " above equations."
-msgstr ""
+msgstr "结合参考信号的多组 CCA，直接通过上式来实现。"
 
 #: ../../API_methods.rst:337 9469afa95c284f1c91d10f2508c9aca0
 msgid "Task-related component analysis (TRCA) and ensemble TRCA (eTRCA)"
-msgstr ""
+msgstr "任务相关成分分析 和 集成任务相关成分分析"
 
 #: ../../API_methods.rst:341 037df100cdd243fd8918ecd0aa8c1e60
 msgid ""
@@ -694,7 +704,7 @@ msgid ""
 "For each stimulus, the TRCA and the ensemble TRCA (eTRCA) maximize the "
 "inter-trial covariance to compute the common spatial filter across "
 "trials, which can be achieved by solving"
-msgstr ""
+msgstr "对于每个刺激，任务相关成分分析（TRCA）和集成任务相关成分分析（eTRCA）通过最大化 trial 间的协方差来计算空间滤波器，可以通过解决下式来实现："
 
 #: ../../API_methods.rst:345 a71ba82812264da386c8d922b05b5c74
 msgid ""
@@ -709,11 +719,11 @@ msgstr ""
 msgid ""
 "where :math:`\\mathbf{X}_i^{(j)}` denotes the :math:`j\\text{-th}` trial "
 "training EEG signals of :math:`i\\text{-th}` stimulus."
-msgstr ""
+msgstr "其中， :math:`\\mathbf{X}_i^{(j)}` 代表 :math:`i\\text{-th}` 刺激的 :math:`j\\text{-th}` 训练 trial 的 EEG 信号。"
 
 #: ../../API_methods.rst:351 fb8c5b5aa3724adbb5c3f584c91af510
 msgid "The target stimulus can be predicted by"
-msgstr ""
+msgstr "目标信号可以通过下式来识别："
 
 #: ../../API_methods.rst:353 45eaf9c09cfd4fd98d77cd88c5180f3f
 msgid ""
@@ -724,7 +734,7 @@ msgstr ""
 
 #: ../../API_methods.rst:359 b7a61f773f2b43e489721a4348e4498b
 msgid "TRCA. The implementation directly follows above equations."
-msgstr ""
+msgstr "任务相关成分分析，直接通过上式来实现。"
 
 #: ../../API_methods.rst:369 5ec86372669d400cbddaadc1e4090c69
 msgid ""
@@ -732,25 +742,25 @@ msgid ""
 "is that the recognition uses the same set of spatial filters for all "
 "stimuli. This set of saptial filters contain all eigen vectors with the "
 "highest eigen value of all stimuli."
-msgstr ""
+msgstr "集成任务相关成分分析。空间滤波器的计算与任务相关成分分析一样。唯一的区别是，集成任务相关成分分析利用所有刺激的空间滤波器一起来进行识别。对于每个刺激，使用拥有最大特征值的特征向量作为空间滤波器。"
 
 #: ../../API_methods.rst:371 ../../API_methods.rst:474
 #: 7d213530bade425592f3dc6a02481631 d88711a58dbb4736825406d951b12f30
 msgid "This parameter will not be considered in the eTRCA."
-msgstr ""
+msgstr "这个参数在 eTRCA 中不会被考虑"
 
 #: ../../API_methods.rst:378 c9279ebce2514c9ca0844dfc5420d254
 msgid ""
 "TRCA with reference signals (TRCA-R) and eTRCA with reference signals "
 "(eTRCA-R)"
-msgstr ""
+msgstr "结合参考信号的任务相关成分分析 与 结合参考信号的集成任务相关成分分析"
 
 #: ../../API_methods.rst:384 44f135f4505c4a2f80a8a5b1685c788c
 msgid ""
 "The TRCA-R and the eTRCA-R are extensions of `the TRCA and the eTRCA "
 "<#task-related-component-analysis-trca-and-ensemble-trca-etrca>`_ "
 "respectively. They try to find the spatial filters by solving"
-msgstr ""
+msgstr "结合参考信号的任务相关成分分析（TRCA-R） 与 结合参考信号的集成任务相关成分分析（eTRCA-R） 分别是任务相关成分分析 与 集成任务相关成分分析的扩展。他们通过解决下式来求解空间滤波器："
 
 #: ../../API_methods.rst:386 11b93e6dd87f4ebcbd5fba319a66372e
 msgid ""
@@ -768,11 +778,11 @@ msgid ""
 ":math:`\\mathbf{Q}_i` is obtained from the QR decomposition of the "
 "reference signals following `the MsetCCA-R <#multi-set-cca-with-"
 "reference-signals-msetcca-r>`_."
-msgstr ""
+msgstr "其中， :math:`\\mathbf{X}_i^{(j)}` 代表 :math:`i\\text{-th}` 刺激的 :math:`j\\text{-th}` 训练 trial 的 EEG 信号， :math:`\\mathbf{Q}_i` 来自于参考信号的 QR 分解。"
 
 #: ../../API_methods.rst:394 6bc3ae116f8f41baba055b0b2ad786c5
 msgid "TRCA-R. The implementation directly follows above equations."
-msgstr ""
+msgstr "结合参考信号的任务相关成分分析，直接根据上式来实现。"
 
 #: ../../API_methods.rst:404 8230ac94a001485f835a6f7510272f2b
 msgid ""
@@ -780,17 +790,17 @@ msgid ""
 "difference is that the recognition uses the same set of spatial filters "
 "for all stimuli. This set of saptial filters contain all eigen vectors "
 "with the highest eigen value of all stimuli."
-msgstr ""
+msgstr "结合参考信号的集成任务相关成分分析。空间滤波器的计算与结合参考信号的任务相关成分分析一样。唯一的区别是，结合参考信号的集成任务相关成分分析利用所有刺激的空间滤波器一起来进行识别。对于每个刺激，使用拥有最大特征值的特征向量作为空间滤波器。"
 
 #: ../../API_methods.rst:406 71c6dcfff30a496d91bbdc375bfa6013
 msgid "This parameter will not be considered in the eTRCA-R."
-msgstr ""
+msgstr "这个参数在 eTRCA-R 中不被考虑。"
 
 #: ../../API_methods.rst:413 f273e2d72efa4c6a8e9d47348d28cade
 msgid ""
 "Sum of squared correlations (SSCOR) and Ensemble sum of squared "
 "correlations (eSSCOR)"
-msgstr ""
+msgstr "相关平方和 和 集成相关平方和"
 
 #: ../../API_methods.rst:417 6b98ee113c0e4856b42354e0b5745e3f
 msgid ""
@@ -809,7 +819,7 @@ msgid ""
 "spatial filter :math:`\\mathbf{U}_i` and the spatial filter "
 ":math:`\\mathbf{U}_i^{(j)}` of the :math:`j\\text{-th}` trial for the "
 ":math:`i\\text{-th}` stimulus by solving"
-msgstr ""
+msgstr "相关平方和（SSCOR）的核心思想和任务相关成分分析相似。相关平方和同样是寻找跨 trial 的通用空间滤波器，但是它假设不同 trial 的空间滤波器不同。相关平方和通过求解下式来计算公共空间滤波 :math:`\\mathbf{U}_i` 和 :math:`i\\text{-th}` 刺激的 :math:`j\\text{-th}` trial 的空间滤波器 :math:`\\mathbf{U}_i^{(j)}`。"
 
 #: ../../API_methods.rst:421 02c7746837894a8d8baf20a7df953119
 msgid ""
@@ -836,7 +846,8 @@ msgstr ""
 msgid ""
 "Based on the `Cholesky decomposition "
 "<https://en.wikipedia.org/wiki/Cholesky_decomposition>`_, we have"
-msgstr ""
+msgstr "基于 `科列斯基分解 "
+"<https://zh.wikipedia.org/wiki/%E7%A7%91%E5%88%97%E6%96%AF%E5%9F%BA%E5%88%86%E8%A7%A3>`_, 我们可以得到"
 
 #: ../../API_methods.rst:436 881d73fab69b47b28df85af38dfcd338
 msgid ""
@@ -864,6 +875,13 @@ msgid ""
 " and :math:`\\mathbf{C}_{i,j}^{\\overline{\\mathbf{X}}} = "
 "\\overline{\\mathbf{X}}_i\\left( \\mathbf{X}_i^{(j)} \\right)^T`, we get"
 msgstr ""
+"让我们定义 :math:`\\mathbf{U}_i = "
+"\\left(\\mathbf{K}_i^{\\overline{\\mathbf{X}}}\\right)^{-1}\\mathbf{V}_i`,"
+" :math:`\\mathbf{U}_i^{(j)} = \\left( \\mathbf{K}_{i,j}^{\\mathbf{X}} "
+"\\right)^{-1}\\mathbf{V}_i^{(j)}`, "
+":math:`\\mathbf{G}_i^{(j)}=\\left(\\mathbf{K}_i^{\\overline{\\mathbf{X}}}\\right)^{-T}\\mathbf{C}_{i,j}^{\\overline{\\mathbf{X}}}\\left(\\mathbf{K}_{i,j}^{\\mathbf{X}}\\right)^{-1}`,"
+" and :math:`\\mathbf{C}_{i,j}^{\\overline{\\mathbf{X}}} = "
+"\\overline{\\mathbf{X}}_i\\left( \\mathbf{X}_i^{(j)} \\right)^T`, 我们可以得到"
 
 #: ../../API_methods.rst:446 4bd26261f2cc491d870bd09b16c94194
 msgid ""
@@ -877,7 +895,7 @@ msgstr ""
 
 #: ../../API_methods.rst:454 93985295efeb4f63834796918528b428
 msgid ":math:`\\mathbf{V}_i` can be calculated by solving"
-msgstr ""
+msgstr ":math:`\\mathbf{V}_i` 可以通过下式求解"
 
 #: ../../API_methods.rst:456 8183287d725e4d3fb4413460573942b7
 msgid ""
@@ -888,7 +906,7 @@ msgstr ""
 
 #: ../../API_methods.rst:462 56c28e374a284fa8b9b7920e38927737
 msgid "SSCOR. The implementation directly follows above equations."
-msgstr ""
+msgstr "相关平方和，直接利用上式来实现。"
 
 #: ../../API_methods.rst:472 1c85b8090a25496585734c361bd5a909
 msgid ""
@@ -896,11 +914,11 @@ msgid ""
 " is that the recognition uses the same set of spatial filters for all "
 "stimuli. This set of saptial filters contain all eigen vectors with the "
 "highest eigen value of all stimuli."
-msgstr ""
+msgstr "集成相关平方和。空间滤波器的计算与相关平方和一样。唯一的区别是，集成相关平方和利用所有刺激的空间滤波器一起来进行识别。对于每个刺激，使用拥有最大特征值的特征向量作为空间滤波器。"
 
 #: ../../API_methods.rst:481 fe44ef091ac24860add0129a74dcbbc3
 msgid "Multi-stimulus TRCA"
-msgstr ""
+msgstr "多刺激任务相关成分分析"
 
 #: ../../API_methods.rst:487 77f67c036604430fae3fbf29e03b70ff
 msgid ""
@@ -908,7 +926,7 @@ msgid ""
 "stimulus-cca>`_. It also considers training EEG signals of stimuli whose "
 "stimulus frequencies are close to the target stimulus to compute spatial "
 "filters:"
-msgstr ""
+msgstr "多刺激任务相关成分分析（ms-TRCA）和多刺激 CCA 相似。它同样考虑目标刺激以及与目标刺激的频率临近的刺激的训练信号。"
 
 #: ../../API_methods.rst:489 546d858c846546da88467219a8d004db
 msgid ""
@@ -924,17 +942,17 @@ msgid ""
 "ms-TRCA. In this toolbox, the ms-TRCA follows the `eTRCA "
 "<#SSVEPAnalysisToolbox.algorithms.ETRCA>`_ scheme to emsemble spatial "
 "filters of all stimuli for the recognition."
-msgstr ""
+msgstr "多刺激任务相关成分分析。此工具箱中，根据集成任务相关成分分析，将全部刺激的空间滤波器集成后来进行目标识别。"
 
 #: ../../API_methods.rst:497 128d401db53f45b284c3754df579e26f
 msgid ""
 "Number of neighbers considered for computing the spatial filter of one "
 "stimulus. Default is ``2``."
-msgstr ""
+msgstr "对于一个刺激，用来计算空间滤波器的临近刺激数量。默认为2。"
 
 #: ../../API_methods.rst:499 5370fb7e9b814e67ba9c412589059a21
 msgid "This parameter will not be considered in this function."
-msgstr ""
+msgstr "此参数不会被考虑。"
 
 #: ../../API_methods.rst:507 748d27a7820343c9a374892ff438a6da
 msgid ""
@@ -944,7 +962,7 @@ msgid ""
 "stimulus. Suppose that :math:`r_{1,i}` and :math:`r_{2,i}` are "
 "correlation coefficients obtained from the ms-CCA and the ms-TRCA "
 "respectively, then the ensembled correlation coefficient is"
-msgstr ""
+msgstr "这个方法通过将 ms-CCA 与 ms-TRCA 得到的相关系数集成后对目标进行识别。令 :math:`r_{1,i}` 与 :math:`r_{2,i}` 分别表示 ms-CCA 与 ms-TRCA 提供的相关系数，那么集成后的相关系数为："
 
 #: ../../API_methods.rst:509 5cf7909fa7c34b2b83d7a80a16baffa9
 msgid ""
@@ -956,13 +974,13 @@ msgstr ""
 msgid ""
 "Number of neighbers considered for computing the spatial filter of one "
 "stimulus in the ms-CCA. Default is ``12``."
-msgstr ""
+msgstr "在 ms-CCA 中，对于一个刺激，用来计算空间滤波器的临近刺激数量。默认数量为12。"
 
 #: ../../API_methods.rst:515 de6b883541c6471a8a57187f71f4c2d6
 msgid ""
 "Number of neighbers considered for computing the spatial filter of one "
 "stimulus in the ms-TRCA. Default is ``2``."
-msgstr ""
+msgstr "在 ms-TRCA 中，对于一个刺激，用来计算空间滤波器的临近刺激数量。默认数量为2。"
 
 #: ../../API_methods.rst:517 38e62b9d9db446eda8810aac03d740eb
 msgid ""
@@ -970,11 +988,11 @@ msgid ""
 " filters in the ms-CCA. The default number is ``1``, which means the "
 "eigen vector with the highest eigen value is regarded as the spatial "
 "filter."
-msgstr ""
+msgstr "在 ms-CCA 中，用作空间滤波器的特征值向量数量。默认值为1，就是将拥有最大特征值的特征向量作为空间滤波器。"
 
 #: ../../API_methods.rst:525 24d9f1eb105d4cdaaee43d8801419545
 msgid "Task-discriminant component analysis"
-msgstr ""
+msgstr "任务判别成分分析"
 
 #: ../../API_methods.rst:529 09404a42c4ee4635b4af3f582d6ad491
 msgid ""
@@ -989,14 +1007,14 @@ msgstr ""
 msgid ""
 "Compared with other methods, the task-discriminant component analysis "
 "(TDCA) have following three key differences:"
-msgstr ""
+msgstr "和其他算法相比，任务判别成分分析（TDCA）有下面几个关键不同点："
 
 #: ../../API_methods.rst:533 97ac9b1f952a4ea2b65ba53d92454e80
 msgid ""
 "The dimensionality of EEG signals is elevated. For one trial EEG signal "
 ":math:`\\mathbf{X}`, the augmented EEG trial "
 ":math:`\\widetilde{\\mathbf{X}}` is"
-msgstr ""
+msgstr "EEG 信号的数据维度被扩展。对于单个 trial 的 EEG 信号 :math:`\\mathbf{X}`，增强后的 EEG 数据 :math:`\\widetilde{\\mathbf{X}}` 为："
 
 #: ../../API_methods.rst:535 66e06853a45c446b9fbd0da0b5e1d2cb
 msgid ""
@@ -1013,13 +1031,13 @@ msgid ""
 "where :math:`\\mathbf{X}_l` denotes the EEG trial delayed by :math:`l` "
 "points, :math:`\\mathbf{O}_l\\in\\mathbb{R}^{N_\\text{ch}\\times l}` "
 "denotes the zero matrix, and :math:`L` is the total number of delays."
-msgstr ""
+msgstr "其中， :math:`\\mathbf{X}_l` 表示延迟了 :math:`l` 个点的 EEG 信号，:math:`\\mathbf{O}_l\\in\\mathbb{R}^{N_\\text{ch}\\times l}` 代表零矩阵，:math:`L` 代表总延迟量。"
 
 #: ../../API_methods.rst:546 e18e9fb5c3f542d9b3049b7fa5380a0a
 msgid ""
 "After elevating the dimension, EEG trials are then further extended for "
 "each stimulus as"
-msgstr ""
+msgstr "在增加维度后，EEG 信号被进一步扩展为"
 
 #: ../../API_methods.rst:548 92bb1fc89ff644dc917d61f895083573
 msgid ""
@@ -1032,13 +1050,13 @@ msgid ""
 "where :math:`\\mathbf{Q}_i` is the orthogonal factor of the reference "
 "signal of the :math:`i\\text{-th}` stimulus and can be obtained by the QR"
 " decomposition :math:`\\mathbf{Q}_i\\mathbf{R}_i=\\mathbf{Y}_i^T`."
-msgstr ""
+msgstr "其中， :math:`\\mathbf{Q}_i` 是 :math:`i\\text{-th}` 刺激的参考信号的正交因子，可以从 QR 分解获取 :math:`\\mathbf{Q}_i\\mathbf{R}_i=\\mathbf{Y}_i^T`。"
 
 #: ../../API_methods.rst:554 881144f44e9f4c6f99922ed3acd024be
 msgid ""
 "The two-dimensional linear discriminant analysis is applied to compute "
 "spatial filters by solving"
-msgstr ""
+msgstr "二维线性判别分析被用来求解下式来计算空间滤波器："
 
 #: ../../API_methods.rst:556 3658e15ad33c42019c6af96aa57d9f9e
 msgid "\\mathbf{S}_b\\mathbf{U} = \\mathbf{S}_w\\mathbf{U}\\mathbf{\\Lambda}"
@@ -1046,7 +1064,7 @@ msgstr ""
 
 #: ../../API_methods.rst:560 0de1468c80a54e56aea1255671dd5918
 msgid "The :math:`\\mathbf{S}_b` is the covariance of between-class differences:"
-msgstr ""
+msgstr ":math:`\\mathbf{S}_b` 是类间差异的协方差矩阵。"
 
 #: ../../API_methods.rst:562 9bfaa0e0e0254a30adf47a53a15cde2e
 msgid ""
@@ -1062,11 +1080,11 @@ msgid ""
 "where :math:`\\overline{\\mathbf{X}}_a^{(i)}` is the averaged "
 ":math:`\\mathbf{X}_a` over all trials of the :math:`i\\text{-th}` "
 "stimulus, and :math:`I` is the total number of stimuli."
-msgstr ""
+msgstr "其中， :math:`\\overline{\\mathbf{X}}_a^{(i)}` 代表 :math:`i\\text{-th}` 刺激全部 trial 的平均信号， :math:`I` 代表刺激数。"
 
 #: ../../API_methods.rst:568 2d81f74f5b68469aa17a87e55aa8076d
 msgid "The :math:`\\mathbf{S}_w` is the covariance of within-class differences:"
-msgstr ""
+msgstr ":math:`\\mathbf{S}_w` 是类中差距的协方差矩阵。"
 
 #: ../../API_methods.rst:570 01ea7465cd3c4efeb05b2c9df6a975f8
 msgid ""
@@ -1080,11 +1098,11 @@ msgid ""
 "where :math:`N_t` denotes the total number of trials, and "
 ":math:`\\mathbf{X}_a^{(i,j)}` denotes :math:`\\mathbf{X}_a` of the "
 ":math:`j\\text{-th}` trial for the :math:`i\\text{-th}` stimulus."
-msgstr ""
+msgstr "其中， :math:`N_t` 代表 trial 数量， :math:`\\mathbf{X}_a^{(i,j)}` 代表 :math:`i\\text{-th}` 刺激的 :math:`j\\text{-th}` trial 的 :math:`\\mathbf{X}_a`。"
 
 #: ../../API_methods.rst:576 b947154bfb65456b8d2052ada45414f6
 msgid "Finally, the target stimulus can be predicted by"
-msgstr ""
+msgstr "最后，目标刺激可以识别为："
 
 #: ../../API_methods.rst:578 72837c3618b148e0a908196a1ece9340
 msgid ""
@@ -1095,15 +1113,15 @@ msgstr ""
 
 #: ../../API_methods.rst:584 672e8cbc64b141ad8d4cd2a55f45b1b0
 msgid "TDCA. The implementation directly follows above equations."
-msgstr ""
+msgstr "任务判别成分分析，直接根据上式来实现。"
 
 #: ../../API_methods.rst:592 0323b1fdf70b4e5f96c31b0ba0e82948
 msgid "Total number of delays. Default is ``0``, which means no delay."
-msgstr ""
+msgstr "延迟量，默认为0，即无延迟。"
 
 #: ../../API_methods.rst:595 dc72fe16b681438684c67d2992347e0d
 msgid "Online adaptive CCA"
-msgstr ""
+msgstr "在线 CCA"
 
 #: ../../API_methods.rst:599 8a29bb8aea8843b1a180229b70a9c435
 msgid ""
@@ -1117,23 +1135,23 @@ msgid ""
 "Compared to sCCA, the spatial filters are fine-turned online. Therefore, "
 "as more trials are processed, the performance will be improved until "
 "achieving the upper bound."
-msgstr ""
+msgstr "和 sCCA 相比，在线 CCA（OACCA）的空间滤波会在线调整。因此，随着处理越来越多的 trial，分类表现会逐步提高直至达到上限。"
 
 #: ../../API_methods.rst:603 dd01e98ee87943a897bec71805670ca0
 msgid "The OACCA ensembles three parts:"
-msgstr ""
+msgstr "在线 CCA 集成下面三个部分："
 
 #: ../../API_methods.rst:605 95299f0315304249b08d0c5072414b30
 msgid ""
 "Spatial filters based on the sCCA. These spatial filters can be "
 "considered as the baseline reference of the recognition result."
-msgstr ""
+msgstr "基于 sCCA 的空间滤波器。这些空间滤波器可以被考虑为识别的基线标准。"
 
 #: ../../API_methods.rst:607 4d828e4ad80d490597d8086f8c2dfbc9
 msgid ""
 "Prototype spatial filters. These spatial filters are fine-turned online. "
 "They are calculated by"
-msgstr ""
+msgstr "原型空间滤波器。这些空间滤波器会被在线调整。他们基于下式计算："
 
 #: ../../API_methods.rst:609 401aa1fd5b154076b7012dc1e962900f
 msgid ""
@@ -1150,12 +1168,15 @@ msgid ""
 ":math:`\\mathbf{u}^{[t]}` is the spatial filtered obtained from the sCCA "
 "at the :math:`t\\text{-th}` trial."
 msgstr ""
+"其中， :math:`\\widetilde{\\mathbf{u}}^{[t]} = "
+"\\frac{\\mathbf{u}^{[t]}}{\\left\\|\\mathbf{u}^{[t]}\\right\\|}` 和 "
+":math:`\\mathbf{u}^{[t]}` 代表求自 sCCA 的 :math:`t\\text{-th}` trial 的空间滤波器"
 
 #: ../../API_methods.rst:615 ba44ca6174d54f4296d3bf38fed9e48c
 msgid ""
 "Spatial filters based on the online ms-CCA. These spatial filters are "
 "also fine-turned online. They are calculated by"
-msgstr ""
+msgstr "基于在线 ms-CCA 的空间滤波器。这些空间滤波器也是在线更新。它们可以由下式计算："
 
 #: ../../API_methods.rst:617 90cac5f5970740508759c784642c9552
 msgid ""
@@ -1168,12 +1189,14 @@ msgid ""
 "where "
 ":math:`\\mathbf{C}_{XY}^{[t]}=\\sum_{m=1}^t\\left(\\mathbf{X}^{[t]}\\right)^T\\mathbf{Y}`."
 msgstr ""
+"其中， "
+":math:`\\mathbf{C}_{XY}^{[t]}=\\sum_{m=1}^t\\left(\\mathbf{X}^{[t]}\\right)^T\\mathbf{Y}`."
 
 #: ../../API_methods.rst:623 bb5608e4a93647f889fa07a4ba46db2c
 msgid "The basic idea of the OACCA is shown below:"
-msgstr ""
+msgstr "OACCA 的基本原理如下"
 
 #: ../../API_methods.rst:629 6d54f8f9854649e5b93142672d2aa809
 msgid "OACCA. The implementation directly follows above equations."
-msgstr ""
+msgstr "在线 CCA，直接基于上式实现。"
 

@@ -73,7 +73,7 @@ msgid ""
 "started/quickstart/fork-a-repo#forking-a-repository>`_ to learn how to do"
 " it. Simply speaking, you just need to click the \"Fork\" button in the "
 "repository page."
-msgstr "在 Github 上复刻（fork）`这个项目 <https://github.com/pikipity/SSVEP-Analysis-Toolbox.git>`_。你可以先阅读 `\"Forking a repository\" <https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository>`_ 来学习如何复刻项目。简单来说，你只需要点击此项目页面上的 \"Fork\" 按钮。"
+msgstr "在 Github 上复刻（fork） `这个项目 <https://github.com/pikipity/SSVEP-Analysis-Toolbox.git>`_。你可以先阅读 `\"Forking a repository\" <https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository>`_ 来学习如何复刻项目。简单来说，你只需要点击此项目页面上的 \"Fork\" 按钮。"
 
 #: ../../JoinUs.rst:19 8272c10599784c06938be77d15722a91
 msgid ""
