@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../API_util.rst:5 0dd9a7bb9871421dbc25732ccc5ceef8
 msgid "Utility Functions"
-msgstr ""
+msgstr "实用函数"
 
 #: ../../API_util.rst:8 5c2549f4116b4084881fbed4a4ce8922
 msgid "Download functions"
-msgstr ""
+msgstr "下载函数"
 
 #: ../../API_util.rst:12 0da574f22b5043b8a2f216e8a36476e4
 msgid "Download one file."
-msgstr ""
+msgstr "下载一个文件"
 
 #: ../../API_util.rst 0ba06f255bf54eca8047cffec78e4875
 #: 0e1d82ccf64d47dc82f1e0313613a4ca 33d30c639d3a4c0a89f866787fcbe187
@@ -39,47 +39,47 @@ msgstr ""
 #: d17346bba6d74c1f9d2df891baf43224 d271bd88734e4b6091191e48f047f69c
 #: dcb7832baddc4551beab5fa648b6092c f81f6452dfb640a78eab9f368e6b91ab
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../API_util.rst:14 95c6e7aedf564ec0bd93b799f9ff563d
 msgid "Source URL."
-msgstr ""
+msgstr "源 URL。"
 
 #: ../../API_util.rst:16 fa587b9860db4025bf1e8b3228b38d78
 msgid ""
 "Local path for storing the downloaded file. The path should be an "
 "absolute path with the file name."
-msgstr ""
+msgstr "用来保存下载文件的本地路径。路径必须是包含文件名的绝对路径。"
 
 #: ../../API_util.rst:18 d8dda66c516e4c95a2369785e2dddf9c
 msgid ""
 "Hash code of the downloaded file. Set ``None`` if the hash code is "
 "unknown."
-msgstr ""
+msgstr "下载文件的哈希值。如果哈希值未知可以设置为 ``None``。"
 
 #: ../../API_util.rst:21 c09638cde16440f09b4e46936c300dd5
 msgid "IO functions"
-msgstr ""
+msgstr "IO 函数"
 
 #: ../../API_util.rst:25 98b6bd0771a34210b66598f7accd65f4
 msgid "Save a dictionary data."
-msgstr ""
+msgstr "保存一个字典数据。"
 
 #: ../../API_util.rst:27 55706e8ccc3a468f88698f4c372f3647
 msgid "Path of saving file including the absolute path and file name."
-msgstr ""
+msgstr "保存文件的路径，包含文件名的绝对路径。"
 
 #: ../../API_util.rst:29 30b4efe9683e47b3960fb12ccf25555b
 msgid "Dictionary data that will be saved."
-msgstr ""
+msgstr "将要保存的字典数据。"
 
 #: ../../API_util.rst aa765b631fef4a17bd74736d3aa0042c
 msgid "save_type"
-msgstr ""
+msgstr "保存格式"
 
 #: ../../API_util.rst:31 2831930051fc475e9132744c2376638e
 msgid "There are two options of the saving data type:"
-msgstr ""
+msgstr "现在有两种可选的保存数据格式："
 
 #: ../../API_util.rst:33 49f949b8cf5d49b8a3f11c93f16ce4b5
 msgid ""
@@ -90,7 +90,8 @@ msgid ""
 "<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.savemat.html>`_."
 " If the data cannot be saved as ``.mat`` file, the data will be saved as "
 "numpy ``.npy`` binary file."
-msgstr ""
+msgstr "``'mat'``: 保存数据为 matlab 的 ``.mat`` 文件。变量名为字典的键名。变量的值为字典中对应建的值。如果使用此格式，此函数类似于 `\"scipy.io.savemat\" "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.savemat.html>`_。如果数据无法保存为 ``.mat`` 文件，数据将保存为 numpy 的 ``.npy`` 二进制文件。"
 
 #: ../../API_util.rst:35 c024d6fc4cf44c45bca6eb74ec14b00c
 msgid ""
@@ -99,15 +100,16 @@ msgid ""
 "<https://numpy.org/doc/stable/reference/generated/numpy.save.html>`_. If "
 "the data cannot be saved as numpy ``.npy`` binary file, the data will be "
 "saved as pickle ``.pkl`` binary file."
-msgstr ""
+msgstr "``'np'``: 保存数据为 numpy 的 `.npy`` 二进制文件。如果使用此格式，此函数类似于 `\"numpy.save\" "
+"<https://numpy.org/doc/stable/reference/generated/numpy.save.html>`_。如果数据无法保存为 numpy 的 `.npy`` 二进制文件，数据将被保存为 pickle 的 ``.pkl`` 的二进制文件。"
 
 #: ../../API_util.rst:39 749e1d1f85374c9ca1c2c4bef8c403aa
 msgid "Load a local data file."
-msgstr ""
+msgstr "加载一个本地数据文件。"
 
 #: ../../API_util.rst:41 aaca320dc52844ec8dc4cc904093889d
 msgid "Local data path including the absolute path and file name."
-msgstr ""
+msgstr "本地数据路径，包括文件名的绝对路径。"
 
 #: ../../API_util.rst:43 92e5177ce3c64dcda3977f80dc4fb4dd
 msgid ""
@@ -124,6 +126,16 @@ msgid ""
 "<https://docs.python.org/3/library/pickle.html#pickle.load>`_ to load the"
 " data."
 msgstr ""
+"有两个可选择的本地数据类型：  + ``'mat'``: 本地数据为 ``.mat`` 文件。"
+"变量名为字典的键名，变量值为字典的键值。如果使用此选项，此函数将类似于"
+"`\"scipy.io.loadmat\" "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html>`_"
+" 或者 `\"mat73.loadmat\" <https://github.com/skjerns/mat7.3>`_。  + "
+"``'np'``: 本地数据为 numpy 的 `.npy`` 二进制文件，如果使用此选项，此函数类似于"
+" `\"numpy.load\" "
+"<https://numpy.org/doc/stable/reference/generated/numpy.load.html>`_. 对于 pickle 的 ``.pkl`` 的二进制文件，你可以直接使用"
+" `\"pickle.load\" "
+"<https://docs.python.org/3/library/pickle.html#pickle.load>`_。"
 
 #: ../../API_util.rst:43 b8a08eca1c4743ce8cd7033934dac517
 msgid "There are two options of the local data type:"
@@ -137,7 +149,11 @@ msgid ""
 "`\"scipy.io.loadmat\" "
 "<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html>`_"
 " or `\"mat73.loadmat\" <https://github.com/skjerns/mat7.3>`_."
-msgstr ""
+msgstr "``'mat'``: 本地数据为 ``.mat`` 文件。"
+"变量名为字典的键名，变量值为字典的键值。如果使用此选项，此函数将类似于"
+"`\"scipy.io.loadmat\" "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html>`_"
+" 或者 `\"mat73.loadmat\" <https://github.com/skjerns/mat7.3>`_。"
 
 #: ../../API_util.rst:47 c228ee0d17a34d74aebf6be353ae98e3
 msgid ""
@@ -147,7 +163,11 @@ msgid ""
 " pickle ``.pkl`` binary file, you may directly use `\"pickle.load\" "
 "<https://docs.python.org/3/library/pickle.html#pickle.load>`_ to load the"
 " data."
-msgstr ""
+msgstr "``'np'``: 本地数据为 numpy 的 `.npy`` 二进制文件，如果使用此选项，此函数类似于"
+" `\"numpy.load\" "
+"<https://numpy.org/doc/stable/reference/generated/numpy.load.html>`_. 对于 pickle 的 ``.pkl`` 的二进制文件，你可以直接使用"
+" `\"pickle.load\" "
+"<https://docs.python.org/3/library/pickle.html#pickle.load>`_。"
 
 #: ../../API_util.rst 66a1888d3a6640c19f7678a8c2541e6f
 #: 684c1fe4ac6643fd9886ada3aba90ae6 70d076b2473f4b1b8fb387f58a93b280
@@ -156,19 +176,19 @@ msgstr ""
 #: e3c3a15c80054849910d1676c1f9ef45 edab0b242f694c0a8aface12477c91bc
 #: f838829304bc4c9db5ad999cf4f5c0b5 ffc3cbfa6afb4639a91265ddfd836e92
 msgid "Returns"
-msgstr ""
+msgstr "返回"
 
 #: ../../API_util.rst:49 f22deb514ff04e3483fbadc8e1d7c6b0
 msgid "+ ``data``: Loaded dictionary data."
-msgstr ""
+msgstr "+ ``data``: 加载的字典文件。"
 
 #: ../../API_util.rst:51 c038d3a8934745cbaed4ef1e542df176
 msgid "``data``: Loaded dictionary data."
-msgstr ""
+msgstr "``data``: 加载的字典文件。"
 
 #: ../../API_util.rst:56 95fb44b36d6e4d68b48431ca62222391
 msgid "Computation functions"
-msgstr ""
+msgstr "计算函数"
 
 #: ../../API_util.rst:60 cc2aa046abeb498e8363b3fcc78ec967
 msgid ""
@@ -176,83 +196,85 @@ msgid ""
 "function is similar as `\"get_ref_sig\" function <#get_ref_sig>`_ in "
 "dataset class. But this function is more flexible, requires more input "
 "parameters, and is only for one stimulus."
-msgstr ""
+msgstr "为一个刺激生成正余弦参考信号。这个函数类似于数据集类中的 `\"get_ref_sig\" 函数 <#get_ref_sig>`_。但是此函数更灵活，但也需要更多输入参数，并且仅能为一个刺激生成参考信号。"
 
 #: ../../API_util.rst:62 de66248f1e644172937e1a8fadd5c782
 msgid "One stimulus frequency."
-msgstr ""
+msgstr "一个刺激频率。"
 
 #: ../../API_util.rst:64 d3787e878b594bd98ddc822628e082da
 msgid "Sampling rate."
-msgstr ""
+msgstr "采样率。"
 
 #: ../../API_util.rst:66 abb648ead2524f08981bd1e79b3f332c
 msgid "Signal length (in samples)."
-msgstr ""
+msgstr "信号长度（以采样点为单位）。"
 
 #: ../../API_util.rst:68 1e3471eb0db34b428b27fa08ccbd9f7d
 msgid "Total number of harmonic components."
-msgstr ""
+msgstr "谐波数。"
 
 #: ../../API_util.rst:70 45fda7cd31ca4c548ed06f5dde94f49f
 msgid "One stimulus phase."
-msgstr ""
+msgstr "一个刺激相位。"
 
 #: ../../API_util.rst:72 91c0dccc373a42eb8be6a2a373d4ae40
 msgid ""
 "+ ``ref_sig``: Reference signals of one stimulus. The dimention is (2N "
 ":raw-html:`&#215;` L)."
-msgstr ""
+msgstr "+ ``ref_sig``: 一个刺激的参考信号，形状为 (2N "
+":raw-html:`&#215;` L)。"
 
 #: ../../API_util.rst:74 cb12a5b76ded47c8adaaf69cb2dee836
 msgid ""
 "``ref_sig``: Reference signals of one stimulus. The dimention is (2N "
 ":raw-html:`&#215;` L)."
-msgstr ""
+msgstr "``ref_sig``: 一个刺激的参考信号，形状为 (2N "
+":raw-html:`&#215;` L)。"
 
 #: ../../API_util.rst:78 f6132e077a3a4ac4a17a78927caff927
 msgid ""
 "Iteratively sum all values in a list. If the input list contains lists, "
 "these contained lists will be summed first."
-msgstr ""
+msgstr "在一个列表中循环计算所有值得加和。如果输入列表包含列表，这些被包含的列表先被求和。"
 
 #: ../../API_util.rst:80 b92d25ea08424008ae759589a64382a7
 msgid "List that will be sumed."
-msgstr ""
+msgstr "被用于求和的列表"
 
 #: ../../API_util.rst:82 6e1215f1d80f4db3a15e94d6154005ac
 msgid "+ ``sum_X``: Summation result."
-msgstr ""
+msgstr "+ ``sum_X``: 求和结果。"
 
 #: ../../API_util.rst:84 1788a61b442540978d20a1c812ae5fcb
 msgid "``sum_X``: Summation result."
-msgstr ""
+msgstr "``sum_X``: 求和结果。"
 
 #: ../../API_util.rst:88 d34718174fb1439b9da59975297525d9
 msgid ""
 "Iteratively calculate average value of a list. If the input list contains"
 " lists, these contained lists will be averaged first."
-msgstr ""
+msgstr "在一个列表中循环计算平均值。如果输入列表包含列表，这些被包含的列表先被平均。"
 
 #: ../../API_util.rst:90 42c5ba3dbf2140db8e52b44ca641a30e
 msgid "List that will be averaged."
-msgstr ""
+msgstr "被用于平均的列表。"
 
 #: ../../API_util.rst:92 5dce7cdfe19e4bd7803168dcc74a7f70
 msgid "+ ``mean_X``: Average result."
-msgstr ""
+msgstr "+ ``mean_X``: 平均值。"
 
 #: ../../API_util.rst:94 3587d6f0998b4d9b804b4c335f17cd4d
 msgid "``mean_X``: Average result."
-msgstr ""
+msgstr "``mean_X``: 平均值。"
 
 #: ../../API_util.rst:98 34bb4cc7e9914958b92dfa33688aa271
 msgid "Sort the given list"
-msgstr ""
+msgstr "对给定的列表排序"
 
 #: ../../API_util.rst:100 2fd8b0f823644175add377e7db0f5602
 msgid "List that will be sorted."
-msgstr ""
+msgstr "将被排序的列表。"
 
 #: ../../API_util.rst:102 d16e33b0b9664f108414a28a603797f3
 msgid ""
@@ -260,18 +282,20 @@ msgid ""
 "transfer ``X`` to ``sorted_X``. + ``return_idx``: List of indices that "
 "can transfer ``sorted_X`` to ``X``."
 msgstr ""
+"+ ``sorted_X``: 排序后的 ``X``。 + ``sort_idx``: 将 ``X`` 变换为 ``sorted_X`` 的索引数列表。"
+" + ``return_idx``: 将 ``sorted_X`` 变换为 ``X`` 的索引列表。"
 
 #: ../../API_util.rst:104 ec091229d2c8409fb6cdd1bfdf7a2f1a
 msgid "``sorted_X``: Sorted ``X``."
-msgstr ""
+msgstr "``sorted_X``: 排序后的 ``X``。"
 
 #: ../../API_util.rst:105 100c00c5e9334cfbb1e4ca0d502e30a8
 msgid "``sort_idx``: List of indices that can transfer ``X`` to ``sorted_X``."
-msgstr ""
+msgstr "``sort_idx``: 将 ``X`` 变换为 ``sorted_X`` 的索引数列表。"
 
 #: ../../API_util.rst:106 08a73526053d45439dd0b85f0a791ce7
 msgid "``return_idx``: List of indices that can transfer ``sorted_X`` to ``X``."
-msgstr ""
+msgstr "``return_idx``: 将 ``sorted_X`` 变换为 ``X`` 的索引列表。"
 
 #: ../../API_util.rst:110 bc6733736a854bfebfff261714167a3f
 msgid ""

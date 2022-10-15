@@ -172,144 +172,144 @@ msgstr "识别算法中使用的线程数。如果给定的值大于1，多线�
 msgid ""
 "*Please ignore this parameter and leave this parameter as the default "
 "value. The function related to this parameter is under development.*"
-msgstr "*请忽略此参数并保留此参数为默认值。有关此参数的部分将*"
+msgstr "*请忽略此参数并保留此参数为默认值。有关此参数的功能还在开发中*"
 
 #: ../../API_perf.rst:75 0feb6a2f1de541e1bb75b3c581e4e0e2
 msgid "Trial Information"
-msgstr ""
+msgstr "trial 信息"
 
 #: ../../API_perf.rst:79 86072a430a8e4166a55ec3af02a9de39
 msgid ""
 "The instances of this class are the basic elements of ``trial_container``"
 " in ``BaseEvaluator``."
-msgstr ""
+msgstr "此类的实例是 ``BaseEvaluator`` 中 ``trial_container`` 的基础元素。"
 
 #: ../../API_perf.rst:81 ../../API_perf.rst:144
 #: 4411cd59d5fa45aa9af3cadd977c0420 907d7ec77cd94d8694119cc61b3febce
 msgid "It contains following attributes:"
-msgstr ""
+msgstr "它包含下列属性："
 
 #: ../../API_perf.rst:83 a2c033f1c1bc48cdb8f3311d2b545247
 msgid "``dataset_idx``: A list of dataset indeices."
-msgstr ""
+msgstr "``dataset_idx``: 数据集索引数列表"
 
 #: ../../API_perf.rst:84 be240c1b40e143fabe8d04b6926a3f0d
 msgid "``sub_idx``: A list of all datasets' subject index list. The format is"
-msgstr ""
+msgstr "``sub_idx``: 受试者索引数列表。格式为"
 
 #: ../../API_perf.rst:93 fc37cb6942624aba92dbb3bb21c8b4a6
 msgid ""
 "where ``sub_idx_1``, ``sub_idx_2``, ... are subject indices for different"
 " datasets. The order follows ``dataset_idx``."
-msgstr ""
+msgstr "其中，``sub_idx_1``, ``sub_idx_2``, ... 是不同数据集的受试者索引。顺序遵循 ``dataset_idx``。"
 
 #: ../../API_perf.rst:95 47c65736684f41b1bd87bb351ea6086b
 msgid ""
 "``block_idx``: A list of all datasets' block index list. The format is "
 "same as ``sub_idx`` but the integer numbers in lists are block indices."
-msgstr ""
+msgstr "``block_idx``: block 索引数列表。格式和 ``sub_idx`` 一致，除了数字代表 block 索引数。"
 
 #: ../../API_perf.rst:96 2f850ece12cc4e928201f8e2ed61b82e
 msgid ""
 "``trial_idx``: A list of all datasets' trial index list. The format is "
 "same as ``sub_idx`` but the integer numbers in lists are trial indices."
-msgstr ""
+msgstr "``trial_idx``: trial 索引数列表。格式和 ``sub_idx`` 一致，除了数字代表 trial 索引数。"
 
 #: ../../API_perf.rst:97 5fd63034a656409d90deacc8b29ef9aa
 msgid ""
 "``ch_idx``: A list of all datasets' channel index list. The format is "
 "same as ``sub_idx`` but the integer numbers in lists are channel indices."
-msgstr ""
+msgstr "``ch_idx``: 通道索引列表。格式和 ``sub_idx`` 一致，除了数字代表通道索引数。"
 
 #: ../../API_perf.rst:98 90da331a35334fa5bb5ccec88a84ebd6
 msgid ""
 "``harmonic_num``: The harmonic number is used to generate reference "
 "signals. One integer number."
-msgstr ""
+msgstr "``harmonic_num``: 用于生成参考信号的谐波数，整数。"
 
 #: ../../API_perf.rst:99 6bcecb05d9c64365b4bac4fd1e65448b
 msgid "``tw``: The signal length (in second). One float number."
-msgstr ""
+msgstr "``tw``: 信号长度（以秒为单位），浮点数"
 
 #: ../../API_perf.rst:100 9b339f9014864a5282b85508d393618f
 msgid ""
 "``t_latency``: A list of latency times of datasets. Each element is a "
 "float number denoting a latency time of one dataset."
-msgstr ""
+msgstr "``t_latency``: 数据集的延迟时间列表。每个元素是一个浮点数，代表一个数据集的延迟时间。"
 
 #: ../../API_perf.rst:101 5b5b6702f560452e90c47d9e711c9189
 msgid ""
 "``shuffle``: A list of shuffle flag. Each element is a bool value "
 "denoting whether shuffle trials."
-msgstr ""
+msgstr "``shuffle``: 重新打乱标记列表。每个元素是一个布尔值，代表是否重新打乱 trial。"
 
 #: ../../API_perf.rst:106 e985a4492f0f412fa8ae986d91162608
 msgid "Push one dataset information into the trial information"
-msgstr ""
+msgstr "将一个数据集的信息推入 trial 信息。"
 
 #: ../../API_perf.rst:108 c4b75ae8c00444a792c5a26a47b79d93
 msgid "dataset index. One integer number."
-msgstr ""
+msgstr "数据集索引数，整数。"
 
 #: ../../API_perf.rst:109 ee265862939e431d9e52e4055ccd64a8
 msgid "List of subject indices. A list of integer numbers."
-msgstr ""
+msgstr "受试者索引数列表，整数列表。"
 
 #: ../../API_perf.rst:110 f47e2bc376d54507af2de1c2202d7297
 msgid "List of block indices. A list of integer numbers."
-msgstr ""
+msgstr "block 索引列表，整数列表。"
 
 #: ../../API_perf.rst:111 ../../API_perf.rst:175
 #: 3457994b141c4383b02b6f3867a3a511 b46f5c2b12544738aef272b9cb92fe44
 msgid "List of trial indices. A list of integer numbers."
-msgstr ""
+msgstr "trial 索引列表，整数列表。"
 
 #: ../../API_perf.rst:112 ../../API_perf.rst:176
 #: 7df380b5254546298de0eedd0b07323d a939f7a9db7c480bbee88f163f9e05fc
 msgid "List of channel indices. A list of integer numbers."
-msgstr ""
+msgstr "通道索引列表，整数列表。"
 
 #: ../../API_perf.rst:113 9c9ee7818e524f26bad6eb9d6d4c7adb
 msgid ""
 "The harmonic number is used to generate reference signals. This input "
 "parameter will update ``harmonic_num`` of the trial information. One "
 "integer number."
-msgstr ""
+msgstr "用来生成参考信号的谐波数。此输入参数将会更新 trial 信息中的 ``harmonic_num``。整数。"
 
 #: ../../API_perf.rst:114 227cba7ae3954660985dd8daca31f6c3
 msgid ""
 "The signal length (in second). This input parameter will update ``tw`` of"
 " the trial information. One float number."
-msgstr ""
+msgstr "信号长度（以秒为单位）。此输入参数将会更新 trial 信息中的 ``tw``。浮点数。"
 
 #: ../../API_perf.rst:115 64cba0e625fc41518361f3e72029f94c
 msgid "Latency time (in second). A float number."
-msgstr ""
+msgstr "延迟时间（以秒为单位）。浮点数。"
 
 #: ../../API_perf.rst:116 0de0ad4ff96343b59b1b4e04a59b6201
 msgid "If ``True``, the order of trials will be shuffled."
-msgstr ""
+msgstr "如果 ``True``，trial 的顺序将会被重新随机打乱。"
 
 #: ../../API_perf.rst 22d7079c8f9a40d98c93fd5a10f9ddf7
 #: 2542549a79ff406fb415c8abf359e00f ebe7367aa7a8414f877e4434fe6231c4
 #: feb97eee986e4873a5a39dc339377c0a
 msgid "Returns"
-msgstr ""
+msgstr "返回"
 
 #: ../../API_perf.rst:118 d8e1dbdc058f45988ea7d0ffdd172bfb
 msgid "The instance itself."
-msgstr ""
+msgstr "实例自身。"
 
 #: ../../API_perf.rst:122 2073c9f414dc4eb28892e75cd3635995
 msgid ""
 "Based on the trial information, get all data, labels, and reference "
 "signals."
-msgstr ""
+msgstr "基于 trial 信息，获取全部数据、标签、参考信号。"
 
 #: ../../API_perf.rst:124 ../../API_perf.rst:173
 #: 8396c064e4ca4da3ad67fa5d7841bee6 b042ba9fd995413da75c8486403aa2b6
 msgid "List of datasets."
-msgstr ""
+msgstr "数据集列表。"
 
 #: ../../API_perf.rst:126 22afc3d261af47fd95628062d7a39ef1
 msgid ""
@@ -318,26 +318,29 @@ msgid ""
 "to generate reference signals. + ``freqs``: List of stimulus frequencies "
 "corresponding to generated reference signals."
 msgstr ""
+"+ ``X``: 全部 EEG trial 列表。 + ``Y``: 标签列表。 + "
+"``ref_sig``: 利用 ``dataset_idx`` 中的第一个数据集的信息生成参考信号。"
+" + ``freqs``: 生成参考信号对应的刺激频率列表。"
 
 #: ../../API_perf.rst:128 6d0daec19d0a4838b2d28400936b8476
 msgid "``X``: List of all EEG trials."
-msgstr ""
+msgstr "``X``: 全部 EEG trial 列表。"
 
 #: ../../API_perf.rst:129 db1fda90239f4327add2d5ba97c97b36
 msgid "``Y``: List of all labels."
-msgstr ""
+msgstr "``Y``: 标签列表。"
 
 #: ../../API_perf.rst:130 9e546e4678d3446a8ad6359974f92783
 msgid ""
 "``ref_sig``: This function will use the first dataset in ``dataset_idx`` "
 "to generate reference signals."
-msgstr ""
+msgstr "``ref_sig``: 利用 ``dataset_idx`` 中的第一个数据集的信息生成参考信号。"
 
 #: ../../API_perf.rst:131 38337bfe136743f3a53768da844da207
 msgid ""
 "``freqs``: List of stimulus frequencies corresponding to generated "
 "reference signals."
-msgstr ""
+msgstr "``freqs``: 生成参考信号对应的刺激频率列表。"
 
 #: ../../API_perf.rst:135 6837e19b5efd49a2b0dbca3cdaaae0bd
 msgid ""
@@ -345,73 +348,73 @@ msgid ""
 "signals. If datasets have different stimuli, please separate them into "
 "different trials. The more safety way is that one ``TrialInfo`` cotains "
 "only one dataset."
-msgstr ""
+msgstr "``TrialInfo`` 将仅使用第一个数据集来生成参考信号。如果不同的数据集使用不同的刺激，请将他们分开到不同的 trial 中。更安全的做法是让一个 ``TrialInfo`` 仅包含一个数据集。"
 
 #: ../../API_perf.rst:138 483ac65c9922462085d232fe59bfb6b7
 msgid "Performance Container"
-msgstr ""
+msgstr "表现容器"
 
 #: ../../API_perf.rst:142 2d8c6d192d104fed9f862b0f6747e909
 msgid ""
 "The instances of this class are the element of ``performance_container`` "
 "in ``BaseEvaluator``."
-msgstr ""
+msgstr "此类的实例是 ``BaseEvaluator`` 中 ``performance_container`` 的基础元素。"
 
 #: ../../API_perf.rst:146 f355d59598004b05b327415c9b02ff98
 msgid ""
 "``true_label_train``: After training, to evaluate the training "
 "performance, the list of true labels of training trials is stored in this"
 " attribute. The format is"
-msgstr ""
+msgstr "``true_label_train``: 训练后，为了评估训练表现，用于训练 trial 的真实标签被保存在此属性中。格式为"
 
 #: ../../API_perf.rst:155 a2fd3ac475c647eca743507144139c8d
 msgid ""
 "where ``true_label_1``, ``true_label_2``, ... are true labels of "
 "different evaluation trials."
-msgstr ""
+msgstr "其中，``true_label_1``, ``true_label_2``, ... 是不同的评估 trial 的真实列表。"
 
 #: ../../API_perf.rst:157 4a5e4d86bcbc4d0582283436d05d964c
 msgid ""
 "``pred_label_train``: After training, to evaluate the training "
 "performance, the list of predicted labels of training trials is stored in"
 " this attribute. The format is same as ``true_label_train``."
-msgstr ""
+msgstr "``pred_label_train``: 训练后，为了评估训练表现，训练 trial 的识别获得的标签被保存在此属性中。格式与 ``true_label_train`` 一致。"
 
 #: ../../API_perf.rst:158 02ae6ad9ea5a42f0b1a55ee3037ddc5f
 msgid ""
 "``true_label_test``: The list of true labels of testing trials is stored "
 "in this attribute. The format is same as ``true_label_train``."
-msgstr ""
+msgstr "``true_label_test``: 测试 trial 的真实标签列表被保存于此属性中。格式与 ``true_label_train`` 一致。"
 
 #: ../../API_perf.rst:159 adc01a84f9ae456fb22b2e2cb4a32313
 msgid ""
 "``pred_label_test``: The list of predicted labels of testing trials is "
 "stored in this attribute. The format is same as ``true_label_train``."
-msgstr ""
+msgstr "``pred_label_test``: 测试 trial 的识别获得的标签被保存在此属性中。格式与 ``true_label_train`` 一致。"
 
 #: ../../API_perf.rst:160 d34e300939094174841e724553c228a4
 msgid ""
 "``train_time``: A list of storing time of training the model. Each "
 "element in the list is one training time of one evaluation trial."
-msgstr ""
+msgstr "``train_time``: 训练模型花费的时间保存在此列表中。列表中的每个元素是一个评估 trial 的训练时间。"
 
 #: ../../API_perf.rst:161 245ec0d4b9824674badba96a4a2971a1
 msgid ""
 "``test_time_train``: A list of storing time of using the training trials "
 "to testing the model. Each element in the list is one testing time of one"
 " evaluation trial."
-msgstr ""
+msgstr "``test_time_train``: 测试训练 trial 花费的时间保存在此列表中。列表中每个元素是一个评估 trial 的测试时间。"
 
 #: ../../API_perf.rst:162 e3ee8e6449e243f4abb246f3660dd9c4
 msgid ""
 "``test_time_test``: A list of storing time of using the testing trials to"
 " test the model. Each element in the list is one testing time of one "
 "evaluation trial."
-msgstr ""
+msgstr "``test_time_test``: 测试测试 trial 花费的时间保存在此列表中。列表中每个元素是一个评估 trial 的测试时间。"
 
 #: ../../API_perf.rst:165 76e1dcad30be4ae1bcc0d297a0f830c2
 msgid "Supplementary functions"
-msgstr ""
+msgstr "补充功能"
 
 #: ../../API_perf.rst:169 c342842e7b484cf096156068d5d6c10b
 msgid ""
@@ -419,57 +422,57 @@ msgid ""
 "trials only use one dataset. One block is used for testing. Other blocks "
 "for training. All blocks will be tested one by one. All subjects will be "
 "evaluated one by one for each signal length."
-msgstr ""
+msgstr "为 ``BaseEvaluator`` 生成 ``trial_container``。这些评估 trial 仅包含一个数据集。一个 block 用于测试，其余 block 用于测试。所有 block 一个个测试。对于不同的信号长度，所有受试者将一个个被评估。"
 
 #: ../../API_perf.rst:171 cb7e7b5cae4d422cb003e735666e4ac6
 msgid "Dataset index. One integer number."
-msgstr ""
+msgstr "数据集索引数，整数。"
 
 #: ../../API_perf.rst:172 4c148baf4c944f4488faf3f863c97a04
 msgid "List of signal lengths (in second). A list of float numbers."
-msgstr ""
+msgstr "信号长度列表（以秒为单位），浮点数列表。"
 
 #: ../../API_perf.rst:174 68a39210ef774b89b95de44c6bfd1767
 msgid "Number of harmonics. One integer number."
-msgstr ""
+msgstr "谐波数，整数。"
 
 #: ../../API_perf.rst:177 96824703cfce487fa7de234329b49d6f
 msgid ""
 "Latency time (in second). A float number. If ``None``, the suggested "
 "latency time of the dataset will be used."
-msgstr ""
+msgstr "延迟时间（以秒为单位），浮点数。如果 ``None``，将使用数据集的默认延迟时间。"
 
 #: ../../API_perf.rst:178 734632aba14945819668c2c1375af6af
 msgid "If ``True``, trials will be shuffled. Default is ``False``."
-msgstr ""
+msgstr "如果 ``True``，trial 将会被重新打乱。默认为 ``False``。"
 
 #: ../../API_perf.rst:182 a7192b9567d14424b2369f090f699740
 msgid ""
 "Calculate evaluation performance of ``BaseEvaluator`` whose "
 "``trial_container`` is generated by "
 "``gen_trials_onedataset_individual_diffsiglen``."
-msgstr ""
+msgstr "计算 ``BaseEvaluator`` 的评估表现，其中的 ``trial_container`` 必须是由 ``gen_trials_onedataset_individual_diffsiglen`` 生成。"
 
 #: ../../API_perf.rst:184 ../../API_perf.rst:198
 #: ce07007e8af145dcbb031160fab9d108 e60ee53d8225429091bceb86238abe8f
 msgid "The instance of the class ``BaseEvaluator``."
-msgstr ""
+msgstr "``BaseEvaluator`` 类的实例。"
 
 #: ../../API_perf.rst:185 ../../API_perf.rst:199
 #: 0cd53d3f1b5a4e1f972c2606afa9d1d8 c1554b31d0464887ba8b4d095fd4eddf
 msgid "Dataset index."
-msgstr ""
+msgstr "数据集索引数"
 
 #: ../../API_perf.rst:186 ../../API_perf.rst:200
 #: 0c684692920444668f65110dbfab67d2 186b749c702342ada55d4216eb1149db
 msgid "List of signal lengths (in second)"
-msgstr ""
+msgstr "信号长度列表（以秒为单位）"
 
 #: ../../API_perf.rst:187 8cfd8b7d2efa4076940a885b0aed8b47
 msgid ""
 "If ``\"train\"``, evaluate performance of training trials. If "
 "``\"test\"``, evaluate performance of testing trials."
-msgstr ""
+msgstr "如果 ``\"train\"``，将会评估训练 trial 的表现。如果 ``\"test\"``，将会评估测试 trial 的表现。"
 
 #: ../../API_perf.rst:189 835a0ba6056d4d4a97ecc937e004bb01
 msgid ""
@@ -478,31 +481,38 @@ msgid ""
 " The shape is (methods :raw-html:`&#215;` subjects :raw-html:`&#215;` "
 "signal length)."
 msgstr ""
+"+ ``acc``: 分类准确率，形状为 (方法数 :raw-"
+"html:`&#215;` 受试者数 :raw-html:`&#215;` 信号长度数)。 + ``itr``: 信息传输率，"
+"形状为 (方法数 :raw-"
+"html:`&#215;` 受试者数 :raw-html:`&#215;` 信号长度数)。"
 
 #: ../../API_perf.rst:191 91c07ddf06ad4622b109f4ec44f1a723
 msgid ""
 "``acc``: Classification accuracy. The shape is (methods :raw-"
 "html:`&#215;` subjects :raw-html:`&#215;` signal length)."
-msgstr ""
+msgstr "``acc``: 分类准确率，形状为 (方法数 :raw-"
+"html:`&#215;` 受试者数 :raw-html:`&#215;` 信号长度数)。"
 
 #: ../../API_perf.rst:192 23208c71d42a47ca9cb8975cb6e5f4f1
 msgid ""
 "``itr``: ITR. The shape is (methods :raw-html:`&#215;` subjects :raw-"
 "html:`&#215;` signal length)."
-msgstr ""
+msgstr "``itr``: 信息传输率，"
+"形状为 (方法数 :raw-"
+"html:`&#215;` 受试者数 :raw-html:`&#215;` 信号长度数)。"
 
 #: ../../API_perf.rst:196 6eb42bf778cb49e8ba361b2add98850b
 msgid ""
 "Calculate confusion matrices of ``BaseEvaluator`` whose "
 "``trial_container`` is generated by "
 "``gen_trials_onedataset_individual_diffsiglen``."
-msgstr ""
+msgstr "计算 ``BaseEvaluator`` 的混淆矩阵，其中 ``trial_container`` 必须是由 ``gen_trials_onedataset_individual_diffsiglen`` 生成。"
 
 #: ../../API_perf.rst:201 9f1f68b3cb854354816cf12d3b78e931
 msgid ""
 "If ``\"train\"``, evaluate confusion matrices of training trials. If "
 "``\"test\"``, evaluate confusion matrices of testing trials."
-msgstr ""
+msgstr "如果 ``\"train\"``，将会计算训练 trial 的混淆矩阵。如果 ``\"test\"``，计算测试 trial 的混淆矩阵。"
 
 #: ../../API_perf.rst:203 d47e621de9324eab9c5c3a3a7a1127af
 msgid ""
@@ -510,58 +520,64 @@ msgid ""
 "html:`&#215;` subjects :raw-html:`&#215;` signal lengths :raw-"
 "html:`&#215;` true classes :raw-html:`&#215;` predicted classes)."
 msgstr ""
+"+ ``confusion_matrix``: 混淆矩阵，形状为 (方法数 :raw-"
+"html:`&#215;` 受试者数 :raw-html:`&#215;` 信号长度数 :raw-"
+"html:`&#215;` 标签（真实标签）数 :raw-html:`&#215;` 标签（识别标签）数)。"
 
 #: ../../API_perf.rst:205 9cc22d0bec464e0bb1aa3fd656d05825
 msgid ""
 "``confusion_matrix``: Confusion matrices. The shape is (methods :raw-"
 "html:`&#215;` subjects :raw-html:`&#215;` signal lengths :raw-"
 "html:`&#215;` true classes :raw-html:`&#215;` predicted classes)."
-msgstr ""
+msgstr "``confusion_matrix``: 混淆矩阵，形状为 (方法数 :raw-"
+"html:`&#215;` 受试者数 :raw-html:`&#215;` 信号长度数 :raw-"
+"html:`&#215;` 标签（真实标签）数 :raw-html:`&#215;` 标签（识别标签）数)。"
 
 #: ../../API_perf.rst:208 f07dc44548504b809ce8f5015cdd9d05
 msgid "Plot Functions"
-msgstr ""
+msgstr "绘制函数"
 
 #: ../../API_perf.rst:212 da3780e97f394f7e9f56ebcbb05b0d9e
 msgid "Plot shadow lines. Each group plots one shadow line."
-msgstr ""
+msgstr "绘制阴影线。每一个组绘制一条阴影线。"
 
 #: ../../API_perf.rst:214 b6e39c23bb544849b75eb56879d940a6
 msgid "List of variable values."
-msgstr ""
+msgstr "变量列表。"
 
 #: ../../API_perf.rst:215 14e44ceb1298491ca976d2716328f3d5
 msgid ""
 "Plot data. The shape is (groups :raw-html:`&#215;` observations :raw-"
 "html:`&#215;` variables). The line is the mean across observations. The "
 "shadow is the variation across observations."
-msgstr ""
+msgstr "绘制数据，形状为 (类别数 :raw-html:`&#215;` 观测数 :raw-"
+"html:`&#215;` 变量数)，线代表观测的平均，阴影代表观测的变化。"
 
 #: ../../API_perf.rst:216 458ff5e67c934577955351d97fc87dd7
 msgid "Format of lines. Default is ``'-'``."
-msgstr ""
+msgstr "线的格式，默认为 ``'-'``。"
 
 #: ../../API_perf.rst:217 ../../API_perf.rst:233 ../../API_perf.rst:249
 #: 2f87237213ba4eda8cb11d38926e8d92 ac002e8675224c89bfb05b8c14da2b76
 #: ce7a2e92376141ab84988e0752207e1e
 msgid "Label of x axis. Default is ``None``."
-msgstr ""
+msgstr "x 轴的标签，默认为 ``None``。"
 
 #: ../../API_perf.rst:218 ../../API_perf.rst:234 ../../API_perf.rst:250
 #: 36b19085e4c0478a89b785aecd801b14 7e41d4f8a2b44aa5ace5205cd7faa9d2
 #: cefca05240ef4741af4e225602b37adf
 msgid "Label of y axis. Default is ``None``."
-msgstr ""
+msgstr "y 轴的列表，默认为 ``None``。"
 
 #: ../../API_perf.rst:219 ../../API_perf.rst:235 ../../API_perf.rst:251
 #: 02afbd73c2cc4f2caaf4c9452fef19df 214dedc20e694bd594fc3a0b51a945e6
 #: c1444b9fa01e4ac99904387524427439
 msgid "X tick labels. Default is ``None``."
-msgstr ""
+msgstr "x 轴的刻度，默认为 ``None``。"
 
 #: ../../API_perf.rst:220 2bb1d4f599914a0ca0cd2cdbe576fb87
 msgid "List of line names. Default is ``None``."
-msgstr ""
+msgstr "线名字的列表，默认为 ``None``。"
 
 #: ../../API_perf.rst:221 ../../API_perf.rst:237
 #: a979b02dae6b46f39697673b72c0fe52 fa80e1c71fac4403b6f129f914b95c1b
@@ -569,62 +585,64 @@ msgstr ""
 msgid ""
 "If ``'std'``, calculate the variation using the standard derivation. If "
 "``'95ci'``, calculate the variation using the 95% confidence interval."
-msgstr ""
+msgstr "如果 ``'std'``，使用标准差计算变化。如果 ``'95ci'``，使用 95% 置信区间计算变化。"
 
 #: ../../API_perf.rst:222 ../../API_perf.rst:238 ../../API_perf.rst:252
 #: 74b9a9335ad14e55ac87e6135ce7d410 7cb6156f506c44efac18a7519a4bacba
 #: a6337721e14841e6aa98b841460ab6ee
 msgid "Whether grid. Default is ``True``."
-msgstr ""
+msgstr "是否绘制网格，默认为 ``True``。"
 
 #: ../../API_perf.rst:223 ../../API_perf.rst:239 ../../API_perf.rst:253
 #: 6d7dcbd7477c4921a7e10830e90dfeb2 7e01e4f2513740ea9822a9b51cb79aba
 #: f0d9804ba1a343a380cac021f1f1bb67
 msgid "``[min_x, max_x]``. Default is ``None``."
-msgstr ""
+msgstr "``[min_x, max_x]``，默认为 ``None``。"
 
 #: ../../API_perf.rst:224 ../../API_perf.rst:240 ../../API_perf.rst:254
 #: 1ecc0a2a55054344a68d57a68da7210d 970a5c3b9b6d4d26b9a5e7bfdf4d5cc9
 #: c1fc846add7d4df1a2e0de5d30e92e2b
 msgid "``[min_y, max_y]``. Default is ``None``."
-msgstr ""
+msgstr "``[min_y, max_y]``，默认为 ``None``。"
 
 #: ../../API_perf.rst:225 ../../API_perf.rst:241 ../../API_perf.rst:255
 #: 739ef6f3717d42aaab7e1c49059d6f55 e23fedc2584f4391808fec599ddff676
 #: ff386c9277ba4b15b5e457279c888e45
 msgid "Figure size. Default is ``[6.4, 4.8]``."
-msgstr ""
+msgstr "图片大小，默认为 ``[6.4, 4.8]``。"
 
 #: ../../API_perf.rst:229 2167b446615044adbdcb06d3dd6459a1
 msgid "Plot bars with error bars. Each group plots one color bars."
-msgstr ""
+msgstr "绘制带误差线的条状图。每一组绘制一种颜色的条形。"
 
 #: ../../API_perf.rst:231 25bf1df5d997442da08921a703c73fbc
 msgid ""
 "Plot data. The shape is (groups :raw-html:`&#215;` observations :raw-"
 "html:`&#215;` variables). The bar height is the mean across observations."
 " The error bar is the variation across observations."
-msgstr ""
+msgstr "绘制数据，形状为 (类别数 :raw-html:`&#215;` 观测数 :raw-"
+"html:`&#215;` 变量数)，条的高度代表观测的平均，误差线代表观测的变化。"
 
 #: ../../API_perf.rst:232 ../../API_perf.rst:248
 #: 26a209ef06364a69bd806671c6300585 6e9cb7deb76945279e1d065363aa0f0a
 msgid "Separate distence of adjacent bars."
-msgstr ""
+msgstr "临近条之间的距离。"
 
 #: ../../API_perf.rst:236 9695ba68809645939f063d114d7cef61
 msgid "List of bar names. Default is ``None``."
-msgstr ""
+msgstr "条的名字列表，默认为 ``None``。"
 
 #: ../../API_perf.rst:245 20b2c3c2f32d410084f2665198acc62f
 msgid ""
 "This function is similar as ``bar_plot_with_errorbar``. But this function"
 " only plots one group data and does not plot error bars."
-msgstr ""
+msgstr "此函数类似于 ``bar_plot_with_errorbar``，但此函数仅绘制条形，不绘制误差线。"
 
 #: ../../API_perf.rst:247 fd615c8280a94deaad248f09c097a1e8
 msgid ""
 "Plot data. The shape is (observations :raw-html:`&#215;` variables). The "
 "bar height is the mean across observations. The error bar is the "
 "variation across observations."
-msgstr ""
+msgstr "绘制数据，形状为 (类别数 :raw-html:`&#215;` 观测数 :raw-"
+"html:`&#215;` 变量数)，条的高度代表观测的平均，误差线代表观测的变化。"
 
