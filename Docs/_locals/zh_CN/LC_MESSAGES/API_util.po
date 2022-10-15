@@ -301,58 +301,62 @@ msgstr "``return_idx``: 将 ``sorted_X`` 变换为 ``X`` 的索引列表。"
 msgid ""
 "Generate averaged templates. For each stimulus, EEG signals of all trials"
 " are averaged as the template signals."
-msgstr ""
+msgstr "生成平均信号模板。对于每一个刺激，使用所有 trial 的 EEG 信号的平均作为模板信号。"
 
 #: ../../API_util.rst:112 6c39b64e84aa4332ab29110e343d41a7
 msgid ""
 "List of EEG signals. Each element is one single trial EEG signal. The "
 "dimentions of EEG signals should be (filterbanks :raw-html:`&#215;` "
 "channels :raw-html:`&#215;` samples)."
-msgstr ""
+msgstr "EEG 信号列表。每个元素是一个单独 trial 的 EEG 信号。EEG 信号的维度必须是 (滤波器组数 :raw-html:`&#215;` "
+"通道数 :raw-html:`&#215;` 采样点数)。"
 
 #: ../../API_util.rst:114 c6cb0ed1c1cc4a6c9ab0e1b9a69cbbc7
 msgid ""
 "List of labels. Each element is one single trial label. The labels should"
 " be integer numbers."
-msgstr ""
+msgstr "标签列表。每个元素是一个单独 trial 的标签。标签必须是一个整数。"
 
 #: ../../API_util.rst:116 0686dc9c32e549f89323206df0168c37
 msgid ""
 "+ ``template_sig``: List of template signals. Each element is one class "
 "template signals. The dimentions of template signals are (filterbanks "
 ":raw-html:`&#215;` channels :raw-html:`&#215;` samples)."
-msgstr ""
+msgstr "+ ``template_sig``: 模板信号列表。每个元素是一个刺激的模板信号。模板信号的维度是 (滤波器组数 "
+":raw-html:`&#215;` 通道数 :raw-html:`&#215;` 采样点数)。"
 
 #: ../../API_util.rst:118 191b23a9247d4afc81f5449d925e1903
 msgid ""
 "``template_sig``: List of template signals. Each element is one class "
 "template signals. The dimentions of template signals are (filterbanks "
 ":raw-html:`&#215;` channels :raw-html:`&#215;` samples)."
-msgstr ""
+msgstr "``template_sig``: 模板信号列表。每个元素是一个刺激的模板信号。模板信号的维度是 (滤波器组数 "
+":raw-html:`&#215;` 通道数 :raw-html:`&#215;` 采样点数)。"
 
 #: ../../API_util.rst:122 b5859cb43e044df78d6d313168b6514a
 msgid ""
 "Calculate canoncial correlation of two matrices following `\"canoncorr\" "
 "in MATLAB <https://www.mathworks.com/help/stats/canoncorr.html>`_."
-msgstr ""
+msgstr "遵循 matlab 中 `\"canoncorr\" "
+"<https://www.mathworks.com/help/stats/canoncorr.html>`_ 计算两个矩阵的典型性管分析。"
 
 #: ../../API_util.rst:124 4235d5a2b1004b2aacb934ec62eedb2e
 msgid ""
 "First input matrix. The rows correspond to observations, and the columns "
 "correspond to variables."
-msgstr ""
+msgstr "第一个输入矩阵。行代表观测，列代表变量。"
 
 #: ../../API_util.rst:126 d7ba8613f2364d4388e3886878af3e98
 msgid ""
 "Second input matrix. The rows correspond to observations, and the columns"
 " correspond to variables."
-msgstr ""
+msgstr "第二个输入矩阵。行代表观测，列代表变量。"
 
 #: ../../API_util.rst:128 4ef38cf57bd44d5ca5f3b0aa52e81bac
 msgid ""
 "If ``True``, canonical coefficients will be calculated and provided. "
 "Otherwise, only the correlations are computed and provided."
-msgstr ""
+msgstr "如果 ``True``，权重将会被计算，否则，仅相关系数会被计算。"
 
 #: ../../API_util.rst:130 bb1f30b571ea43ffabddd5f3b1147dba
 msgid ""
@@ -360,53 +364,55 @@ msgid ""
 " this value will be returned. + ``B``: Canonical coefficients of ``Y``. "
 "If ``force_output_UV == True``, this value will be returned. + ``r``: "
 "Canonical correlations."
-msgstr ""
+msgstr "+ ``A``: ``X`` 的权重，如果 ``force_output_UV == True``，则返回此值。 "
+"+ ``B``: ``Y`` 的权重，如果 ``force_output_UV == True``，则返回此值。 "
+"+ ``r``: 相关系数。"
 
 #: ../../API_util.rst:131 acae006f82cb4e6f8da2947a22555fa9
 msgid ""
 "``A``: Canonical coefficients of ``X``. If ``force_output_UV == True``, "
 "this value will be returned."
-msgstr ""
+msgstr "``A``: ``X`` 的权重，如果 ``force_output_UV == True``，则返回此值。"
 
 #: ../../API_util.rst:132 c0864111c1904963bab171d5a4b5f6d5
 msgid ""
 "``B``: Canonical coefficients of ``Y``. If ``force_output_UV == True``, "
 "this value will be returned."
-msgstr ""
+msgstr "``B``: ``Y`` 的权重，如果 ``force_output_UV == True``，则返回此值。"
 
 #: ../../API_util.rst:133 a51b37eb966241cfb7c2b7ddd8818fcb
 msgid "``r``: Canonical correlations."
-msgstr ""
+msgstr "``r``: 相关系数。"
 
 #: ../../API_util.rst:137 b60f5a5a7be5404c9ac7e04a178f9a51
 msgid "Inverse QR decomposition."
-msgstr ""
+msgstr "逆 QR 分解"
 
 #: ../../API_util.rst:139 28208022a135441d9ddb06b5bcea6bad
 msgid "Orthogonal factor obtained from the QR decomposition."
-msgstr ""
+msgstr "QR 分解获得的正交因数。"
 
 #: ../../API_util.rst:141 41bd97bccada45eaaa539e8bd67d6544
 msgid "Upper-triangular factor obtained from the QR decomposition."
-msgstr ""
+msgstr "QR 分解获得的上三角因数。"
 
 #: ../../API_util.rst:143 20777bfc30994306b8d14f05f6b470fe
 msgid "Permutation information obtained from the QR decomposition."
-msgstr ""
+msgstr "QR 分解获得的排列信息。"
 
 #: ../../API_util.rst:145 3b7f0819fe614c099005627a836cf5bf
 msgid ""
 "+ ``X``: Results of the inverse QR decomposition. "
 ":math:`\\mathbf{X}=\\mathbf{Q}\\times\\mathbf{R}`. The column order of "
 "``X`` has been adjusted according to ``P``."
-msgstr ""
+msgstr "+ ``X``: 逆 QR 分解的结果 :math:`\\mathbf{X}=\\mathbf{Q}\\times\\mathbf{R}`。``X`` 列的顺序已经被调整为遵循 ``P``。"
 
 #: ../../API_util.rst:147 9ccc4e735b334452be60cd70e1f428e7
 msgid ""
 "``X``: Results of the inverse QR decomposition. "
 ":math:`\\mathbf{X}=\\mathbf{Q}\\times\\mathbf{R}`. The column order of "
 "``X`` has been adjusted according to ``P``."
-msgstr ""
+msgstr "``X``: 逆 QR 分解的结果 :math:`\\mathbf{X}=\\mathbf{Q}\\times\\mathbf{R}`。``X`` 列的顺序已经被调整为遵循 ``P``。"
 
 #: ../../API_util.rst:151 40169d870c544f80b3031e658729498b
 msgid ""
@@ -416,64 +422,64 @@ msgid ""
 "conventional inverse QR decomposition. If the dimension is 3D, the "
 "conventional inverse QR decomposition will be applied along the first "
 "dimension."
-msgstr ""
+msgstr "在 \"qr_inverse\" 函数中，输入的 ``Q`` 、 ``R`` 与 ``P`` 可以是 2D 也可以是 3D。如果维度是 2D，此函数就是传统的逆 QR 分解。如果维度是 3D，传统逆 QR 分解将会根据第一个维度依次应用到每一个矩阵上。"
 
 #: ../../API_util.rst:155 2d41d06ae72b4e6eb97bb07ca5f76570
 msgid ""
 "QR decomposition. Before the QR decomposition, the column means are "
 "firstly removed from the input matrix."
-msgstr ""
+msgstr "QR 分解。QR 分解前，输入矩阵的每一列的的平均值将会被先去除。"
 
 #: ../../API_util.rst:157 3b2104ebbee6463497d956f16f0341aa
 msgid "Input matrix."
-msgstr ""
+msgstr "输入矩阵。"
 
 #: ../../API_util.rst:159 f8c2e4503d8e48ceb96b764857819d03
 msgid ""
 "+ ``Q``: Orthogonal factor. + ``R``: Upper-triangular factor. + ``P``: "
 "Permutation information."
-msgstr ""
+msgstr "+ ``Q``: 正交因子。 + ``R``: 上三角因子。 + ``P``: 排列信息。"
 
 #: ../../API_util.rst:161 df6398df1a334f8d957ca906e5c020cb
 msgid "``Q``: Orthogonal factor."
-msgstr ""
+msgstr "``Q``: 正交因子。"
 
 #: ../../API_util.rst:162 bb0196cca5d0471794e4ac4493e607c1
 msgid "``R``: Upper-triangular factor."
-msgstr ""
+msgstr "``R``: 上三角因子。"
 
 #: ../../API_util.rst:163 4bf79112ddcc4726a946e435edba7ed7
 msgid "``P``: Permutation information."
-msgstr ""
+msgstr "``P``: 排列信息。"
 
 #: ../../API_util.rst:167 4ccecc8dec52401c98bf971049ae2836
 msgid ""
 "Apply `\"qr_remove_mean\" function "
 "<#SSVEPAnalysisToolbox.algorithms.utils.qr_remove_mean>`_ to each element"
 " in the given list."
-msgstr ""
+msgstr "依次将 \"qr_remove_mean\" 函数应用到每一个给定列表的元素上。"
 
 #: ../../API_util.rst:169 ebf4a2ca5c4e4f3ab5693ccef42ac88f
 msgid "List of input matrices for the QR decomposition."
-msgstr ""
+msgstr "将要做 QR 分解的输入矩阵列表。"
 
 #: ../../API_util.rst:171 371b4e6b5bf34216be1be98d6d9d7fbb
 msgid ""
 "+ ``Q``: List of orthogonal factors. + ``R``: List of upper-triangular "
 "factors. + ``P``: List of permutation information."
-msgstr ""
+msgstr "+ ``Q``: 正交因子列表。 + ``R``: 上三角矩阵列表。 + ``P``: 排列信息列表。"
 
 #: ../../API_util.rst:173 2204bf21ae3d45709f31cfcd7bf4498c
 msgid "``Q``: List of orthogonal factors."
-msgstr ""
+msgstr "``Q``: 正交因子列表。"
 
 #: ../../API_util.rst:174 037de9b1ea7c40f9b5389a273111fc5c
 msgid "``R``: List of upper-triangular factors."
-msgstr ""
+msgstr "+ ``R``: 上三角矩阵列表。"
 
 #: ../../API_util.rst:175 a9766393be4047de908733eb6ff55da6
 msgid "``P``: List of permutation information."
-msgstr ""
+msgstr "``P``: 排列信息列表。"
 
 #: ../../API_util.rst:179 4791d138843e4a5db084a62329115616
 msgid ""
@@ -484,22 +490,22 @@ msgid ""
 "applied to each element. If 3D, `\"qr_remove_mean\" function "
 "<#SSVEPAnalysisToolbox.algorithms.utils.qr_remove_mean>`_ is applied to "
 "each element along the first dimension."
-msgstr ""
+msgstr "在 \"qr_list\" 函数中，输入列表的每个元素可以是 2D 也可以是 3D 的。如果 2D，\"qr_remove_mean\" 函数将直接应用到每个元素上。如果 3D，\"qr_remove_mean\" 函数将会根据第一个维度依次应用到每个矩阵上。"
 
 #: ../../API_util.rst:183 07eaf2ba80924b1e8bde0e99348418dd
 msgid ""
 "Calculate A\\\\B. The minimum norm least-squares solution of solving "
 ":math:`\\mathbf{A}\\times \\mathbf{x} = \\mathbf{B}` for "
 ":math:`\\mathbf{x}`."
-msgstr ""
+msgstr "计算 A\\\\B。对于 :math:`\\mathbf{x}`，求解 :math:`\\mathbf{A}\\times \\mathbf{x} = \\mathbf{B}` 的最小范数的最小二乘估计。"
 
 #: ../../API_util.rst:185 406c9b229c6d48b691b9cd5a1690758a
 msgid "First input matrix."
-msgstr ""
+msgstr "第一个输入矩阵。"
 
 #: ../../API_util.rst:187 9f203eeb3acb4c1ab0b5672ec86eb2fd
 msgid "Second input matrix."
-msgstr ""
+msgstr "第二个输入矩阵。"
 
 #: ../../API_util.rst:189 cd058f382b2344d988a187a42da1fb53
 msgid ""
@@ -507,7 +513,9 @@ msgid ""
 "\\mathbf{A}^{-1}\\times\\mathbf{B}`. The inverse of the matrix ``A`` is "
 "performed by the `pseudo-inverse "
 "<https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.pinv.html>`_."
-msgstr ""
+msgstr "+ ``x``: 最小范数的最小二乘估计。 :math:`\\mathbf{x} = "
+"\\mathbf{A}^{-1}\\times\\mathbf{B}`。``A`` 的逆矩阵通过 `pseudo-inverse "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.pinv.html>`_ 来计算。"
 
 #: ../../API_util.rst:191 068a8ac52f2e415091a0fd5a1f636d1d
 msgid ""
@@ -515,11 +523,13 @@ msgid ""
 "\\mathbf{A}^{-1}\\times\\mathbf{B}`. The inverse of the matrix ``A`` is "
 "performed by the `pseudo-inverse "
 "<https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.pinv.html>`_."
-msgstr ""
+msgstr "``x``: 最小范数的最小二乘估计。 :math:`\\mathbf{x} = "
+"\\mathbf{A}^{-1}\\times\\mathbf{B}`。``A`` 的逆矩阵通过 `pseudo-inverse "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.pinv.html>`_ 来计算。"
 
 #: ../../API_util.rst:196 a595a1d6e7cf4427b8c302b04e410d30
 msgid "Benchmark and BETA datasets related functions"
-msgstr ""
+msgstr "Benchmark 和 BETA 数据集相关函数"
 
 #: ../../API_util.rst:198 ae7b1e82e44a407e8902568e0b94c01e
 msgid ""
@@ -527,7 +537,7 @@ msgid ""
 "preprocessing function, and weights of filterbanks for the benchmark and "
 "BETA datasets. They also can be regarded as demos of preparing your own "
 "related functions. Values are refered to the following two papers:"
-msgstr ""
+msgstr "这些函数提供了 Benchmark 和 BETA 数据集建议的滤波器组、通道、预处理、滤波器组的权重。也可以把他们当作准备你自己的预处理函数的样例。其中使用的值来自于下面两篇论文："
 
 #: ../../API_util.rst:200 cd373ed8b6c04a2bbb33bd3648946b8c
 msgid ""
@@ -556,34 +566,36 @@ msgid ""
 ":math:`i\\text{-th}` filterbank is from :math:`8i` Hz to :math:`90` Hz. "
 "The stopband of the :math:`i\\text{-th}` filterbank is from "
 ":math:`(8i-2)` Hz to :math:`100` Hz."
-msgstr ""
+msgstr "建议的滤波器组函数，包含5个滤波器，每个滤波器是一个 `切比雪夫 I 类带通滤波器 "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.cheby1.html>`_，其中 ``gpass=3`` 、 ``gstop=40`` 、 ``rp=0.5``。:math:`i\\text{-th}` 滤波器的通带为从 :math:`8i` Hz 到 :math:`90` Hz。"
 
 #: ../../API_util.rst:207 ../../API_util.rst:227
 #: 52be2a3db707483fa810a3db5a74f428 a805f3fc776f47c8acb68e20d8af3d1d
 msgid "Data instance."
-msgstr ""
+msgstr "数据集实例。"
 
 #: ../../API_util.rst:209 8c1ee65d76e64ecd9708eafd38e36048
 msgid ""
 "EEG signal following `\"regist_filterbank\" function "
 "<#regist_filterbank>`_."
-msgstr ""
+msgstr "EEG 信号遵循 `\"regist_filterbank\" 函数 "
+"<#regist_filterbank>`_。"
 
 #: ../../API_util.rst:213 0553c76f3acc40faa383cf959fc26d1d
 msgid ""
 "You can hook this filterbank function by "
 "``dataset.regist_filterbank(filterbank)``."
-msgstr ""
+msgstr "你可以通过 ``dataset.regist_filterbank(filterbank)`` 来挂载滤波器组函数。"
 
 #: ../../API_util.rst:217 b63d0e9644b94bd6915bdb4e40bd3424
 msgid ""
 "Generate suggested weights of filterbanks. The weight of "
 ":math:`i\\text{-th}` filterbank is :math:`(i^{-1.25}+0.25)`."
-msgstr ""
+msgstr "生成建议的滤波器组的权重。 :math:`i\\text{-th}` 滤波器的权重值为 :math:`(i^{-1.25}+0.25)`。"
 
 #: ../../API_util.rst:221 ab8e7f4b23fc4ea6b4e6355041382d59
 msgid "Generate a list of suggested channel indices."
-msgstr ""
+msgstr "生成建议通道索引数的列表。"
 
 #: ../../API_util.rst:225 7cb2068dbe854abe9361c03608b1190e
 msgid ""
@@ -592,21 +604,24 @@ msgid ""
 "<https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.iircomb.html>`_"
 " where ``w0`` is 50, ``Q`` is 35, ``fs`` is the input parameter "
 "``srate``."
-msgstr ""
+msgstr "建议的预处理函数。仅包含一个 50 Hz 陷波滤波器。此滤波器是一个 `IIR 数字陷波滤波器 "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.iircomb.html>`_，其中 ``w0`` 是 50, ``Q`` 是 35, ``fs`` 是输入参数 "
+"``srate``。"
 
 #: ../../API_util.rst:229 8c803369933e4590ab9b3c101de1a50f
 msgid ""
 "EEG signal following `\"regist_preprocess\" function "
 "<#regist_preprocess>`_."
-msgstr ""
+msgstr "EEG 信号遵循 `\"regist_preprocess\" 函数 "
+"<#regist_preprocess>`_。"
 
 #: ../../API_util.rst:231 38250af2614c45d88aa9fcae46ebfbd6
 msgid "Sampling frequency."
-msgstr ""
+msgstr 采样率。"
 
 #: ../../API_util.rst:235 d4aac4ad7f9347c4990c91c82b47105f
 msgid ""
 "You can hook this filterbank function by "
 "``dataset.regist_preprocess(preprocess)``."
-msgstr ""
+msgstr "你可以通过 ``dataset.regist_preprocess(preprocess)`` 挂载滤波器函数。"
 
