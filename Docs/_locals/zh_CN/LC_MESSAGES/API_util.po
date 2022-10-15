@@ -240,7 +240,7 @@ msgstr "在一个列表中循环计算所有值得加和。如果输入列表包
 
 #: ../../API_util.rst:80 b92d25ea08424008ae759589a64382a7
 msgid "List that will be sumed."
-msgstr "被用于求和的列表"
+msgstr "将被求和的列表"
 
 #: ../../API_util.rst:82 6e1215f1d80f4db3a15e94d6154005ac
 msgid "+ ``sum_X``: Summation result."
@@ -258,7 +258,7 @@ msgstr "在一个列表中循环计算平均值。如果输入列表包含列表
 
 #: ../../API_util.rst:90 42c5ba3dbf2140db8e52b44ca641a30e
 msgid "List that will be averaged."
-msgstr "被用于平均的列表。"
+msgstr "将被求平均的列表。"
 
 #: ../../API_util.rst:92 5dce7cdfe19e4bd7803168dcc74a7f70
 msgid "+ ``mean_X``: Average result."
