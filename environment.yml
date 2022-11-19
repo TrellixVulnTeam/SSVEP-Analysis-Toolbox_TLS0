@@ -13,5 +13,6 @@ dependencies:
   - joblib
   - matplotlib
   - tqdm
+  - pyqt
   - pip:
     - mat73
