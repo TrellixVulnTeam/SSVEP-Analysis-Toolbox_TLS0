@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="Icon">
+    <file>checkbox.png</file>
+    <file>NewEvaluatorIcon.svg</file>
+    <file>playicon.png</file>
+  </qresource>
+</RCC>
